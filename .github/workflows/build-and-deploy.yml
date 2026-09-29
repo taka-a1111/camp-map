@@ -29,13 +29,15 @@ jobs:
       - name: OpenStreetMapからキャンプ場を取得
         if: github.event_name != 'push' || hashFiles('data/osm_raw.json') == ''
         run: python scripts/fetch_osm.py
+      - name: 網羅調査リストの住所を位置に変換（新しい住所だけ）
+        run: python scripts/geocode.py
       - name: camps.json を作成
         run: python scripts/build_data.py
       - name: 変更があればコミット
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/osm_raw.json data/camps.json
+          git add data/osm_raw.json data/camps.json data/geocode_cache.json
           if git diff --cached --quiet; then
             echo "変更なし"
           else
