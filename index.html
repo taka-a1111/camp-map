@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- BUILD_TAG: 2026-09-29a -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>キャンプ場マップ（東海・長野）</title>
+<meta name="description" content="愛知・岐阜・長野・静岡・三重のキャンプ場を地図で探せます。大人2人1泊の総額、予約方法、設備で絞り込み。">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+<link rel="stylesheet" href="css/style.css?v=2026-09-29a">
+</head>
+<body>
+<header class="bar" id="bar">
+  <div class="bar-row">
+    <h1 class="brand">キャンプ場マップ</h1>
+    <span class="count" id="count" aria-live="polite">読み込み中…</span>
+  </div>
+  <div class="bar-row search">
+    <label class="field">
+      <span class="sr">エリア</span>
+      <select id="pref">
+        <option value="">全エリア</option>
+        <option>愛知県</option>
+        <option>岐阜県</option>
+        <option>長野県</option>
+        <option>静岡県</option>
+        <option>三重県</option>
+      </select>
+    </label>
+    <label class="field">
+      <span class="sr">予算（大人2人1泊の総額）</span>
+      <select id="max">
+        <option value="">予算 指定なし</option>
+        <option value="0">無料のみ</option>
+        <option value="2000">2人で〜2,000円</option>
+        <option value="3000">2人で〜3,000円</option>
+        <option value="4000">2人で〜4,000円</option>
+        <option value="6000">2人で〜6,000円</option>
+        <option value="8000">2人で〜8,000円</option>
+      </select>
+    </label>
+    <label class="field grow">
+      <span class="sr">キーワード</span>
+      <input id="q" type="search" placeholder="名称・市町村" autocomplete="off">
+    </label>
+    <button type="button" class="more" id="moreBtn" aria-expanded="false" aria-controls="filters">条件<span class="badge" id="badge" hidden></span></button>
+  </div>
+  <div class="filters" id="filters" hidden>
+    <fieldset>
+      <legend>宿泊タイプ</legend>
+      <div class="chips" data-key="types">
+        <label><input type="checkbox" value="auto">オートサイト</label>
+        <label><input type="checkbox" value="kukaku">区画サイト</label>
+        <label><input type="checkbox" value="free">フリーサイト</label>
+        <label><input type="checkbox" value="bungalow">バンガロー</label>
+        <label><input type="checkbox" value="cottage">コテージ等</label>
+        <label><input type="checkbox" value="glamping">グランピング</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>予約方法</legend>
+      <div class="chips" data-key="book">
+        <label><input type="checkbox" value="web">ネット予約可</label>
+        <label><input type="checkbox" value="phone">電話予約</label>
+        <label><input type="checkbox" value="none">予約不要</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>設備</legend>
+      <div class="chips" data-key="fac">
+        <label><input type="checkbox" value="power">AC電源</label>
+        <label><input type="checkbox" value="shower">シャワー</label>
+        <label><input type="checkbox" value="onsen">温泉</label>
+        <label><input type="checkbox" value="flush_toilet">水洗トイレ</label>
+        <label><input type="checkbox" value="shop">売店</label>
+        <label><input type="checkbox" value="rental">レンタル</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>その他</legend>
+      <div class="chips">
+        <label><input type="checkbox" id="pet">ペット可</label>
+        <label><input type="checkbox" id="known">料金確認済みのみ</label>
+        <label><input type="checkbox" id="nomt">山岳テント場を除く</label>
+      </div>
+    </fieldset>
+    <div class="filters-foot">
+      <button type="button" class="link" id="reset">条件をリセット</button>
+      <button type="button" class="primary" id="closeFilters">閉じる</button>
+    </div>
+    <p class="hint">設備・宿泊タイプ・予約方法は、料金を確認済みのキャンプ場だけが対象です。</p>
+  </div>
+</header>
+
+<main class="stage">
+  <div id="map" role="application" aria-label="キャンプ場の地図"></div>
+  <aside class="detail" id="detail" hidden aria-label="キャンプ場の詳細">
+    <button type="button" class="close" id="closeDetail" aria-label="閉じる">×</button>
+    <div id="detailBody"></div>
+  </aside>
+</main>
+
+<footer class="foot">
+  <span>料金は目安です。予約前に必ず公式サイトでご確認ください。</span>
+  <span class="tag" id="buildTag">BUILD 2026-09-29a</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="js/app.js?v=2026-09-29a"></script>
+</body>
+</html>
