@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-29b */
+/* キャンプ場マップ BUILD_TAG: 2026-09-29c */
 (function () {
   "use strict";
-  var BUILD = "2026-09-29b";
+  var BUILD = "2026-09-29c";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -25,7 +25,7 @@
 
   var $ = function (id) { return document.getElementById(id); };
   var els = {
-    pref: $("pref"), max: $("max"), q: $("q"), more: $("moreBtn"), badge: $("badge"), filters: $("filters"),
+    pref: $("pref"), budget: $("budget"), budgetBtn: $("budgetBtn"), q: $("q"), more: $("moreBtn"), badge: $("badge"), filters: $("filters"),
     count: $("count"), panel: $("detail"), body: $("detailBody"), pet: $("pet"), known: $("known"), nomt: $("nomt"),
     open: $("openOnly"), listBtn: $("listBtn"), toast: $("toast")
   };
@@ -188,7 +188,7 @@
   }
   function getState() {
     return {
-      pref: els.pref.value, max: els.max.value, q: els.q.value.trim(),
+      pref: els.pref.value, max: getMax(), q: els.q.value.trim(),
       types: checked("types"), book: checked("book"), fac: checked("fac"),
       pet: els.pet.checked, known: els.known.checked, nomt: els.nomt.checked, open: els.open.checked
     };
@@ -233,7 +233,7 @@
   function readUrl() {
     var p = new URLSearchParams(location.search);
     if (p.get("pref") && PREF_VIEW[p.get("pref")]) els.pref.value = p.get("pref");
-    if (p.has("max")) els.max.value = p.get("max");
+    setMax(p.has("max") ? p.get("max") : "");
     if (p.get("q")) els.q.value = p.get("q");
     ["types", "book", "fac"].forEach(function (k) {
       var v = (p.get(k) || "").split(",");
@@ -251,8 +251,17 @@
   }
 
   // ---------- 人数・テントの入力 ----------
-  function partyHtml(scope) {
-    return '<div class="party" data-scope="' + scope + '">' + PARTY_KEYS.map(function (d) {
+  function getMax() {
+    var r = document.querySelector('input[name="max"]:checked');
+    return r ? r.value : "";
+  }
+  function setMax(v) {
+    document.querySelectorAll('input[name="max"]').forEach(function (i) { i.checked = i.value === v; });
+    if (!document.querySelector('input[name="max"]:checked')) document.querySelector('input[name="max"][value=""]').checked = true;
+  }
+  function partyText() { return "大人" + party.a + (party.c ? "・子供" + party.c : ""); }
+  function partyHtml(scope, keys) {
+    return '<div class="party" data-scope="' + scope + '">' + PARTY_KEYS.filter(function (d) { return !keys || keys.indexOf(d.k) >= 0; }).map(function (d) {
       return '<div class="stepper"><span class="st-l">' + d.label + '</span><button type="button" data-k="' + d.k + '" data-d="-1" aria-label="' + d.label + 'を減らす">−</button><span class="st-v" data-v="' + d.k + '">' + party[d.k] + '</span><button type="button" data-k="' + d.k + '" data-d="1" aria-label="' + d.label + 'を増やす">＋</button></div>';
     }).join("") + "</div>";
   }
@@ -267,7 +276,10 @@
   }
   function syncPartyUi() {
     document.querySelectorAll(".st-v").forEach(function (el) { el.textContent = party[el.getAttribute("data-v")]; });
-    $("partySummary").textContent = "大人" + party.a + (party.c ? "・子供" + party.c : "") + "で計算";
+    var m = getMax();
+    $("budgetSummary").textContent = (m === "" ? "指定なし" : m === "0" ? "無料" : "〜" + Number(m).toLocaleString("ja-JP") + "円/人") + "・" + partyText();
+    els.budgetBtn.classList.toggle("on", m !== "");
+    $("gearSummary").textContent = "：テント" + party.tent + "・タープ" + party.tarp + "・車" + party.car;
   }
 
   function recalc() {
@@ -324,7 +336,7 @@
     var h = [];
     h.push('<div class="list-head"><h2 class="d-name">この範囲のキャンプ場 ' + v.length + "件</h2>");
     h.push('<div class="sort"><button type="button" data-sort="price"' + (sortBy === "price" ? ' class="on"' : "") + '>1人あたりが安い順</button><button type="button" data-sort="near"' + (sortBy === "near" ? ' class="on"' : "") + ">" + (myPos ? "現在地から近い順" : "地図の中心から近い順") + "</button></div>");
-    h.push('<p class="list-note">地図を動かすと自動で入れ替わります。料金は' + esc($("partySummary").textContent) + "した1人あたりの目安です。</p></div>");
+    h.push('<p class="list-note">地図を動かすと自動で入れ替わります。料金は' + esc(partyText()) + "で計算した1人あたりの目安です。</p></div>");
     if (!v.length) h.push('<p class="empty">この範囲に条件に合うキャンプ場はありません。地図を縮小するか、条件をゆるめてください。</p>');
     h.push('<ul class="list">');
     shown.forEach(function (c) {
@@ -495,21 +507,34 @@
 
   // ---------- 操作 ----------
   els.pref.addEventListener("change", function () { apply({ fit: true }); });
-  els.max.addEventListener("change", function () { apply(); });
   var qTimer;
   els.q.addEventListener("input", function () { clearTimeout(qTimer); qTimer = setTimeout(apply, 250); });
   els.filters.addEventListener("change", function () { apply(); });
+  els.budget.addEventListener("change", function () { syncPartyUi(); apply(); });
   function toggleFilters(open) {
     els.filters.hidden = !open;
     els.more.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) toggleBudget(false);
   }
+  function toggleBudget(open) {
+    els.budget.hidden = !open;
+    els.budgetBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) toggleFilters(false);
+  }
+  els.budgetBtn.addEventListener("click", function () { toggleBudget(els.budget.hidden); });
+  $("closeBudget").addEventListener("click", function () { toggleBudget(false); });
+  $("budgetReset").addEventListener("click", function () {
+    setMax("");
+    PARTY_KEYS.forEach(function (d) { party[d.k] = d.def; });
+    recalc();
+    apply();
+    if (mode === "detail" && activeId) renderDetail(byId(activeId), true);
+  });
   els.more.addEventListener("click", function () { toggleFilters(els.filters.hidden); });
   $("closeFilters").addEventListener("click", function () { toggleFilters(false); });
   $("reset").addEventListener("click", function () {
     els.filters.querySelectorAll('input[type="checkbox"]').forEach(function (i) { i.checked = false; });
-    els.pref.value = ""; els.max.value = ""; els.q.value = "";
-    PARTY_KEYS.forEach(function (d) { party[d.k] = d.def; });
-    recalc();
+    els.pref.value = ""; els.q.value = "";
     apply({ fit: true });
   });
   els.listBtn.addEventListener("click", function () { if (mode === "list") closePanel(); else openList(); });
@@ -522,9 +547,13 @@
     if (e.target.id === "backToList") { openList(); return; }
     onPartyClick(e);
   });
-  $("partyFilter").addEventListener("click", onPartyClick);
+  els.budget.addEventListener("click", onPartyClick);
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") { if (!els.filters.hidden) toggleFilters(false); else closePanel(); }
+    if (e.key === "Escape") {
+      if (!els.filters.hidden) toggleFilters(false);
+      else if (!els.budget.hidden) toggleBudget(false);
+      else closePanel();
+    }
   });
 
   // ---------- データ読み込み ----------
@@ -533,7 +562,10 @@
     .then(function (d) {
       camps = d.camps;
       var initId = readUrl();
-      $("partyFilter").innerHTML = partyHtml("filter");
+      $("partyPeople").innerHTML = partyHtml("budget", ["a", "c"]);
+      $("partyGear").innerHTML = partyHtml("budget", ["tent", "tarp", "car"]);
+      var pricedCount = camps.filter(function (c) { return c.priced; }).length;
+      $("budgetHint").textContent = "予算で絞り込めるのは、料金を確認済みのキャンプ場（現在" + pricedCount + "件）だけです。子供の料金は各キャンプ場の区分（小学生など）で計算します。";
       camps.forEach(function (c) {
         c._calc = calc(c, party);
         var m = L.marker([c.lat, c.lng], { icon: iconFor(c), title: c.name, riseOnHover: true, zIndexOffset: c._calc ? 500 : 0 });

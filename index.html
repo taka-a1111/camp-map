@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<!-- BUILD_TAG: 2026-09-29b -->
+<!-- BUILD_TAG: 2026-09-29c -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
-<link rel="stylesheet" href="css/style.css?v=2026-09-29b">
+<link rel="stylesheet" href="css/style.css?v=2026-09-29c">
 </head>
 <body>
 <header class="bar" id="bar">
@@ -31,30 +31,42 @@
         <option>三重県</option>
       </select>
     </label>
-    <label class="field">
-      <span class="sr">予算（1人あたり・1泊）</span>
-      <select id="max">
-        <option value="">1人予算 指定なし</option>
-        <option value="0">無料のみ</option>
-        <option value="1000">1人 〜1,000円</option>
-        <option value="1500">1人 〜1,500円</option>
-        <option value="2000">1人 〜2,000円</option>
-        <option value="2500">1人 〜2,500円</option>
-        <option value="3000">1人 〜3,000円</option>
-        <option value="4000">1人 〜4,000円</option>
-      </select>
-    </label>
+    <button type="button" class="budget-btn" id="budgetBtn" aria-expanded="false" aria-controls="budget"><span class="bb-l">予算・人数</span><span class="bb-v" id="budgetSummary">指定なし・大人2</span></button>
     <label class="field grow">
       <span class="sr">キーワード</span>
       <input id="q" type="search" placeholder="名称・市町村" autocomplete="off">
     </label>
     <button type="button" class="more" id="moreBtn" aria-expanded="false" aria-controls="filters">条件<span class="badge" id="badge" hidden></span></button>
   </div>
-  <div class="filters" id="filters" hidden>
+  <div class="filters budget" id="budget" hidden>
     <fieldset>
-      <legend>料金の計算条件（<span id="partySummary">大人2で計算</span>）</legend>
-      <div id="partyFilter"></div>
+      <legend>人数</legend>
+      <div id="partyPeople"></div>
     </fieldset>
+    <fieldset>
+      <legend>1人あたりの予算（1泊・入場料や車の料金も含む）</legend>
+      <div class="chips" id="maxChips">
+        <label><input type="radio" name="max" value="" checked>指定なし</label>
+        <label><input type="radio" name="max" value="0">無料</label>
+        <label><input type="radio" name="max" value="1000">〜1,000円</label>
+        <label><input type="radio" name="max" value="1500">〜1,500円</label>
+        <label><input type="radio" name="max" value="2000">〜2,000円</label>
+        <label><input type="radio" name="max" value="2500">〜2,500円</label>
+        <label><input type="radio" name="max" value="3000">〜3,000円</label>
+        <label><input type="radio" name="max" value="4000">〜4,000円</label>
+      </div>
+    </fieldset>
+    <details class="gear">
+      <summary>持ち込むもの（テント・タープ・車）<span id="gearSummary"></span></summary>
+      <div id="partyGear"></div>
+    </details>
+    <p class="hint" id="budgetHint">料金を確認済みのキャンプ場だけが予算の絞り込みの対象です。</p>
+    <div class="filters-foot">
+      <button type="button" class="link" id="budgetReset">予算・人数を元に戻す</button>
+      <button type="button" class="primary" id="closeBudget">この条件で見る</button>
+    </div>
+  </div>
+  <div class="filters" id="filters" hidden>
     <fieldset>
       <legend>宿泊タイプ</legend>
       <div class="chips" data-key="types">
@@ -98,7 +110,7 @@
       <button type="button" class="link" id="reset">条件をリセット</button>
       <button type="button" class="primary" id="closeFilters">閉じる</button>
     </div>
-    <p class="hint">予算・設備・予約方法は、料金を確認済みのキャンプ場だけが対象です。宿泊タイプは掲載情報からわかる範囲で絞り込みます。</p>
+    <p class="hint">設備・予約方法は、料金を確認済みのキャンプ場だけが対象です。宿泊タイプは掲載情報からわかる範囲で絞り込みます。予算と人数は「予算・人数」から設定します。</p>
   </div>
 </header>
 
@@ -113,11 +125,11 @@
 
 <footer class="foot">
   <span>料金は目安です。予約前に必ず公式サイトでご確認ください。</span>
-  <span class="tag" id="buildTag">BUILD 2026-09-29b</span>
+  <span class="tag" id="buildTag">BUILD 2026-09-29c</span>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
-<script src="js/app.js?v=2026-09-29b"></script>
+<script src="js/app.js?v=2026-09-29c"></script>
 </body>
 </html>
