@@ -1,0 +1,3230 @@
+{
+ "timestamp_osm_base": "2026-09-29T07:05:01Z",
+ "elements": [
+  {
+   "osm": "node/939880987",
+   "pref": "愛知県",
+   "lat": 35.172574,
+   "lon": 137.782297,
+   "tags": {
+    "fax": "+81 536 89 2011",
+    "internet_access": "no",
+    "internet_access:fee": "no",
+    "name": "バンガロー村・古里とみやま",
+    "phone": "+81 536 89 2036",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/945669719",
+   "pref": "愛知県",
+   "lat": 35.171277,
+   "lon": 137.549365,
+   "tags": {
+    "name": "したらの里",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/947869668",
+   "pref": "愛知県",
+   "lat": 35.223008,
+   "lon": 137.658812,
+   "tags": {
+    "name": "茶臼山高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/984931586",
+   "pref": "愛知県",
+   "lat": 34.995868,
+   "lon": 137.626029,
+   "tags": {
+    "name": "Aキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/984959078",
+   "pref": "愛知県",
+   "lat": 34.995027,
+   "lon": 137.6252,
+   "tags": {
+    "name": "Bキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1685479857",
+   "pref": "愛知県",
+   "lat": 35.119945,
+   "lon": 137.481798,
+   "tags": {
+    "name": "豊川市野外センターきららの里",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1691501508",
+   "pref": "愛知県",
+   "lat": 35.198132,
+   "lon": 137.604105,
+   "tags": {
+    "name": "デイキャンプ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4292125187",
+   "pref": "愛知県",
+   "lat": 34.991445,
+   "lon": 137.150686,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4476759789",
+   "pref": "愛知県",
+   "lat": 35.217908,
+   "lon": 137.406844,
+   "tags": {
+    "addr:housenumber": "愛知県豊田市八幡町根山68-1",
+    "addr:postcode": "444-2843",
+    "name": "旭高原元気村",
+    "name:en": "asahi kougen genkimura",
+    "phone": "+81 565 68 2755",
+    "tourism": "camp_site",
+    "website": "https://www.asahikougen.co.jp/"
+   }
+  },
+  {
+   "osm": "node/4681095177",
+   "pref": "愛知県",
+   "lat": 34.878352,
+   "lon": 137.220846,
+   "tags": {
+    "name": "桑谷キャンプ場",
+    "name:en": "Kuwagai Campground",
+    "name:ja": "桑谷キャンプ場",
+    "name:ja-Hira": "くわがいきゃんぷじょう",
+    "name:ja-Latn": "Kuwagai Kyanpu-jō",
+    "tourism": "camp_site",
+    "website": "https://www.city.okazaki.lg.jp/1100/1109/1163/p003176.html?path=C1100/C1109/C1163/P3176"
+   }
+  },
+  {
+   "osm": "node/4895479540",
+   "pref": "愛知県",
+   "lat": 34.99296,
+   "lon": 137.625325,
+   "tags": {
+    "name": "オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4906829393",
+   "pref": "愛知県",
+   "lat": 34.659539,
+   "lon": 137.390918,
+   "tags": {
+    "name": "テントサイト",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4906829394",
+   "pref": "愛知県",
+   "lat": 34.662908,
+   "lon": 137.391522,
+   "tags": {
+    "name": "キャンプサイト",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5679364377",
+   "pref": "愛知県",
+   "lat": 34.931713,
+   "lon": 137.420952,
+   "tags": {
+    "name": "安城市作手高原野外センター",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5679364385",
+   "pref": "愛知県",
+   "lat": 34.939477,
+   "lon": 137.399242,
+   "tags": {
+    "name": "くらがりキャンプセンター",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6187416186",
+   "pref": "愛知県",
+   "lat": 35.303007,
+   "lon": 137.05271,
+   "tags": {
+    "fee": "yes",
+    "name": "少年自然の家キャンプ場",
+    "name:en": "Shonen Shizen no Ie Campground",
+    "name:ja": "少年自然の家キャンプ場",
+    "name:ja-Hira": "しょうねんしぜんのいえきゃんぷじょう",
+    "name:ja-Latn": "Shōnen Shizen no Ie Kyanpu-jyō",
+    "opening_hours:reception": "Tu-Su 08:30-17:00; Dec 28-Jan 3 off",
+    "phone": "+81 568 92 8211",
+    "tourism": "camp_site",
+    "website": "https://www.city.kasugai.lg.jp/shisetsu/sonota/ie/ie/1010687.html"
+   }
+  },
+  {
+   "osm": "node/6708858985",
+   "pref": "愛知県",
+   "lat": 34.849033,
+   "lon": 137.122144,
+   "tags": {
+    "name:en": "Free camping and small waterfall",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/9717531694",
+   "pref": "愛知県",
+   "lat": 35.075778,
+   "lon": 137.371955,
+   "tags": {
+    "name": "三河高原キャンプ村",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13765867801",
+   "pref": "愛知県",
+   "lat": 34.635605,
+   "lon": 137.286172,
+   "tags": {
+    "check_date": "2026-04-27",
+    "name": "表浜ほうべの森キャンプ場",
+    "name:en": "Omotehama Hoube-no-mori Camp Ground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/14006247452",
+   "pref": "愛知県",
+   "lat": 35.187879,
+   "lon": 137.087014,
+   "tags": {
+    "addr:block_number": "730",
+    "addr:city": "瀬戸市",
+    "addr:neighbourhood": "南山口町",
+    "addr:province": "愛知県",
+    "capacity": "72",
+    "fee": "yes",
+    "instagram": "wood_design_park_seto",
+    "name": "ウッドデザインパーク瀬戸",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:electronic_purses": "yes",
+    "phone": "090-3736-3685",
+    "reservation": "yes",
+    "tourism": "camp_site",
+    "website": "https://wood-designpark.jp/seto/"
+   }
+  },
+  {
+   "osm": "way/83229295",
+   "pref": "愛知県",
+   "lat": 35.182904,
+   "lon": 137.668261,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/87327550",
+   "pref": "愛知県",
+   "lat": 35.027906,
+   "lon": 137.447504,
+   "tags": {
+    "note": "3棟",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/87327556",
+   "pref": "愛知県",
+   "lat": 35.026031,
+   "lon": 137.450766,
+   "tags": {
+    "note": "常設テント2張",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/117172484",
+   "pref": "愛知県",
+   "lat": 35.031395,
+   "lon": 137.637375,
+   "tags": {
+    "name": "鳳来湖キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/150901724",
+   "pref": "愛知県",
+   "lat": 35.185195,
+   "lon": 137.009451,
+   "tags": {
+    "name": "キャンプサイト",
+    "note": "利用には事前許可が必要",
+    "operator": "名東土木事務所",
+    "source": "survey",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/154456671",
+   "pref": "愛知県",
+   "lat": 35.1724,
+   "lon": 137.782005,
+   "tags": {
+    "building": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/154456681",
+   "pref": "愛知県",
+   "lat": 35.172579,
+   "lon": 137.782295,
+   "tags": {
+    "building": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/155790428",
+   "pref": "愛知県",
+   "lat": 35.171273,
+   "lon": 137.549371,
+   "tags": {
+    "building": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/226678692",
+   "pref": "愛知県",
+   "lat": 35.118404,
+   "lon": 137.186063,
+   "tags": {
+    "name": "ボーイスカウト　豊田35団　サイト",
+    "source": "GSI/KIBAN 2500; NARO",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/505581940",
+   "pref": "愛知県",
+   "lat": 34.889758,
+   "lon": 136.876085,
+   "tags": {
+    "camp_site": "standard",
+    "capacity:persons": "50",
+    "drinking_water": "yes",
+    "fee": "yes",
+    "motor_vehicle": "yes",
+    "name": "常滑市グリーンスポーツセンター",
+    "name:en": "Tokoname City Green Sports Center",
+    "opening_hours:reception": "Apr-Oct Mo-Su 08:30-18:00, Nov-Mar Mo-Su 08:30-17:00",
+    "operator": "常滑市",
+    "phone": "+81 569 35 2797",
+    "tents": "yes",
+    "toilets": "yes",
+    "tourism": "camp_site",
+    "website": "https://www.city.tokoname.aichi.jp/kurashi/sportspark/1000999/1001007.html"
+   }
+  },
+  {
+   "osm": "way/517963560",
+   "pref": "愛知県",
+   "lat": 34.609026,
+   "lon": 137.04075,
+   "tags": {
+    "camp_site": "standard",
+    "caravans": "no",
+    "drinking_water": "yes",
+    "name": "キャンプ場",
+    "openfire": "yes",
+    "operator": "休暇村伊良湖",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "wheelchair": "yes"
+   }
+  },
+  {
+   "osm": "way/597584480",
+   "pref": "愛知県",
+   "lat": 34.673214,
+   "lon": 137.424547,
+   "tags": {
+    "internet_access": "wlan",
+    "landuse": "retail",
+    "name": "roots7",
+    "operator": "有限会社Roots7",
+    "sanitary_dump_station": "customers",
+    "tourism": "camp_site",
+    "website": "https://roots-7.co.jp/"
+   }
+  },
+  {
+   "osm": "way/1173207478",
+   "pref": "愛知県",
+   "lat": 35.362561,
+   "lon": 137.02617,
+   "tags": {
+    "name": "アウトドアベース犬山キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.kirakira.net/shisetsu/"
+   }
+  },
+  {
+   "osm": "way/1314669327",
+   "pref": "愛知県",
+   "lat": 35.302974,
+   "lon": 137.052886,
+   "tags": {
+    "name": "テントサイト",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "relation/9390902",
+   "pref": "愛知県",
+   "lat": 34.901499,
+   "lon": 136.88399,
+   "tags": {
+    "addr:block_number": "1",
+    "addr:city": "半田市",
+    "addr:housenumber": "1",
+    "addr:neighbourhood": "3",
+    "addr:province": "愛知県",
+    "addr:quarter": "池田町",
+    "bbq": "yes",
+    "drinking_water": "yes",
+    "fee": "yes",
+    "motor_vehicle": "yes",
+    "name": "半田運動公園デイキャンプ場",
+    "name:en": "Handa Undo Park Day Use Area",
+    "opening_hours": "Mo-Su 09:00-16:30; Dec 29-Jan 03 off",
+    "operator": "半田市",
+    "phone": "+81 569 27 6663",
+    "picnic_table": "yes",
+    "toilets": "yes",
+    "tourism": "camp_site",
+    "type": "multipolygon",
+    "website": "https://www.city.handa.lg.jp/sports/bunka/leisure/sportsshisetsu/undokoen/daycampjo.html"
+   }
+  },
+  {
+   "osm": "node/2483172648",
+   "pref": "岐阜県",
+   "lat": 36.340045,
+   "lon": 137.645631,
+   "tags": {
+    "operator": "槍ヶ岳山荘",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4226404474",
+   "pref": "岐阜県",
+   "lat": 36.318428,
+   "lon": 137.553669,
+   "tags": {
+    "fee": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4416164091",
+   "pref": "岐阜県",
+   "lat": 36.183597,
+   "lon": 137.548515,
+   "tags": {
+    "name:en": "Camping Ground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4516639498",
+   "pref": "岐阜県",
+   "lat": 35.595663,
+   "lon": 137.218929,
+   "tags": {
+    "name": "美濃白川クオーレの里",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4893903626",
+   "pref": "岐阜県",
+   "lat": 35.966163,
+   "lon": 136.922439,
+   "tags": {
+    "name": "NEW奥長良キャンプ場&WANKO",
+    "name:ja": "NEW奥長良キャンプ場&WANKO",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4893903627",
+   "pref": "岐阜県",
+   "lat": 35.929676,
+   "lon": 136.90015,
+   "tags": {
+    "name": "NAO明野高原キャンプ場",
+    "name:ja": "NAO明野高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627811821",
+   "pref": "岐阜県",
+   "lat": 36.375002,
+   "lon": 137.475455,
+   "tags": {
+    "name": "中の俣 北ノ俣 分岐",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627812221",
+   "pref": "岐阜県",
+   "lat": 36.380374,
+   "lon": 137.472678,
+   "tags": {
+    "name": "北ノ俣発電所",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627812222",
+   "pref": "岐阜県",
+   "lat": 36.37226,
+   "lon": 137.47918,
+   "tags": {
+    "name": "中の俣発電所",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627812223",
+   "pref": "岐阜県",
+   "lat": 36.364336,
+   "lon": 137.458199,
+   "tags": {
+    "name": "池の尾発電所",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627812224",
+   "pref": "岐阜県",
+   "lat": 36.364644,
+   "lon": 137.461032,
+   "tags": {
+    "name": "ヘリポート 池の尾 上流",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627814322",
+   "pref": "岐阜県",
+   "lat": 36.363815,
+   "lon": 137.457733,
+   "tags": {
+    "name": "金木戸発電所",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627814323",
+   "pref": "岐阜県",
+   "lat": 36.352342,
+   "lon": 137.490526,
+   "tags": {
+    "name": "双六発電所",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5627814325",
+   "pref": "岐阜県",
+   "lat": 36.320329,
+   "lon": 137.418399,
+   "tags": {
+    "name": "ヘリポート 金木戸 双六ダム 下",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5655733521",
+   "pref": "岐阜県",
+   "lat": 36.199809,
+   "lon": 137.041652,
+   "tags": {
+    "name": "昼ごはん",
+    "name:ja": "昼ごはん",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5743276421",
+   "pref": "岐阜県",
+   "lat": 35.440392,
+   "lon": 137.493913,
+   "tags": {
+    "name": "根の上高原保古の湖キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6175197346",
+   "pref": "岐阜県",
+   "lat": 36.17667,
+   "lon": 136.905125,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6408645489",
+   "pref": "岐阜県",
+   "lat": 35.957879,
+   "lon": 137.118869,
+   "tags": {
+    "addr:city": "下呂市",
+    "addr:housenumber": "476",
+    "addr:neighbourhood": "川上",
+    "addr:postcode": "5092601",
+    "addr:province": "岐阜県",
+    "addr:quarter": "馬瀬",
+    "internet_access": "wlan",
+    "name": "老谷の森 川のほとりのキャンプ場",
+    "operator": "老谷の森",
+    "tourism": "camp_site",
+    "website": "https://oitaninomori.com/"
+   }
+  },
+  {
+   "osm": "node/6485507515",
+   "pref": "岐阜県",
+   "lat": 35.846057,
+   "lon": 137.03053,
+   "tags": {
+    "name": "めいほうキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6834285687",
+   "pref": "岐阜県",
+   "lat": 35.451722,
+   "lon": 136.5404,
+   "tags": {
+    "name": "大津谷公園　キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7817525085",
+   "pref": "岐阜県",
+   "lat": 35.581416,
+   "lon": 136.891635,
+   "tags": {
+    "access": "yes",
+    "camp_site": "standard",
+    "caravans": "no",
+    "fee": "no",
+    "name": "神洞ほたるの里公園",
+    "static_caravans": "no",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7913041445",
+   "pref": "岐阜県",
+   "lat": 36.183493,
+   "lon": 137.551071,
+   "tags": {
+    "name": "平湯キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7913116424",
+   "pref": "岐阜県",
+   "lat": 36.259575,
+   "lon": 137.57299,
+   "tags": {
+    "name": "合掌の森中尾キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/10293204904",
+   "pref": "岐阜県",
+   "lat": 35.80968,
+   "lon": 137.303393,
+   "tags": {
+    "name": "乗政キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/11998065964",
+   "pref": "岐阜県",
+   "lat": 35.461264,
+   "lon": 136.54026,
+   "tags": {
+    "name": "華音の森",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13127958701",
+   "pref": "岐阜県",
+   "lat": 35.494299,
+   "lon": 136.537391,
+   "tags": {
+    "name": "Campsite",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13135526101",
+   "pref": "岐阜県",
+   "lat": 36.079842,
+   "lon": 136.946366,
+   "tags": {
+    "name": "みぼろ湖畔キャンプサイト",
+    "tourism": "camp_site",
+    "website": "http://camp.miboroko.jp"
+   }
+  },
+  {
+   "osm": "node/13866448801",
+   "pref": "岐阜県",
+   "lat": 35.516703,
+   "lon": 136.960401,
+   "tags": {
+    "check_date": "2026-05-23",
+    "name": "レモンファーム",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/533554212",
+   "pref": "岐阜県",
+   "lat": 35.313408,
+   "lon": 137.088865,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/652552425",
+   "pref": "岐阜県",
+   "lat": 35.514949,
+   "lon": 136.835531,
+   "tags": {
+    "name": "キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/684109966",
+   "pref": "岐阜県",
+   "lat": 35.958699,
+   "lon": 137.118251,
+   "tags": {
+    "internet_access": "wlan",
+    "name": "老谷の森 川のほとりのキャンプ場",
+    "operator": "老谷の森",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/924340228",
+   "pref": "岐阜県",
+   "lat": 36.388378,
+   "lon": 137.565644,
+   "tags": {
+    "fee": "yes",
+    "operator": "黒部五郎小舎",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1122557492",
+   "pref": "岐阜県",
+   "lat": 35.238998,
+   "lon": 136.422247,
+   "tags": {
+    "name": "もんでこキャンプ場トキヤマ",
+    "tourism": "camp_site",
+    "website": "https://mondeco.jp/camp/"
+   }
+  },
+  {
+   "osm": "way/1122672479",
+   "pref": "岐阜県",
+   "lat": 35.238703,
+   "lon": 136.421085,
+   "tags": {
+    "name": "時山養魚場 キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1473286892",
+   "pref": "岐阜県",
+   "lat": 35.386238,
+   "lon": 136.928898,
+   "tags": {
+    "name": "伊木山フォレスト",
+    "tourism": "camp_site",
+    "url": "https://www.igiyamaforest.com/"
+   }
+  },
+  {
+   "osm": "way/1501001043",
+   "pref": "岐阜県",
+   "lat": 35.58137,
+   "lon": 136.891736,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1281064873",
+   "pref": "長野県",
+   "lat": 36.265275,
+   "lon": 137.690021,
+   "tags": {
+    "internet_access": "no",
+    "name": "徳沢キャンプ場",
+    "name:en": "Tokusawa Camping Ground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1281064891",
+   "pref": "長野県",
+   "lat": 36.293021,
+   "lon": 137.698443,
+   "tags": {
+    "name": "横尾キャンプ場",
+    "name:en": "Yokoo Campground",
+    "official_name": "横尾野営場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1281064991",
+   "pref": "長野県",
+   "lat": 36.294402,
+   "lon": 137.662645,
+   "tags": {
+    "name": "涸沢野営場",
+    "name:en": "Karasawa Tent Site",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1741481387",
+   "pref": "長野県",
+   "lat": 36.506674,
+   "lon": 137.801247,
+   "tags": {
+    "name": "出会いの広場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1743545108",
+   "pref": "長野県",
+   "lat": 36.507976,
+   "lon": 137.798472,
+   "tags": {
+    "name": "森のくらしの郷",
+    "tourism": "camp_site",
+    "website": "http://morikura.com/"
+   }
+  },
+  {
+   "osm": "node/1909503775",
+   "pref": "長野県",
+   "lat": 35.960055,
+   "lon": 138.284415,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1918381434",
+   "pref": "長野県",
+   "lat": 35.978656,
+   "lon": 138.364436,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1918381525",
+   "pref": "長野県",
+   "lat": 35.987336,
+   "lon": 138.360066,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1928601683",
+   "pref": "長野県",
+   "lat": 35.97271,
+   "lon": 137.897683,
+   "tags": {
+    "internet_access": "no",
+    "smoking": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1954390879",
+   "pref": "長野県",
+   "lat": 36.333965,
+   "lon": 137.72738,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2030098150",
+   "pref": "長野県",
+   "lat": 36.399938,
+   "lon": 137.715357,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2293285488",
+   "pref": "長野県",
+   "lat": 36.250582,
+   "lon": 137.640381,
+   "tags": {
+    "caravans": "no",
+    "name": "小梨平キャンプ場",
+    "name:en": "Konashidaira Camping Retreat",
+    "name:ja": "小梨平キャンプ場",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2519415661",
+   "pref": "長野県",
+   "lat": 35.736371,
+   "lon": 137.893108,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2702643510",
+   "pref": "長野県",
+   "lat": 35.674107,
+   "lon": 137.892063,
+   "tags": {
+    "name": "御座松キャンプ場",
+    "name:ja": "御座松キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2708419258",
+   "pref": "長野県",
+   "lat": 35.680568,
+   "lon": 137.951336,
+   "tags": {
+    "name": "キャンプファーム いなかの風",
+    "name:ja": "キャンプファーム いなかの風",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2817450727",
+   "pref": "長野県",
+   "lat": 36.099382,
+   "lon": 138.156436,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2831262366",
+   "pref": "長野県",
+   "lat": 35.893255,
+   "lon": 138.16074,
+   "tags": {
+    "name:en": "Nyukasa JA Camping Ground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2864217322",
+   "pref": "長野県",
+   "lat": 36.487616,
+   "lon": 138.070768,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2864218107",
+   "pref": "長野県",
+   "lat": 36.485284,
+   "lon": 138.08785,
+   "tags": {
+    "name": "大池キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2864218716",
+   "pref": "長野県",
+   "lat": 36.409849,
+   "lon": 138.093287,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2927156196",
+   "pref": "長野県",
+   "lat": 36.054043,
+   "lon": 138.310912,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/3612137778",
+   "pref": "長野県",
+   "lat": 36.103548,
+   "lon": 137.616807,
+   "tags": {
+    "name": "一の瀬キャンプ場 (ichinose camp area)",
+    "operator": "休暇村乗鞍高原",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/3642001369",
+   "pref": "長野県",
+   "lat": 35.665343,
+   "lon": 137.629168,
+   "tags": {
+    "name": "阿寺渓谷キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/3642087917",
+   "pref": "長野県",
+   "lat": 35.968636,
+   "lon": 137.745789,
+   "tags": {
+    "name": "こだまの森",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/3642148687",
+   "pref": "長野県",
+   "lat": 35.836288,
+   "lon": 137.742323,
+   "tags": {
+    "name": "キャンピングフィールド木曽古道",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4059762211",
+   "pref": "長野県",
+   "lat": 35.944987,
+   "lon": 138.348547,
+   "tags": {
+    "name": "青年小屋テントサイト",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4427064790",
+   "pref": "長野県",
+   "lat": 36.113517,
+   "lon": 137.833769,
+   "tags": {
+    "internet_access": "wlan",
+    "name": "あさひプライム",
+    "tourism": "camp_site",
+    "wikidata": "Q11257215",
+    "wikipedia": "ja:あさひプライムスキー場"
+   }
+  },
+  {
+   "osm": "node/4440389671",
+   "pref": "長野県",
+   "lat": 36.323436,
+   "lon": 137.675723,
+   "tags": {
+    "name": "ババ平キャンプ場",
+    "name:en": "Babadaira Camp Site",
+    "operator": "槍沢ロッヂ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4907562892",
+   "pref": "長野県",
+   "lat": 35.428103,
+   "lon": 138.122652,
+   "tags": {
+    "capacity": "3",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5043967034",
+   "pref": "長野県",
+   "lat": 36.227584,
+   "lon": 137.677739,
+   "tags": {
+    "charge": "700 JPY",
+    "fee": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5044726123",
+   "pref": "長野県",
+   "lat": 36.100382,
+   "lon": 137.939739,
+   "tags": {
+    "name": "洞窟",
+    "name:en": "cave",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5100007810",
+   "pref": "長野県",
+   "lat": 36.259248,
+   "lon": 138.01027,
+   "tags": {
+    "name": "美鈴湖キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5260300921",
+   "pref": "長野県",
+   "lat": 36.310591,
+   "lon": 137.822468,
+   "tags": {
+    "name:de": "Susado Campingplatz",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6845324955",
+   "pref": "長野県",
+   "lat": 36.002454,
+   "lon": 138.357439,
+   "tags": {
+    "capacity": "100",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7905040558",
+   "pref": "長野県",
+   "lat": 35.926316,
+   "lon": 137.556354,
+   "tags": {
+    "name": "開田高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7905312457",
+   "pref": "長野県",
+   "lat": 36.216956,
+   "lon": 137.875259,
+   "tags": {
+    "name": "波田リバーパークキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/8607325403",
+   "pref": "長野県",
+   "lat": 35.375995,
+   "lon": 138.089548,
+   "tags": {
+    "backcountry": "yes",
+    "ele": "1510",
+    "name": "面平キャンプ",
+    "name:en": "Mendaira Camp",
+    "name:ja": "面平キャンプ",
+    "tourism": "camp_site",
+    "website": "https://www.mstb.jp/sangakubunka/campsite"
+   }
+  },
+  {
+   "osm": "node/9044614655",
+   "pref": "長野県",
+   "lat": 36.562144,
+   "lon": 137.870651,
+   "tags": {
+    "name": "中山高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/9201832435",
+   "pref": "長野県",
+   "lat": 36.657908,
+   "lon": 137.989258,
+   "tags": {
+    "name": "星と緑のキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/9217286015",
+   "pref": "長野県",
+   "lat": 36.769825,
+   "lon": 138.090314,
+   "tags": {
+    "name": "戸隠キャンプ場ウェルカムハウス",
+    "name:en": "Togakushi Campground Welcome House",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/9217306317",
+   "pref": "長野県",
+   "lat": 36.769813,
+   "lon": 138.0907,
+   "tags": {
+    "name": "戸隠イースタンキャンプ場",
+    "name:en": "Togakushi Eastern Camping Ground",
+    "tourism": "camp_site",
+    "website": "http://www.shinsyu-ringyou.com/"
+   }
+  },
+  {
+   "osm": "node/9566257317",
+   "pref": "長野県",
+   "lat": 35.928753,
+   "lon": 138.025694,
+   "tags": {
+    "name": "樽尾沢キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/9967911232",
+   "pref": "長野県",
+   "lat": 36.917443,
+   "lon": 138.489631,
+   "tags": {
+    "fee": "yes",
+    "name": "スタカ湖キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/11070395203",
+   "pref": "長野県",
+   "lat": 35.623514,
+   "lon": 137.990473,
+   "tags": {
+    "name": "KUWABARA CAMP（四徳温泉キャンプ場）",
+    "name:en": "Kuwabara Shitoku Onsen Campground",
+    "name:ja": "KUWABARA CAMP（四徳温泉キャンプ場）",
+    "tourism": "camp_site",
+    "website": "http://shitoku.net/kuwabaracamp/"
+   }
+  },
+  {
+   "osm": "node/11070465738",
+   "pref": "長野県",
+   "lat": 35.653284,
+   "lon": 138.005533,
+   "tags": {
+    "name": "四徳温泉キャンプ場",
+    "name:en": "Shitoku Onsen Campground",
+    "name:ja": "四徳温泉キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://shitoku.net/%e6%b3%8a%e3%81%be%e3%82%8b/%e5%85%b1%e6%9c%89%e6%96%bd%e8%a8%ad/"
+   }
+  },
+  {
+   "osm": "node/11156092003",
+   "pref": "長野県",
+   "lat": 35.950954,
+   "lon": 138.149162,
+   "tags": {
+    "name": "千代田湖キャンプ場",
+    "name:ja": "千代田湖キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://chiyoda.natureservice.jp/"
+   }
+  },
+  {
+   "osm": "node/11171034327",
+   "pref": "長野県",
+   "lat": 35.626322,
+   "lon": 138.057373,
+   "tags": {
+    "name": "森の小さな秘密基地",
+    "name:en": "Mori-no-chiisa-na Himitsu Kichi",
+    "name:ja": "森の小さな秘密基地",
+    "tourism": "camp_site",
+    "website": "https://morichi152.com/"
+   }
+  },
+  {
+   "osm": "node/11195227195",
+   "pref": "長野県",
+   "lat": 35.701902,
+   "lon": 137.579746,
+   "tags": {
+    "name": "阿寺渓谷キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/11515944065",
+   "pref": "長野県",
+   "lat": 36.48672,
+   "lon": 138.212775,
+   "tags": {
+    "name": "和平高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12248382460",
+   "pref": "長野県",
+   "lat": 36.827841,
+   "lon": 138.239051,
+   "tags": {
+    "group_only": "yes",
+    "name": "東洋英和野尻キャンプサイト",
+    "operator": "学校法人東洋英和女学院",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12248382461",
+   "pref": "長野県",
+   "lat": 36.827233,
+   "lon": 138.238785,
+   "tags": {
+    "group_only": "yes",
+    "name": "東京YMCA 野尻キャンプ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12791462879",
+   "pref": "長野県",
+   "lat": 36.733177,
+   "lon": 138.035878,
+   "tags": {
+    "name": "品沢高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13041156709",
+   "pref": "長野県",
+   "lat": 35.661816,
+   "lon": 137.617934,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13257920502",
+   "pref": "長野県",
+   "lat": 35.616729,
+   "lon": 137.621833,
+   "tags": {
+    "internet_access": "wlan",
+    "name": "ties Camping Ground Nagiso",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13366316882",
+   "pref": "長野県",
+   "lat": 35.705451,
+   "lon": 138.094949,
+   "tags": {
+    "group_only": "yes",
+    "name": "少年少女山の家",
+    "name:ja": "少年少女山の家",
+    "tourism": "camp_site",
+    "website": "https://yamanoie.wordpress.com/"
+   }
+  },
+  {
+   "osm": "node/13954931096",
+   "pref": "長野県",
+   "lat": 36.134715,
+   "lon": 138.037339,
+   "tags": {
+    "capacity:caravans": "11",
+    "capacity:tents": "25",
+    "caravans": "yes",
+    "name": "高ボッチ高原キャンプエリア",
+    "name:en": "Takabocchi Plateau Campground",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://tokimeguri.jp/guide/takabotchicamp/"
+   }
+  },
+  {
+   "osm": "node/14202153270",
+   "pref": "長野県",
+   "lat": 35.964267,
+   "lon": 138.467456,
+   "tags": {
+    "access": "customers",
+    "addr:postcode": "384-1305",
+    "cabins": "no",
+    "camp_site": "serviced",
+    "caravans": "yes",
+    "charge": "1,000JPY~",
+    "check_date": "2026-09-21",
+    "description": "チェックイン9:00〜16:30、チェックアウト9:00〜12:00。10〜4月上旬不定休あり。",
+    "dog": "yes",
+    "drinking_water": "yes",
+    "fax": "+81 26-7983-422",
+    "fee": "yes",
+    "group_only": "no",
+    "name": "滝沢牧場",
+    "name:en": "Takizawa Farm",
+    "nudism": "no",
+    "openfire": "yes",
+    "operator": "滝沢牧場",
+    "phone": "+81 26-7982-222",
+    "reservation": "no",
+    "sanitary_dump_station": "yes",
+    "shower": "yes",
+    "static_caravans": "no",
+    "tents": "yes",
+    "toilets": "yes",
+    "tourism": "camp_site",
+    "website": "http://www.takizawa-bokujo.jp/lodging"
+   }
+  },
+  {
+   "osm": "way/182855517",
+   "pref": "長野県",
+   "lat": 36.547669,
+   "lon": 137.837592,
+   "tags": {
+    "name": "木崎湖キャンプ場",
+    "source": "Bing",
+    "tourism": "camp_site",
+    "wikidata": "Q11518363",
+    "wikipedia": "ja:木崎湖キャンプ場"
+   }
+  },
+  {
+   "osm": "way/187909957",
+   "pref": "長野県",
+   "lat": 35.787611,
+   "lon": 137.807127,
+   "tags": {
+    "name": "賽の河原テント幕営地",
+    "name:en": "Sainokawara Camp Site",
+    "name:ja": "賽の河原テント幕営地",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/237175100",
+   "pref": "長野県",
+   "lat": 36.66982,
+   "lon": 138.458205,
+   "tags": {
+    "internet_access": "no",
+    "name": "山田牧場キャンプ場",
+    "name:en": "Yamaboku Green Site",
+    "openfire": "no",
+    "source": "survey, 2013/9/8; Bing, 2012/10/24",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://yamaboku.jp/green/"
+   }
+  },
+  {
+   "osm": "way/303787658",
+   "pref": "長野県",
+   "lat": 36.832644,
+   "lon": 138.499998,
+   "tags": {
+    "area": "yes",
+    "name": "カヤの平高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/438548607",
+   "pref": "長野県",
+   "lat": 35.367361,
+   "lon": 137.666611,
+   "tags": {
+    "ele": "1116",
+    "name": "もみじ平キャンプ場",
+    "name:en": "Momiji Daira Camping Ground",
+    "name:ja": "もみじ平キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/463037566",
+   "pref": "長野県",
+   "lat": 35.24915,
+   "lon": 137.669888,
+   "tags": {
+    "name": "うるぎ星の森オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/463037573",
+   "pref": "長野県",
+   "lat": 35.250733,
+   "lon": 137.669713,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/523791606",
+   "pref": "長野県",
+   "lat": 35.461071,
+   "lon": 137.999156,
+   "tags": {
+    "name": "大島河原河川公園 オートキャンプ場",
+    "name:en": "Oshimagawara Kasen Park Auto Camping Ground",
+    "name:ja": "大島河原河川公園 オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/523791608",
+   "pref": "長野県",
+   "lat": 35.46226,
+   "lon": 137.999476,
+   "tags": {
+    "name": "大島河原河川公園 オートキャンプ場",
+    "name:en": "Oshimagawara Kasen Park Auto Camping Ground",
+    "name:ja": "大島河原河川公園 オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/562261421",
+   "pref": "長野県",
+   "lat": 35.972656,
+   "lon": 137.897677,
+   "tags": {
+    "name": "蛇石キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/571903208",
+   "pref": "長野県",
+   "lat": 35.907812,
+   "lon": 138.640876,
+   "tags": {
+    "caravans": "no",
+    "drinking_water": "yes",
+    "landuse": "grass",
+    "name": "中央広場",
+    "power_supply": "no",
+    "shower": "yes",
+    "tents": "yes",
+    "toilets": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/571903210",
+   "pref": "長野県",
+   "lat": 35.907922,
+   "lon": 138.640295,
+   "tags": {
+    "addr:country": "JP",
+    "addr:postcode": "384-1401",
+    "cabins": "yes",
+    "caravans": "yes",
+    "email": "kinpou@kawakami.or.jp",
+    "fee": "yes",
+    "name": "廻り目平キャンプ場",
+    "openfire": "yes",
+    "opening_hours": "07:00-20:00",
+    "phone": "+81-267-99-2428",
+    "sanitary_dump_station": "yes",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "http://w2.avis.ne.jp/~mawarime/"
+   }
+  },
+  {
+   "osm": "way/571903216",
+   "pref": "長野県",
+   "lat": 35.908007,
+   "lon": 138.639672,
+   "tags": {
+    "caravans": "no",
+    "name": "貸しテント場",
+    "operator": "金峰山荘",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/628064230",
+   "pref": "長野県",
+   "lat": 36.385508,
+   "lon": 138.617135,
+   "tags": {
+    "fee": "yes",
+    "internet_access": "wlan",
+    "name": "ライジングフィールド軽井沢",
+    "name:en": "Rising Field Karuizawa",
+    "phone": "+81 267 41 6891",
+    "tourism": "camp_site",
+    "website": "http://karuizawa.rising-field.com/"
+   }
+  },
+  {
+   "osm": "way/689204266",
+   "pref": "長野県",
+   "lat": 36.833664,
+   "lon": 138.499373,
+   "tags": {
+    "area": "yes",
+    "name": "カヤの平高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/696064710",
+   "pref": "長野県",
+   "lat": 36.238534,
+   "lon": 138.606618,
+   "tags": {
+    "check_date": "2026-06-22",
+    "name": "荒船パノラマキャンプフィールド",
+    "name:en": "Arafune Panorama Campfield",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/785797497",
+   "pref": "長野県",
+   "lat": 35.524574,
+   "lon": 137.788289,
+   "tags": {
+    "addr:block_number": "5247",
+    "addr:city": "飯田市",
+    "addr:housenumber": "1",
+    "addr:postcode": "395-0807",
+    "addr:province": "長野県",
+    "addr:quarter": "鼎切石",
+    "name": "妙琴公園キャンプ場",
+    "name:en": "Myōkin Park Camping Ground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/794203759",
+   "pref": "長野県",
+   "lat": 36.042545,
+   "lon": 137.638616,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/824743311",
+   "pref": "長野県",
+   "lat": 35.370141,
+   "lon": 137.886912,
+   "tags": {
+    "addr:city": "泰阜村",
+    "addr:county": "下伊那郡",
+    "addr:postcode": "399-1801",
+    "addr:province": "長野県",
+    "addr:suburb": "川端",
+    "backcountry": "yes",
+    "fee": "no",
+    "name": "二軒屋キャンプ場",
+    "name:en": "Nikenya Camping Ground",
+    "name:ja": "二軒屋キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://vill.yasuoka.nagano.jp/docs/2539.html"
+   }
+  },
+  {
+   "osm": "way/825748801",
+   "pref": "長野県",
+   "lat": 35.614074,
+   "lon": 137.873084,
+   "tags": {
+    "addr:block_number": "2750",
+    "addr:city": "松川町",
+    "addr:county": "下伊那郡",
+    "addr:housenumber": "284",
+    "addr:postcode": "399-3304",
+    "addr:province": "長野県",
+    "addr:quarter": "大島",
+    "name": "ツリードーム南信州まつかわ",
+    "name:en": "Tree Dome Minami Shinshu Matsukawa",
+    "name:ja": "ツリードーム南信州まつかわ",
+    "tourism": "camp_site",
+    "website": "https://dansuki.jp/stay/td/"
+   }
+  },
+  {
+   "osm": "way/826024171",
+   "pref": "長野県",
+   "lat": 35.450434,
+   "lon": 137.936925,
+   "tags": {
+    "addr:block_number": "9119",
+    "addr:city": "喬木村",
+    "addr:county": "下伊那郡",
+    "addr:housenumber": "158",
+    "addr:postcode": "395-1100",
+    "addr:province": "長野県",
+    "name": "矢筈公園キャンプ場",
+    "name:en": "Yahazu Park Camping Ground",
+    "name:ja": "矢筈公園キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.vill.takagi.nagano.jp/docs/2016062200010/"
+   }
+  },
+  {
+   "osm": "way/826341206",
+   "pref": "長野県",
+   "lat": 35.447589,
+   "lon": 138.004807,
+   "tags": {
+    "name": "大平高原流星オートキャンプ場",
+    "name:en": "Odairakogen Ryusei Auto Camping Ground",
+    "name:ja": "大平高原 流星オートキャンプ場",
+    "operator": "株式会社大空企画",
+    "tourism": "camp_site",
+    "website": "http://www.shirabiso.com/camp/ryuseicamp/"
+   }
+  },
+  {
+   "osm": "way/826365541",
+   "pref": "長野県",
+   "lat": 35.602339,
+   "lon": 138.072442,
+   "tags": {
+    "addr:block_number": "大字鹿塩",
+    "addr:city": "大鹿村",
+    "addr:county": "下伊那",
+    "addr:postcode": "399-3501",
+    "addr:province": "長野県",
+    "name": "大池高原キャンプ場",
+    "name:en": "Ōike Kōgen Campsite",
+    "name:ja": "大池高原キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.vill.ooshika.nagano.jp/2020/07/13/kyannpuzyou/"
+   }
+  },
+  {
+   "osm": "way/826633060",
+   "pref": "長野県",
+   "lat": 35.556028,
+   "lon": 138.08594,
+   "tags": {
+    "backcountry": "yes",
+    "name": "鳥ヶ池キャンプ場",
+    "name:en": "Torigaike Campsite",
+    "name:ja": "鳥ヶ池キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.vill.ooshika.nagano.jp/2023/03/31/kyannpuzyou/"
+   }
+  },
+  {
+   "osm": "way/828718683",
+   "pref": "長野県",
+   "lat": 35.395174,
+   "lon": 137.762277,
+   "tags": {
+    "name": "おおぐて湖キャンプ場",
+    "name:en": "Lake Ōgute Camping Ground",
+    "name:ja-Latn": "Ōguteko Kyanpujō",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/839991826",
+   "pref": "長野県",
+   "lat": 35.243398,
+   "lon": 137.680802,
+   "tags": {
+    "name": "白樺高原キャンプ場",
+    "name:en": "Shirakabakōgen Camping Ground",
+    "name:ja": "白樺高原キャンプ場",
+    "operator": "売木村",
+    "tourism": "camp_site",
+    "website": "https://www.urugi.jp/db/camp/post-23.html"
+   }
+  },
+  {
+   "osm": "way/843406819",
+   "pref": "長野県",
+   "lat": 35.231965,
+   "lon": 137.657892,
+   "tags": {
+    "addr:block_number": "3370",
+    "addr:city": "根羽村",
+    "addr:county": "下伊那郡",
+    "addr:housenumber": "42",
+    "addr:postcode": "395-0701",
+    "addr:province": "長野県",
+    "addr:suburb": "小戸名",
+    "backcountry": "yes",
+    "name": "茶臼山高原木のぼりキャンプ村",
+    "name:en": "Chausuyama Highland Camping Village",
+    "name:ja": "茶臼山高原木のぼりキャンプ村",
+    "tourism": "camp_site",
+    "website": "https://nebakanko.com/shisetsu/kinobori.html"
+   }
+  },
+  {
+   "osm": "way/847177473",
+   "pref": "長野県",
+   "lat": 36.220657,
+   "lon": 137.885693,
+   "tags": {
+    "name": "梓水園オートキャンプサイト",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/847996892",
+   "pref": "長野県",
+   "lat": 35.432167,
+   "lon": 138.026435,
+   "tags": {
+    "name": "しらびそ高原 山岳オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/852286148",
+   "pref": "長野県",
+   "lat": 35.592341,
+   "lon": 137.85645,
+   "tags": {
+    "addr:block_number": "2347",
+    "addr:city": "高森町",
+    "addr:county": "下伊那郡",
+    "addr:postcode": "399-3101",
+    "addr:province": "長野県",
+    "addr:suburb": "山吹",
+    "name": "山の寺キャンプ場",
+    "name:en": "Yamanotera Camping Ground",
+    "name:ja": "山の寺キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.town.nagano-takamori.lg.jp/branding/vol2/1489.html"
+   }
+  },
+  {
+   "osm": "way/853190676",
+   "pref": "長野県",
+   "lat": 35.54597,
+   "lon": 137.815475,
+   "tags": {
+    "addr:block_number": "3840",
+    "addr:city": "飯田市",
+    "addr:postcode": "395-0004",
+    "addr:province": "長野県",
+    "addr:suburb": "上郷黒田",
+    "name": "野底山森林公園キャンプ場",
+    "name:en": "Nosokoyama Forest Park Camping Ground",
+    "name:ja": "野底山森林公園キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.nosokoyama.net/"
+   }
+  },
+  {
+   "osm": "way/856640962",
+   "pref": "長野県",
+   "lat": 35.37468,
+   "lon": 137.780246,
+   "tags": {
+    "addr:block_number": "5074",
+    "addr:city": "下條村",
+    "addr:county": "下伊那郡",
+    "addr:postcode": "399-2102",
+    "addr:province": "長野県",
+    "addr:suburb": "陽皐",
+    "name": "CAMP & CHEERS KANESHIGE (Café ＆ Taproom)",
+    "name:en": "Camp & Cheers Kaneshige (Café ＆ Taproom)",
+    "name:ja": "CAMP & CHEERS KANESHIGE (Café ＆ Taproom)",
+    "tourism": "camp_site",
+    "website": "https://shimojo-kanko.jp/asobu/canp"
+   }
+  },
+  {
+   "osm": "way/860939802",
+   "pref": "長野県",
+   "lat": 35.305495,
+   "lon": 137.839475,
+   "tags": {
+    "addr:block_number": "750",
+    "addr:city": "天龍村",
+    "addr:county": "下伊那郡",
+    "addr:housenumber": "10",
+    "addr:postcode": "399-1203",
+    "addr:province": "長野県",
+    "addr:suburb": "長島",
+    "name": "和知野川キャンプ場",
+    "name:en": "Wachinokawa Camping Ground",
+    "name:ja": "和知野川キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/864940137",
+   "pref": "長野県",
+   "lat": 35.224224,
+   "lon": 137.733046,
+   "tags": {
+    "addr:city": "天龍村",
+    "addr:county": "下伊那郡",
+    "addr:postcode": "399-1202",
+    "addr:province": "長野県",
+    "addr:suburb": "神原",
+    "name": "大河内森林公園",
+    "name:en": "Okouchi Forest Park",
+    "name:ja": "大河内森林公園",
+    "tourism": "camp_site",
+    "website": "http://www.vill-tenryu.jp/tourism/camp_leisure/okouchiforestpark/"
+   }
+  },
+  {
+   "osm": "way/866148556",
+   "pref": "長野県",
+   "lat": 35.510771,
+   "lon": 137.665224,
+   "tags": {
+    "name": "せいなの森キャンプ場",
+    "name:ja": "せいなの森キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.seinanomori.com/"
+   }
+  },
+  {
+   "osm": "way/873378324",
+   "pref": "長野県",
+   "lat": 35.368852,
+   "lon": 137.890231,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/879152514",
+   "pref": "長野県",
+   "lat": 35.563241,
+   "lon": 137.701305,
+   "tags": {
+    "name": "大平キャンプ場",
+    "name:en": "Odaira Campground",
+    "name:ja": "大平キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/882624511",
+   "pref": "長野県",
+   "lat": 35.301685,
+   "lon": 137.893411,
+   "tags": {
+    "name": "天仁の杜 オートキャンプ場",
+    "name:en": "Tenjin no Mori Auto Campground",
+    "name:ja": "天仁の杜 オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/883674598",
+   "pref": "長野県",
+   "lat": 35.588521,
+   "lon": 137.959751,
+   "tags": {
+    "name": "アルプスの郷",
+    "name:ja": "アルプスの郷",
+    "tourism": "camp_site",
+    "website": "https://baishoen.com/camp.html"
+   }
+  },
+  {
+   "osm": "way/901034571",
+   "pref": "長野県",
+   "lat": 35.425518,
+   "lon": 137.899152,
+   "tags": {
+    "name": "野池親水公園キャンプ場",
+    "name:en": "Noike Water Park Camping Ground",
+    "name:ja": "野池親水公園キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.chiyo-x.jp/guide_taikenn_sinsui.html"
+   }
+  },
+  {
+   "osm": "way/901471623",
+   "pref": "長野県",
+   "lat": 35.528336,
+   "lon": 137.9675,
+   "tags": {
+    "name": "野田平キャンプ場",
+    "name:en": "Notonohira Campground",
+    "name:ja": "野田平キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://notanohira.com/"
+   }
+  },
+  {
+   "osm": "way/944953472",
+   "pref": "長野県",
+   "lat": 35.672888,
+   "lon": 137.983094,
+   "tags": {
+    "fee": "yes",
+    "name": "陣馬形山キャンプ場",
+    "name:en": "Jinbagatayama Campground",
+    "name:ja": "陣馬形山キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://jinbagata.life/camp/"
+   }
+  },
+  {
+   "osm": "way/1038937048",
+   "pref": "長野県",
+   "lat": 35.440718,
+   "lon": 137.666356,
+   "tags": {
+    "name": "弓の又キャンプ場",
+    "name:ja": "弓の又キャンプ場",
+    "tourism": "camp_site",
+    "website": "https://www.vill.achi.lg.jp/soshiki/5/2009-11-post-95.html"
+   }
+  },
+  {
+   "osm": "way/1042821418",
+   "pref": "長野県",
+   "lat": 35.50167,
+   "lon": 138.01786,
+   "tags": {
+    "name": "大鹿キャンプ場ストリーム深ケ沢",
+    "name:en": "Shingasawa Campground",
+    "name:ja": "大鹿キャンプ場ストリーム深ケ沢",
+    "tourism": "camp_site",
+    "website": "http://ooshika-kanko.com/nikki/2016/07/post-72.html"
+   }
+  },
+  {
+   "osm": "way/1059738769",
+   "pref": "長野県",
+   "lat": 35.567466,
+   "lon": 137.858222,
+   "tags": {
+    "area": "yes",
+    "name": "TENKU〜南信州グランピング〜",
+    "name:en": "Tenku Glamping",
+    "name:ja": "TENKU〜南信州グランピング〜",
+    "tourism": "camp_site",
+    "website": "https://www.tenku-glamping.jp/glamping"
+   }
+  },
+  {
+   "osm": "way/1159082898",
+   "pref": "長野県",
+   "lat": 35.37397,
+   "lon": 137.778395,
+   "tags": {
+    "name": "KANESHIGE CAMP & CHEERS Free Site",
+    "name:ja": "KANESHIGE CAMP & CHEERS Free Site",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1198873152",
+   "pref": "長野県",
+   "lat": 35.314559,
+   "lon": 137.814626,
+   "tags": {
+    "group_only": "yes",
+    "name": "阿南少年自然の家キャンプ場",
+    "name:ja": "阿南少年自然の家キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1252172198",
+   "pref": "長野県",
+   "lat": 35.999782,
+   "lon": 138.568995,
+   "tags": {
+    "name": "立原高原キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1261398498",
+   "pref": "長野県",
+   "lat": 36.065271,
+   "lon": 138.629341,
+   "tags": {
+    "name": "長者の森キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1261400187",
+   "pref": "長野県",
+   "lat": 36.082841,
+   "lon": 138.406292,
+   "tags": {
+    "name": "駒出池キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1261402837",
+   "pref": "長野県",
+   "lat": 36.130967,
+   "lon": 138.278606,
+   "tags": {
+    "charge": "300",
+    "check_date": "2024-07-21",
+    "drinking_water": "yes",
+    "fee": "yes",
+    "internet_access": "no",
+    "name": "夢の平キャンプ場",
+    "power_supply": "no",
+    "reservation": "required",
+    "shower": "no",
+    "source": "survey",
+    "toilets": "yes",
+    "tourism": "camp_site",
+    "website": "https://shirakabakogen.jp/camp"
+   }
+  },
+  {
+   "osm": "way/1280840076",
+   "pref": "長野県",
+   "lat": 36.410948,
+   "lon": 138.006329,
+   "tags": {
+    "name": "とくら沢ふれあい広場 キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1303592983",
+   "pref": "長野県",
+   "lat": 35.555766,
+   "lon": 138.142435,
+   "tags": {
+    "access": "customers",
+    "backcountry": "yes",
+    "capacity:persons": "100",
+    "capacity:tents": "50",
+    "caravans": "no",
+    "fee": "yes",
+    "name": "三伏峠キャンプ場",
+    "name:en": "Sanpuku-toge Camping Area",
+    "name:ja": "三伏峠キャンプ場",
+    "operator": "三伏峠小屋",
+    "payment:cash": "yes",
+    "static_caravans": "no",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1382890931",
+   "pref": "長野県",
+   "lat": 35.831343,
+   "lon": 137.775711,
+   "tags": {
+    "fee": "no",
+    "name": "木曽駒冷水公園",
+    "name:en": "Kisokoma Reisui Park",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://kisokomareisui.com/"
+   }
+  },
+  {
+   "osm": "node/3098343650",
+   "pref": "静岡県",
+   "lat": 35.163194,
+   "lon": 138.326857,
+   "tags": {
+    "name": "玉川キャンプセンター",
+    "operator": "静岡市",
+    "source": "survey",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/3337103393",
+   "pref": "静岡県",
+   "lat": 34.83165,
+   "lon": 137.630104,
+   "tags": {
+    "internet_access": "no",
+    "name": "太田山野営場",
+    "source": "Survey ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/3703088617",
+   "pref": "静岡県",
+   "lat": 35.233771,
+   "lon": 138.725181,
+   "tags": {
+    "name": "丸火自然公園東 西グリーンキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4328361009",
+   "pref": "静岡県",
+   "lat": 34.892042,
+   "lon": 137.978169,
+   "tags": {
+    "name": "yoshikawa campsite",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4328421289",
+   "pref": "静岡県",
+   "lat": 34.960821,
+   "lon": 137.900093,
+   "tags": {
+    "name": "camping ground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4349218062",
+   "pref": "静岡県",
+   "lat": 35.257866,
+   "lon": 138.32487,
+   "tags": {
+    "name": "梅ヶ島キャンプ場",
+    "operator": "静岡市",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4447809208",
+   "pref": "静岡県",
+   "lat": 34.875908,
+   "lon": 138.017208,
+   "tags": {
+    "name": "ならここの里キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4447809209",
+   "pref": "静岡県",
+   "lat": 34.901025,
+   "lon": 138.012334,
+   "tags": {
+    "name": "明ヶ島キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4450181509",
+   "pref": "静岡県",
+   "lat": 34.731104,
+   "lon": 138.232461,
+   "tags": {
+    "name": "静波海水浴場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4843974225",
+   "pref": "静岡県",
+   "lat": 35.385681,
+   "lon": 138.579925,
+   "tags": {
+    "name": "朝霧オートキャンプ場",
+    "name:ja": "朝霧オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4843985221",
+   "pref": "静岡県",
+   "lat": 34.69737,
+   "lon": 138.766266,
+   "tags": {
+    "name": "南伊豆夕日が丘キャンプ場",
+    "name:en": "Minami Izu Yuhi-ga-Oka  Camping Ground",
+    "name:ja": "南伊豆夕日が丘キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4844742221",
+   "pref": "静岡県",
+   "lat": 34.697564,
+   "lon": 138.766294,
+   "tags": {
+    "name": "南伊豆夕日が丘キャップ場",
+    "name:en": "Minami Izu Yuhi-ga-Oka  Camping Ground",
+    "name:ja": "南伊豆夕日が丘キャップ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4907542095",
+   "pref": "静岡県",
+   "lat": 35.407444,
+   "lon": 138.139995,
+   "tags": {
+    "capacity": "50",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4907547182",
+   "pref": "静岡県",
+   "lat": 35.372303,
+   "lon": 138.144536,
+   "tags": {
+    "capacity": "45",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4907562883",
+   "pref": "静岡県",
+   "lat": 35.492696,
+   "lon": 138.200117,
+   "tags": {
+    "capacity": "30",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4907562887",
+   "pref": "静岡県",
+   "lat": 35.460338,
+   "lon": 138.182413,
+   "tags": {
+    "capacity": "15",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4907562890",
+   "pref": "静岡県",
+   "lat": 35.453447,
+   "lon": 138.127376,
+   "tags": {
+    "backcountry": "yes",
+    "capacity": "20",
+    "caravans": "no",
+    "name": "百閒洞露営地",
+    "name:en": "Hyakkenbora Campsite",
+    "name:ja": "百閒洞露営地",
+    "static_caravans": "no",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/4908695560",
+   "pref": "静岡県",
+   "lat": 35.631282,
+   "lon": 138.205755,
+   "tags": {
+    "capacity": "25",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5515944929",
+   "pref": "静岡県",
+   "lat": 34.714273,
+   "lon": 138.743582,
+   "tags": {
+    "name": "雲見夕陽 と潮騒の 岬オート キャンプ場",
+    "name:en": "Sunset　OF Kumomi And Auto Campground In The Cape Of Sea Wave Sound",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5547311121",
+   "pref": "静岡県",
+   "lat": 34.968531,
+   "lon": 138.349617,
+   "tags": {
+    "name:en": "shit wild camping spec",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5696179032",
+   "pref": "静岡県",
+   "lat": 35.364473,
+   "lon": 138.15909,
+   "tags": {
+    "capacity": "60",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5696179033",
+   "pref": "静岡県",
+   "lat": 35.357628,
+   "lon": 138.167206,
+   "tags": {
+    "capacity": "7",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/5921601272",
+   "pref": "静岡県",
+   "lat": 34.879387,
+   "lon": 137.698502,
+   "tags": {
+    "name": "かわな野外活動センター",
+    "operator": "浜松市",
+    "tourism": "camp_site",
+    "website": "http://park20.wakwak.com/~hamataikyou/kawana/"
+   }
+  },
+  {
+   "osm": "node/6085562199",
+   "pref": "静岡県",
+   "lat": 34.799643,
+   "lon": 138.926958,
+   "tags": {
+    "name": "河津七滝オートキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6303532786",
+   "pref": "静岡県",
+   "lat": 34.951402,
+   "lon": 138.940545,
+   "tags": {
+    "addr:housenumber": "1052-1",
+    "addr:postcode": "4102415",
+    "addr:street": "修善寺天城湯ヶ島線",
+    "name": "ベアードブルワリーガーデン",
+    "phone": "0558-73-1225",
+    "tourism": "camp_site",
+    "website": "https://camp.bairdbeer.com/"
+   }
+  },
+  {
+   "osm": "node/6615367427",
+   "pref": "静岡県",
+   "lat": 34.712012,
+   "lon": 137.583259,
+   "tags": {
+    "facebook": "https://www.facebook.com/TARICANHAMurakushiBEACH/",
+    "name": "TARI CANHA Murakushi BEACH",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6694375486",
+   "pref": "静岡県",
+   "lat": 35.289882,
+   "lon": 138.967812,
+   "tags": {
+    "name": "1st Campground (paid)",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/8061962008",
+   "pref": "静岡県",
+   "lat": 35.258779,
+   "lon": 138.862643,
+   "tags": {
+    "name": "大野路ファミリーキャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/8789262101",
+   "pref": "静岡県",
+   "lat": 34.866127,
+   "lon": 138.016635,
+   "tags": {
+    "name": "萩間キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/8867732174",
+   "pref": "静岡県",
+   "lat": 34.802419,
+   "lon": 138.10338,
+   "tags": {
+    "name": "菊川市野外宿泊施設（火剣山キャンプ場）",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/9566204117",
+   "pref": "静岡県",
+   "lat": 35.118435,
+   "lon": 138.425611,
+   "tags": {
+    "name": "清水森林公園　黒川キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/11274423090",
+   "pref": "静岡県",
+   "lat": 34.908209,
+   "lon": 139.125215,
+   "tags": {
+    "name": "K's Camp Glamping",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/11756896540",
+   "pref": "静岡県",
+   "lat": 35.373315,
+   "lon": 138.597499,
+   "tags": {
+    "access": "customers",
+    "caravans": "yes",
+    "drinking_water": "yes",
+    "fee": "yes",
+    "name": "井出トマト農園 富士高原トマトフィールド",
+    "operator": "井出トマト農園",
+    "power_supply": "no",
+    "static_caravans": "yes",
+    "tents": "yes",
+    "toilets": "yes",
+    "tourism": "camp_site",
+    "website": "https://corp.idetomato.com/experience#fujiplateau"
+   }
+  },
+  {
+   "osm": "node/12105612575",
+   "pref": "静岡県",
+   "lat": 35.359835,
+   "lon": 138.559725,
+   "tags": {
+    "addr:city": "富士宮市",
+    "addr:country": "JP",
+    "addr:housenumber": "2227",
+    "addr:place": "井之頭",
+    "addr:postcode": "418-0108",
+    "addr:province": "静岡県",
+    "contact:instagram": "https://www.instagram.com/fuji_camp_village/",
+    "contact:website:ja": "https://www.instagram.com/fuji_camp_village/",
+    "name": "fuji camp village",
+    "survey:date": "2024-08-12",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12812338480",
+   "pref": "静岡県",
+   "lat": 35.356094,
+   "lon": 138.552664,
+   "tags": {
+    "addr:city": "富士宮市",
+    "addr:country": "JP",
+    "addr:housenumber": "2350",
+    "addr:place": "猪之頭",
+    "addr:postcode": "418-0108",
+    "addr:province": "静岡県",
+    "contact:phone": "+81 0551 45 9025",
+    "contact:website:ja": "https://www.kobitto-asagiri.com/",
+    "name": "Kobitto Asagiri Camp Field",
+    "name:en": "Foresters Village Kobitto Asagiri Camp Field",
+    "name:ja": "あさぎりキャンプフィールド",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12812338481",
+   "pref": "静岡県",
+   "lat": 35.349303,
+   "lon": 138.565666,
+   "tags": {
+    "addr:city": "富士宮市",
+    "addr:country": "JP",
+    "addr:housenumber": "2131-4",
+    "addr:place": "猪之頭",
+    "addr:postcode": "418-0108",
+    "addr:province": "静岡県",
+    "contact:mobile": "+81 90 2345 0125",
+    "contact:phone": "+81 0544 66 5230",
+    "contact:website:ja": "https://fujiyamaizumi.com/ja/",
+    "name": "FUJIYAMA 泉の森 キャンピングフィールドの世界",
+    "name:en": "Fujiyama izumi-no-mori camping field",
+    "name:ja": "FUJIYAMA 泉の森 キャンピングフィールドの世界",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12812338507",
+   "pref": "静岡県",
+   "lat": 35.338343,
+   "lon": 138.55795,
+   "tags": {
+    "contact:phone": "+81 544 54 1543",
+    "contact:website:ja": "https://tenshinomori.net/",
+    "name": "天子の森オートキャンプ場",
+    "name:en": "Tenshi-no-mori car campsite",
+    "name:ja-Latn": "Tenshi-no-mori Ōtokyanpu-jō",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/12812594526",
+   "pref": "静岡県",
+   "lat": 35.392405,
+   "lon": 138.565151,
+   "tags": {
+    "addr:city": "富士宮市",
+    "addr:country": "JP",
+    "addr:housenumber": "624-7",
+    "addr:place": "麓",
+    "addr:postcode": "418-0109",
+    "addr:province": "静岡県",
+    "contact:phone": "+81 544 21 3955",
+    "contact:website:ja": "https://sorairo-camp.jp/",
+    "name": "朝霧Camp Base そらいろ",
+    "name:en": "Asagiri Camp Base Sorairo",
+    "note": "position estimates",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/13232036711",
+   "pref": "静岡県",
+   "lat": 35.195309,
+   "lon": 138.771761,
+   "tags": {
+    "capacity": "5",
+    "name": "須津山休養林キャンプ場",
+    "name:en": "Suzu-san Kyūyōrin camp site",
+    "name:ja": "須津山休養林キャンプ場",
+    "name:ja-Hira": "すずさんきゅうようりんキャンプじょう",
+    "name:ja-Latn": "Suzu-san Kyūyōrin kyanpu-jō",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://www.city.fuji.shizuoka.jp/1035250000/miryoku/p007456.html",
+    "website:en": "https://honyaku.j-server.com/LUCAIFUJI/ns/w3/jaen/https://www.city.fuji.shizuoka.jp/1035250000/miryoku/p007456.html"
+   }
+  },
+  {
+   "osm": "node/13357150202",
+   "pref": "静岡県",
+   "lat": 34.894675,
+   "lon": 139.134337,
+   "tags": {
+    "name": "Kusamakura Camping Ground",
+    "tourism": "camp_site",
+    "website": "http://kusamakura.co"
+   }
+  },
+  {
+   "osm": "node/13615635601",
+   "pref": "静岡県",
+   "lat": 35.355631,
+   "lon": 138.930449,
+   "tags": {
+    "name:en": "Hinokinomori campsite",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/80678508",
+   "pref": "静岡県",
+   "lat": 35.05566,
+   "lon": 137.766641,
+   "tags": {
+    "name": "浦川キャンプ村",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/261942542",
+   "pref": "静岡県",
+   "lat": 35.039904,
+   "lon": 139.171524,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/460742720",
+   "pref": "静岡県",
+   "lat": 34.992363,
+   "lon": 137.761975,
+   "tags": {
+    "name": "龍山秘密村",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/484473842",
+   "pref": "静岡県",
+   "lat": 35.387493,
+   "lon": 138.586841,
+   "tags": {
+    "landuse": "forest",
+    "name": "静岡県立朝霧野外活動センター",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/515962343",
+   "pref": "静岡県",
+   "lat": 35.298956,
+   "lon": 138.70071,
+   "tags": {
+    "addr:city": "富士宮市",
+    "addr:neighbourhood": "2745",
+    "addr:postcode": "418-0011",
+    "addr:province": "静岡県",
+    "addr:quarter": "粟倉",
+    "name": "PICA表富士",
+    "phone": "0544-58-6881",
+    "tourism": "camp_site",
+    "website": "https://www.pica-resort.jp/omotefuji/"
+   }
+  },
+  {
+   "osm": "way/537919847",
+   "pref": "静岡県",
+   "lat": 35.166919,
+   "lon": 138.149628,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/549293216",
+   "pref": "静岡県",
+   "lat": 34.629996,
+   "lon": 138.812933,
+   "tags": {
+    "name": "伊豆入間キャンプ村",
+    "operator": "伊豆入間キャンプ村",
+    "source": "GSImaps/ort",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/574712612",
+   "pref": "静岡県",
+   "lat": 34.714806,
+   "lon": 138.743584,
+   "tags": {
+    "name": "雲見夕陽と潮騒の岬オートキャンプ場",
+    "source": "GSImaps/ort",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/640260125",
+   "pref": "静岡県",
+   "lat": 35.39859,
+   "lon": 138.564672,
+   "tags": {
+    "addr:city": "富士宮市",
+    "addr:country": "JP",
+    "addr:housenumber": "156",
+    "addr:place": "麓",
+    "addr:postcode": "418-0109",
+    "addr:province": "静岡県",
+    "contact:phone": "+81 544 52 2112",
+    "contact:website:en": "https://fumotoppara.net/en/",
+    "contact:website:ja": "https://fumotoppara.net/",
+    "name": "ふもとっぱらキャンプ場",
+    "name:en": "Fumotoppara Camp Site",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/640270539",
+   "pref": "静岡県",
+   "lat": 35.341932,
+   "lon": 138.583254,
+   "tags": {
+    "name": "富士山YMCAグローバル・エコ・ヴィレッジ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/651963743",
+   "pref": "静岡県",
+   "lat": 34.698074,
+   "lon": 137.605985,
+   "tags": {
+    "fee": "yes",
+    "operator": "渚園",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/688134314",
+   "pref": "静岡県",
+   "lat": 35.292724,
+   "lon": 138.782396,
+   "tags": {
+    "name": "PICA富士ぐりんぱ　パークエリア",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/688134794",
+   "pref": "静岡県",
+   "lat": 35.294399,
+   "lon": 138.779274,
+   "tags": {
+    "name": "PICA富士ぐりんぱ グリーンエリア",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/734298344",
+   "pref": "静岡県",
+   "lat": 35.237919,
+   "lon": 138.929674,
+   "tags": {
+    "camp_site": "serviced",
+    "fee": "yes",
+    "name": "時之栖 OUTDOOR HILL VILLAGE キャンプサイト",
+    "static_caravans": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/847972890",
+   "pref": "静岡県",
+   "lat": 34.995483,
+   "lon": 138.085718,
+   "tags": {
+    "name": "くのわき親水公園キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1089966488",
+   "pref": "静岡県",
+   "lat": 35.237811,
+   "lon": 138.928814,
+   "tags": {
+    "fee": "yes",
+    "name": "Outdoor Hill Village",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://www.tokinosumika.com/outdoor/"
+   }
+  },
+  {
+   "osm": "way/1172356648",
+   "pref": "静岡県",
+   "lat": 35.148251,
+   "lon": 138.597581,
+   "tags": {
+    "addr:city": "富士",
+    "addr:housenumber": "4482の141",
+    "addr:postcode": "421-3306",
+    "addr:province": "静岡",
+    "addr:quarter": "中之",
+    "fee": "yes",
+    "name:en": "Nodayama Kenko Ryokuchi Park \"Fujikawa Campground\"",
+    "name:ja": "野田山健康緑地公園富士川キャンプ場",
+    "tents": "yes",
+    "tourism": "camp_site",
+    "website": "https://fujikawa-camp.jp/"
+   }
+  },
+  {
+   "osm": "way/1197053362",
+   "pref": "静岡県",
+   "lat": 34.712059,
+   "lon": 138.745417,
+   "tags": {
+    "name": "雲見オートキャンプ場",
+    "name:en": "Kumomi Auto Campground",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1244553042",
+   "pref": "静岡県",
+   "lat": 35.341228,
+   "lon": 138.557909,
+   "tags": {
+    "caravans": "no",
+    "contact:phone": "+81 54-452-0155",
+    "contact:website": "https://tanukiko.com/",
+    "name": "田貫湖ｷｬﾝﾌﾟ場",
+    "name:en": "Tanuki Lake Campground",
+    "name:fr": "Terrain de camping du lac Tanuki",
+    "name:ja-Hira": "たぬきこ ｷｬﾝﾌﾟじょう",
+    "name:ja-Latn": "Tanuki-ko kyanpu-ba",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1343979201",
+   "pref": "静岡県",
+   "lat": 34.629398,
+   "lon": 138.885776,
+   "tags": {
+    "addr:block_number": "1212-1",
+    "addr:city": "南伊豆町",
+    "addr:county": "賀茂郡",
+    "addr:postcode": "415-0153",
+    "addr:province": "静岡県",
+    "addr:suburb": "手石",
+    "capacity:tents": "11",
+    "caravans": "no",
+    "fee": "yes",
+    "name": "手石キャンプ場",
+    "name:en": "Teishi Camping Ground",
+    "static_caravans": "no",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1441541821",
+   "pref": "静岡県",
+   "lat": 35.233971,
+   "lon": 138.877252,
+   "tags": {
+    "contact:instagram": "https://www.instagram.com/sumiya_base/",
+    "name": "炭屋ベース キャンプ場",
+    "name:en": "Sumiya Base Camping Ground",
+    "name:ja": "炭屋ベース キャンプ場",
+    "tents": "yes",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/1935180503",
+   "pref": "三重県",
+   "lat": 34.361276,
+   "lon": 136.815995,
+   "tags": {
+    "name": "伊勢志摩エバーグレイズ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/2266567634",
+   "pref": "三重県",
+   "lat": 33.899164,
+   "lon": 136.117553,
+   "tags": {
+    "name": "大泊海水浴場キャンプ場",
+    "source": "bing",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6045035285",
+   "pref": "三重県",
+   "lat": 34.463589,
+   "lon": 136.466008,
+   "tags": {
+    "name:en": "Campsite (free!)",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6356113586",
+   "pref": "三重県",
+   "lat": 33.75808,
+   "lon": 135.9265,
+   "tags": {
+    "addr:full": "1409-1, Asari, Kiho, Minamimuro-gun, Mie 519-5718, Japan",
+    "name": "Hisetsunotaki Camping Ground",
+    "name:en": "Hisetsunotaki Camping Ground",
+    "phone": "+81 735-21-1333",
+    "tourism": "camp_site",
+    "website": "https://hisetsu.jp/"
+   }
+  },
+  {
+   "osm": "node/6611345285",
+   "pref": "三重県",
+   "lat": 34.57073,
+   "lon": 136.07965,
+   "tags": {
+    "name": "赤眼四十八滝キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/6794314285",
+   "pref": "三重県",
+   "lat": 34.448642,
+   "lon": 136.2988,
+   "tags": {
+    "name": "つつじの里 荒滝",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7827956185",
+   "pref": "三重県",
+   "lat": 33.837685,
+   "lon": 135.857662,
+   "tags": {
+    "name": "小船キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/7827959285",
+   "pref": "三重県",
+   "lat": 34.583195,
+   "lon": 136.368215,
+   "tags": {
+    "name": "矢頭中宮キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/8847684095",
+   "pref": "三重県",
+   "lat": 34.864766,
+   "lon": 136.145089,
+   "tags": {
+    "name": "たそがれテラスまきやま",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "node/10087980517",
+   "pref": "三重県",
+   "lat": 34.511427,
+   "lon": 136.3196,
+   "tags": {
+    "name": "オフロードランドMio",
+    "survey:date": "2022-10-10",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/365852489",
+   "pref": "三重県",
+   "lat": 34.304448,
+   "lon": 136.718686,
+   "tags": {
+    "name": "南張海浜公園キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/465595185",
+   "pref": "三重県",
+   "lat": 34.849935,
+   "lon": 136.545254,
+   "tags": {
+    "name": "鈴鹿サーキット ファミリーキャンプ",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/676977160",
+   "pref": "三重県",
+   "lat": 34.780123,
+   "lon": 136.084229,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1025274083",
+   "pref": "三重県",
+   "lat": 33.758219,
+   "lon": 135.926306,
+   "tags": {
+    "name": "飛雪の滝キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1025274084",
+   "pref": "三重県",
+   "lat": 33.757657,
+   "lon": 135.926809,
+   "tags": {
+    "name": "飛雪の滝キャンプ場",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1079758995",
+   "pref": "三重県",
+   "lat": 34.565866,
+   "lon": 136.659619,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1352321716",
+   "pref": "三重県",
+   "lat": 34.271479,
+   "lon": 136.758094,
+   "tags": {
+    "name": "オートキャンプ御座岬",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1352321719",
+   "pref": "三重県",
+   "lat": 34.271121,
+   "lon": 136.75919,
+   "tags": {
+    "contact:phone": "+81 599-88-3319",
+    "contact:website": "http://www.gozamisaki.com/",
+    "name": "オートキャンプ御座岬",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1352391534",
+   "pref": "三重県",
+   "lat": 34.262989,
+   "lon": 136.779694,
+   "tags": {
+    "addr:city": "志摩市",
+    "addr:housenumber": "2279",
+    "addr:neighbourhood": "志摩町越賀",
+    "addr:postcode": "517-0704",
+    "addr:province": "三重県",
+    "contact:phone": "+81 599-85-6500",
+    "contact:website": "https://shima-de-camp.com/",
+    "name": "志摩オートキャンプ所",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1352404346",
+   "pref": "三重県",
+   "lat": 34.260494,
+   "lon": 136.78394,
+   "tags": {
+    "addr:city": "志摩市",
+    "addr:housenumber": "2249-1",
+    "addr:neighbourhood": "志摩町越賀",
+    "addr:postcode": "5170704",
+    "addr:province": "三重県",
+    "contact:phone": "+81 90-9920-6262",
+    "contact:website": "https://shima-azuricamp.com/",
+    "name": "Azuri Camp Space",
+    "start_date": "2021",
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "way/1513887457",
+   "pref": "三重県",
+   "lat": 34.575256,
+   "lon": 136.653356,
+   "tags": {
+    "tourism": "camp_site"
+   }
+  },
+  {
+   "osm": "relation/13708821",
+   "pref": "三重県",
+   "lat": 34.882642,
+   "lon": 136.360241,
+   "tags": {
+    "building": "public",
+    "description": "鈴鹿峠自然の家は、豊かな自然と東海道五十三次坂下宿や鈴鹿峠に隣接した歴史環境の中で、あたたかみのある木造校舎を活かしてさまざまな体験活動が行えます。\n屋外での飯ごう炊さんやキャンプファイヤー、学習室での体験学習など、集団生活での「学び」にご活用ください。",
+    "name": "鈴鹿峠自然の家",
+    "operator": "亀山市",
+    "source": "GSImaps/std",
+    "tourism": "camp_site",
+    "type": "multipolygon",
+    "website": "https://www.city.kameyama.mie.jp/kyouiku/article/2014112307467/sizennoie.html"
+   }
+  }
+ ]
+}
