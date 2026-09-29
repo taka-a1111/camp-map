@@ -16,7 +16,7 @@ MANUAL = ROOT / "data" / "manual.json"
 OUT = ROOT / "data" / "camps.json"
 
 # キャンプ場らしい名前（これに当たらず公式URLもないものは除外）
-LIKE = re.compile(r"キャンプ|ｷｬﾝﾌﾟ|camp|野営|テント|幕営|グランピング|glamping|キャンピング|オート|バンガロー|ケビン|コテージ|村|の森|高原|公園|牧場|野外|ベース|フィールド|field|base|village|の家|の郷|の里", re.I)
+LIKE = re.compile(r"キャンプ|ｷｬﾝﾌﾟ|camp|野営|テント|幕営|グランピング|glamping|キャンピング|オート|バンガロー|ケビン|コテージ|村|の森|高原|公園|牧場|野外|ベース|フィールド|field|base|village|の家|の郷|の里|PICA|ヴィレッジ|キャンプ村", re.I)
 # キャンプ場ではない・情報として役に立たないもの
 EXCLUDE = re.compile(r"発電所|ヘリポート|分岐|昼ごはん|洞窟|海水浴場$|デイキャンプ|ボーイスカウト|貸しテント場|^中央広場$", re.I)
 JA = re.compile(r"[\u3040-\u30ff\u4e00-\u9fff]")
