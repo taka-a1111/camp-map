@@ -306,3 +306,8 @@ select { max-width: 150px; }
 @media (min-width: 900px) {
   .filters.budget { left: 12px; right: auto; }
 }
+.seg { display: inline-flex; border: 1px solid var(--accent); border-radius: 8px; overflow: hidden; margin: 2px 0 8px; }
+.seg label { display: inline-flex; align-items: center; padding: 6px 12px; font-size: 13px; cursor: pointer; color: var(--accent); }
+.seg label + label { border-left: 1px solid var(--accent); }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg label:has(input:checked) { background: var(--accent); color: #fff; }

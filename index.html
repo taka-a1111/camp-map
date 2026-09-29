@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<!-- BUILD_TAG: 2026-09-29c -->
+<!-- BUILD_TAG: 2026-09-29d -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
-<link rel="stylesheet" href="css/style.css?v=2026-09-29c">
+<link rel="stylesheet" href="css/style.css?v=2026-09-29d">
 </head>
 <body>
 <header class="bar" id="bar">
@@ -44,17 +44,12 @@
       <div id="partyPeople"></div>
     </fieldset>
     <fieldset>
-      <legend>1人あたりの予算（1泊・入場料や車の料金も含む）</legend>
-      <div class="chips" id="maxChips">
-        <label><input type="radio" name="max" value="" checked>指定なし</label>
-        <label><input type="radio" name="max" value="0">無料</label>
-        <label><input type="radio" name="max" value="1000">〜1,000円</label>
-        <label><input type="radio" name="max" value="1500">〜1,500円</label>
-        <label><input type="radio" name="max" value="2000">〜2,000円</label>
-        <label><input type="radio" name="max" value="2500">〜2,500円</label>
-        <label><input type="radio" name="max" value="3000">〜3,000円</label>
-        <label><input type="radio" name="max" value="4000">〜4,000円</label>
+      <legend>予算（1泊・入場料や車の料金も含む）</legend>
+      <div class="seg" id="basisSeg" role="radiogroup" aria-label="予算の基準">
+        <label><input type="radio" name="basis" value="total" checked>総額（全員分）</label>
+        <label><input type="radio" name="basis" value="per">1人あたり</label>
       </div>
+      <div class="chips" id="maxChips"></div>
     </fieldset>
     <details class="gear">
       <summary>持ち込むもの（テント・タープ・車）<span id="gearSummary"></span></summary>
@@ -125,11 +120,11 @@
 
 <footer class="foot">
   <span>料金は目安です。予約前に必ず公式サイトでご確認ください。</span>
-  <span class="tag" id="buildTag">BUILD 2026-09-29c</span>
+  <span class="tag" id="buildTag">BUILD 2026-09-29d</span>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
-<script src="js/app.js?v=2026-09-29c"></script>
+<script src="js/app.js?v=2026-09-29d"></script>
 </body>
 </html>

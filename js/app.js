@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-29c */
+/* キャンプ場マップ BUILD_TAG: 2026-09-29d */
 (function () {
   "use strict";
-  var BUILD = "2026-09-29c";
+  var BUILD = "2026-09-29d";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -38,6 +38,8 @@
   var party = {};
   var myPos = null;
   var sortBy = "price";
+  var basis = "total"; // 予算とピンの金額の基準："total"（全員分の総額）｜"per"（1人あたり）
+  var MAX_OPTS = { total: [0, 2000, 3000, 4000, 5000, 6000, 8000, 10000], per: [0, 1000, 1500, 2000, 2500, 3000, 4000] };
 
   // ---------- 地図 ----------
   var map = L.map("map", { zoomControl: true }).fitBounds(PREF_VIEW[""]);
@@ -167,10 +169,11 @@
     return { total: total, per: people ? total / people : total, rows: rows, unknown: unknown, warn: warn };
   }
 
-  function priceText(r) {
+  function basisValue(r) { return basis === "total" ? r.total : r.per; }
+  function priceText(r, which) {
     if (!r || r.total == null) return "";
-    var per = Math.round(r.per);
-    return (per === 0 ? "無料" : "¥" + per.toLocaleString("ja-JP")) + (r.unknown.length ? "〜" : "");
+    var v = Math.round(which === "per" ? r.per : which === "total" ? r.total : basisValue(r));
+    return (v === 0 ? "無料" : "¥" + v.toLocaleString("ja-JP")) + (r.unknown.length ? "〜" : "");
   }
 
   function iconFor(c) {
@@ -198,7 +201,7 @@
   function match(c, s) {
     if (s.pref && c.pref !== s.pref) return false;
     var r = c._calc;
-    if (s.max !== "") { if (!r || r.total == null || r.per > Number(s.max)) return false; }
+    if (s.max !== "") { if (!r || r.total == null || basisValue(r) > Number(s.max)) return false; }
     if (s.known && !(r && r.total != null)) return false;
     if (s.nomt && c.mountain) return false;
     if (s.open && c.status !== "open") return false;
@@ -219,6 +222,7 @@
   function writeUrl(s) {
     var p = new URLSearchParams();
     if (s.pref) p.set("pref", s.pref);
+    if (basis !== "total") p.set("basis", basis);
     if (s.max !== "") p.set("max", s.max);
     if (s.q) p.set("q", s.q);
     if (s.types.length) p.set("types", s.types.join(","));
@@ -233,6 +237,9 @@
   function readUrl() {
     var p = new URLSearchParams(location.search);
     if (p.get("pref") && PREF_VIEW[p.get("pref")]) els.pref.value = p.get("pref");
+    basis = p.get("basis") === "per" ? "per" : "total";
+    document.querySelectorAll('input[name="basis"]').forEach(function (i) { i.checked = i.value === basis; });
+    renderMaxChips();
     setMax(p.has("max") ? p.get("max") : "");
     if (p.get("q")) els.q.value = p.get("q");
     ["types", "book", "fac"].forEach(function (k) {
@@ -251,6 +258,12 @@
   }
 
   // ---------- 人数・テントの入力 ----------
+  function renderMaxChips() {
+    var suf = basis === "total" ? "" : "/人";
+    $("maxChips").innerHTML = '<label><input type="radio" name="max" value="" checked>指定なし</label>' + MAX_OPTS[basis].map(function (v) {
+      return '<label><input type="radio" name="max" value="' + v + '">' + (v === 0 ? "無料" : "〜" + v.toLocaleString("ja-JP") + "円" + suf) + "</label>";
+    }).join("");
+  }
   function getMax() {
     var r = document.querySelector('input[name="max"]:checked');
     return r ? r.value : "";
@@ -277,7 +290,7 @@
   function syncPartyUi() {
     document.querySelectorAll(".st-v").forEach(function (el) { el.textContent = party[el.getAttribute("data-v")]; });
     var m = getMax();
-    $("budgetSummary").textContent = (m === "" ? "指定なし" : m === "0" ? "無料" : "〜" + Number(m).toLocaleString("ja-JP") + "円/人") + "・" + partyText();
+    $("budgetSummary").textContent = (m === "" ? "指定なし" : m === "0" ? "無料" : "〜" + Number(m).toLocaleString("ja-JP") + (basis === "total" ? "円（総額）" : "円/人")) + "・" + partyText();
     els.budgetBtn.classList.toggle("on", m !== "");
     $("gearSummary").textContent = "：テント" + party.tent + "・タープ" + party.tarp + "・車" + party.car;
   }
@@ -326,8 +339,8 @@
     v.forEach(function (c) { c._km = kmBetween(center, [c.lat, c.lng]); });
     v.sort(function (x, y) {
       if (sortBy === "price") {
-        var px = x._calc && x._calc.total != null ? x._calc.per : Infinity;
-        var py = y._calc && y._calc.total != null ? y._calc.per : Infinity;
+        var px = x._calc && x._calc.total != null ? basisValue(x._calc) : Infinity;
+        var py = y._calc && y._calc.total != null ? basisValue(y._calc) : Infinity;
         if (px !== py) return px - py;
       }
       return x._km - y._km;
@@ -335,13 +348,13 @@
     var shown = v.slice(0, 150);
     var h = [];
     h.push('<div class="list-head"><h2 class="d-name">この範囲のキャンプ場 ' + v.length + "件</h2>");
-    h.push('<div class="sort"><button type="button" data-sort="price"' + (sortBy === "price" ? ' class="on"' : "") + '>1人あたりが安い順</button><button type="button" data-sort="near"' + (sortBy === "near" ? ' class="on"' : "") + ">" + (myPos ? "現在地から近い順" : "地図の中心から近い順") + "</button></div>");
-    h.push('<p class="list-note">地図を動かすと自動で入れ替わります。料金は' + esc(partyText()) + "で計算した1人あたりの目安です。</p></div>");
+    h.push('<div class="sort"><button type="button" data-sort="price"' + (sortBy === "price" ? ' class="on"' : "") + '>' + (basis === "total" ? "総額が安い順" : "1人あたりが安い順") + '</button><button type="button" data-sort="near"' + (sortBy === "near" ? ' class="on"' : "") + ">" + (myPos ? "現在地から近い順" : "地図の中心から近い順") + "</button></div>");
+    h.push('<p class="list-note">地図を動かすと自動で入れ替わります。料金は' + esc(partyText()) + "で計算した" + (basis === "total" ? "全員分の総額" : "1人あたり") + "の目安です。</p></div>");
     if (!v.length) h.push('<p class="empty">この範囲に条件に合うキャンプ場はありません。地図を縮小するか、条件をゆるめてください。</p>');
     h.push('<ul class="list">');
     shown.forEach(function (c) {
       var r = c._calc;
-      var price = r && r.total != null ? '<span class="li-price">' + priceText(r) + '<small>/人</small></span>' : '<span class="li-price none">料金未確認</span>';
+      var price = r && r.total != null ? '<span class="li-price">' + priceText(r) + '<small>' + (basis === "total" ? "（" + (party.a + party.c) + "人）" : "/人") + '</small></span>' : '<span class="li-price none">料金未確認</span>';
       h.push('<li><button type="button" data-id="' + esc(c.id) + '"><span class="li-main"><span class="li-name">' + esc(c.name) + '</span><span class="li-sub">' + esc(c.pref + (c.city ? " " + c.city : "")) + " ・ " + c._km.toFixed(c._km < 10 ? 1 : 0) + "km" + (c.status !== "open" ? " ・ 営業状況未確認" : "") + "</span></span>" + price + "</button></li>");
     });
     h.push("</ul>");
@@ -378,8 +391,9 @@
       h.push('<div class="total unknown">サイト料が未確認</div>');
     } else {
       var people = party.a + party.c;
-      h.push('<div class="totals"><div><span class="lbl">1人あたり</span><span class="total">' + priceText(r) + "</span></div>");
-      h.push('<div><span class="lbl">合計（' + people + "人）</span><span class=\"total sub\">" + yen(r.total) + (r.unknown.length ? "〜" : "") + "</span></div></div>");
+      var tot = '<div><span class="lbl">総額（' + people + '人・1泊）</span><span class="total' + (basis === "total" ? "" : " sub") + '">' + yen(r.total) + (r.unknown.length ? "〜" : "") + "</span></div>";
+      var per = '<div><span class="lbl">1人あたり（総額÷' + people + '人）</span><span class="total' + (basis === "per" ? "" : " sub") + '">' + priceText(r, "per") + "</span></div>";
+      h.push('<div class="totals">' + (basis === "total" ? tot + per : per + tot) + "</div>");
     }
     h.push("<table>");
     r.rows.forEach(function (x) {
@@ -510,7 +524,16 @@
   var qTimer;
   els.q.addEventListener("input", function () { clearTimeout(qTimer); qTimer = setTimeout(apply, 250); });
   els.filters.addEventListener("change", function () { apply(); });
-  els.budget.addEventListener("change", function () { syncPartyUi(); apply(); });
+  els.budget.addEventListener("change", function (e) {
+    if (e.target.name === "basis") {
+      basis = e.target.value;
+      renderMaxChips();
+      recalc();
+      if (mode === "detail" && activeId) renderDetail(byId(activeId), true);
+    }
+    syncPartyUi();
+    apply();
+  });
   function toggleFilters(open) {
     els.filters.hidden = !open;
     els.more.setAttribute("aria-expanded", open ? "true" : "false");
