@@ -924,11 +924,32 @@
 "url": "https://www.nap-camp.com/mie/16880"
 },
 {
-"pref": "三重県",
-"id": "16938",
-"name": "縁 古民家&CAMP ～kitayama～",
-"addr": "三重県伊賀市北山392",
-"url": "https://www.nap-camp.com/mie/16938"
+"pref": "岐阜県",
+"id": "10349",
+"name": "まるかりの里久野川",
+"addr": "岐阜県下呂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10349"
+},
+{
+"pref": "岐阜県",
+"id": "10350",
+"name": "飛騨金山の森キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10350"
+},
+{
+"pref": "岐阜県",
+"id": "10351",
+"name": "のほほんパークひだおさか（旧：飛騨小坂ふれあいの森キャンプ場）",
+"addr": "岐阜県下呂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10351"
+},
+{
+"pref": "岐阜県",
+"id": "10352",
+"name": "中川原キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10352"
 },
 {
 "pref": "岐阜県",
@@ -939,10 +960,52 @@
 },
 {
 "pref": "岐阜県",
+"id": "10355",
+"name": "老谷の森 川のほとりのキャンプ場",
+"addr": "岐阜県下呂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10355"
+},
+{
+"pref": "岐阜県",
+"id": "10356",
+"name": "カオレオートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10356"
+},
+{
+"pref": "岐阜県",
+"id": "10357",
+"name": "馬瀬川の里　すずし野",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10357"
+},
+{
+"pref": "岐阜県",
 "id": "10358",
 "name": "七宗遊園キャンプ場",
 "addr": "岐阜県加茂郡七宗町神渕",
 "url": "https://www.nap-camp.com/gifu/10358"
+},
+{
+"pref": "岐阜県",
+"id": "10359",
+"name": "青空見聞塾 宮代オートキャンプ場",
+"addr": "岐阜県加茂郡東白川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10359"
+},
+{
+"pref": "岐阜県",
+"id": "10360",
+"name": "佐見川峡キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10360"
+},
+{
+"pref": "岐阜県",
+"id": "10361",
+"name": "美濃白川アウトドアリゾート　クオーレふれあいの里",
+"addr": "岐阜県加茂郡白川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10361"
 },
 {
 "pref": "岐阜県",
@@ -953,10 +1016,24 @@
 },
 {
 "pref": "岐阜県",
+"id": "10363",
+"name": "ネイチャーランドかみのほ",
+"addr": "岐阜県関市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10363"
+},
+{
+"pref": "岐阜県",
 "id": "10364",
 "name": "迎島バンガロー",
 "addr": "岐阜県関市洞戸大野",
 "url": "https://www.nap-camp.com/gifu/10364"
+},
+{
+"pref": "岐阜県",
+"id": "10365",
+"name": "鮎の里ほらどオートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10365"
 },
 {
 "pref": "岐阜県",
@@ -974,10 +1051,73 @@
 },
 {
 "pref": "岐阜県",
+"id": "10368",
+"name": "AUTO CAMPING TACランドいたどり",
+"addr": "岐阜県関市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10368"
+},
+{
+"pref": "岐阜県",
 "id": "10369",
 "name": "キャンプランド新板取",
 "addr": "岐阜県関市板取杉原4602",
 "url": "https://www.nap-camp.com/gifu/10369"
+},
+{
+"pref": "岐阜県",
+"id": "10370",
+"name": "板取川温泉 コテージ湯屋",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10370"
+},
+{
+"pref": "岐阜県",
+"id": "10371",
+"name": "板取キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10371"
+},
+{
+"pref": "岐阜県",
+"id": "10372",
+"name": "すぎのこキャンプ場バンガロー村",
+"addr": "岐阜県関市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10372"
+},
+{
+"pref": "岐阜県",
+"id": "10373",
+"name": "三ツ石オートキャンプ場",
+"addr": "岐阜県関市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10373"
+},
+{
+"pref": "岐阜県",
+"id": "10374",
+"name": "八滝ウッディランド",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10374"
+},
+{
+"pref": "岐阜県",
+"id": "10375",
+"name": "岐阜市役所 ながら川ふれあいの森四季の森センター",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10375"
+},
+{
+"pref": "岐阜県",
+"id": "10376",
+"name": "ひるがの高原キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10376"
+},
+{
+"pref": "岐阜県",
+"id": "10377",
+"name": "N.A.O.明野高原キャンプ場＆貸別荘",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10377"
 },
 {
 "pref": "岐阜県",
@@ -988,10 +1128,80 @@
 },
 {
 "pref": "岐阜県",
+"id": "10380",
+"name": "N.E.W 奥長良キャンプ場&amp;WANKO",
+"addr": "岐阜県郡上市高鷲町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10380"
+},
+{
+"pref": "岐阜県",
+"id": "10381",
+"name": "アウトドアイン母袋キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10381"
+},
+{
+"pref": "岐阜県",
+"id": "10382",
+"name": "油坂さくらパーク",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10382"
+},
+{
+"pref": "岐阜県",
+"id": "10383",
+"name": "ロックフィールドいとしろ",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10383"
+},
+{
+"pref": "岐阜県",
+"id": "10384",
+"name": "Alpen Outdoors しろとりフィールド",
+"addr": "岐阜県郡上市白鳥町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10384"
+},
+{
+"pref": "岐阜県",
+"id": "10385",
+"name": "郡上八幡レインボーオートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10385"
+},
+{
+"pref": "岐阜県",
+"id": "10386",
+"name": "郡上八幡リバーウッドオートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10386"
+},
+{
+"pref": "岐阜県",
 "id": "10387",
 "name": "山と川の学校",
 "addr": "岐阜県郡上市八幡町初納1542-1",
 "url": "https://www.nap-camp.com/gifu/10387"
+},
+{
+"pref": "岐阜県",
+"id": "10388",
+"name": "郡上八幡自然園",
+"addr": "岐阜県郡上市八幡町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10388"
+},
+{
+"pref": "岐阜県",
+"id": "10389",
+"name": "粥川バンガロー村",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10389"
+},
+{
+"pref": "岐阜県",
+"id": "10391",
+"name": "めいほうキャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10391"
 },
 {
 "pref": "岐阜県",
@@ -1002,10 +1212,52 @@
 },
 {
 "pref": "岐阜県",
+"id": "10393",
+"name": "和良大月の森公園キャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10393"
+},
+{
+"pref": "岐阜県",
+"id": "10394",
+"name": "和良川公園オートキャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10394"
+},
+{
+"pref": "岐阜県",
 "id": "10395",
 "name": "知多市野外教育センター",
 "addr": "岐阜県恵那市岩村町高松482-43",
 "url": "https://www.nap-camp.com/gifu/10395"
+},
+{
+"pref": "岐阜県",
+"id": "10396",
+"name": "奥矢作レクリエーションセンター",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10396"
+},
+{
+"pref": "岐阜県",
+"id": "10397",
+"name": "福寿の里モンゴル村",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10397"
+},
+{
+"pref": "岐阜県",
+"id": "10399",
+"name": "保古の湖キャンプ場",
+"addr": "岐阜県恵那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10399"
+},
+{
+"pref": "岐阜県",
+"id": "10400",
+"name": "飯地高原自然テント村",
+"addr": "岐阜県恵那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10400"
 },
 {
 "pref": "岐阜県",
@@ -1023,10 +1275,31 @@
 },
 {
 "pref": "岐阜県",
+"id": "10403",
+"name": "奥飛騨温泉郷オートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10403"
+},
+{
+"pref": "岐阜県",
 "id": "10404",
 "name": "奥飛騨リバーサイドキャンプ場",
 "addr": "岐阜県高山市奥飛騨温泉郷柏当553-2",
 "url": "https://www.nap-camp.com/gifu/10404"
+},
+{
+"pref": "岐阜県",
+"id": "10405",
+"name": "平湯キャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10405"
+},
+{
+"pref": "岐阜県",
+"id": "10406",
+"name": "【R2/7現在一時休止中】飛騨高山キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10406"
 },
 {
 "pref": "岐阜県",
@@ -1044,10 +1317,52 @@
 },
 {
 "pref": "岐阜県",
+"id": "10409",
+"name": "AiMiX南乗鞍ベース（旧：アイミックス自然村南乗鞍オートキャンプ場）",
+"addr": "岐阜県高山市高根町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10409"
+},
+{
+"pref": "岐阜県",
+"id": "10410",
+"name": "【R7/9月 閉鎖】無印良品南乗鞍キャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10410"
+},
+{
+"pref": "岐阜県",
+"id": "10411",
+"name": "日和田高原ロッジ・キャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10411"
+},
+{
+"pref": "岐阜県",
+"id": "10412",
+"name": "飛騨たかね野麦オートビレッジ",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10412"
+},
+{
+"pref": "岐阜県",
+"id": "10413",
+"name": "宇津江四十八滝キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10413"
+},
+{
+"pref": "岐阜県",
 "id": "10414",
 "name": "奥飛騨双六渓谷テント村",
 "addr": "岐阜県高山市上宝町双六401",
 "url": "https://www.nap-camp.com/gifu/10414"
+},
+{
+"pref": "岐阜県",
+"id": "10415",
+"name": "清見すのまたオートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10415"
 },
 {
 "pref": "岐阜県",
@@ -1058,6 +1373,27 @@
 },
 {
 "pref": "岐阜県",
+"id": "10417",
+"name": "パスカル清見オートキャンプ場",
+"addr": "岐阜県高山市清見町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10417"
+},
+{
+"pref": "岐阜県",
+"id": "10418",
+"name": "一色の森キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10418"
+},
+{
+"pref": "岐阜県",
+"id": "10419",
+"name": "みぼろ湖畔キャンプサイト",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10419"
+},
+{
+"pref": "岐阜県",
 "id": "10420",
 "name": "岩舟河川公園",
 "addr": "岐阜県高山市丹生川町柏原",
@@ -1065,10 +1401,52 @@
 },
 {
 "pref": "岐阜県",
+"id": "10421",
+"name": "美女高原キャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10421"
+},
+{
+"pref": "岐阜県",
+"id": "10422",
+"name": "胡桃島キャンプ場",
+"addr": "岐阜県高山市朝日町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10422"
+},
+{
+"pref": "岐阜県",
+"id": "10423",
+"name": "くるみ温泉&amp;キャンプ",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10423"
+},
+{
+"pref": "岐阜県",
 "id": "10424",
 "name": "丸美リゾート飛騨秋神高原オートキャンプ場",
 "addr": "岐阜県高山市朝日町西洞",
 "url": "https://www.nap-camp.com/gifu/10424"
+},
+{
+"pref": "岐阜県",
+"id": "10425",
+"name": "カクレハ高原オートキャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10425"
+},
+{
+"pref": "岐阜県",
+"id": "10426",
+"name": "アンバイエ（旧：伊自良キャンプ場）",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10426"
+},
+{
+"pref": "岐阜県",
+"id": "10427",
+"name": "グリーンプラザみやま",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10427"
 },
 {
 "pref": "岐阜県",
@@ -1114,6 +1492,34 @@
 },
 {
 "pref": "岐阜県",
+"id": "10434",
+"name": "白川郷　桜街道　ひらせ温泉キャンプサイト",
+"addr": "岐阜県大野郡白川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10434"
+},
+{
+"pref": "岐阜県",
+"id": "10435",
+"name": "白山ブナの森キャンプ場",
+"addr": "岐阜県大野郡白川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10435"
+},
+{
+"pref": "岐阜県",
+"id": "10436",
+"name": "舞台峠コテージ",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10436"
+},
+{
+"pref": "岐阜県",
+"id": "10437",
+"name": "椛の湖オートキャンプ場",
+"addr": "岐阜県中津川市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10437"
+},
+{
+"pref": "岐阜県",
 "id": "10438",
 "name": "けやき平キャンプ場",
 "addr": "岐阜県中津川市神坂袖林808-1",
@@ -1125,6 +1531,13 @@
 "name": "富士見台高原 萬岳荘",
 "addr": "岐阜県中津川市神坂峠",
 "url": "https://www.nap-camp.com/gifu/10439"
+},
+{
+"pref": "岐阜県",
+"id": "10440",
+"name": "中津川竜神の滝キャンプ場（旧：夕森渓谷スターリーフォレスト）",
+"addr": "岐阜県中津川市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10440"
 },
 {
 "pref": "岐阜県",
@@ -1149,6 +1562,13 @@
 },
 {
 "pref": "岐阜県",
+"id": "10445",
+"name": "アオミキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10445"
+},
+{
+"pref": "岐阜県",
 "id": "10446",
 "name": "付知峡大自然キャンプ場さんけい広場",
 "addr": "岐阜県中津川市付知町349",
@@ -1160,6 +1580,55 @@
 "name": "花街道オートキャンプ場",
 "addr": "岐阜県中津川市付知町8593-22",
 "url": "https://www.nap-camp.com/gifu/10447"
+},
+{
+"pref": "岐阜県",
+"id": "10448",
+"name": "宮島キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10448"
+},
+{
+"pref": "岐阜県",
+"id": "10449",
+"name": "森林キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10449"
+},
+{
+"pref": "岐阜県",
+"id": "10450",
+"name": "塔の岩オートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10450"
+},
+{
+"pref": "岐阜県",
+"id": "10451",
+"name": "本谷オートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10451"
+},
+{
+"pref": "岐阜県",
+"id": "10452",
+"name": "峡北恵那キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10452"
+},
+{
+"pref": "岐阜県",
+"id": "10453",
+"name": "BeGreen日和立",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10453"
+},
+{
+"pref": "岐阜県",
+"id": "10454",
+"name": "福岡ローマン渓谷オートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10454"
 },
 {
 "pref": "岐阜県",
@@ -1191,6 +1660,13 @@
 },
 {
 "pref": "岐阜県",
+"id": "10459",
+"name": "山之村キャンプ場",
+"addr": "岐阜県飛騨市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10459"
+},
+{
+"pref": "岐阜県",
 "id": "10460",
 "name": "ひだ流葉オートキャンプ場｜観光スポット｜岐阜県観光公式サイト 「岐阜の旅ガイド」",
 "addr": "",
@@ -1209,6 +1685,20 @@
 "name": "安毛オートキャンプ場",
 "addr": "岐阜県美濃市安毛",
 "url": "https://www.nap-camp.com/gifu/10462"
+},
+{
+"pref": "岐阜県",
+"id": "10463",
+"name": "グリーンウッド関ヶ原",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10463"
+},
+{
+"pref": "岐阜県",
+"id": "10464",
+"name": "ヒマラヤNEOキャンピングパーク",
+"addr": "岐阜県本巣市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10464"
 },
 {
 "pref": "岐阜県",
@@ -1233,10 +1723,38 @@
 },
 {
 "pref": "岐阜県",
+"id": "10468",
+"name": "亀淵オートキャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10468"
+},
+{
+"pref": "岐阜県",
 "id": "10469",
 "name": "根尾川谷汲温泉オートキャンプ場",
 "addr": "岐阜県揖斐郡揖斐川町谷汲長瀬西谷",
 "url": "https://www.nap-camp.com/gifu/10469"
+},
+{
+"pref": "岐阜県",
+"id": "10470",
+"name": "大津谷公園キャンプ場",
+"addr": "岐阜県揖斐郡池田町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10470"
+},
+{
+"pref": "岐阜県",
+"id": "10471",
+"name": "長者の里キャンプ場",
+"addr": "岐阜県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10471"
+},
+{
+"pref": "岐阜県",
+"id": "10472",
+"name": "月夜谷ふれあいの里",
+"addr": "岐阜県揖斐郡揖斐川町小津） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10472"
 },
 {
 "pref": "岐阜県",
@@ -1254,6 +1772,13 @@
 },
 {
 "pref": "岐阜県",
+"id": "10475",
+"name": "揖斐高原キャンピングフィールドAFUREPPA",
+"addr": "岐阜県揖斐郡揖斐川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/10475"
+},
+{
+"pref": "岐阜県",
 "id": "10476",
 "name": "LScamp養老（旧 RECAMP養老）",
 "addr": "岐阜県養老郡養老町高林1298-2",
@@ -1268,6 +1793,13 @@
 },
 {
 "pref": "岐阜県",
+"id": "13596",
+"name": "鷲ヶ岳立石キャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13596"
+},
+{
+"pref": "岐阜県",
 "id": "13598",
 "name": "粕川オートキャンプ場（粕川河川公園）",
 "addr": "岐阜県揖斐郡揖斐川町市場",
@@ -1275,10 +1807,59 @@
 },
 {
 "pref": "岐阜県",
+"id": "13647",
+"name": "穂高岳山荘",
+"addr": "岐阜県岐阜県奥穂高岳と涸沢岳の鞍部（白出のコル）） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13647"
+},
+{
+"pref": "岐阜県",
+"id": "13739",
+"name": "めいほうベルグコテージ",
+"addr": "岐阜県郡上市明宝奥住） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13739"
+},
+{
+"pref": "岐阜県",
+"id": "13740",
+"name": "レンタルログコテージ　ウェストヴィレッジ",
+"addr": "岐阜県郡上市高鷲町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13740"
+},
+{
+"pref": "岐阜県",
+"id": "13741",
+"name": "ひるがの高原リゾート 翠峯苑",
+"addr": "岐阜県高山市荘川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13741"
+},
+{
+"pref": "岐阜県",
 "id": "13742",
 "name": "LCBひるがの高原",
 "addr": "岐阜県郡上市高鷲町ひるがの4673-158",
 "url": "https://www.nap-camp.com/gifu/13742"
+},
+{
+"pref": "岐阜県",
+"id": "13798",
+"name": "ふくべの里　粥川バンガロー村",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13798"
+},
+{
+"pref": "岐阜県",
+"id": "13805",
+"name": "N.E.Wほっとほっと湯の平温泉コテージ",
+"addr": "岐阜県郡上市高鷲町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13805"
+},
+{
+"pref": "岐阜県",
+"id": "13807",
+"name": "めいほう高原キャンプフィールド",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13807"
 },
 {
 "pref": "岐阜県",
@@ -1303,6 +1884,55 @@
 },
 {
 "pref": "岐阜県",
+"id": "13894",
+"name": "ログハウス貸別荘ゆがふ　あけの",
+"addr": "岐阜県郡上市高鷲町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13894"
+},
+{
+"pref": "岐阜県",
+"id": "13907",
+"name": "和み舎せせらぎ",
+"addr": "岐阜県郡上市白鳥町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13907"
+},
+{
+"pref": "岐阜県",
+"id": "13912",
+"name": "Outdoor Style AMIDA",
+"addr": "岐阜県郡上市白鳥町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13912"
+},
+{
+"pref": "岐阜県",
+"id": "13939",
+"name": "ほしとせせらぎのぐらんぴんぐ（クアリゾート湯舟沢）",
+"addr": "岐阜県中津川市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13939"
+},
+{
+"pref": "岐阜県",
+"id": "13966",
+"name": "【R5/5閉鎖】Orkひるがの",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/13966"
+},
+{
+"pref": "岐阜県",
+"id": "14064",
+"name": "くしはら温泉ささゆりの湯キャンプ場",
+"addr": "岐阜県恵那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14064"
+},
+{
+"pref": "岐阜県",
+"id": "14119",
+"name": "ひるがの高原コテージパーク四季の郷",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14119"
+},
+{
+"pref": "岐阜県",
 "id": "14233",
 "name": "ヒトハリ",
 "addr": "岐阜県高山市奥飛騨温泉郷一重ケ根781",
@@ -1317,6 +1947,20 @@
 },
 {
 "pref": "岐阜県",
+"id": "14316",
+"name": "笠置山 望郷の森キャンプ場",
+"addr": "岐阜県恵那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14316"
+},
+{
+"pref": "岐阜県",
+"id": "14331",
+"name": "伊木山フォレスト",
+"addr": "岐阜県各務原市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14331"
+},
+{
+"pref": "岐阜県",
 "id": "14337",
 "name": "FORESTDOMEひだ高山（旧 ネイチャーチラックスひだ高山）",
 "addr": "岐阜県高山市清見町牧ケ洞244-1",
@@ -1324,10 +1968,59 @@
 },
 {
 "pref": "岐阜県",
+"id": "14386",
+"name": "【R3/6 現在閉鎖】トヨタ白川郷自然學校",
+"addr": "岐阜県大野郡白川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14386"
+},
+{
+"pref": "岐阜県",
 "id": "14442",
 "name": "つる里園キャンプ場",
 "addr": "岐阜県土岐市鶴里町柿野1752",
 "url": "https://www.nap-camp.com/gifu/14442"
+},
+{
+"pref": "岐阜県",
+"id": "14443",
+"name": "魚の宿",
+"addr": "岐阜県加茂郡東白川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14443"
+},
+{
+"pref": "岐阜県",
+"id": "14505",
+"name": "【R6/6 閉鎖】でじろうの森キャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14505"
+},
+{
+"pref": "岐阜県",
+"id": "14560",
+"name": "ナチュールみやがわ",
+"addr": "岐阜県飛騨市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14560"
+},
+{
+"pref": "岐阜県",
+"id": "14575",
+"name": "飛騨高山 彦谷の里キャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14575"
+},
+{
+"pref": "岐阜県",
+"id": "14589",
+"name": "NOASOBI campfield",
+"addr": "岐阜県飛騨市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14589"
+},
+{
+"pref": "岐阜県",
+"id": "14664",
+"name": "CAMP SITE AORAKI",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14664"
 },
 {
 "pref": "岐阜県",
@@ -1345,10 +2038,38 @@
 },
 {
 "pref": "岐阜県",
+"id": "14735",
+"name": "しらたかキャンプ場",
+"addr": "岐阜県恵那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14735"
+},
+{
+"pref": "岐阜県",
 "id": "14782",
 "name": "ログランド奥美濃",
 "addr": "岐阜県郡上市大和町栗巣678",
 "url": "https://www.nap-camp.com/gifu/14782"
+},
+{
+"pref": "岐阜県",
+"id": "14787",
+"name": "飛騨高山　釣り＆キャンプ　鱒蔵",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14787"
+},
+{
+"pref": "岐阜県",
+"id": "14822",
+"name": "North Village Hirugano - Camping Fields",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14822"
+},
+{
+"pref": "岐阜県",
+"id": "14853",
+"name": "DYNALAND CAMP BASE",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/14853"
 },
 {
 "pref": "岐阜県",
@@ -1366,10 +2087,38 @@
 },
 {
 "pref": "岐阜県",
+"id": "15007",
+"name": "N.A.O.高山すずらん高原キャンプ場",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15007"
+},
+{
+"pref": "岐阜県",
 "id": "15025",
 "name": "フィッシングキャンプエリア瑞浪",
 "addr": "岐阜県瑞浪市大湫町107-1",
 "url": "https://www.nap-camp.com/gifu/15025"
+},
+{
+"pref": "岐阜県",
+"id": "15103",
+"name": "KITEN長良川オートキャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15103"
+},
+{
+"pref": "岐阜県",
+"id": "15664",
+"name": "藤橋キャンピングベース",
+"addr": "岐阜県揖斐郡揖斐川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15664"
+},
+{
+"pref": "岐阜県",
+"id": "15687",
+"name": "海津市羽根谷だんだん公園キャンプ場",
+"addr": "岐阜県海津市南濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15687"
 },
 {
 "pref": "岐阜県",
@@ -1387,6 +2136,20 @@
 },
 {
 "pref": "岐阜県",
+"id": "15812",
+"name": "Outdoor Village 373",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15812"
+},
+{
+"pref": "岐阜県",
+"id": "15870",
+"name": "a laise camp すめらぎの森",
+"addr": "岐阜県揖斐郡揖斐川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15870"
+},
+{
+"pref": "岐阜県",
 "id": "15874",
 "name": "新くるみランド",
 "addr": "岐阜県高山市朝日町胡桃島122-1",
@@ -1401,10 +2164,24 @@
 },
 {
 "pref": "岐阜県",
+"id": "15965",
+"name": "星が見の杜",
+"addr": "岐阜県中津川市駒場） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15965"
+},
+{
+"pref": "岐阜県",
 "id": "15981",
 "name": "ひちそう見晴らしキャンプ場（旧 太ッ腹キャンプ場）",
 "addr": "岐阜県加茂郡七宗町川並字樫左古毛335",
 "url": "https://www.nap-camp.com/gifu/15981"
+},
+{
+"pref": "岐阜県",
+"id": "15996",
+"name": "せせらぎキャンプ場",
+"addr": "岐阜県高山市清見町福寄） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/15996"
 },
 {
 "pref": "岐阜県",
@@ -1429,10 +2206,38 @@
 },
 {
 "pref": "岐阜県",
+"id": "16074",
+"name": "山のハコキャンプ場",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16074"
+},
+{
+"pref": "岐阜県",
+"id": "16140",
+"name": "FORESTDOME付知峡",
+"addr": "岐阜県中津川市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16140"
+},
+{
+"pref": "岐阜県",
 "id": "16156",
 "name": "mazecamp",
 "addr": "岐阜県下呂市馬瀬名丸1271",
 "url": "https://www.nap-camp.com/gifu/16156"
+},
+{
+"pref": "岐阜県",
+"id": "16174",
+"name": "嵓 KURA Nagomi Hida Takayama",
+"addr": "岐阜県高山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16174"
+},
+{
+"pref": "岐阜県",
+"id": "16192",
+"name": "里山グランピングむすび",
+"addr": "岐阜県瑞浪市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16192"
 },
 {
 "pref": "岐阜県",
@@ -1450,6 +2255,13 @@
 },
 {
 "pref": "岐阜県",
+"id": "16341",
+"name": "保古グランピング",
+"addr": "岐阜県中津川市茄子川字中垣外） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16341"
+},
+{
+"pref": "岐阜県",
 "id": "16361",
 "name": "ひるがの高原あぐりの丘",
 "addr": "岐阜県郡上市高鷲町ひるがの4670-354",
@@ -1464,6 +2276,20 @@
 },
 {
 "pref": "岐阜県",
+"id": "16377",
+"name": "癒しの森キャンプ場ー恵那",
+"addr": "岐阜県恵那市大井町字入道坂） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16377"
+},
+{
+"pref": "岐阜県",
+"id": "16394",
+"name": "エナノキ BASE",
+"addr": "岐阜県恵那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16394"
+},
+{
+"pref": "岐阜県",
 "id": "16443",
 "name": "s-craft camp",
 "addr": "岐阜県恵那市笠置町毛呂窪字滝坂1720-1",
@@ -1471,10 +2297,31 @@
 },
 {
 "pref": "岐阜県",
+"id": "16530",
+"name": "Tanigumi useful village",
+"addr": "岐阜県揖斐郡揖斐川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16530"
+},
+{
+"pref": "岐阜県",
 "id": "16548",
 "name": "金原里山キャンプ村",
 "addr": "岐阜県本巣市金原660",
 "url": "https://www.nap-camp.com/gifu/16548"
+},
+{
+"pref": "岐阜県",
+"id": "16587",
+"name": "旅籠パークリゾート",
+"addr": "岐阜県郡上市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16587"
+},
+{
+"pref": "岐阜県",
+"id": "16719",
+"name": "鳥のさえずりと星空のキャンプ場",
+"addr": "岐阜県中津川市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/gifu/16719"
 },
 {
 "pref": "岐阜県",
@@ -1499,6 +2346,48 @@
 },
 {
 "pref": "愛知県",
+"id": "10029",
+"name": "桃太郎公園　栗栖園地",
+"addr": "愛知県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10029"
+},
+{
+"pref": "愛知県",
+"id": "10030",
+"name": "桑谷キャンプ場",
+"addr": "愛知県岡崎市桑谷町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10030"
+},
+{
+"pref": "愛知県",
+"id": "10031",
+"name": "くらがり渓谷キャンプ場",
+"addr": "愛知県岡崎市石原町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10031"
+},
+{
+"pref": "愛知県",
+"id": "10032",
+"name": "荻不動ヶ滝園地",
+"addr": "愛知県額田郡幸田町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10032"
+},
+{
+"pref": "愛知県",
+"id": "10033",
+"name": "犬山野外活動センター",
+"addr": "愛知県犬山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10033"
+},
+{
+"pref": "愛知県",
+"id": "10034",
+"name": "アウトドア・ベース犬山キャンプ場",
+"addr": "愛知県犬山市今井） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10034"
+},
+{
+"pref": "愛知県",
 "id": "10035",
 "name": "八曽モミの木キャンプ場",
 "addr": "愛知県犬山市八曽1-1",
@@ -1506,10 +2395,206 @@
 },
 {
 "pref": "愛知県",
+"id": "10036",
+"name": "春日井市細野キャンプ場",
+"addr": "愛知県春日井市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10036"
+},
+{
+"pref": "愛知県",
+"id": "10037",
+"name": "山びこの丘",
+"addr": "愛知県新城市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10037"
+},
+{
+"pref": "愛知県",
+"id": "10038",
+"name": "愛知県民の森キャンプ場",
+"addr": "愛知県民の森キャンプ場の口コミ・予約（愛知県新城市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10038"
+},
+{
+"pref": "愛知県",
+"id": "10039",
+"name": "瀬戸市定光寺野外活動センター",
+"addr": "愛知県瀬戸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10039"
+},
+{
+"pref": "愛知県",
+"id": "10040",
+"name": "愛知こどもの国キャンプ場",
+"addr": "愛知県西尾市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10040"
+},
+{
+"pref": "愛知県",
+"id": "10041",
+"name": "中日小野浦キャンプバンガロー村",
+"addr": "愛知県知多郡美浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10041"
+},
+{
+"pref": "愛知県",
+"id": "10042",
+"name": "仁崎キャンプ場",
+"addr": "愛知県田原市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10042"
+},
+{
+"pref": "愛知県",
+"id": "10043",
+"name": "休暇村伊良湖オートキャンプ場",
+"addr": "愛知県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10043"
+},
+{
+"pref": "愛知県",
+"id": "10044",
+"name": "半田運動公園",
+"addr": "愛知県半田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10044"
+},
+{
+"pref": "愛知県",
+"id": "10045",
+"name": "少年自然の家",
+"addr": "愛知県豊橋市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10045"
+},
+{
+"pref": "愛知県",
+"id": "10046",
+"name": "旭高原元気村",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10046"
+},
+{
+"pref": "愛知県",
+"id": "10047",
+"name": "さなげアドベンチャーフィールドデイキャンプ場",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10047"
+},
+{
+"pref": "愛知県",
+"id": "10048",
+"name": "やまびこキャンプ場",
+"addr": "愛知県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10048"
+},
+{
+"pref": "愛知県",
 "id": "10049",
 "name": "中日テント村",
 "addr": "愛知県豊田市大桑町時上ヶ19",
 "url": "https://www.nap-camp.com/aichi/10049"
+},
+{
+"pref": "愛知県",
+"id": "10051",
+"name": "三河高原キャンプ村",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10051"
+},
+{
+"pref": "愛知県",
+"id": "10052",
+"name": "設楽オートキャンプ場",
+"addr": "愛知県北設楽郡） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10052"
+},
+{
+"pref": "愛知県",
+"id": "10053",
+"name": "【R2/12現在営業状況確認中】したらの里",
+"addr": "愛知県北設楽郡） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10053"
+},
+{
+"pref": "愛知県",
+"id": "10054",
+"name": "つぐ高原グリーンパーク",
+"addr": "愛知県北設楽郡設楽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10054"
+},
+{
+"pref": "愛知県",
+"id": "10055",
+"name": "三河オートビレッジ",
+"addr": "愛知県北設楽郡） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10055"
+},
+{
+"pref": "愛知県",
+"id": "10056",
+"name": "千代姫バンガロー村",
+"addr": "愛知県北設楽郡東栄町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10056"
+},
+{
+"pref": "愛知県",
+"id": "10057",
+"name": "とよねランドオートキャンプ村",
+"addr": "愛知県北設楽郡豊根村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10057"
+},
+{
+"pref": "愛知県",
+"id": "10058",
+"name": "休暇村茶臼山高原チャウシカの森キャンプ場",
+"addr": "愛知県北設楽郡豊根村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10058"
+},
+{
+"pref": "愛知県",
+"id": "10059",
+"name": "古里とみやまバンガロー村",
+"addr": "愛知県北設楽郡豊根村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/10059"
+},
+{
+"pref": "愛知県",
+"id": "13519",
+"name": "三河湖バンガロー村ふる里",
+"addr": "愛知県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/13519"
+},
+{
+"pref": "愛知県",
+"id": "13577",
+"name": "東海ビーチグランピングリゾート　Kingboy",
+"addr": "愛知県知多郡美浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/13577"
+},
+{
+"pref": "愛知県",
+"id": "13743",
+"name": "ブランシェ",
+"addr": "愛知県常滑市新浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/13743"
+},
+{
+"pref": "愛知県",
+"id": "13947",
+"name": "表浜ほうべの森（谷ノ口公園）",
+"addr": "愛知県田原市南神戸町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/13947"
+},
+{
+"pref": "愛知県",
+"id": "13959",
+"name": "WOOD DESIGN PARK(ウッドデザインパーク)",
+"addr": "愛知県岡崎市鍛埜町（かじのちょう）） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/13959"
+},
+{
+"pref": "愛知県",
+"id": "14098",
+"name": "WOOD DESIGN PARK  noma (ウッドデザインパーク野間)",
+"addr": "愛知県知多郡美浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14098"
 },
 {
 "pref": "愛知県",
@@ -1527,10 +2612,94 @@
 },
 {
 "pref": "愛知県",
+"id": "14462",
+"name": "BBQガーデンピクニック",
+"addr": "愛知県安城市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14462"
+},
+{
+"pref": "愛知県",
+"id": "14482",
+"name": "CAMP LOVE",
+"addr": "愛知県常滑市字菅場） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14482"
+},
+{
+"pref": "愛知県",
+"id": "14590",
+"name": "リバーサイドキャンプ腰掛（腰掛山荘）",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14590"
+},
+{
+"pref": "愛知県",
+"id": "14736",
+"name": "にしうらシーサイドキャンプ場",
+"addr": "愛知県蒲郡市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14736"
+},
+{
+"pref": "愛知県",
 "id": "14803",
 "name": "常滑市グリーンスポーツセンター（大曽公園）",
 "addr": "",
 "url": "https://www.nap-camp.com/aichi/14803"
+},
+{
+"pref": "愛知県",
+"id": "14854",
+"name": "Oppo Nisshin（おっぽ日進）",
+"addr": "愛知県日進市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14854"
+},
+{
+"pref": "愛知県",
+"id": "14972",
+"name": "BAMBOO RESORT MIHAMA 繋",
+"addr": "愛知県知多郡美浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/14972"
+},
+{
+"pref": "愛知県",
+"id": "15056",
+"name": "Kaede Valley&amp;Hill(カエデバレーアンドヒル)",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15056"
+},
+{
+"pref": "愛知県",
+"id": "15648",
+"name": "夜空と星のキャンプ場",
+"addr": "愛知県北設楽郡豊根村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15648"
+},
+{
+"pref": "愛知県",
+"id": "15721",
+"name": "浜オートキャンプ場",
+"addr": "愛知県知多郡美浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15721"
+},
+{
+"pref": "愛知県",
+"id": "15731",
+"name": "ウッドデザインパークいちのみや-紡-",
+"addr": "愛知県一宮市冨田砂原） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15731"
+},
+{
+"pref": "愛知県",
+"id": "15740",
+"name": "キャンプ＆バーベキュー場　ヤネル",
+"addr": "愛知県名古屋市守山区） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15740"
+},
+{
+"pref": "愛知県",
+"id": "15875",
+"name": "リバーベース塩瀬",
+"addr": "愛知県新城市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15875"
 },
 {
 "pref": "愛知県",
@@ -1541,10 +2710,45 @@
 },
 {
 "pref": "愛知県",
+"id": "15951",
+"name": "ゾレンキャンプ場",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/15951"
+},
+{
+"pref": "愛知県",
+"id": "16033",
+"name": "glampark 海陽閣",
+"addr": "愛知県蒲郡市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16033"
+},
+{
+"pref": "愛知県",
+"id": "16051",
+"name": "知多美浜　野間海岸ステーション",
+"addr": "愛知県知多郡美浜町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16051"
+},
+{
+"pref": "愛知県",
+"id": "16117",
+"name": "恋路ヶ浜オートキャンプ場",
+"addr": "愛知県田原市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16117"
+},
+{
+"pref": "愛知県",
 "id": "16173",
 "name": "ソロキャンフィールド鳳来",
 "addr": "愛知県新城市川合字大西11-34",
 "url": "https://www.nap-camp.com/aichi/16173"
+},
+{
+"pref": "愛知県",
+"id": "16409",
+"name": "パークフィールド スノーピーク 豊田鞍ヶ池",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16409"
 },
 {
 "pref": "愛知県",
@@ -1562,6 +2766,27 @@
 },
 {
 "pref": "愛知県",
+"id": "16457",
+"name": "篠島デューテラス オートキャンプ場",
+"addr": "愛知県知多郡南知多町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16457"
+},
+{
+"pref": "愛知県",
+"id": "16550",
+"name": "One Life garden",
+"addr": "愛知県名古屋市守山区下志段味） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16550"
+},
+{
+"pref": "愛知県",
+"id": "16570",
+"name": "Fujioka Activity Base",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16570"
+},
+{
+"pref": "愛知県",
 "id": "16773",
 "name": "SUP&CAMP CRAZY ON FLEEK",
 "addr": "愛知県西尾市東幡豆町助八",
@@ -1569,10 +2794,332 @@
 },
 {
 "pref": "愛知県",
-"id": "16980",
-"name": "Let it Camp",
-"addr": "愛知県岡崎市明大寺本町1丁目4（乙川河川敷）",
-"url": "https://www.nap-camp.com/aichi/16980"
+"id": "16798",
+"name": "互いの森PARK",
+"addr": "愛知県豊田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16798"
+},
+{
+"pref": "愛知県",
+"id": "16885",
+"name": "三沢高原いこいの里キャンプ場",
+"addr": "愛知県北設楽郡豊根村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/aichi/16885"
+},
+{
+"pref": "長野県",
+"id": "10534",
+"name": "大滝キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/10534"
+},
+{
+"pref": "長野県",
+"id": "12184",
+"name": "須砂渡憩いの森オートキャンプ場",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12184"
+},
+{
+"pref": "長野県",
+"id": "12185",
+"name": "天平の森オートキャンプ場",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12185"
+},
+{
+"pref": "長野県",
+"id": "12186",
+"name": "【H28/10現在閉鎖中】山室川オートキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12186"
+},
+{
+"pref": "長野県",
+"id": "12187",
+"name": "鹿嶺高原キャンプ場",
+"addr": "長野県伊那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12187"
+},
+{
+"pref": "長野県",
+"id": "12188",
+"name": "小黒川渓谷キャンプ場",
+"addr": "長野県伊那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12188"
+},
+{
+"pref": "長野県",
+"id": "12189",
+"name": "岡谷市塩嶺野外活動センター",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12189"
+},
+{
+"pref": "長野県",
+"id": "12191",
+"name": "ふるさと村自然園　せいなの森キャンプ場",
+"addr": "長野県下伊那郡阿智村清内路2991） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12191"
+},
+{
+"pref": "長野県",
+"id": "12192",
+"name": "弓の又キャンプ場",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12192"
+},
+{
+"pref": "長野県",
+"id": "12193",
+"name": "銀河もみじキャンプ場",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12193"
+},
+{
+"pref": "長野県",
+"id": "12194",
+"name": "二瀬キャンプ場",
+"addr": "長野県下伊那郡阿南町南条） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12194"
+},
+{
+"pref": "長野県",
+"id": "12195",
+"name": "阿南温泉かじかの湯キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12195"
+},
+{
+"pref": "長野県",
+"id": "12196",
+"name": "池の島キャンプ場",
+"addr": "長野県阿南町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12196"
+},
+{
+"pref": "長野県",
+"id": "12197",
+"name": "【H26/3閉鎖】阿南町森林公園キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12197"
+},
+{
+"pref": "長野県",
+"id": "12198",
+"name": "おおぐて湖キャンプ場",
+"addr": "長野県下伊那郡下條村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12198"
+},
+{
+"pref": "長野県",
+"id": "12199",
+"name": "CAMP &amp; CHEERS KANESHIGE",
+"addr": "長野県下伊那郡下條村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12199"
+},
+{
+"pref": "長野県",
+"id": "12200",
+"name": "矢筈公園キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12200"
+},
+{
+"pref": "長野県",
+"id": "12201",
+"name": "安城市茶臼山高原野外センター",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12201"
+},
+{
+"pref": "長野県",
+"id": "12202",
+"name": "大鹿キャンプ場ストリーム深ケ沢",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12202"
+},
+{
+"pref": "長野県",
+"id": "12203",
+"name": "大河内森林公園キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12203"
+},
+{
+"pref": "長野県",
+"id": "12204",
+"name": "和知野川キャンプ場",
+"addr": "長野県下伊那郡天龍村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12204"
+},
+{
+"pref": "長野県",
+"id": "12206",
+"name": "南信州 うるぎ星の森オートキャンプ場",
+"addr": "長野県下伊那郡売木村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12206"
+},
+{
+"pref": "長野県",
+"id": "12208",
+"name": "野田平キャンプ場",
+"addr": "長野県下伊那郡豊丘村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12208"
+},
+{
+"pref": "長野県",
+"id": "12209",
+"name": "カヤの平高原キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12209"
+},
+{
+"pref": "長野県",
+"id": "12210",
+"name": "スタカ湖キャンプ場",
+"addr": "長野県下高井郡野沢温泉村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12210"
+},
+{
+"pref": "長野県",
+"id": "12211",
+"name": "栃川高原キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12211"
+},
+{
+"pref": "長野県",
+"id": "12213",
+"name": "白樺リゾート　キャンピングビレッジ",
+"addr": "長野県北佐久郡立科町芦田八ケ野） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12213"
+},
+{
+"pref": "長野県",
+"id": "12214",
+"name": "旧：蓼科白林台キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12214"
+},
+{
+"pref": "長野県",
+"id": "12215",
+"name": "蓼の花オートキャンプ場",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12215"
+},
+{
+"pref": "長野県",
+"id": "12216",
+"name": "【R4/11月 閉鎖  】HYTTER FOREST CABINS",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12216"
+},
+{
+"pref": "長野県",
+"id": "12217",
+"name": "駒ヶ根Camping Resort by 駒ヶ根家族旅行村",
+"addr": "長野県駒ヶ根市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12217"
+},
+{
+"pref": "長野県",
+"id": "12218",
+"name": "駒ヶ根キャンプセンター",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12218"
+},
+{
+"pref": "長野県",
+"id": "12219",
+"name": "山ろく荘",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12219"
+},
+{
+"pref": "長野県",
+"id": "12220",
+"name": "内山牧場キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12220"
+},
+{
+"pref": "長野県",
+"id": "12221",
+"name": "山荘あらふね",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12221"
+},
+{
+"pref": "長野県",
+"id": "12222",
+"name": "信州まるべりーオートキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12222"
+},
+{
+"pref": "長野県",
+"id": "12223",
+"name": "姫木平ホワイトバーチキャンプフィールド",
+"addr": "長野県小県郡長和町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12223"
+},
+{
+"pref": "長野県",
+"id": "12224",
+"name": "赤倉の森オートキャンプ場",
+"addr": "長野県長和町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12224"
+},
+{
+"pref": "長野県",
+"id": "12225",
+"name": "ミヤシタヒルズ",
+"addr": "長野県小県郡長和町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12225"
+},
+{
+"pref": "長野県",
+"id": "12227",
+"name": "天狗温泉 浅間山荘キャンプ場",
+"addr": "長野県小諸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12227"
+},
+{
+"pref": "長野県",
+"id": "12228",
+"name": "あさまの森オートキャンプ場",
+"addr": "長野県小諸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12228"
+},
+{
+"pref": "長野県",
+"id": "12229",
+"name": "森のリゾート小梨",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12229"
+},
+{
+"pref": "長野県",
+"id": "12230",
+"name": "徳沢キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12230"
+},
+{
+"pref": "長野県",
+"id": "12231",
+"name": "【H28/9現在閉鎖中】休暇村乗鞍高原 一の瀬キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12231"
+},
+{
+"pref": "長野県",
+"id": "12232",
+"name": "松本市美鈴湖もりの国オートキャンプ場",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12232"
 },
 {
 "pref": "長野県",
@@ -1583,10 +3130,164 @@
 },
 {
 "pref": "長野県",
+"id": "12234",
+"name": "高ソメキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12234"
+},
+{
+"pref": "長野県",
+"id": "12235",
+"name": "野麦峠オートキャンプ場",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12235"
+},
+{
+"pref": "長野県",
+"id": "12236",
+"name": "【H28/10現在閉鎖中】あずさ湖キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12236"
+},
+{
+"pref": "長野県",
+"id": "12237",
+"name": "三城いこいの広場オートキャンプ場",
+"addr": "長野県松本市入山辺三城） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12237"
+},
+{
+"pref": "長野県",
 "id": "12238",
 "name": "美ヶ原県民の森キャンプ場",
 "addr": "長野県松本市入山辺三城",
 "url": "https://www.nap-camp.com/nagano/12238"
+},
+{
+"pref": "長野県",
+"id": "12239",
+"name": "漁樵カオス",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12239"
+},
+{
+"pref": "長野県",
+"id": "12240",
+"name": "桜清水コテージ",
+"addr": "長野県長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12240"
+},
+{
+"pref": "長野県",
+"id": "12241",
+"name": "桜清水オートキャンプ場",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12241"
+},
+{
+"pref": "長野県",
+"id": "12242",
+"name": "宮田高原キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12242"
+},
+{
+"pref": "長野県",
+"id": "12243",
+"name": "しだれ栗森林公園キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12243"
+},
+{
+"pref": "長野県",
+"id": "12244",
+"name": "四徳森林体験館・四徳キャンプ場",
+"addr": "長野県上伊那郡中川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12244"
+},
+{
+"pref": "長野県",
+"id": "12246",
+"name": "陣馬形山キャンプ場",
+"addr": "長野県上伊那郡中川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12246"
+},
+{
+"pref": "長野県",
+"id": "12248",
+"name": "ACN信州伊那谷キャンパーズヴィレッジ",
+"addr": "長野県上伊那郡中川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12248"
+},
+{
+"pref": "長野県",
+"id": "12250",
+"name": "大芝高原オートキャンプ場＆コテージ",
+"addr": "長野県上伊那郡南箕輪村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12250"
+},
+{
+"pref": "長野県",
+"id": "12251",
+"name": "千人塚公園キャンプ場",
+"addr": "長野県上伊那郡飯島町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12251"
+},
+{
+"pref": "長野県",
+"id": "12252",
+"name": "キャンプファームいなかの風",
+"addr": "長野県上伊那郡飯島町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12252"
+},
+{
+"pref": "長野県",
+"id": "12253",
+"name": "与田切公園キャンプ場",
+"addr": "長野県上伊那郡飯島町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12253"
+},
+{
+"pref": "長野県",
+"id": "12254",
+"name": "萱野高原キャンプ場",
+"addr": "長野県上伊那郡箕輪町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12254"
+},
+{
+"pref": "長野県",
+"id": "12255",
+"name": "ながた自然公園キャンプ場",
+"addr": "長野県上伊那郡箕輪町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12255"
+},
+{
+"pref": "長野県",
+"id": "12256",
+"name": "財団法人東京YMCA　野尻キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12256"
+},
+{
+"pref": "長野県",
+"id": "12257",
+"name": "YWCAキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12257"
+},
+{
+"pref": "長野県",
+"id": "12258",
+"name": "湖楽園キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12258"
+},
+{
+"pref": "長野県",
+"id": "12259",
+"name": "森のロッジ村 ラボランドくろひめ",
+"addr": "長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12259"
 },
 {
 "pref": "長野県",
@@ -1597,6 +3298,83 @@
 },
 {
 "pref": "長野県",
+"id": "12261",
+"name": "キャンプラスいいづな",
+"addr": "長野県上水内郡飯綱町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12261"
+},
+{
+"pref": "長野県",
+"id": "12262",
+"name": "菅平高原ファミリーオートキャンプ場",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12262"
+},
+{
+"pref": "長野県",
+"id": "12263",
+"name": "ミノワリバーサイドオートキャンプ場",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12263"
+},
+{
+"pref": "長野県",
+"id": "12264",
+"name": "立場川キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12264"
+},
+{
+"pref": "長野県",
+"id": "12265",
+"name": "霧ケ峰キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12265"
+},
+{
+"pref": "長野県",
+"id": "12266",
+"name": "大池自然の家",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12266"
+},
+{
+"pref": "長野県",
+"id": "12267",
+"name": "大池市民の森　大池キャンプ場",
+"addr": "長野県千曲市八幡大池） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12267"
+},
+{
+"pref": "長野県",
+"id": "12268",
+"name": "青木湖キャンプ場＆アドベンチャークラブ",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12268"
+},
+{
+"pref": "長野県",
+"id": "12270",
+"name": "千年の森自然学校",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12270"
+},
+{
+"pref": "長野県",
+"id": "12271",
+"name": "木崎湖POW WOW キャンプ場＆アウトドアクラブ",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12271"
+},
+{
+"pref": "長野県",
+"id": "12272",
+"name": "THE KIZAKI CAMP＆LAKE RESORT",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12272"
+},
+{
+"pref": "長野県",
 "id": "12273",
 "name": "青木湖北村キャンプ場",
 "addr": "長野県大町市平青木",
@@ -1604,10 +3382,73 @@
 },
 {
 "pref": "長野県",
+"id": "12274",
+"name": "青木湖大向キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12274"
+},
+{
+"pref": "長野県",
+"id": "12275",
+"name": "青木湖桐野キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12275"
+},
+{
+"pref": "長野県",
+"id": "12276",
+"name": "青木荘キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12276"
+},
+{
+"pref": "長野県",
+"id": "12277",
+"name": "聖山パノラマオートキャンプ場",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12277"
+},
+{
+"pref": "長野県",
 "id": "12278",
 "name": "奥裾花キャンプ場",
 "addr": "長野市鬼無里奥裾花",
 "url": "https://www.nap-camp.com/nagano/12278"
+},
+{
+"pref": "長野県",
+"id": "12279",
+"name": "鬼無里の湯コテージ",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12279"
+},
+{
+"pref": "長野県",
+"id": "12280",
+"name": "戸隠キャンプ場",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12280"
+},
+{
+"pref": "長野県",
+"id": "12281",
+"name": "戸隠イースタンキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12281"
+},
+{
+"pref": "長野県",
+"id": "12282",
+"name": "荒倉キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12282"
+},
+{
+"pref": "長野県",
+"id": "12283",
+"name": "nagano forest village",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12283"
 },
 {
 "pref": "長野県",
@@ -1625,6 +3466,13 @@
 },
 {
 "pref": "長野県",
+"id": "12287",
+"name": "湯の丸キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12287"
+},
+{
+"pref": "長野県",
 "id": "12288",
 "name": "修那羅森林公園キャンプ場（アルパカの森キャンプ場）",
 "addr": "長野県東筑摩郡筑北村坂井8400",
@@ -1632,10 +3480,276 @@
 },
 {
 "pref": "長野県",
+"id": "12289",
+"name": "やすらぎスポーツ広場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12289"
+},
+{
+"pref": "長野県",
+"id": "12290",
+"name": "筑北村やすらぎキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12290"
+},
+{
+"pref": "長野県",
+"id": "12291",
+"name": "あさひプライム 野俣沢林間キャンプ場",
+"addr": "長野県東筑摩郡朝日村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12291"
+},
+{
+"pref": "長野県",
+"id": "12292",
+"name": "聖高原スキー場・キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12292"
+},
+{
+"pref": "長野県",
+"id": "12293",
+"name": "駒出池キャンプ場",
+"addr": "長野県南佐久郡佐久穂町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12293"
+},
+{
+"pref": "長野県",
+"id": "12294",
+"name": "松原湖高原オートキャンプ場",
+"addr": "長野県南佐久郡小海町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12294"
+},
+{
+"pref": "長野県",
+"id": "12295",
+"name": "五光牧場オートキャンプ場",
+"addr": "長野県南佐久郡川上村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12295"
+},
+{
+"pref": "長野県",
+"id": "12296",
+"name": "せせらぎの里 町田市自然休暇村",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12296"
+},
+{
+"pref": "長野県",
+"id": "12299",
+"name": "立原高原キャンプ場",
+"addr": "長野県南佐久郡南相木村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12299"
+},
+{
+"pref": "長野県",
+"id": "12300",
+"name": "滝沢牧場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12300"
+},
+{
+"pref": "長野県",
+"id": "12301",
+"name": "長者の森",
+"addr": "長野県南佐久郡北相木村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12301"
+},
+{
+"pref": "長野県",
+"id": "12302",
+"name": "CAMP屋　うるぎキャンプフィールド",
+"addr": "長野県下伊那郡売木村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12302"
+},
+{
+"pref": "長野県",
+"id": "12303",
+"name": "斑尾高原どんぐり村",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12303"
+},
+{
+"pref": "長野県",
+"id": "12305",
+"name": "大島河原河川公園オートキャンプ場",
+"addr": "長野県飯田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12305"
+},
+{
+"pref": "長野県",
+"id": "12306",
+"name": "しらびそ高原山岳オートキャンプ場",
+"addr": "長野県飯田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12306"
+},
+{
+"pref": "長野県",
+"id": "12307",
+"name": "大平高原流星オートキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12307"
+},
+{
+"pref": "長野県",
+"id": "12308",
+"name": "沢城湖ハートランド牧場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12308"
+},
+{
+"pref": "長野県",
+"id": "12310",
+"name": "雨飾高原キャンプ場",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12310"
+},
+{
+"pref": "長野県",
+"id": "12311",
+"name": "白馬キングパパイアオートキャンプ場",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12311"
+},
+{
+"pref": "長野県",
+"id": "12312",
+"name": "Hakuba47マウンテンスポーツパーク",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12312"
+},
+{
+"pref": "長野県",
+"id": "12313",
+"name": "白馬アルプスオートキャンプ場",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12313"
+},
+{
+"pref": "長野県",
+"id": "12314",
+"name": "ロッジはくばファミリーキャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12314"
+},
+{
+"pref": "長野県",
+"id": "12315",
+"name": "中山高原キャンプ場",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12315"
+},
+{
+"pref": "長野県",
+"id": "12316",
+"name": "ライジングフィールド軽井沢",
+"addr": "長野県北佐久郡軽井沢町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12316"
+},
+{
+"pref": "長野県",
+"id": "12317",
+"name": "リバーサイドロッジ",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12317"
+},
+{
+"pref": "長野県",
+"id": "12318",
+"name": "銀河村",
+"addr": "長野県木曽郡王滝村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12318"
+},
+{
+"pref": "長野県",
+"id": "12319",
+"name": "おんたけ森きちオートキャンプ場",
+"addr": "長野県木曽郡王滝村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12319"
+},
+{
+"pref": "長野県",
 "id": "12320",
 "name": "オートキャンプ場NAMEGAWA",
 "addr": "長野県木曽郡上松町小川2524-1",
 "url": "https://www.nap-camp.com/nagano/12320"
+},
+{
+"pref": "長野県",
+"id": "12321",
+"name": "阿寺渓谷キャンプ場",
+"addr": "長野県木曽郡大桑村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12321"
+},
+{
+"pref": "長野県",
+"id": "12322",
+"name": "のぞきど森林公園キャンプ場",
+"addr": "長野県木曽郡大桑村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12322"
+},
+{
+"pref": "長野県",
+"id": "12323",
+"name": "【2018年よりキャンプ場運営終了しました】南木曽温泉キャンプ場",
+"addr": "長野県木曽郡南木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12323"
+},
+{
+"pref": "長野県",
+"id": "12324",
+"name": "蘭キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12324"
+},
+{
+"pref": "長野県",
+"id": "12325",
+"name": "田立の滝オートキャンプ場",
+"addr": "長野県木曽郡南木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12325"
+},
+{
+"pref": "長野県",
+"id": "12326",
+"name": "開田高原キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12326"
+},
+{
+"pref": "長野県",
+"id": "12327",
+"name": "恩田キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12327"
+},
+{
+"pref": "長野県",
+"id": "12328",
+"name": "木曽駒森林公園　木曽駒オートキャンプ場",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12328"
+},
+{
+"pref": "長野県",
+"id": "12329",
+"name": "キャンピングフィールド木曽古道",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12329"
+},
+{
+"pref": "長野県",
+"id": "12330",
+"name": "やぶはら高原こだまの森キャンプ場",
+"addr": "長野県木曽郡木祖村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/12330"
+},
+{
+"pref": "長野県",
+"id": "13500",
+"name": "廻り目平・ふれあいの森キャンプ場",
+"addr": "長野県） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13500"
 },
 {
 "pref": "長野県",
@@ -1653,10 +3767,276 @@
 },
 {
 "pref": "長野県",
+"id": "13572",
+"name": "みのわダム樽尾沢キャンプ場",
+"addr": "長野県上伊那郡箕輪町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13572"
+},
+{
+"pref": "長野県",
+"id": "13573",
+"name": "明神館　芸術むら公園",
+"addr": "長野県東御市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13573"
+},
+{
+"pref": "長野県",
+"id": "13590",
+"name": "斑尾高原キャンピングパーク",
+"addr": "長野県飯山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13590"
+},
+{
+"pref": "長野県",
+"id": "13594",
+"name": "野沢グリーンフィールド（nozawa green field）",
+"addr": "長野県下高井郡野沢温泉村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13594"
+},
+{
+"pref": "長野県",
+"id": "13612",
+"name": "大天荘",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13612"
+},
+{
+"pref": "長野県",
+"id": "13628",
+"name": "燕岳キャンプ場",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13628"
+},
+{
+"pref": "長野県",
+"id": "13629",
+"name": "霧ヶ峰キャンプ場",
+"addr": "長野県諏訪市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13629"
+},
+{
+"pref": "長野県",
+"id": "13630",
+"name": "国設涸沢野営場",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13630"
+},
+{
+"pref": "長野県",
+"id": "13641",
+"name": "八ヶ岳　行者小屋",
+"addr": "長野県諏訪郡富士見町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13641"
+},
+{
+"pref": "長野県",
+"id": "13665",
+"name": "富士見高原リゾート　貸別荘",
+"addr": "長野県諏訪郡富士見町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13665"
+},
+{
+"pref": "長野県",
+"id": "13666",
+"name": "白馬ラベンダーリゾートオートキャンプ場【H27/5現在閉鎖中】",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13666"
+},
+{
+"pref": "長野県",
+"id": "13667",
+"name": "山田牧場キャンプ場",
+"addr": "長野県上高井郡高山村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13667"
+},
+{
+"pref": "長野県",
+"id": "13668",
+"name": "ネスティピ・キャンプエリア",
+"addr": "長野県下伊那郡平谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13668"
+},
+{
+"pref": "長野県",
+"id": "13681",
+"name": "【R5/3現在　閉鎖】グリーンバレー白馬",
+"addr": "長野県北安曇郡） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13681"
+},
+{
+"pref": "長野県",
+"id": "13682",
+"name": "コテージ軽井沢",
+"addr": "長野県北佐久郡軽井沢町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13682"
+},
+{
+"pref": "長野県",
+"id": "13684",
+"name": "cottage AMAGOYA(コテージアマゴヤ)",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13684"
+},
+{
+"pref": "長野県",
 "id": "13715",
 "name": "なべくら高原・森の家テントサイト",
 "addr": "長野県飯山市照岡1571-15",
 "url": "https://www.nap-camp.com/nagano/13715"
+},
+{
+"pref": "長野県",
+"id": "13718",
+"name": "カナディアンビレッジ　モントリオール",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13718"
+},
+{
+"pref": "長野県",
+"id": "13719",
+"name": "カナディアンログコテージＴＡＫＩＴＡＲＯ",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13719"
+},
+{
+"pref": "長野県",
+"id": "13720",
+"name": "ログコテージ　さくら",
+"addr": "長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13720"
+},
+{
+"pref": "長野県",
+"id": "13721",
+"name": "温宿　田舎家",
+"addr": "長野県北安曇群白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13721"
+},
+{
+"pref": "長野県",
+"id": "13722",
+"name": "コテージログハウスGoo！(ぐー)",
+"addr": "長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13722"
+},
+{
+"pref": "長野県",
+"id": "13723",
+"name": "コテージ　ナースログ",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13723"
+},
+{
+"pref": "長野県",
+"id": "13725",
+"name": "高原のログＰ　カンタベリー",
+"addr": "長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13725"
+},
+{
+"pref": "長野県",
+"id": "13727",
+"name": "アメリーハウス軽井沢",
+"addr": "長野県北佐久郡軽井沢町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13727"
+},
+{
+"pref": "長野県",
+"id": "13728",
+"name": "角燈館(らんたんかん)",
+"addr": "長野県佐久郡軽井沢町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13728"
+},
+{
+"pref": "長野県",
+"id": "13729",
+"name": "コテージ＆コンドミニアム白馬ブラウニー",
+"addr": "長野県北安曇郡） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13729"
+},
+{
+"pref": "長野県",
+"id": "13730",
+"name": "Black Bear Properties(ブラッグベアプロパティス)",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13730"
+},
+{
+"pref": "長野県",
+"id": "13731",
+"name": "コテージ　フィオーレ",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13731"
+},
+{
+"pref": "長野県",
+"id": "13782",
+"name": "徳沢ロッヂ",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13782"
+},
+{
+"pref": "長野県",
+"id": "13783",
+"name": "槍沢ロッヂ",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13783"
+},
+{
+"pref": "長野県",
+"id": "13822",
+"name": "【H.30/12で閉鎖】カントリーハウス　ピアブランカ",
+"addr": "長野県飯田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13822"
+},
+{
+"pref": "長野県",
+"id": "13826",
+"name": "ペンション　山のくじら家",
+"addr": "長野県長野県木曽郡開田高原西野5346-1） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13826"
+},
+{
+"pref": "長野県",
+"id": "13827",
+"name": "ペンション AURA（アウラ）",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13827"
+},
+{
+"pref": "長野県",
+"id": "13878",
+"name": "【R6/1 閉鎖】ライジングフィールド白馬",
+"addr": "長野県大町市平青木湖湖畔） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13878"
+},
+{
+"pref": "長野県",
+"id": "13899",
+"name": "安曇野くぬぎの森ガーデン",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13899"
+},
+{
+"pref": "長野県",
+"id": "13909",
+"name": "長野県信濃町 やすらぎの森オートキャンプ場",
+"addr": "長野県信濃町 やすらぎの森オートキャンプ場の口コミ・予約（長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13909"
+},
+{
+"pref": "長野県",
+"id": "13910",
+"name": "ブランシュたかやまスキー　キャンピングカーサイト",
+"addr": "長野県小県郡長和町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13910"
+},
+{
+"pref": "長野県",
+"id": "13915",
+"name": "白馬森のわさび農園オートキャンプ場",
+"addr": "長野県北安曇野郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13915"
 },
 {
 "pref": "長野県",
@@ -1667,6 +4047,27 @@
 },
 {
 "pref": "長野県",
+"id": "13942",
+"name": "天然温泉源泉かけ流し 心笑キャンプ場",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13942"
+},
+{
+"pref": "長野県",
+"id": "13954",
+"name": "【H30/2 現在キャンプ場営業終了】長野・伊那きのこ王国キャンプ場",
+"addr": "長野県伊那市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13954"
+},
+{
+"pref": "長野県",
+"id": "13957",
+"name": "Romperdog Run&amp;Site",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13957"
+},
+{
+"pref": "長野県",
 "id": "13985",
 "name": "乙女の森バンガロー村",
 "addr": "佐久穂町大日向",
@@ -1674,10 +4075,80 @@
 },
 {
 "pref": "長野県",
+"id": "13990",
+"name": "信州･望月温泉みどりの村",
+"addr": "長野県佐久市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13990"
+},
+{
+"pref": "長野県",
+"id": "13991",
+"name": "フォレストドーム木曽駒高原",
+"addr": "長野県木曽郡木曽町日義） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13991"
+},
+{
+"pref": "長野県",
+"id": "13992",
+"name": "シャトレーゼキャンプリゾート小海（旧：小海リエックスキャンプ場）",
+"addr": "長野県南佐久郡小海町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/13992"
+},
+{
+"pref": "長野県",
 "id": "14003",
 "name": "天仁の杜キャンプサイト",
 "addr": "長野県飯田市南信濃南和田1041",
 "url": "https://www.nap-camp.com/nagano/14003"
+},
+{
+"pref": "長野県",
+"id": "14030",
+"name": "Snow Peak LAND STATION HAKUBA",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14030"
+},
+{
+"pref": "長野県",
+"id": "14033",
+"name": "【R4/9 閉業】mukava otari private camp(ムカヴァ オタリ プライベートキャンプ)",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14033"
+},
+{
+"pref": "長野県",
+"id": "14034",
+"name": "石坂森林探険村",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14034"
+},
+{
+"pref": "長野県",
+"id": "14035",
+"name": "乗鞍BASE いがやレクリエーションランド",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14035"
+},
+{
+"pref": "長野県",
+"id": "14041",
+"name": "北信州・高社山森林キャンプ場",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14041"
+},
+{
+"pref": "長野県",
+"id": "14049",
+"name": "takibi hut",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14049"
+},
+{
+"pref": "長野県",
+"id": "14059",
+"name": "FARM＆CAMP　RE:HAKUBA",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14059"
 },
 {
 "pref": "長野県",
@@ -1695,6 +4166,62 @@
 },
 {
 "pref": "長野県",
+"id": "14117",
+"name": "五味池破風高原オートキャンプ場",
+"addr": "長野県須坂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14117"
+},
+{
+"pref": "長野県",
+"id": "14127",
+"name": "KARUIZAWA CAMP GOLD",
+"addr": "長野県北佐久郡軽井沢町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14127"
+},
+{
+"pref": "長野県",
+"id": "14156",
+"name": "Picnicbase&amp;Hostel",
+"addr": "長野県北佐久郡立科町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14156"
+},
+{
+"pref": "長野県",
+"id": "14190",
+"name": "パウダーロッジコルチナキャンプ場",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14190"
+},
+{
+"pref": "長野県",
+"id": "14198",
+"name": "戸狩温泉　星降るキャンプ場",
+"addr": "長野県飯山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14198"
+},
+{
+"pref": "長野県",
+"id": "14214",
+"name": "ツリードーム南信州まつかわ",
+"addr": "長野県下伊那郡松川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14214"
+},
+{
+"pref": "長野県",
+"id": "14216",
+"name": "パラダキャンプ",
+"addr": "長野県佐久市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14216"
+},
+{
+"pref": "長野県",
+"id": "14231",
+"name": "【R3.コロナウイルスの影響で休止中】白馬五竜キャンプガーデン",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14231"
+},
+{
+"pref": "長野県",
 "id": "14249",
 "name": "HOTEL&RESORT 山の内ヒルズ（キャンプ・グランピング）",
 "addr": "山ノ内町平穏5976-1",
@@ -1702,10 +4229,73 @@
 },
 {
 "pref": "長野県",
+"id": "14253",
+"name": "TINY GARDEN 蓼科",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14253"
+},
+{
+"pref": "長野県",
+"id": "14269",
+"name": "茶臼山高原レイクサイドキャンプ場（旧：木のぼりキャンプ村）",
+"addr": "長野県下伊那郡根羽村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14269"
+},
+{
+"pref": "長野県",
+"id": "14309",
+"name": "白馬グリーンスポーツの森",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14309"
+},
+{
+"pref": "長野県",
+"id": "14310",
+"name": "花の里キャンプ場",
+"addr": "長野県諏訪郡富士見町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14310"
+},
+{
+"pref": "長野県",
 "id": "14336",
 "name": "白馬森林オートキャンプ場",
 "addr": "長野県北安曇郡白馬村北城9342-129",
 "url": "https://www.nap-camp.com/nagano/14336"
+},
+{
+"pref": "長野県",
+"id": "14339",
+"name": "GLAMPROOK",
+"addr": "長野県上水内郡飯綱町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14339"
+},
+{
+"pref": "長野県",
+"id": "14342",
+"name": "鹿島槍スポーツヴィレッジ",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14342"
+},
+{
+"pref": "長野県",
+"id": "14352",
+"name": "まつたけ小屋　梅松苑",
+"addr": "長野県下伊那郡松川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14352"
+},
+{
+"pref": "長野県",
+"id": "14364",
+"name": "望月キャンプサイト野らら",
+"addr": "長野県佐久市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14364"
+},
+{
+"pref": "長野県",
+"id": "14369",
+"name": "マナスル山荘天文館　星のキャンプ場",
+"addr": "長野県諏訪郡富士見町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14369"
 },
 {
 "pref": "長野県",
@@ -1723,6 +4313,13 @@
 },
 {
 "pref": "長野県",
+"id": "14408",
+"name": "SORA GLAMPING RESORT (旧:SORA terrace BASE CAMP)",
+"addr": "長野県下高井郡山ノ内町夜間瀬） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14408"
+},
+{
+"pref": "長野県",
 "id": "14412",
 "name": "YATTS GLAMP",
 "addr": "長野県諏訪郡富士見町",
@@ -1730,10 +4327,52 @@
 },
 {
 "pref": "長野県",
+"id": "14419",
+"name": "ひみつきち",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14419"
+},
+{
+"pref": "長野県",
+"id": "14436",
+"name": "黒姫Doggo Village（旧：黒姫きゃんぷらんど）",
+"addr": "長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14436"
+},
+{
+"pref": "長野県",
+"id": "14439",
+"name": "ウィスラースカイベース小諸",
+"addr": "長野県小諸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14439"
+},
+{
+"pref": "長野県",
+"id": "14487",
+"name": "アルペンアウトドアーズ　プレゼンツ　白馬岩岳マウンテンフィールド",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14487"
+},
+{
+"pref": "長野県",
+"id": "14499",
+"name": "志賀高原熊の湯キャンプ場",
+"addr": "長野県下高井郡山ノ内町平穏） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14499"
+},
+{
+"pref": "長野県",
 "id": "14502",
 "name": "野尻湖高原 BARTON薪火campBASE",
 "addr": "長野県上水内郡信濃町古海３３３２−３",
 "url": "https://www.nap-camp.com/nagano/14502"
+},
+{
+"pref": "長野県",
+"id": "14507",
+"name": "ZEKKEI GLAMPING &amp; CAMPING RESORT（旧：REWILD ZEKKEI GLAMPING RESORT）",
+"addr": "長野県須坂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14507"
 },
 {
 "pref": "長野県",
@@ -1751,10 +4390,115 @@
 },
 {
 "pref": "長野県",
+"id": "14537",
+"name": "KISOFUKU   HARAPPA",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14537"
+},
+{
+"pref": "長野県",
+"id": "14544",
+"name": "森の灯キャンプ場",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14544"
+},
+{
+"pref": "長野県",
+"id": "14554",
+"name": "SEASHA キャンプサイト",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14554"
+},
+{
+"pref": "長野県",
+"id": "14559",
+"name": "ひるがみの森",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14559"
+},
+{
+"pref": "長野県",
+"id": "14562",
+"name": "ホテルタガワ憩いの森後楽亭キャンプ場",
+"addr": "長野県下高井郡山ノ内町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14562"
+},
+{
+"pref": "長野県",
+"id": "14563",
+"name": "七倉山荘",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14563"
+},
+{
+"pref": "長野県",
+"id": "14566",
+"name": "眺望の郷キャンプ場",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14566"
+},
+{
+"pref": "長野県",
 "id": "14568",
 "name": "戸狩温泉ふれあいの里キャンプ場",
 "addr": "飯山市常郷8389",
 "url": "https://www.nap-camp.com/nagano/14568"
+},
+{
+"pref": "長野県",
+"id": "14579",
+"name": "コルチナオートキャンプ場",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14579"
+},
+{
+"pref": "長野県",
+"id": "14594",
+"name": "木曽ふれあいの郷 キャンプ場",
+"addr": "長野県木曽郡大桑村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14594"
+},
+{
+"pref": "長野県",
+"id": "14609",
+"name": "キャンプグランド　グリーンパーク",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14609"
+},
+{
+"pref": "長野県",
+"id": "14618",
+"name": "富士見台高原ロープウェイヘブンスそのはら",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14618"
+},
+{
+"pref": "長野県",
+"id": "14626",
+"name": "ペンションマドンナ 　ペットとキャンプ",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14626"
+},
+{
+"pref": "長野県",
+"id": "14630",
+"name": "白馬倉下の湯キャンプ場",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14630"
+},
+{
+"pref": "長野県",
+"id": "14631",
+"name": "白樺湖畔のキャンプ場 Hygge",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14631"
+},
+{
+"pref": "長野県",
+"id": "14633",
+"name": "キャンプサイト　ななつ星",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14633"
 },
 {
 "pref": "長野県",
@@ -1765,10 +4509,24 @@
 },
 {
 "pref": "長野県",
+"id": "14654",
+"name": "軽井沢グリーンランド　デイキャンプBBQエリア（旧：スノーマンパークデイキャンプBBQエリア）",
+"addr": "長野県北佐久郡軽井沢町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14654"
+},
+{
+"pref": "長野県",
 "id": "14655",
 "name": "suwa.c.site",
 "addr": "長野県諏訪市上諏訪13338-72",
 "url": "https://www.nap-camp.com/nagano/14655"
+},
+{
+"pref": "長野県",
+"id": "14665",
+"name": "蓼科∞GRAND(蓼科インフィニティーグランド)",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14665"
 },
 {
 "pref": "長野県",
@@ -1800,10 +4558,59 @@
 },
 {
 "pref": "長野県",
+"id": "14688",
+"name": "ワンコと遊べるオートキャンプ場（アソビーバナガノパーク）",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14688"
+},
+{
+"pref": "長野県",
+"id": "14690",
+"name": "【R6/3現在 休止中】TSUGAIKE OUTDOOR VILLAGE（旧名：GLAMPING FIELD TSUGAIKE）",
+"addr": "長野県北安曇郡小谷村大字） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14690"
+},
+{
+"pref": "長野県",
 "id": "14692",
 "name": "いちばの森キャンプ場（旧：市場の間）",
 "addr": "長野県下伊那郡松川町元大島1773",
 "url": "https://www.nap-camp.com/nagano/14692"
+},
+{
+"pref": "長野県",
+"id": "14703",
+"name": "信州とうみオートキャンプ場　Glänta(グランタ)",
+"addr": "長野県東御市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14703"
+},
+{
+"pref": "長野県",
+"id": "14712",
+"name": "KURUMAYAMA CAMP SKY FIELD",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14712"
+},
+{
+"pref": "長野県",
+"id": "14739",
+"name": "nature park TOGARI",
+"addr": "長野県飯山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14739"
+},
+{
+"pref": "長野県",
+"id": "14809",
+"name": "高ボッチ高原キャンプ場",
+"addr": "長野県塩尻市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14809"
+},
+{
+"pref": "長野県",
+"id": "14813",
+"name": "山の寺キャンプ場",
+"addr": "長野県下伊那郡高森町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14813"
 },
 {
 "pref": "長野県",
@@ -1814,10 +4621,45 @@
 },
 {
 "pref": "長野県",
+"id": "14833",
+"name": "おんたけロープウェイキャンプエリア（旧：御岳ロープウェイキャンプベース）",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14833"
+},
+{
+"pref": "長野県",
+"id": "14837",
+"name": "車山グランピングコテージ -Kurumayama Sky Mountain Lodge",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14837"
+},
+{
+"pref": "長野県",
+"id": "14840",
+"name": "ウッディ・もっく",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14840"
+},
+{
+"pref": "長野県",
+"id": "14848",
+"name": "美鈴温泉オートキャンプ場",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14848"
+},
+{
+"pref": "長野県",
 "id": "14850",
 "name": "Azumino Garden Camp クラーレット",
 "addr": "長野県安曇野市穂高牧2354-1",
 "url": "https://www.nap-camp.com/nagano/14850"
+},
+{
+"pref": "長野県",
+"id": "14851",
+"name": "コテージ山音荘",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14851"
 },
 {
 "pref": "長野県",
@@ -1828,10 +4670,45 @@
 },
 {
 "pref": "長野県",
+"id": "14867",
+"name": "キャンプグラウンド原宿",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14867"
+},
+{
+"pref": "長野県",
+"id": "14871",
+"name": "あぴの森キャンプ場",
+"addr": "長野県諏訪郡原村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14871"
+},
+{
+"pref": "長野県",
 "id": "14882",
 "name": "八ヶ岳高原キャンプ",
 "addr": "長野県諏訪郡原村",
 "url": "https://www.nap-camp.com/nagano/14882"
+},
+{
+"pref": "長野県",
+"id": "14889",
+"name": "山に恋するキャンプ場（旧：やまびこの丘公園キャンプ場）",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14889"
+},
+{
+"pref": "長野県",
+"id": "14905",
+"name": "キャンプフィールド木島平",
+"addr": "長野県下高井郡木島平村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14905"
+},
+{
+"pref": "長野県",
+"id": "14926",
+"name": "プチホテルグラスハウス",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14926"
 },
 {
 "pref": "長野県",
@@ -1849,10 +4726,24 @@
 },
 {
 "pref": "長野県",
+"id": "14969",
+"name": "須砂渡キャンプ場",
+"addr": "長野県安曇野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14969"
+},
+{
+"pref": "長野県",
 "id": "14987",
 "name": "南信州 OUTDOOR LIVINGの口コミ・予約（長野県飯田市） ｜ なっぷ",
 "addr": "",
 "url": "https://www.nap-camp.com/nagano/14987"
+},
+{
+"pref": "長野県",
+"id": "14993",
+"name": "Farmer&#x27;s Camp ポレポレ",
+"addr": "長野県売木村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/14993"
 },
 {
 "pref": "長野県",
@@ -1870,6 +4761,20 @@
 },
 {
 "pref": "長野県",
+"id": "15037",
+"name": "SENKO TINY CAMP",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15037"
+},
+{
+"pref": "長野県",
+"id": "15053",
+"name": "GLAMPINGBASE enCamp",
+"addr": "長野県塩尻市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15053"
+},
+{
+"pref": "長野県",
 "id": "15119",
 "name": "夢想庭園こもれびキャンプ場",
 "addr": "佐久市内山2707",
@@ -1877,10 +4782,150 @@
 },
 {
 "pref": "長野県",
+"id": "15654",
+"name": "Windera CAMPGROUNDS八ヶ岳",
+"addr": "長野県諏訪郡富士見町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15654"
+},
+{
+"pref": "長野県",
+"id": "15660",
+"name": "貸別荘 南信州根羽ヴィレッジ（旧：ファームイン根羽）",
+"addr": "長野県下伊那郡根羽村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15660"
+},
+{
+"pref": "長野県",
+"id": "15680",
+"name": "子安温泉キャンプ場",
+"addr": "長野県上高井郡高山村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15680"
+},
+{
+"pref": "長野県",
+"id": "15695",
+"name": "青少年の家ジブ（旧：キャンプサイトジブ）",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15695"
+},
+{
+"pref": "長野県",
+"id": "15742",
+"name": "リーフハウス",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15742"
+},
+{
+"pref": "長野県",
+"id": "15764",
+"name": "ｍökki STRADUST GLAMPING achi village",
+"addr": "長野県下伊那郡阿智村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15764"
+},
+{
+"pref": "長野県",
+"id": "15771",
+"name": "泊まれる秘密基地　L-BASE",
+"addr": "長野県松本市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15771"
+},
+{
+"pref": "長野県",
+"id": "15773",
+"name": "From P",
+"addr": "長野県北安曇郡白馬村北城瑞穂） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15773"
+},
+{
+"pref": "長野県",
+"id": "15801",
+"name": "Baco Resort 長野",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15801"
+},
+{
+"pref": "長野県",
+"id": "15821",
+"name": "北アルプスBASE温泉郷キャンプ場",
+"addr": "長野県大町市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15821"
+},
+{
+"pref": "長野県",
+"id": "15822",
+"name": "Oak Village(オークヴィレッジ)",
+"addr": "長野県北安曇郡白馬村北城） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15822"
+},
+{
+"pref": "長野県",
+"id": "15833",
+"name": "ホテル木曽温泉黄金の湯　グランピングONTAKE",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15833"
+},
+{
+"pref": "長野県",
+"id": "15840",
+"name": "空庭キャンプ場",
+"addr": "長野県須坂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15840"
+},
+{
+"pref": "長野県",
+"id": "15842",
+"name": "LIVE CAMP あたらび",
+"addr": "長野県小諸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15842"
+},
+{
+"pref": "長野県",
+"id": "15857",
+"name": "蓼科高原キャンプ場",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15857"
+},
+{
+"pref": "長野県",
+"id": "15885",
+"name": "KOMOROBI Athletic＆Camp",
+"addr": "長野県小諸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15885"
+},
+{
+"pref": "長野県",
 "id": "15922",
 "name": "信州不動温泉 犀川キャンプ場",
 "addr": "長野市信州新町日原西300-1（信州不動温泉さぎり荘）",
 "url": "https://www.nap-camp.com/nagano/15922"
+},
+{
+"pref": "長野県",
+"id": "15923",
+"name": "ties Camp Ground",
+"addr": "長野県木曽郡南木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15923"
+},
+{
+"pref": "長野県",
+"id": "15935",
+"name": "HAKUBA camping field トワノワ",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15935"
+},
+{
+"pref": "長野県",
+"id": "15956",
+"name": "きなさBase",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15956"
+},
+{
+"pref": "長野県",
+"id": "15990",
+"name": "正沢親水公園キャンプ場",
+"addr": "長野県木曽郡木祖村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/15990"
 },
 {
 "pref": "長野県",
@@ -1898,10 +4943,66 @@
 },
 {
 "pref": "長野県",
+"id": "16024",
+"name": "Twilight Forest",
+"addr": "長野県小諸市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16024"
+},
+{
+"pref": "長野県",
+"id": "16030",
+"name": "glampark 森の宿",
+"addr": "長野県下伊那郡売木村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16030"
+},
+{
+"pref": "長野県",
+"id": "16031",
+"name": "glampark 月下美人",
+"addr": "長野県下伊那郡下條村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16031"
+},
+{
+"pref": "長野県",
+"id": "16043",
+"name": "棚田キャンプ場",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16043"
+},
+{
+"pref": "長野県",
+"id": "16044",
+"name": "Glamping　Azumino BASE    ポレキャン",
+"addr": "長野県安曇野市穂高有明） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16044"
+},
+{
+"pref": "長野県",
+"id": "16057",
+"name": "木曽駒冷水公園",
+"addr": "長野県木曽郡木曽町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16057"
+},
+{
+"pref": "長野県",
+"id": "16079",
+"name": "モジュベルクキャンプベース",
+"addr": "長野県上田市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16079"
+},
+{
+"pref": "長野県",
 "id": "16080",
 "name": "OUTDOOR BASE 白馬",
 "addr": "長野県北安曇郡白馬村神城4766-4",
 "url": "https://www.nap-camp.com/nagano/16080"
+},
+{
+"pref": "長野県",
+"id": "16109",
+"name": "鬼無里ランタンヴィレッジ",
+"addr": "長野県長野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16109"
 },
 {
 "pref": "長野県",
@@ -1912,10 +5013,45 @@
 },
 {
 "pref": "長野県",
+"id": "16214",
+"name": "桑原キャンプ場",
+"addr": "長野県上伊那郡中川村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16214"
+},
+{
+"pref": "長野県",
 "id": "16259",
 "name": "PET CAMP RUFF RUFF",
 "addr": "長和町大門3652（ブランシュたかやまスキー場内）",
 "url": "https://www.nap-camp.com/nagano/16259"
+},
+{
+"pref": "長野県",
+"id": "16265",
+"name": "しあわせの森　たきのゆキャンプ場",
+"addr": "長野県上高井郡高山村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16265"
+},
+{
+"pref": "長野県",
+"id": "16274",
+"name": "ＯＡＳＩＳ望月ｃａｍｐ ｓｉｔｅ",
+"addr": "長野県佐久市印内） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16274"
+},
+{
+"pref": "長野県",
+"id": "16303",
+"name": "涼森キャンプ場（旧：女神の森キャンプ場）",
+"addr": "長野県佐久市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16303"
+},
+{
+"pref": "長野県",
+"id": "16334",
+"name": "Nojiri Lake Resort",
+"addr": "長野県上水内郡信濃町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16334"
 },
 {
 "pref": "長野県",
@@ -1940,10 +5076,31 @@
 },
 {
 "pref": "長野県",
+"id": "16385",
+"name": "Matkaotari",
+"addr": "長野県北安曇郡小谷村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16385"
+},
+{
+"pref": "長野県",
+"id": "16396",
+"name": "星灯りの森キャンプ場",
+"addr": "長野県下伊那郡松川町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16396"
+},
+{
+"pref": "長野県",
 "id": "16416",
 "name": "開田高原マイアグリーンフィールド",
 "addr": "長野県木曽郡木曽町開田高原",
 "url": "https://www.nap-camp.com/nagano/16416"
+},
+{
+"pref": "長野県",
+"id": "16440",
+"name": "RetamaCampForest",
+"addr": "長野県駒ヶ根市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16440"
 },
 {
 "pref": "長野県",
@@ -1954,10 +5111,52 @@
 },
 {
 "pref": "長野県",
+"id": "16460",
+"name": "さかえ倶楽部キャンプ場",
+"addr": "長野県下水内郡栄村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16460"
+},
+{
+"pref": "長野県",
+"id": "16478",
+"name": "iiネイチャー春日平",
+"addr": "長野県上伊那郡飯島町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16478"
+},
+{
+"pref": "長野県",
 "id": "16479",
 "name": "瀬一梵ビストロ&キャンプ",
 "addr": "長野県伊那市（高遠）",
 "url": "https://www.nap-camp.com/nagano/16479"
+},
+{
+"pref": "長野県",
+"id": "16492",
+"name": "Larch Forest Village",
+"addr": "長野県茅野市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16492"
+},
+{
+"pref": "長野県",
+"id": "16525",
+"name": "茶臼山山荘キャンプフィールド",
+"addr": "長野県下伊那郡根羽村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16525"
+},
+{
+"pref": "長野県",
+"id": "16561",
+"name": "キャンプ・アーボ　女神湖",
+"addr": "長野県小県郡長和町） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16561"
+},
+{
+"pref": "長野県",
+"id": "16568",
+"name": "須坂健康の森RVリゾート",
+"addr": "長野県須坂市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16568"
 },
 {
 "pref": "長野県",
@@ -1989,10 +5188,45 @@
 },
 {
 "pref": "長野県",
-"id": "16916",
-"name": "Foresta Karuizawa 6",
-"addr": "軽井沢町追分725-12",
-"url": "https://www.nap-camp.com/nagano/16916"
+"id": "16715",
+"name": "飯山 FOREST BASE 292",
+"addr": "長野県飯山市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16715"
+},
+{
+"pref": "長野県",
+"id": "16722",
+"name": "信州経ヶ岳高原キャンプ場",
+"addr": "長野県上伊那郡南箕輪村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16722"
+},
+{
+"pref": "長野県",
+"id": "16734",
+"name": "荒砥沢温泉 薬師の湯オートキャンプ場",
+"addr": "長野県千曲市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16734"
+},
+{
+"pref": "長野県",
+"id": "16768",
+"name": "HAKUBA BASECAMP ONE",
+"addr": "長野県北安曇郡白馬村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16768"
+},
+{
+"pref": "長野県",
+"id": "16801",
+"name": "グラマラスダイニング蓼科　The Camp",
+"addr": "長野県茅野市北山字鹿山） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16801"
+},
+{
+"pref": "長野県",
+"id": "16806",
+"name": "こいしやcamp&amp;居酒屋",
+"addr": "長野県諏訪郡原村） ｜ なっぷ",
+"url": "https://www.nap-camp.com/nagano/16806"
 },
 {
 "pref": "静岡県",
@@ -2756,6 +5990,13 @@
 "name": "FUJIYAMA泉の森CAMPING FIELD",
 "addr": "静岡県富士宮市猪之頭2131-4管理事務所",
 "url": "https://www.nap-camp.com/shizuoka/11865"
+},
+{
+"pref": "静岡県",
+"id": "11866",
+"name": "猪の頭オートキャンプ場",
+"addr": "静岡県富士宮市） ｜ なっぷ",
+"url": "https://www.nap-camp.com/shizuoka/11866"
 },
 {
 "pref": "静岡県",
