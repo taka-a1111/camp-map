@@ -1,5 +1,5 @@
 {
- "timestamp_osm_base": "2026-09-30T11:27:33Z",
+ "timestamp_osm_base": "2026-09-30T12:39:22Z",
  "elements": [
   {
    "osm": "node/939880987",
@@ -1417,41 +1417,6 @@
     "tents": "yes",
     "tourism": "camp_site",
     "website": "https://tokimeguri.jp/guide/takabotchicamp/"
-   }
-  },
-  {
-   "osm": "node/14202153270",
-   "pref": "長野県",
-   "lat": 35.964267,
-   "lon": 138.467456,
-   "tags": {
-    "access": "customers",
-    "addr:postcode": "384-1305",
-    "cabins": "no",
-    "camp_site": "serviced",
-    "caravans": "yes",
-    "charge": "1,000JPY~",
-    "check_date": "2026-09-21",
-    "description": "チェックイン9:00〜16:30、チェックアウト9:00〜12:00。10〜4月上旬不定休あり。",
-    "dog": "yes",
-    "drinking_water": "yes",
-    "fax": "+81 26-7983-422",
-    "fee": "yes",
-    "group_only": "no",
-    "name": "滝沢牧場",
-    "name:en": "Takizawa Farm",
-    "nudism": "no",
-    "openfire": "yes",
-    "operator": "滝沢牧場",
-    "phone": "+81 26-7982-222",
-    "reservation": "no",
-    "sanitary_dump_station": "yes",
-    "shower": "yes",
-    "static_caravans": "no",
-    "tents": "yes",
-    "toilets": "yes",
-    "tourism": "camp_site",
-    "website": "http://www.takizawa-bokujo.jp/lodging"
    }
   },
   {
