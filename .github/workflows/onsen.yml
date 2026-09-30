@@ -1,0 +1,31 @@
+name: onsen
+
+# キャンプ場の近くの日帰り入浴施設を集める（crawl/onsen_request.txt を更新して push すると実行）。
+# 結果はリポジトリには入れず一時ファイル（artifact）として保存し、料金を読み取ってから data/onsens.json に反映する。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "crawl/onsen_request.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 入浴施設（OpenStreetMap）と公式サイト
+        run: python scripts/fetch_onsen.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: onsen
+          path: crawl_out/
+          retention-days: 14
