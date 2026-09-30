@@ -71,13 +71,13 @@ def extract(lines):
     for l in joined:
         if EXCL.search(l) and not re.search(r"入浴|入館|日帰り", l):
             continue
-        for m in re.finditer(ADULT + PAREN + r"[^0-9円。]{0,15}?" + NUM, l):
+        for m in re.finditer(ADULT + PAREN + r"(?:(?!小人|小学|子供|子ども|こども|児童|幼児|未就学)[^0-9円。]){0,15}?" + NUM, l):
             v = yen(m.group(2))
             if 100 <= v <= 3000:
                 adults.append(v)
                 if not quote:
                     quote = l
-        for m in re.finditer(CHILD + PAREN + r"[^0-9円。]{0,15}?(?:" + NUM + r"|(無料))", l):
+        for m in re.finditer(CHILD + PAREN + r"(?:(?!大人|一般|中学生以上|高校生以上|幼児|未就学)[^0-9円。]){0,15}?(?:" + NUM + r"|(無料))", l):
             v = 0 if m.group(3) else yen(m.group(2))
             if v <= 2000:
                 children.append((v, m.group(1)))

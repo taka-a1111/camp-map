@@ -27,6 +27,9 @@ ROOT = Path(__file__).resolve().parent.parent
 D = ROOT / "data"
 OUT = D / "onsens.json"
 GEO = D / "onsen_geocode_cache.json"
+NOT_FACILITY = re.compile(r"足湯|手湯|紅葉|ライトアップ|まつり|祭|博物館|記念館|資料館|会館|文化|温泉寺|寺$|神社|ゴルフ|スキー|クルーズ|遊覧|水族館|"
+                          r"案内所|体験館|ドリームプラザ|パスタ|スパゲ|ＰＡ|PA\b|ＳＡ|食祭|レストラン|カフェ$|合掌村|スパーランド|橋$")
+FACILITY = re.compile(r"湯|館|荘|ホテル|旅館|宿|センター|スパ|浴場|銭湯|温泉村|リゾート|道の駅")
 WEEK = {"Mo": "月", "Tu": "火", "We": "水", "Th": "木", "Fr": "金", "Sa": "土", "Su": "日", "PH": "祝"}
 
 
@@ -128,6 +131,12 @@ def main():
     # 地図データに無い施設を観光協会のページから追加（同じ施設の重複ページはまとめる）
     added = []
     for url, p, pos in extra:
+        # 入浴施設ではないページ（温泉地の紹介・足湯・行事・博物館など）は追加しない
+        if NOT_FACILITY.search(p["name"]):
+            continue
+        has_fee = bool(extract(p.get("lines", [])))
+        if not has_fee and (not FACILITY.search(p["name"]) or re.fullmatch(r".{1,6}温泉(郷)?", p["name"])):
+            continue  # 「○○温泉」だけの名前で料金も無いものは温泉地の紹介ページとみなす
         pk = keys(p["name"])
         if any(q["pref"] == p["pref"] and same(keys(q["name"]), pk) and km((q["lat"], q["lng"]), pos) <= 3 for q in added):
             continue
