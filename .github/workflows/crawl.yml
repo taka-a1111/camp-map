@@ -1,0 +1,32 @@
+name: crawl-pages
+
+# crawl/request.txt を更新して push すると実行（手動実行も可）。
+# 公式ページの本文と候補リストを集め、リポジトリには入れず一時ファイル（artifact）として保存する。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "crawl/request.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 候補リスト（無料・格安の野営地）を取得
+        run: python scripts/fetch_checklists.py
+      - name: 公式・自治体ページを取得
+        run: python scripts/crawl_pages.py --only-unpriced
+      - uses: actions/upload-artifact@v4
+        with:
+          name: crawl-out
+          path: crawl_out/
+          retention-days: 14
