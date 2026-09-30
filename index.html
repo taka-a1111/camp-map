@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<!-- BUILD_TAG: 2026-09-30c -->
+<!-- BUILD_TAG: 2026-09-30d -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
-<link rel="stylesheet" href="css/style.css?v=2026-09-30c">
+<link rel="stylesheet" href="css/style.css?v=2026-09-30d">
 </head>
 <body>
 <header class="bar" id="bar">
@@ -62,6 +62,19 @@
     </div>
   </div>
   <div class="filters" id="filters" hidden>
+    <fieldset>
+      <legend>行きたい時期</legend>
+      <div class="month-row">
+        <select id="month" aria-label="行きたい月">
+          <option value="">指定なし</option>
+          <option value="now">今月</option>
+          <option value="1">1月</option><option value="2">2月</option><option value="3">3月</option><option value="4">4月</option>
+          <option value="5">5月</option><option value="6">6月</option><option value="7">7月</option><option value="8">8月</option>
+          <option value="9">9月</option><option value="10">10月</option><option value="11">11月</option><option value="12">12月</option>
+        </select>
+        <label class="inline"><input type="checkbox" id="seasonKnown">営業期間が分かる施設のみ</label>
+      </div>
+    </fieldset>
     <fieldset>
       <legend>宿泊タイプ</legend>
       <div class="chips" data-key="types">
@@ -120,11 +133,11 @@
 
 <footer class="foot">
   <span>料金は目安です。予約前に必ず公式サイトでご確認ください。</span>
-  <span class="tag" id="buildTag">BUILD 2026-09-30c</span>
+  <span class="tag" id="buildTag">BUILD 2026-09-30d</span>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
-<script src="js/app.js?v=2026-09-30c"></script>
+<script src="js/app.js?v=2026-09-30d"></script>
 </body>
 </html>

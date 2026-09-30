@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30c */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30d */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30c";
+  var BUILD = "2026-09-30d";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -27,7 +27,7 @@
   var els = {
     pref: $("pref"), budget: $("budget"), budgetBtn: $("budgetBtn"), q: $("q"), more: $("moreBtn"), badge: $("badge"), filters: $("filters"),
     count: $("count"), panel: $("detail"), body: $("detailBody"), pet: $("pet"), known: $("known"), nomt: $("nomt"),
-    open: $("openOnly"), listBtn: $("listBtn"), toast: $("toast")
+    open: $("openOnly"), listBtn: $("listBtn"), toast: $("toast"), month: $("month"), seasonKnown: $("seasonKnown")
   };
 
   var camps = [];
@@ -193,7 +193,8 @@
     return {
       pref: els.pref.value, max: getMax(), q: els.q.value.trim(),
       types: checked("types"), book: checked("book"), fac: checked("fac"),
-      pet: els.pet.checked, known: els.known.checked, nomt: els.nomt.checked, open: els.open.checked
+      pet: els.pet.checked, known: els.known.checked, nomt: els.nomt.checked, open: els.open.checked,
+      month: els.month.value, seasonKnown: els.seasonKnown.checked
     };
   }
   function norm(s) { return (s || "").normalize("NFKC").toLowerCase().replace(/\s/g, ""); }
@@ -206,6 +207,11 @@
     if (s.nomt && c.mountain) return false;
     if (s.open && c.status !== "open") return false;
     if (s.pet && c.pet !== true) return false;
+    if (s.month) {
+      var mm = s.month === "now" ? new Date().getMonth() + 1 : Number(s.month);
+      if (c.open_months) { if (c.open_months.indexOf(mm) < 0) return false; }
+      else if (s.seasonKnown) return false;
+    }
     if (s.q) {
       var hay = norm(c.name + c.pref + (c.city || "") + (c.address || ""));
       var words = norm(s.q).split(/[,、]/).filter(Boolean);
@@ -228,7 +234,8 @@
     if (s.types.length) p.set("types", s.types.join(","));
     if (s.book.length) p.set("book", s.book.join(","));
     if (s.fac.length) p.set("fac", s.fac.join(","));
-    ["pet", "known", "nomt", "open"].forEach(function (k) { if (s[k]) p.set(k, "1"); });
+    ["pet", "known", "nomt", "open", "seasonKnown"].forEach(function (k) { if (s[k]) p.set(k, "1"); });
+    if (s.month) p.set("month", s.month);
     PARTY_KEYS.forEach(function (d) { if (party[d.k] !== d.def) p.set("p" + d.k, party[d.k]); });
     if (activeId) p.set("id", activeId);
     var qs = p.toString();
@@ -250,6 +257,8 @@
     els.known.checked = p.get("known") === "1";
     els.nomt.checked = p.get("nomt") === "1";
     els.open.checked = p.get("open") === "1";
+    els.seasonKnown.checked = p.get("seasonKnown") === "1";
+    if (p.get("month")) els.month.value = p.get("month");
     PARTY_KEYS.forEach(function (d) {
       var v = parseInt(p.get("p" + d.k), 10);
       party[d.k] = isNaN(v) ? d.def : Math.min(d.max, Math.max(d.min, v));
@@ -307,7 +316,7 @@
     hits = camps.filter(function (c) { return match(c, s); });
     cluster.clearLayers();
     cluster.addLayers(hits.map(function (c) { return markers[c.id]; }));
-    var extra = s.types.length + s.book.length + s.fac.length + (s.pet ? 1 : 0) + (s.known ? 1 : 0) + (s.nomt ? 1 : 0) + (s.open ? 1 : 0);
+    var extra = s.types.length + s.book.length + s.fac.length + (s.pet ? 1 : 0) + (s.known ? 1 : 0) + (s.nomt ? 1 : 0) + (s.open ? 1 : 0) + (s.month ? 1 : 0);
     els.badge.hidden = extra === 0;
     els.badge.textContent = extra;
     if (activeId && !hits.some(function (c) { return c.id === activeId; }) && mode === "detail") closePanel(true);
@@ -429,6 +438,8 @@
     h.push('<h2 class="d-name">' + esc(c.name) + "</h2>");
     h.push('<p class="d-area">' + esc(c.pref + (c.city ? " " + c.city : "")) + (c.mountain ? "　山岳テント場" : "") + "</p>");
     if (c.notice) h.push('<p class="notice">' + esc(c.notice) + "</p>");
+    var selM = els.month.value === "now" ? new Date().getMonth() + 1 : Number(els.month.value || 0);
+    if (selM && c.open_months && c.open_months.indexOf(selM) < 0) h.push('<p class="notice">' + selM + "月は営業期間外です。</p>");
     if (c.status !== "open") h.push('<p class="notice">営業しているかは未確認です（掲載元：' + esc(c.source || "") + "）。行く前に必ず確認してください。</p>");
     h.push(priceBlock(c));
 
@@ -442,8 +453,10 @@
     var b = [];
     if (safeUrl(c.official_url)) b.push('<a class="btn" href="' + esc(c.official_url) + '" target="_blank" rel="noopener">公式サイト</a>');
     // Googleマップは施設名で検索し、登録されているスポットの詳細を開く
-    var gq = c.name + " " + (c.city || c.pref);
-    b.push('<a class="btn" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(gq) + '" target="_blank" rel="noopener">Googleマップ</a>');
+    // 施設名をキャンプ場の位置の周辺で検索する（登録されていればスポットの詳細が開き、なければその周辺が表示される）
+    var gq = c.name.replace(/[（(][^）)]*[）)]/g, "").trim();
+    var gz = c.geo === "area" ? 13 : 15;
+    b.push('<a class="btn" href="https://www.google.com/maps/search/' + encodeURIComponent(gq) + "/@" + c.lat + "," + c.lng + "," + gz + 'z" target="_blank" rel="noopener">Googleマップ</a>');
     var napUrl = safeUrl(c.nap_affiliate_url) || safeUrl(c.nap_url);
     if (napUrl) b.push('<a class="btn nap" href="' + esc(napUrl) + '" target="_blank" rel="noopener' + (c.nap_affiliate_url ? " sponsored" : "") + '">なっぷで見る</a>');
     h.push('<div class="btns">' + b.join("") + "</div>");
@@ -455,7 +468,7 @@
     var bookLink = safeUrl(c.affiliate_url) || safeUrl(c.booking_url);
     var info = linkRow("電話", c.tel ? '<a href="tel:' + esc(c.tel.replace(/[^0-9+]/g, "")) + '">' + esc(c.tel) + "</a>" : "") +
       linkRow("予約", bookLink ? '<a href="' + esc(bookLink) + '" target="_blank" rel="noopener">予約ページを開く</a>' : "") +
-      row("営業期間", c.season) + row("チェックイン", c.checkin) + row("チェックアウト", c.checkout) + row("住所", c.address) + row("サイトの種類", !c.priced ? c.types_text : "");
+      row("営業期間", c.season) + row("休業日など", c.closed_note) + row("チェックイン", c.checkin) + row("チェックアウト", c.checkout) + row("住所", c.address) + row("サイトの種類", !c.priced ? c.types_text : "");
     if (info) h.push('<div class="d-sec"><h3>基本情報</h3><dl>' + info + "</dl></div>");
 
     var tp = tips(c);
@@ -570,7 +583,7 @@
   $("closeFilters").addEventListener("click", function () { toggleFilters(false); });
   $("reset").addEventListener("click", function () {
     els.filters.querySelectorAll('input[type="checkbox"]').forEach(function (i) { i.checked = false; });
-    els.pref.value = ""; els.q.value = "";
+    els.pref.value = ""; els.q.value = ""; els.month.value = "";
     apply({ fit: true });
   });
   els.listBtn.addEventListener("click", function () { if (mode === "list") closePanel(); else openList(); });

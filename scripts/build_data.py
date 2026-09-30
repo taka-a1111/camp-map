@@ -21,6 +21,7 @@ COVER = ROOT / "data" / "coverage.json"
 GEOCACHE = ROOT / "data" / "geocode_cache.json"
 FEESTATUS = ROOT / "data" / "fee_status.json"
 NAPINDEX = ROOT / "data" / "nap_index.json"
+SEASON = ROOT / "data" / "season.json"
 OUT = ROOT / "data" / "camps.json"
 
 # キャンプ場らしい名前（これに当たらず公式URLもないものは除外）
@@ -133,6 +134,7 @@ def main() -> int:
     clean_address = load_geocode()
     fee_status = json.loads(FEESTATUS.read_text(encoding="utf-8")) if FEESTATUS.exists() else {}
     nap_index = json.loads(NAPINDEX.read_text(encoding="utf-8")) if NAPINDEX.exists() else []
+    season = json.loads(SEASON.read_text(encoding="utf-8")) if SEASON.exists() else {}
     nap_by_pref = {}
     for x in nap_index:
         nap_by_pref.setdefault(x["pref"], []).append((norm(x["name"]), x["url"]))
@@ -304,6 +306,13 @@ def main() -> int:
                     break
         if nap_url:
             rec["nap_url"] = nap_url
+        sz = season.get(f"{pref}|{name}")
+        if sz:
+            rec["open_months"] = sz["months"]
+            if not rec.get("season"):
+                rec["season"] = sz.get("text", "")
+            if sz.get("closed_note"):
+                rec["closed_note"] = sz["closed_note"]
         fs = fee_status.get(f"{pref}|{name}")
         if fs and not m:
             rec["fee_status"] = fs["status"]

@@ -314,3 +314,7 @@ select { max-width: 150px; }
 .btns { grid-template-columns: repeat(3, 1fr); }
 .btn.nap { border-color: #e06a1b; color: #c4580f; }
 .d-sec dd a { color: var(--accent); }
+.month-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.month-row select { width: auto; max-width: 140px; }
+.inline { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; }
+.inline input { accent-color: var(--accent); }
