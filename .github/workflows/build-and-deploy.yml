@@ -50,9 +50,10 @@ jobs:
       - name: 公開用ファイルをまとめる
         run: |
           mkdir -p _site/data
-          cp index.html robots.txt .nojekyll _site/
-          cp -r css js _site/
+          cp index.html robots.txt .nojekyll manifest.webmanifest sw.js _site/
+          cp -r css js icons _site/
           cp data/camps.json _site/data/
+          if [ -f data/onsens.json ]; then cp data/onsens.json _site/data/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

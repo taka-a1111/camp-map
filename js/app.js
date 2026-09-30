@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30f */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30g */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30f";
+  var BUILD = "2026-09-30g";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -43,6 +43,8 @@
   var party = {};
   var myPos = null;
   var sortBy = "price";
+  var onsens = {};        // id -> 入浴施設
+  var showOnsen = true;   // 地図に♨を出すか（キャンプ場の絞り込みとは別の層）
   var basis = "total"; // 予算とピンの金額の基準："total"（全員分の総額）｜"per"（1人あたり）
   var MAX_OPTS = { total: [0, 2000, 3000, 4000, 5000, 6000, 8000, 10000], per: [0, 1000, 1500, 2000, 2500, 3000, 4000] };
 
@@ -55,6 +57,35 @@
   var cluster = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 45, spiderfyOnMaxZoom: true, chunkedLoading: true });
   map.addLayer(cluster);
   map.on("click", function () { if (mode === "detail") closePanel(); });
+
+  // 日帰り温泉（♨）：キャンプ場とは別の層。絞り込み・件数・一覧には入らない
+  var onsenLayer = L.markerClusterGroup({
+    showCoverageOnHover: false, maxClusterRadius: 50, disableClusteringAtZoom: 12,
+    iconCreateFunction: function (cl) { return L.divIcon({ className: "onsen-cl", html: "<span>♨" + cl.getChildCount() + "</span>", iconSize: [40, 22] }); }
+  });
+  var onsenIcon = L.divIcon({ className: "onsen-pin", html: "<span>♨</span>", iconSize: [24, 24], iconAnchor: [12, 12] });
+  function onsenPopup(o) {
+    return '<div class="on-pop"><b>♨ ' + esc(o.name) + '</b><div class="on-pop-y">' + onsenSummary(o) + '<span class="sub">（' + esc(partyText()) + "）</span></div>" + onsenDetail(o) + "</div>";
+  }
+  var OnsenToggle = L.Control.extend({
+    options: { position: "topright" },
+    onAdd: function () {
+      var b = L.DomUtil.create("button", "onsen-toggle");
+      b.type = "button";
+      b.id = "onsenToggle";
+      b.innerHTML = "♨ 温泉";
+      L.DomEvent.disableClickPropagation(b);
+      L.DomEvent.on(b, "click", function () { setOnsen(!showOnsen); writeUrl(getState()); });
+      return b;
+    }
+  });
+  map.addControl(new OnsenToggle());
+  function setOnsen(on) {
+    showOnsen = on;
+    var b = $("onsenToggle");
+    if (b) { b.classList.toggle("on", on); b.setAttribute("aria-pressed", on ? "true" : "false"); b.title = on ? "温泉を地図から消す" : "温泉を地図に表示"; }
+    if (on) map.addLayer(onsenLayer); else map.removeLayer(onsenLayer);
+  }
 
   // 現在地ボタン（右下）
   var meLayer = L.layerGroup().addTo(map);
@@ -242,6 +273,7 @@
     ["pet", "known", "nomt", "open", "seasonKnown"].forEach(function (k) { if (s[k]) p.set(k, "1"); });
     if (s.month) p.set("month", s.month);
     PARTY_KEYS.forEach(function (d) { if (party[d.k] !== d.def) p.set("p" + d.k, party[d.k]); });
+    if (!showOnsen) p.set("onsen", "0");
     if (activeId) p.set("id", activeId);
     var qs = p.toString();
     history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
@@ -249,6 +281,7 @@
   function readUrl() {
     var p = new URLSearchParams(location.search);
     if (p.get("pref")) els.pref.value = p.get("pref");
+    showOnsen = p.get("onsen") !== "0";
     basis = p.get("basis") === "per" ? "per" : "total";
     document.querySelectorAll('input[name="basis"]').forEach(function (i) { i.checked = i.value === basis; });
     renderMaxChips();
@@ -312,6 +345,7 @@
   function recalc() {
     camps.forEach(function (c) { c._calc = calc(c, party); });
     camps.forEach(function (c) { if (markers[c.id]) markers[c.id].setIcon(iconFor(c)); });
+    onsenLayer.eachLayer(function (m) { if (m.isPopupOpen && m.isPopupOpen()) m.setPopupContent(onsenPopup(m.onsen)); });
     syncPartyUi();
   }
 
@@ -390,6 +424,59 @@
   var METHOD_LABEL = { web: "ネット", phone: "電話", email: "メール", fax: "FAX", onsite: "現地", mail: "郵送", app: "アプリ" };
   function ymd(d) { var p = String(d || "").split("-"); return p.length === 3 ? p[0] + "/" + Number(p[1]) + "/" + Number(p[2]) : d; }
   function md(d) { var p = String(d || "").split("-"); return p.length === 3 ? Number(p[1]) + "/" + Number(p[2]) : d; }
+
+  // ---------- 日帰り温泉 ----------
+  // 返り値：{ total, per, rows, partial }（大人料金が未確認なら null）
+  function onsenCalc(o) {
+    if (o.adult == null) return null;
+    var a = party.a, k = party.c, rows = [], partial = false;
+    rows.push(["大人 " + yen(o.adult) + " × " + a + "人", o.adult * a]);
+    var total = o.adult * a;
+    if (k) {
+      if (o.child == null) { partial = true; rows.push(["子供 × " + k + "人", null]); }
+      else { rows.push([(o.child_label || "子供") + " " + yen(o.child) + " × " + k + "人", o.child * k]); total += o.child * k; }
+    }
+    return { total: total, per: total / (a + k), rows: rows, partial: partial };
+  }
+  function onsenLinks(o) {
+    var gq = o.name.replace(/[（(][^）)]*[）)]/g, "").trim();
+    var b = [];
+    if (safeUrl(o.url)) b.push('<a href="' + esc(o.url) + '" target="_blank" rel="noopener">公式サイト</a>');
+    b.push('<a href="https://www.google.com/maps/search/' + encodeURIComponent(gq) + "/@" + o.lat + "," + o.lng + ',15z" target="_blank" rel="noopener">Googleマップ</a>');
+    return b.join("　");
+  }
+  function onsenDetail(o) {
+    var r = onsenCalc(o), h = "";
+    if (r) {
+      h += '<table class="on-t">' + r.rows.map(function (x) { return "<tr><td>" + esc(x[0]) + "</td><td>" + (x[1] == null ? "未確認" : yen(x[1])) + "</td></tr>"; }).join("") +
+        "<tr><td>1人あたり</td><td>" + (r.partial ? "−" : yen(r.per)) + "</td></tr></table>";
+      if (r.partial) h += '<p class="d-note">子供料金が未確認のため、総額は大人の分だけです。</p>';
+    } else {
+      h += '<p class="d-p">料金は未確認です。</p>';
+    }
+    if (o.fee_note) h += '<p class="d-p">' + esc(o.fee_note) + "</p>";
+    if (o.hours) h += '<p class="d-p">営業時間：' + esc(o.hours) + "</p>";
+    h += '<p class="d-p">' + onsenLinks(o) + "</p>";
+    if (o.fee_quote) h += '<p class="d-note">料金の根拠：「' + esc(o.fee_quote) + "」" + (safeUrl(o.fee_url) ? '（<a href="' + esc(o.fee_url) + '" target="_blank" rel="noopener">ページ</a>）' : "") + "</p>";
+    return h;
+  }
+  function onsenSummary(o) {
+    var r = onsenCalc(o);
+    return r ? (r.partial ? yen(r.total) + "〜" : yen(r.total)) : "料金未確認";
+  }
+  function onsenBlock(c) {
+    var list = (c.onsen || []).map(function (x) { return [onsens[x[0]], x[1]]; }).filter(function (x) { return x[0]; });
+    if (!list.length) return Object.keys(onsens).length ? '<div class="d-sec"><h3>近くの日帰り温泉</h3><p class="d-p">30km以内に見つかりませんでした。</p></div>' : "";
+    var n = party.a + party.c;
+    var h = '<div class="d-sec onsen"><h3>近くの日帰り温泉<span class="h-sub">総額は' + esc(partyText()) + "の場合</span></h3>";
+    h += list.map(function (x) {
+      var o = x[0];
+      return '<details class="on-item"><summary><span class="on-ic" aria-hidden="true">♨</span><span class="on-n">' + esc(o.name) +
+        '</span><span class="on-km">' + x[1] + 'km</span><span class="on-y' + (o.adult == null ? " un" : "") + '">' + onsenSummary(o) + "</span></summary>" +
+        '<div class="on-b">' + onsenDetail(o) + "</div></details>";
+    }).join("");
+    return h + '<p class="d-note">距離はキャンプ場からの直線距離です。料金は目安で、' + n + "人分で計算しています。営業日や料金は施設で確認してください。</p></div>";
+  }
 
   function resvBlock(c) {
     var lab = RESV_LABEL[c.resv];
@@ -533,6 +620,7 @@
       h.push('<div class="d-sec"><h3>設備</h3><div class="tags">' + c.facilities.map(function (f) { return '<span class="tag-i">' + esc(FAC_LABEL[f] || f) + "</span>"; }).join("") + "</div></div>");
     }
     var linkRow = function (label, html) { return html ? "<dt>" + esc(label) + "</dt><dd>" + html + "</dd>" : ""; };
+    h.push(onsenBlock(c));
     h.push(resvBlock(c));
     h.push(bearBlock(c));
     var info = linkRow("電話", c.tel ? '<a href="tel:' + esc(c.tel.replace(/[^0-9+]/g, "")) + '">' + esc(c.tel) + "</a>" : "") +
@@ -703,11 +791,75 @@
       });
       syncPartyUi();
       apply({ fit: true });
+      setOnsen(showOnsen);
       var init = initId && byId(initId);
       if (init) openDetail(init, true);
+      loadOnsens();
     })
     .catch(function (err) {
       els.count.textContent = "データを読み込めませんでした（" + err.message + "）";
       console.error(err);
     });
+
+  function loadOnsens() {
+    fetch("data/onsens.json?v=" + BUILD)
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        var ms = [];
+        d.onsens.forEach(function (o) {
+          onsens[o.id] = o;
+          var m = L.marker([o.lat, o.lng], { icon: onsenIcon, title: o.name, zIndexOffset: -200 });
+          m.onsen = o;
+          m.bindPopup(function () { return onsenPopup(o); }, { maxWidth: 280, autoPanPaddingTopLeft: [10, 120] });
+          ms.push(m);
+        });
+        onsenLayer.addLayers(ms);
+        if (mode === "detail" && activeId) renderDetail(byId(activeId), true);
+      })
+      .catch(function (err) { console.warn("温泉データなし", err); });
+  }
+
+  // ---------- スマホ：下のシートを下にスワイプして閉じる ----------
+  (function () {
+    var p = els.panel, y0 = null, x0 = 0, dy = 0, t0 = 0, drag = false;
+    function reset() { p.style.transition = ""; p.style.transform = ""; p.classList.remove("dragging"); }
+    p.addEventListener("touchstart", function (e) {
+      if (window.innerWidth >= 900 || e.touches.length !== 1) { y0 = null; return; }
+      y0 = e.touches[0].clientY; x0 = e.touches[0].clientX; dy = 0; t0 = Date.now(); drag = false;
+    }, { passive: true });
+    p.addEventListener("touchmove", function (e) {
+      if (y0 == null) return;
+      var d = e.touches[0].clientY - y0, dx = e.touches[0].clientX - x0;
+      if (!drag) {
+        if (d > 8 && p.scrollTop <= 0 && Math.abs(d) > Math.abs(dx)) { drag = true; p.classList.add("dragging"); }
+        else if (d < -8 || Math.abs(dx) > 12 || p.scrollTop > 0) { y0 = null; return; }
+        else return;
+      }
+      dy = Math.max(0, d);
+      p.style.transform = "translateY(" + dy + "px)";
+      e.preventDefault();
+    }, { passive: false });
+    function end() {
+      if (y0 == null) return;
+      y0 = null;
+      if (!drag) return;
+      var fast = dy / Math.max(1, Date.now() - t0) > 0.6;
+      if (dy > Math.min(120, p.offsetHeight * 0.25) || (fast && dy > 30)) {
+        p.style.transition = "transform .18s ease-in";
+        p.style.transform = "translateY(100%)";
+        setTimeout(function () { closePanel(); reset(); }, 180);
+      } else {
+        p.style.transition = "transform .18s ease-out";
+        p.style.transform = "";
+        setTimeout(reset, 200);
+      }
+    }
+    p.addEventListener("touchend", end);
+    p.addEventListener("touchcancel", end);
+  })();
+
+  // ---------- アプリとして使う（ホーム画面に追加） ----------
+  if ("serviceWorker" in navigator && location.protocol === "https:") {
+    window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+  }
 })();

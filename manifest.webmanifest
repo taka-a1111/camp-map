@@ -1,0 +1,17 @@
+{
+  "name": "キャンプ場マップ",
+  "short_name": "キャンプ場",
+  "description": "キャンプ場を地図で探せます。人数に合わせた料金、予約方法、近くの日帰り温泉、クマの出没情報。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f5f1",
+  "theme_color": "#2f6f4e",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

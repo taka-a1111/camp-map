@@ -25,6 +25,8 @@ SEASON = ROOT / "data" / "season.json"
 BOOKING = ROOT / "data" / "booking.json"
 BEARS = ROOT / "data" / "bears.json"
 CAMP_MUNI = ROOT / "data" / "camp_muni.json"
+ONSENS = ROOT / "data" / "onsens.json"
+ONSEN_KM = 30
 BEAR_RADIUS_KM = 5
 OUT = ROOT / "data" / "camps.json"
 
@@ -196,6 +198,7 @@ def main() -> int:
     booking = json.loads(BOOKING.read_text(encoding="utf-8")) if BOOKING.exists() else {}
     bears = json.loads(BEARS.read_text(encoding="utf-8")) if BEARS.exists() else {}
     camp_muni = json.loads(CAMP_MUNI.read_text(encoding="utf-8")) if CAMP_MUNI.exists() else {}
+    onsen_list = json.loads(ONSENS.read_text(encoding="utf-8"))["onsens"] if ONSENS.exists() else []
     import datetime
     today = datetime.date.today()
     nap_by_pref = {}
@@ -411,6 +414,16 @@ def main() -> int:
                 rec["resv_text"] = mm.group(0) + ("（利用者の情報）" if "利用者" in fn else "")
                 rec["resv_quote"] = fn[:80]
                 rec["resv_url"] = m.get("source_url", "")
+        # 近くの日帰り入浴施設（直線距離で近い順に3件、30km以内）
+        near = []
+        for o in onsen_list:
+            if abs(o["lat"] - rec["lat"]) > 0.3 or abs(o["lng"] - rec["lng"]) > 0.4:
+                continue
+            d = dist_km((rec["lat"], rec["lng"]), (o["lat"], o["lng"]))
+            if d <= ONSEN_KM:
+                near.append((d, o["id"]))
+        if near:
+            rec["onsen"] = [[i, round(d, 1)] for d, i in sorted(near)[:3]]
         bs = bear_summary(rec, bears, camp_muni, today) if bears else None
         if bs:
             rec["bear"] = bs

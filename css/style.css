@@ -330,3 +330,53 @@ select { max-width: 150px; }
 .bear-box.hit { background: #fff4e0; border-color: #f3d19e; }
 .bear-box.hit b { color: var(--warn); }
 .tag-i.bear-tag { background: #fff4e0; color: var(--warn); border-color: #f3d19e; }
+
+/* 日帰り温泉 */
+.d-sec h3 .h-sub { font-weight: 400; font-size: 11.5px; margin-left: 6px; }
+.on-item { border: 1px solid var(--line); border-radius: 8px; margin: 0 0 6px; background: #fff; }
+.on-item summary {
+  list-style: none; display: flex; align-items: center; gap: 6px;
+  padding: 9px 10px; cursor: pointer; font-size: 13.5px; min-height: 44px;
+}
+.on-item summary::-webkit-details-marker { display: none; }
+.on-item summary::after { content: "▾"; color: var(--sub); font-size: 12px; margin-left: 2px; transition: transform .15s; }
+.on-item[open] summary::after { transform: rotate(180deg); }
+.on-ic { color: #c0392b; font-size: 15px; }
+.on-n { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.on-km { color: var(--sub); font-size: 12.5px; white-space: nowrap; }
+.on-y { font-weight: 700; color: var(--accent); white-space: nowrap; min-width: 4.5em; text-align: right; }
+.on-y.un { font-weight: 400; color: var(--sub); font-size: 12px; }
+.on-b { padding: 0 10px 10px; border-top: 1px dashed var(--line); }
+.on-t { width: 100%; border-collapse: collapse; font-size: 13px; margin: 6px 0 4px; }
+.on-t td { padding: 3px 0; }
+.on-t td:last-child { text-align: right; white-space: nowrap; }
+.on-t tr:last-child td { border-top: 1px dashed var(--line); font-weight: 700; }
+.on-b .d-p a, .on-pop a { color: var(--accent); }
+.onsen-pin span {
+  display: flex; align-items: center; justify-content: center; width: 24px; height: 24px;
+  border-radius: 50%; background: #fff; color: #c0392b; border: 1.5px solid #c0392b;
+  font-size: 14px; line-height: 1; box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.onsen-cl span {
+  display: inline-flex; align-items: center; justify-content: center; height: 22px; padding: 0 7px;
+  border-radius: 11px; background: #fff; color: #c0392b; border: 1.5px solid #c0392b; font-size: 12px; white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.onsen-cl { background: none; border: 0; }
+.onsen-pin { background: none; border: 0; }
+.onsen-toggle {
+  font: inherit; font-size: 13px; height: 34px; padding: 0 10px; border-radius: 8px; cursor: pointer;
+  border: 1px solid var(--line); background: #fff; color: var(--sub); box-shadow: 0 1px 5px rgba(0,0,0,.2);
+}
+.onsen-toggle.on { color: #c0392b; border-color: #c0392b; font-weight: 700; }
+.on-pop { font-family: var(--font); font-size: 13px; min-width: 200px; }
+.on-pop b { font-size: 14px; }
+.on-pop-y { font-size: 17px; font-weight: 700; color: var(--accent); margin: 2px 0 4px; }
+.on-pop-y .sub { font-size: 11.5px; font-weight: 400; color: var(--sub); }
+.on-pop .d-p, .on-pop .d-note { margin: 2px 0; }
+/* スワイプで閉じる */
+@media (max-width: 899px) {
+  .detail { touch-action: pan-y; overscroll-behavior: contain; }
+  .detail.dragging { overflow: hidden; }
+  .detail::before { width: 44px; height: 5px; }
+}
