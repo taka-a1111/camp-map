@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30b */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30c */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30b";
+  var BUILD = "2026-09-30c";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -389,6 +389,7 @@
         return h.join("");
       }
       h.push('<div class="total unknown">料金は未確認</div>');
+      if (c.fee_note) h.push('<p class="d-note">' + esc(c.fee_note) + "</p>");
       h.push('<p class="d-note">公式サイトで料金を確認してください。</p></div>');
       return h.join("");
     }
@@ -396,8 +397,9 @@
       h.push('<div class="total unknown">サイト料が未確認</div>');
     } else {
       var people = party.a + party.c;
-      var tot = '<div><span class="lbl">総額（' + people + '人・1泊）</span><span class="total' + (basis === "total" ? "" : " sub") + '">' + yen(r.total) + (r.unknown.length ? "〜" : "") + "</span></div>";
-      var per = '<div><span class="lbl">1人あたり（総額÷' + people + '人）</span><span class="total' + (basis === "per" ? "" : " sub") + '">' + priceText(r, "per") + "</span></div>";
+      var who = "大人" + party.a + "人" + (party.c ? "・子供" + party.c + "人" : "");
+      var tot = '<div><span class="lbl">総額（' + who + '・1泊）</span><span class="total' + (basis === "total" ? "" : " sub") + '">' + yen(r.total) + (r.unknown.length ? "〜" : "") + "</span></div>";
+      var per = '<div><span class="lbl">1人あたり（総額を人数で割った目安）</span><span class="total' + (basis === "per" ? "" : " sub") + '">' + priceText(r, "per") + "</span></div>";
       h.push('<div class="totals">' + (basis === "total" ? tot + per : per + tot) + "</div>");
     }
     h.push("<table>");
@@ -438,17 +440,22 @@
     h.push('<div class="tags">' + tags.join("") + "</div>");
 
     var b = [];
-    var bookUrl = safeUrl(c.affiliate_url) || safeUrl(c.booking_url);
-    if (bookUrl) b.push('<a class="btn main" href="' + esc(bookUrl) + '" target="_blank" rel="noopener' + (c.affiliate_url ? " sponsored" : "") + '">予約ページを開く</a>');
     if (safeUrl(c.official_url)) b.push('<a class="btn" href="' + esc(c.official_url) + '" target="_blank" rel="noopener">公式サイト</a>');
-    if (c.tel) b.push('<a class="btn" href="tel:' + esc(c.tel.replace(/[^0-9+]/g, "")) + '">電話 ' + esc(c.tel) + "</a>");
-    b.push('<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=' + c.lat + "," + c.lng + '" target="_blank" rel="noopener">経路（Googleマップ）</a>');
+    // Googleマップは施設名で検索し、登録されているスポットの詳細を開く
+    var gq = c.name + " " + (c.city || c.pref);
+    b.push('<a class="btn" href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(gq) + '" target="_blank" rel="noopener">Googleマップ</a>');
+    var napUrl = safeUrl(c.nap_affiliate_url) || safeUrl(c.nap_url);
+    if (napUrl) b.push('<a class="btn nap" href="' + esc(napUrl) + '" target="_blank" rel="noopener' + (c.nap_affiliate_url ? " sponsored" : "") + '">なっぷで見る</a>');
     h.push('<div class="btns">' + b.join("") + "</div>");
 
     if ((c.facilities || []).length) {
       h.push('<div class="d-sec"><h3>設備</h3><div class="tags">' + c.facilities.map(function (f) { return '<span class="tag-i">' + esc(FAC_LABEL[f] || f) + "</span>"; }).join("") + "</div></div>");
     }
-    var info = row("営業期間", c.season) + row("チェックイン", c.checkin) + row("チェックアウト", c.checkout) + row("住所", c.address) + row("サイトの種類", !c.priced ? c.types_text : "");
+    var linkRow = function (label, html) { return html ? "<dt>" + esc(label) + "</dt><dd>" + html + "</dd>" : ""; };
+    var bookLink = safeUrl(c.affiliate_url) || safeUrl(c.booking_url);
+    var info = linkRow("電話", c.tel ? '<a href="tel:' + esc(c.tel.replace(/[^0-9+]/g, "")) + '">' + esc(c.tel) + "</a>" : "") +
+      linkRow("予約", bookLink ? '<a href="' + esc(bookLink) + '" target="_blank" rel="noopener">予約ページを開く</a>' : "") +
+      row("営業期間", c.season) + row("チェックイン", c.checkin) + row("チェックアウト", c.checkout) + row("住所", c.address) + row("サイトの種類", !c.priced ? c.types_text : "");
     if (info) h.push('<div class="d-sec"><h3>基本情報</h3><dl>' + info + "</dl></div>");
 
     var tp = tips(c);

@@ -2386,8 +2386,8 @@
    "notice": "観光サイトに「無料キャンプ場」とありますが、台風被害で閉鎖中という情報もあります。利用前に新城市に確認してください。"
   },
   {
-   "site_label": "キャンプ場（無料）",
-   "site_fee": 0,
+   "site_label": "テントサイト",
+   "site_fee": null,
    "site_includes": "",
    "site_capacity": null,
    "adult_fee": 0,
@@ -2400,7 +2400,7 @@
    "tent_fee": 0,
    "tent_included": null,
    "tarp_fee": 0,
-   "vehicle_fee": null,
+   "vehicle_fee": 0,
    "vehicle_note": "",
    "fixed_fee": 0,
    "fixed_label": "",
@@ -2417,9 +2417,9 @@
    "match": "乙女渓谷キャンプ場",
    "pref": "岐阜県",
    "booking_type": "phone",
-   "fee_note": "バンガロー等の宿泊棟は有料。車両は普通車500円・バス1,000円・バイク300円の表記あり（キャンプ利用者の無料との関係は要確認）。予約は電話または問い合わせフォーム（8:30-17:00）。9月は団体のみ受入",
+   "fee_note": "駐車場はキャンプ利用者は無料（普通車500円・バス1,000円・バイク300円はキャンプ利用者以外）。テントサイトの料金は公式ページに記載なし。バンガローは1棟1泊3,200円〜。予約は電話か問い合わせフォーム（8:30〜17:00）",
    "source_url": "https://fa-kashimo.jp/camp/",
-   "confidence": "high"
+   "confidence": "medium"
   },
   {
    "site_label": "キャンプ場（無料）",

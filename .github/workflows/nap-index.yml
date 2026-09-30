@@ -1,0 +1,39 @@
+name: nap-index
+
+# なっぷの掲載ページ一覧（施設名とURL）を更新する。robots.txt の間隔（30秒）を守るため数時間かかる。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/nap_index.py"
+  schedule:
+    - cron: "23 17 10 * *"   # 毎月11日 2:23（日本時間）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nap-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: なっぷの掲載一覧を更新
+        run: python scripts/nap_index.py --max 600
+      - name: コミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/nap_index.json
+          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
+          git commit -m "なっぷの掲載一覧を更新"
+          git pull --rebase origin main
+          git push

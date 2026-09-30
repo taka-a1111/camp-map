@@ -311,3 +311,6 @@ select { max-width: 150px; }
 .seg label + label { border-left: 1px solid var(--accent); }
 .seg input { position: absolute; opacity: 0; pointer-events: none; }
 .seg label:has(input:checked) { background: var(--accent); color: #fff; }
+.btns { grid-template-columns: repeat(3, 1fr); }
+.btn.nap { border-color: #e06a1b; color: #c4580f; }
+.d-sec dd a { color: var(--accent); }

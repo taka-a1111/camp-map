@@ -20,6 +20,7 @@ MANUAL = ROOT / "data" / "manual.json"
 COVER = ROOT / "data" / "coverage.json"
 GEOCACHE = ROOT / "data" / "geocode_cache.json"
 FEESTATUS = ROOT / "data" / "fee_status.json"
+NAPINDEX = ROOT / "data" / "nap_index.json"
 OUT = ROOT / "data" / "camps.json"
 
 # キャンプ場らしい名前（これに当たらず公式URLもないものは除外）
@@ -131,6 +132,10 @@ def main() -> int:
     geocache = json.loads(GEOCACHE.read_text(encoding="utf-8")) if GEOCACHE.exists() else {}
     clean_address = load_geocode()
     fee_status = json.loads(FEESTATUS.read_text(encoding="utf-8")) if FEESTATUS.exists() else {}
+    nap_index = json.loads(NAPINDEX.read_text(encoding="utf-8")) if NAPINDEX.exists() else []
+    nap_by_pref = {}
+    for x in nap_index:
+        nap_by_pref.setdefault(x["pref"], []).append((norm(x["name"]), x["url"]))
     blocked = manual.get("blocked_urls", [])
 
     def clean_url(u: str) -> str:
@@ -281,6 +286,24 @@ def main() -> int:
             "confidence": m.get("confidence", ""),
             "notice": m.get("notice", ""),
         }
+        # なっぷの掲載ページ（名前が一致するものだけ）
+        nap_url = ""
+        for nm in [name] + k["names"]:
+            n0 = norm(nm)
+            hit = [u for nn, u in nap_by_pref.get(pref, []) if nn == n0]
+            if not hit:
+                hit = [u for nn, u in nap_by_pref.get(pref, []) if min(len(nn), len(n0)) >= 5 and (nn in n0 or n0 in nn)]
+            if len(hit) == 1:
+                nap_url = hit[0]
+                break
+        if not nap_url:
+            for u in (m.get("booking_url", ""), m.get("source_url", ""), cv.get("source_url", "")):
+                mm = re.match(r"https://www\.nap-camp\.com/[a-z]+/\d+", u or "")
+                if mm:
+                    nap_url = mm.group(0)
+                    break
+        if nap_url:
+            rec["nap_url"] = nap_url
         fs = fee_status.get(f"{pref}|{name}")
         if fs and not m:
             rec["fee_status"] = fs["status"]
@@ -288,6 +311,7 @@ def main() -> int:
             rec["fee_url"] = fs.get("url", "")
         if m:
             rec["priced"] = m.get("site_fee") is not None and m.get("status") != "unknown"
+            rec["fee_note"] = m.get("fee_note", "")
             for key in FEE_KEYS:
                 rec[key] = m.get(key)
         # 空の項目は出力しない（ファイルを軽くするため）
