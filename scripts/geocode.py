@@ -18,8 +18,8 @@ COVER = ROOT / "data" / "coverage.json"
 CACHE = ROOT / "data" / "geocode_cache.json"
 API = "https://msearch.gsi.go.jp/address-search/AddressSearch?q="
 
-# 5県のおおまかな範囲（外れた結果は捨てる）
-BBOX = (33.6, 135.8, 37.1, 139.3)
+# 日本のおおまかな範囲（外れた結果は捨てる）
+BBOX = (20.0, 122.0, 46.0, 154.0)
 
 
 def clean_address(a: str) -> str:

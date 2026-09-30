@@ -22,8 +22,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: 無料野営地まとめ（全都道府県）
+        if: ${{ !contains(github.event.head_commit.message, '[osm-only]') }}
         run: python scripts/fetch_checklists.py
-      - name: OpenStreetMap の料金なしキャンプ場（全国）
+      - name: OpenStreetMap のキャンプ場（全国）
         run: python scripts/fetch_osm_free.py || true
       - uses: actions/upload-artifact@v4
         with:

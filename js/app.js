@@ -1,12 +1,18 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30d */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30e */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30d";
+  var BUILD = "2026-09-30e";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
   var FAC_LABEL = { power: "AC電源", shower: "シャワー", onsen: "温泉", flush_toilet: "水洗トイレ", shop: "売店", rental: "レンタル" };
   var BOOK_LABEL = { web: "ネット予約可", phone: "電話予約", none: "予約不要" };
+  var PREF_ORDER = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県",
+    "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県",
+    "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県",
+    "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"];
+  // 初期表示は東海・長野（料金まで調べている5県）。都道府県を選ぶとデータの範囲に合わせて表示する
+  var HOME_VIEW = [[33.7, 135.8], [37.0, 139.3]];
   var PREF_VIEW = {
     "": [[33.7, 135.8], [37.0, 139.3]],
     "愛知県": [[34.55, 136.65], [35.45, 137.85]],
@@ -42,7 +48,7 @@
   var MAX_OPTS = { total: [0, 2000, 3000, 4000, 5000, 6000, 8000, 10000], per: [0, 1000, 1500, 2000, 2500, 3000, 4000] };
 
   // ---------- 地図 ----------
-  var map = L.map("map", { zoomControl: true }).fitBounds(PREF_VIEW[""]);
+  var map = L.map("map", { zoomControl: true }).fitBounds(HOME_VIEW);
   L.tileLayer("https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png", {
     maxZoom: 18,
     attribution: '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">地理院タイル</a> | 位置データの一部 © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>・住所検索：国土地理院'
@@ -243,7 +249,7 @@
   }
   function readUrl() {
     var p = new URLSearchParams(location.search);
-    if (p.get("pref") && PREF_VIEW[p.get("pref")]) els.pref.value = p.get("pref");
+    if (p.get("pref")) els.pref.value = p.get("pref");
     basis = p.get("basis") === "per" ? "per" : "total";
     document.querySelectorAll('input[name="basis"]').forEach(function (i) { i.checked = i.value === basis; });
     renderMaxChips();
@@ -320,7 +326,10 @@
     els.badge.hidden = extra === 0;
     els.badge.textContent = extra;
     if (activeId && !hits.some(function (c) { return c.id === activeId; }) && mode === "detail") closePanel(true);
-    if (opts && opts.fit) map.fitBounds(PREF_VIEW[s.pref] || PREF_VIEW[""]);
+    if (opts && opts.fit) {
+      if (!s.pref) map.fitBounds(HOME_VIEW);
+      else if (PREF_VIEW[s.pref]) map.fitBounds(PREF_VIEW[s.pref]);
+    }
     updateView();
     writeUrl(s);
   }
@@ -610,6 +619,17 @@
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
       camps = d.camps;
+      var counts = {}, bounds = {};
+      camps.forEach(function (c) {
+        counts[c.pref] = (counts[c.pref] || 0) + 1;
+        var b = bounds[c.pref] || (bounds[c.pref] = [[90, 180], [-90, -180]]);
+        b[0][0] = Math.min(b[0][0], c.lat); b[0][1] = Math.min(b[0][1], c.lng);
+        b[1][0] = Math.max(b[1][0], c.lat); b[1][1] = Math.max(b[1][1], c.lng);
+      });
+      Object.keys(bounds).forEach(function (p) { PREF_VIEW[p] = bounds[p]; });
+      els.pref.innerHTML = '<option value="">全エリア</option>' + PREF_ORDER.filter(function (p) { return counts[p]; }).map(function (p) {
+        return "<option value=\"" + p + "\">" + p + "（" + counts[p] + "）</option>";
+      }).join("");
       var initId = readUrl();
       $("partyPeople").innerHTML = partyHtml("budget", ["a", "c"]);
       $("partyGear").innerHTML = partyHtml("budget", ["tent", "tarp", "car"]);

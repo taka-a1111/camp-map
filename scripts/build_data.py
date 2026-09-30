@@ -209,6 +209,9 @@ def main() -> int:
         if addr and not addr.startswith(cv["pref"]):
             addr = cv["pref"] + addr
         g = geocache.get(addr) if addr else None
+        if cv.get("lat") is not None and cv.get("lng") is not None:
+            # 位置が分かっている候補（OpenStreetMap の地点など）はその位置を使う
+            g = {"lat": cv["lat"], "lng": cv["lng"], "level": cv.get("geo", "osm")}
         pos = (g["lat"], g["lng"]) if g else None
         web = clean_url(cv.get("official_url", ""))
         # 住所が地区レベルまでしか分からないときは、位置のずれを見込んで広めに同一施設を探す
