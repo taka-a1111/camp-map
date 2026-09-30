@@ -1,1 +1,3964 @@
-[]
+[
+{
+"pref": "三重県",
+"id": "11044",
+"name": "宇賀渓キャンプ場",
+"addr": "三重県いなべ市大安町石樽南2999-5",
+"url": "https://www.nap-camp.com/mie/11044"
+},
+{
+"pref": "三重県",
+"id": "11045",
+"name": "青川峡キャンピングパーク",
+"addr": "三重県いなべ市北勢町新町614",
+"url": "https://www.nap-camp.com/mie/11045"
+},
+{
+"pref": "三重県",
+"id": "11046",
+"name": "青山ハーモニー・フォレスト",
+"addr": "三重県伊賀市種生3137-1",
+"url": "https://www.nap-camp.com/mie/11046"
+},
+{
+"pref": "三重県",
+"id": "11047",
+"name": "岩倉峡公園キャンプ場",
+"addr": "三重県伊賀市西高倉6358-1",
+"url": "https://www.nap-camp.com/mie/11047"
+},
+{
+"pref": "三重県",
+"id": "11048",
+"name": "阿山ふるさとの森",
+"addr": "三重県伊賀市川合3376-12",
+"url": "https://www.nap-camp.com/mie/11048"
+},
+{
+"pref": "三重県",
+"id": "11049",
+"name": "島ヶ原温泉やぶっちゃオートキャンプ場",
+"addr": "三重県伊賀市島ケ原13680",
+"url": "https://www.nap-camp.com/mie/11049"
+},
+{
+"pref": "三重県",
+"id": "11050",
+"name": "OKオートキャンプ場",
+"addr": "三重県伊賀市島ヶ原12428番地",
+"url": "https://www.nap-camp.com/mie/11050"
+},
+{
+"pref": "三重県",
+"id": "11051",
+"name": "【R01/09現在　閉鎖】リベラルパーク青山",
+"addr": "三重県一志郡白山町垣内171",
+"url": "https://www.nap-camp.com/mie/11051"
+},
+{
+"pref": "三重県",
+"id": "11052",
+"name": "石水渓キャンプ場",
+"addr": "三重県亀山市安坂山町1178-3",
+"url": "https://www.nap-camp.com/mie/11052"
+},
+{
+"pref": "三重県",
+"id": "11054",
+"name": "鈴鹿峠自然の家",
+"addr": "三重県亀山市関町沓掛123",
+"url": "https://www.nap-camp.com/mie/11054"
+},
+{
+"pref": "三重県",
+"id": "11055",
+"name": "千枚田オートキャンプ場",
+"addr": "三重県熊野市紀和町大栗須701",
+"url": "https://www.nap-camp.com/mie/11055"
+},
+{
+"pref": "三重県",
+"id": "11056",
+"name": "新鹿海水浴場キャンプ場",
+"addr": "三重県熊野市新鹿町新鹿海岸",
+"url": "https://www.nap-camp.com/mie/11056"
+},
+{
+"pref": "三重県",
+"id": "11058",
+"name": "尾高高原キャンプ場",
+"addr": "三重県三重郡菰野町杉谷2300-1",
+"url": "https://www.nap-camp.com/mie/11058"
+},
+{
+"pref": "三重県",
+"id": "11059",
+"name": "朝明茶屋キャンプ場",
+"addr": "三重県三重郡菰野町千草２５０６",
+"url": "https://www.nap-camp.com/mie/11059"
+},
+{
+"pref": "三重県",
+"id": "11060",
+"name": "鳥居道山キャンプ場",
+"addr": "三重県三重郡菰野町千草7093",
+"url": "https://www.nap-camp.com/mie/11060"
+},
+{
+"pref": "三重県",
+"id": "11061",
+"name": "アサケヒュッテ",
+"addr": "三重県三重郡菰野町千草7140朝明ヒュッテキャンプ場",
+"url": "https://www.nap-camp.com/mie/11061"
+},
+{
+"pref": "三重県",
+"id": "11062",
+"name": "朝明ロッジ",
+"addr": "三重県三重郡菰野町千草7163",
+"url": "https://www.nap-camp.com/mie/11062"
+},
+{
+"pref": "三重県",
+"id": "11063",
+"name": "グリーンランドあさけ",
+"addr": "三重県三重郡菰野町千草大井6809",
+"url": "https://www.nap-camp.com/mie/11063"
+},
+{
+"pref": "三重県",
+"id": "11064",
+"name": "伊勢谷小屋",
+"addr": "三重県三重郡菰野町大字千草７１５１",
+"url": "https://www.nap-camp.com/mie/11064"
+},
+{
+"pref": "三重県",
+"id": "11065",
+"name": "【H27/7現在閉鎖】朝明テント・バンガロー村キャンプ場",
+"addr": "三重県三重郡菰野町大字千草7169-1朝明渓谷",
+"url": "https://www.nap-camp.com/mie/11065"
+},
+{
+"pref": "三重県",
+"id": "11066",
+"name": "八風キャンプ場",
+"addr": "三重県三重郡菰野町田光1823",
+"url": "https://www.nap-camp.com/mie/11066"
+},
+{
+"pref": "三重県",
+"id": "11067",
+"name": "宮妻峡ヒュッテ",
+"addr": "三重県四日市市水沢町字冠山28",
+"url": "https://www.nap-camp.com/mie/11067"
+},
+{
+"pref": "三重県",
+"id": "11068",
+"name": "宮妻キャンプ場",
+"addr": "三重県四日市市水沢町柳原",
+"url": "https://www.nap-camp.com/mie/11068"
+},
+{
+"pref": "三重県",
+"id": "11069",
+"name": "伊勢志摩ビーチサイド やまみキャンプ場",
+"addr": "三重県志摩郡志摩町御座803-1",
+"url": "https://www.nap-camp.com/mie/11069"
+},
+{
+"pref": "三重県",
+"id": "11070",
+"name": "伊勢志摩エバーグレイズ",
+"addr": "三重県志摩市磯部町穴川1365-10",
+"url": "https://www.nap-camp.com/mie/11070"
+},
+{
+"pref": "三重県",
+"id": "11071",
+"name": "志摩オートキャンプ場",
+"addr": "三重県志摩市志摩町越賀2279志摩オートキャンプ場",
+"url": "https://www.nap-camp.com/mie/11071"
+},
+{
+"pref": "三重県",
+"id": "11072",
+"name": "美浜キャンプ場",
+"addr": "三重県志摩市志摩町御座　御座白浜海水浴場",
+"url": "https://www.nap-camp.com/mie/11072"
+},
+{
+"pref": "三重県",
+"id": "11073",
+"name": "御座白浜キャンプ場",
+"addr": "三重県志摩市志摩町御座　御座白浜海水浴場",
+"url": "https://www.nap-camp.com/mie/11073"
+},
+{
+"pref": "三重県",
+"id": "11074",
+"name": "かもめキャンプ場",
+"addr": "三重県志摩市志摩町御座464",
+"url": "https://www.nap-camp.com/mie/11074"
+},
+{
+"pref": "三重県",
+"id": "11075",
+"name": "白浜パールキャンプ場",
+"addr": "三重県志摩市志摩町御座475",
+"url": "https://www.nap-camp.com/mie/11075"
+},
+{
+"pref": "三重県",
+"id": "11076",
+"name": "御座白浜はまゆうバンガロー",
+"addr": "三重県志摩市志摩町御座727",
+"url": "https://www.nap-camp.com/mie/11076"
+},
+{
+"pref": "三重県",
+"id": "11077",
+"name": "御座白浜観光農園きゃんぷ村",
+"addr": "三重県志摩市志摩町御座878",
+"url": "https://www.nap-camp.com/mie/11077"
+},
+{
+"pref": "三重県",
+"id": "11078",
+"name": "御座岬オートキャンプ場",
+"addr": "三重県志摩市志摩町御座950番地",
+"url": "https://www.nap-camp.com/mie/11078"
+},
+{
+"pref": "三重県",
+"id": "11079",
+"name": "志摩市ともやま公園キャンプ村",
+"addr": "三重県志摩市大王町波切2199",
+"url": "https://www.nap-camp.com/mie/11079"
+},
+{
+"pref": "三重県",
+"id": "11080",
+"name": "真珠の森オートキャンプ場",
+"addr": "三重県志摩市大王町波切登茂山",
+"url": "https://www.nap-camp.com/mie/11080"
+},
+{
+"pref": "三重県",
+"id": "11081",
+"name": "松阪市森林公園",
+"addr": "三重県松阪市伊勢寺町安若1678",
+"url": "https://www.nap-camp.com/mie/11081"
+},
+{
+"pref": "三重県",
+"id": "11082",
+"name": "高須町公園オートキャンプ場",
+"addr": "三重県松阪市高須町3227-8",
+"url": "https://www.nap-camp.com/mie/11082"
+},
+{
+"pref": "三重県",
+"id": "11083",
+"name": "奥香肌峡林間キャンプ場【H27/4現在閉鎖中】",
+"addr": "三重県松阪市飯高町粟野８６９",
+"url": "https://www.nap-camp.com/mie/11083"
+},
+{
+"pref": "三重県",
+"id": "11084",
+"name": "つつじの里 荒滝キャンプ場",
+"addr": "三重県松阪市飯高町赤桶1076-3",
+"url": "https://www.nap-camp.com/mie/11084"
+},
+{
+"pref": "三重県",
+"id": "11085",
+"name": "リバーサイド茶倉",
+"addr": "三重県松阪市飯南町粥見1084-1",
+"url": "https://www.nap-camp.com/mie/11085"
+},
+{
+"pref": "三重県",
+"id": "11086",
+"name": "浦谷オートキャンプ場",
+"addr": "三重県多気郡大台町小切畑857-2",
+"url": "https://www.nap-camp.com/mie/11086"
+},
+{
+"pref": "三重県",
+"id": "11087",
+"name": "大杉谷林間キャンプ村",
+"addr": "三重県多気郡大台町大杉159-21",
+"url": "https://www.nap-camp.com/mie/11087"
+},
+{
+"pref": "三重県",
+"id": "11088",
+"name": "大淀ふれあいキャンプ場",
+"addr": "三重県多気郡明和町大淀甲２９５３大淀ふれあいキャンプ場",
+"url": "https://www.nap-camp.com/mie/11088"
+},
+{
+"pref": "三重県",
+"id": "11089",
+"name": "伊勢シーサイドモビレージ【H27/4現在閉鎖中】",
+"addr": "三重県多気郡明和町大淀 大淀ビーチ",
+"url": "https://www.nap-camp.com/mie/11089"
+},
+{
+"pref": "三重県",
+"id": "11090",
+"name": "サン大淀キャンプ場",
+"addr": "三重県多気郡明和町大淀海岸",
+"url": "https://www.nap-camp.com/mie/11090"
+},
+{
+"pref": "三重県",
+"id": "11091",
+"name": "大淀西海岸ムーンビーチキャンプ場",
+"addr": "三重県多気郡明和町大淀大洲山2943-11",
+"url": "https://www.nap-camp.com/mie/11091"
+},
+{
+"pref": "三重県",
+"id": "11093",
+"name": "M&#x27;sVILLAGE",
+"addr": "三重県鳥羽市浦村町128番地",
+"url": "https://www.nap-camp.com/mie/11093"
+},
+{
+"pref": "三重県",
+"id": "11094",
+"name": "鳥羽キャンプセンター",
+"addr": "三重県鳥羽市浦村町今浦",
+"url": "https://www.nap-camp.com/mie/11094"
+},
+{
+"pref": "三重県",
+"id": "11095",
+"name": "矢頭中宮公園キャンプ場",
+"addr": "三重県津市一志町波瀬7753-1",
+"url": "https://www.nap-camp.com/mie/11095"
+},
+{
+"pref": "三重県",
+"id": "11096",
+"name": "津市錫杖湖畔キャンプ場",
+"addr": "三重県津市芸濃町河内3666-18",
+"url": "https://www.nap-camp.com/mie/11096"
+},
+{
+"pref": "三重県",
+"id": "11097",
+"name": "青山高原保健休養地キャンプ場",
+"addr": "三重県津市白山町伊勢見４番地青山高原保健休養地管理会社",
+"url": "https://www.nap-camp.com/mie/11097"
+},
+{
+"pref": "三重県",
+"id": "11099",
+"name": "わかすぎの里キャンプ場",
+"addr": "三重県津市白山町城立301わかすぎの里キャンプ場管理棟",
+"url": "https://www.nap-camp.com/mie/11099"
+},
+{
+"pref": "三重県",
+"id": "11100",
+"name": "ヒストリーパーク塚原オートキャンプ場",
+"addr": "三重県津市美杉町下之川2820-2",
+"url": "https://www.nap-camp.com/mie/11100"
+},
+{
+"pref": "三重県",
+"id": "11101",
+"name": "清流の里ぬくみ",
+"addr": "三重県津市美杉町上多気1904-2",
+"url": "https://www.nap-camp.com/mie/11101"
+},
+{
+"pref": "三重県",
+"id": "11102",
+"name": "スカイランドおおぼらキャンプ場",
+"addr": "三重県津市美杉町八知7656-1",
+"url": "https://www.nap-camp.com/mie/11102"
+},
+{
+"pref": "三重県",
+"id": "11103",
+"name": "大滝峡キャンプ場",
+"addr": "三重県度会郡大紀町滝原2500",
+"url": "https://www.nap-camp.com/mie/11103"
+},
+{
+"pref": "三重県",
+"id": "11104",
+"name": "語らいの里噺野",
+"addr": "三重県度会郡大紀町滝原1278",
+"url": "https://www.nap-camp.com/mie/11104"
+},
+{
+"pref": "三重県",
+"id": "11105",
+"name": "浮島パークなんとう",
+"addr": "三重県度会郡南伊勢町道方370",
+"url": "https://www.nap-camp.com/mie/11105"
+},
+{
+"pref": "三重県",
+"id": "11107",
+"name": "キャンプinn海山",
+"addr": "三重県北牟婁郡紀北町海山区便ノ山271",
+"url": "https://www.nap-camp.com/mie/11107"
+},
+{
+"pref": "三重県",
+"id": "11108",
+"name": "クリオキャンプ村",
+"addr": "三重県北牟婁郡紀北町海山区矢口浦128-1",
+"url": "https://www.nap-camp.com/mie/11108"
+},
+{
+"pref": "三重県",
+"id": "11109",
+"name": "古里海岸キャンプ場",
+"addr": "三重県北牟婁郡紀北町紀伊長島区古里",
+"url": "https://www.nap-camp.com/mie/11109"
+},
+{
+"pref": "三重県",
+"id": "11110",
+"name": "きいながしま比幾海岸オートキャンプ場",
+"addr": "三重県北牟婁郡紀北町紀伊長島区古里719",
+"url": "https://www.nap-camp.com/mie/11110"
+},
+{
+"pref": "三重県",
+"id": "11111",
+"name": "孫太郎オートキャンプ場",
+"addr": "三重県北牟婁郡紀北町東長島浅間",
+"url": "https://www.nap-camp.com/mie/11111"
+},
+{
+"pref": "三重県",
+"id": "11113",
+"name": "Lodge Akameto",
+"addr": "三重県名張市赤目町長坂９４２－１",
+"url": "https://www.nap-camp.com/mie/11113"
+},
+{
+"pref": "三重県",
+"id": "11115",
+"name": "椿渓谷キャンプ場",
+"addr": "三重県鈴鹿市山本町",
+"url": "https://www.nap-camp.com/mie/11115"
+},
+{
+"pref": "三重県",
+"id": "11116",
+"name": "ダイセーフォレストパークキャンプ場",
+"addr": "三重県鈴鹿市住吉町南谷口スズカト (鈴鹿青少年センター)",
+"url": "https://www.nap-camp.com/mie/11116"
+},
+{
+"pref": "三重県",
+"id": "11117",
+"name": "小岐須渓谷キャンプ場",
+"addr": "三重県鈴鹿市小岐須町1187",
+"url": "https://www.nap-camp.com/mie/11117"
+},
+{
+"pref": "三重県",
+"id": "13530",
+"name": "ネットワークリゾートなんせい",
+"addr": "三重県度会郡南伊勢町迫間浦1306-1",
+"url": "https://www.nap-camp.com/mie/13530"
+},
+{
+"pref": "三重県",
+"id": "13608",
+"name": "志摩きらく荘",
+"addr": "三重県志摩市志摩町越賀2275-2",
+"url": "https://www.nap-camp.com/mie/13608"
+},
+{
+"pref": "三重県",
+"id": "13744",
+"name": "貸切ログハウスロッキー",
+"addr": "三重県鳥羽市安楽島町１３３１",
+"url": "https://www.nap-camp.com/mie/13744"
+},
+{
+"pref": "三重県",
+"id": "13860",
+"name": "奥伊勢の森「七保ベース」野あそび村キャンプ場",
+"addr": "三重県度会郡大紀町野原（呑田のんだ地区内）",
+"url": "https://www.nap-camp.com/mie/13860"
+},
+{
+"pref": "三重県",
+"id": "13905",
+"name": "奥伊勢フォレストピアリバーサイドヴィレッジ",
+"addr": "三重県多気郡大台町薗993",
+"url": "https://www.nap-camp.com/mie/13905"
+},
+{
+"pref": "三重県",
+"id": "13917",
+"name": "鈴鹿サーキット　ファミリーキャンプ",
+"addr": "三重県鈴鹿市稲生町7992鈴鹿サーキットファミリーキャンプ",
+"url": "https://www.nap-camp.com/mie/13917"
+},
+{
+"pref": "三重県",
+"id": "13937",
+"name": "松阪わんわんパラダイス森のホテルスメール",
+"addr": "三重県松阪市飯高町森2296-1",
+"url": "https://www.nap-camp.com/mie/13937"
+},
+{
+"pref": "三重県",
+"id": "14008",
+"name": "ごかつら池ふるさと村",
+"addr": "三重県多気郡多気町五桂956",
+"url": "https://www.nap-camp.com/mie/14008"
+},
+{
+"pref": "三重県",
+"id": "14009",
+"name": "ふれあいの森　勢山荘（キャンプ/バンガロー）",
+"addr": "三重県多気郡多気町丹生4867-1",
+"url": "https://www.nap-camp.com/mie/14009"
+},
+{
+"pref": "三重県",
+"id": "14019",
+"name": "かぶとの森テラス　CAMP &amp;LOCAL FITNESS",
+"addr": "三重県亀山市加太中在家8125",
+"url": "https://www.nap-camp.com/mie/14019"
+},
+{
+"pref": "三重県",
+"id": "14042",
+"name": "Kabuku Resort",
+"addr": "三重県志摩市阿児町志島876",
+"url": "https://www.nap-camp.com/mie/14042"
+},
+{
+"pref": "三重県",
+"id": "14046",
+"name": "飛雪の滝キャンプ場",
+"addr": "三重県南牟婁郡紀宝町浅里1409-1",
+"url": "https://www.nap-camp.com/mie/14046"
+},
+{
+"pref": "三重県",
+"id": "14169",
+"name": "フィオーレ志摩",
+"addr": "三重県志摩市阿児町神明1916-60",
+"url": "https://www.nap-camp.com/mie/14169"
+},
+{
+"pref": "三重県",
+"id": "14234",
+"name": "WAGUビーチサイドオートキャンプ場",
+"addr": "三重県志摩市志摩町和具1593",
+"url": "https://www.nap-camp.com/mie/14234"
+},
+{
+"pref": "三重県",
+"id": "14300",
+"name": "xadventures キャンプ場",
+"addr": "三重県亀山市安坂山町1191-18",
+"url": "https://www.nap-camp.com/mie/14300"
+},
+{
+"pref": "三重県",
+"id": "14347",
+"name": "TASO FOREST CAMP",
+"addr": "三重県度会郡南伊勢町田曽浦１１９番地１",
+"url": "https://www.nap-camp.com/mie/14347"
+},
+{
+"pref": "三重県",
+"id": "14349",
+"name": "朝明渓魚苑キャンプ場",
+"addr": "三重県三重郡菰野町千草7169-1",
+"url": "https://www.nap-camp.com/mie/14349"
+},
+{
+"pref": "三重県",
+"id": "14469",
+"name": "Slow Time",
+"addr": "三重県志摩市志摩町御座１４−３",
+"url": "https://www.nap-camp.com/mie/14469"
+},
+{
+"pref": "三重県",
+"id": "14536",
+"name": "たそがれテラスまきやま",
+"addr": "三重県伊賀市槙山975-1",
+"url": "https://www.nap-camp.com/mie/14536"
+},
+{
+"pref": "三重県",
+"id": "14542",
+"name": "伊勢志摩パールヴィレッジオートキャンプ場",
+"addr": "三重県志摩市阿児町神明473−1",
+"url": "https://www.nap-camp.com/mie/14542"
+},
+{
+"pref": "三重県",
+"id": "14545",
+"name": "【R5/5閉鎖】田曽白浜オートキャンプ場",
+"addr": "三重県度会郡南伊勢町田曽浦119-1",
+"url": "https://www.nap-camp.com/mie/14545"
+},
+{
+"pref": "三重県",
+"id": "14565",
+"name": "美杉リゾート　ファイアバレイコテージ",
+"addr": "三重県津市美杉町八知6040-4",
+"url": "https://www.nap-camp.com/mie/14565"
+},
+{
+"pref": "三重県",
+"id": "14592",
+"name": "オフロードランドMio",
+"addr": "三重県津市美杉町上多気1916",
+"url": "https://www.nap-camp.com/mie/14592"
+},
+{
+"pref": "三重県",
+"id": "14615",
+"name": "【R8/6閉鎖】やまてらす-FUJIWARA OUTDOOR LIVING-",
+"addr": "三重県いなべ市藤原町鼎728-2（いなべ梅林公園内）",
+"url": "https://www.nap-camp.com/mie/14615"
+},
+{
+"pref": "三重県",
+"id": "14711",
+"name": "陸の孤島　ラグナ伊勢志摩",
+"addr": "三重県志摩市志摩町御座８７８",
+"url": "https://www.nap-camp.com/mie/14711"
+},
+{
+"pref": "三重県",
+"id": "14752",
+"name": "Azuri Camp Space",
+"addr": "三重県志摩市志摩町越賀2249-1",
+"url": "https://www.nap-camp.com/mie/14752"
+},
+{
+"pref": "三重県",
+"id": "14764",
+"name": "ASOBINO",
+"addr": "三重県度会郡大紀町阿曽８７５−７",
+"url": "https://www.nap-camp.com/mie/14764"
+},
+{
+"pref": "三重県",
+"id": "14793",
+"name": "ログコテージはた",
+"addr": "三重県志摩市阿児町神明2085-88ログコテージはた",
+"url": "https://www.nap-camp.com/mie/14793"
+},
+{
+"pref": "三重県",
+"id": "14836",
+"name": "【閉鎖】いのさん農園キャンプ",
+"addr": "三重県津市白山町佐田2745-1いのさん農園",
+"url": "https://www.nap-camp.com/mie/14836"
+},
+{
+"pref": "三重県",
+"id": "14936",
+"name": "美杉パークゴルフクラブ・キャンプスペース",
+"addr": "三重県津市美杉町丹生俣1186",
+"url": "https://www.nap-camp.com/mie/14936"
+},
+{
+"pref": "三重県",
+"id": "14950",
+"name": "さるびの温泉オートキャンプ場～SOUZONE～",
+"addr": "三重県伊賀市上阿波2953",
+"url": "https://www.nap-camp.com/mie/14950"
+},
+{
+"pref": "三重県",
+"id": "14953",
+"name": "キャンプスタイルのボルダリングソーコかわせみ",
+"addr": "三重県多気郡大台町久豆474ｰ1",
+"url": "https://www.nap-camp.com/mie/14953"
+},
+{
+"pref": "三重県",
+"id": "14975",
+"name": "FREE AND EASY CAMP RESORT",
+"addr": "三重県三重郡菰野町菰野4838-1FREE AND EASY CAMP RESORT",
+"url": "https://www.nap-camp.com/mie/14975"
+},
+{
+"pref": "三重県",
+"id": "14989",
+"name": "賢島グランドホテル　オートキャンプ",
+"addr": "三重県志摩市阿児町神明699-18",
+"url": "https://www.nap-camp.com/mie/14989"
+},
+{
+"pref": "三重県",
+"id": "15105",
+"name": "ストロベリービーチ　キャンプ場",
+"addr": "三重県志摩市阿児町志島1249シャカ市後浜アイランド",
+"url": "https://www.nap-camp.com/mie/15105"
+},
+{
+"pref": "三重県",
+"id": "15658",
+"name": "Paddy field キャンプ場",
+"addr": "三重県度会郡大紀町永会２９４１",
+"url": "https://www.nap-camp.com/mie/15658"
+},
+{
+"pref": "三重県",
+"id": "15662",
+"name": "松阪市総合運動公園キャンピングパーク",
+"addr": "三重県松阪市山下町",
+"url": "https://www.nap-camp.com/mie/15662"
+},
+{
+"pref": "三重県",
+"id": "15750",
+"name": "ise天空の森",
+"addr": "三重県伊勢市上野町1791-850",
+"url": "https://www.nap-camp.com/mie/15750"
+},
+{
+"pref": "三重県",
+"id": "15781",
+"name": "minore:(ミノレ）海が見える段々畑のキャンプ場",
+"addr": "三重県尾鷲市向井４４８８−１",
+"url": "https://www.nap-camp.com/mie/15781"
+},
+{
+"pref": "三重県",
+"id": "15785",
+"name": "yuno CAMP SITE ユノキャンプサイト",
+"addr": "三重県名張市青蓮寺２１４８",
+"url": "https://www.nap-camp.com/mie/15785"
+},
+{
+"pref": "三重県",
+"id": "15794",
+"name": "Nordisk Hygge Circles UGAKEI",
+"addr": "三重県いなべ市大安町石榑南2999-5Nordisk Hygge Circles UGAKEI",
+"url": "https://www.nap-camp.com/mie/15794"
+},
+{
+"pref": "三重県",
+"id": "16002",
+"name": "津市榊原温泉湯の瀬ラムちゃんパーク",
+"addr": "三重県津市榊原町6103津市・榊原温泉湯の瀬",
+"url": "https://www.nap-camp.com/mie/16002"
+},
+{
+"pref": "三重県",
+"id": "16007",
+"name": "Log&amp;Sauna Jyouno-hama",
+"addr": "三重県紀北町東長島城ノ浜3108-198",
+"url": "https://www.nap-camp.com/mie/16007"
+},
+{
+"pref": "三重県",
+"id": "16013",
+"name": "鳥羽里山キャンプ場",
+"addr": "三重県鳥羽市岩倉町772-16",
+"url": "https://www.nap-camp.com/mie/16013"
+},
+{
+"pref": "三重県",
+"id": "16022",
+"name": "神岳テラスキャンピングパーク",
+"addr": "三重県伊勢市神薗町1019番地1",
+"url": "https://www.nap-camp.com/mie/16022"
+},
+{
+"pref": "三重県",
+"id": "16023",
+"name": "一の谷山荘",
+"addr": "三重県三重郡菰野町菰野8503一の谷山荘",
+"url": "https://www.nap-camp.com/mie/16023"
+},
+{
+"pref": "三重県",
+"id": "16041",
+"name": "みさとスポーツ＆キャンプ",
+"addr": "三重県四日市市美里町2088みさとスポーツガーデン",
+"url": "https://www.nap-camp.com/mie/16041"
+},
+{
+"pref": "三重県",
+"id": "16130",
+"name": "キャンプサイトかわせみ",
+"addr": "三重県名張市赤目町柏原1203",
+"url": "https://www.nap-camp.com/mie/16130"
+},
+{
+"pref": "三重県",
+"id": "16142",
+"name": "Meivi  camp&amp;dog",
+"addr": "三重県度会郡大紀町崎562-3",
+"url": "https://www.nap-camp.com/mie/16142"
+},
+{
+"pref": "三重県",
+"id": "16149",
+"name": "My Camp 桑名",
+"addr": "三重県桑名市額田345-3",
+"url": "https://www.nap-camp.com/mie/16149"
+},
+{
+"pref": "三重県",
+"id": "16171",
+"name": "四季の森キャンプ場\t\t\t",
+"addr": "三重県度会郡大紀町大内山3385-2",
+"url": "https://www.nap-camp.com/mie/16171"
+},
+{
+"pref": "三重県",
+"id": "16242",
+"name": "エバーグレイズ香肌峡",
+"addr": "三重県松阪市飯南町粥見1084-1",
+"url": "https://www.nap-camp.com/mie/16242"
+},
+{
+"pref": "三重県",
+"id": "16383",
+"name": "ATAATA RESORT",
+"addr": "三重県伊賀市中友田655-2",
+"url": "https://www.nap-camp.com/mie/16383"
+},
+{
+"pref": "三重県",
+"id": "16503",
+"name": "2four Camp Costa",
+"addr": "三重県度会郡南伊勢町宿浦326",
+"url": "https://www.nap-camp.com/mie/16503"
+},
+{
+"pref": "三重県",
+"id": "16528",
+"name": "オートキャンプサラクワ",
+"addr": "三重県度会郡南伊勢町新桑竈335",
+"url": "https://www.nap-camp.com/mie/16528"
+},
+{
+"pref": "三重県",
+"id": "16544",
+"name": "猿田彦BASE",
+"addr": "三重県鈴鹿市小岐須町2455",
+"url": "https://www.nap-camp.com/mie/16544"
+},
+{
+"pref": "三重県",
+"id": "16592",
+"name": "CAMP&amp;BEER BEER BELLY伊勢志摩",
+"addr": "三重県志摩市阿児町志島885-1",
+"url": "https://www.nap-camp.com/mie/16592"
+},
+{
+"pref": "三重県",
+"id": "16631",
+"name": "オートパークガーデン白山キャンピングプレイス",
+"addr": "三重県津市白山町佐田2745-1オートパークガーデン白山",
+"url": "https://www.nap-camp.com/mie/16631"
+},
+{
+"pref": "三重県",
+"id": "16720",
+"name": "いち",
+"addr": "三重県度会郡大紀町滝原1662いち",
+"url": "https://www.nap-camp.com/mie/16720"
+},
+{
+"pref": "三重県",
+"id": "16729",
+"name": "鳥羽キャンピングガーデンGRENBLU",
+"addr": "三重県鳥羽市鳥羽３丁目23-28",
+"url": "https://www.nap-camp.com/mie/16729"
+},
+{
+"pref": "三重県",
+"id": "16747",
+"name": "なぎキャンプ場",
+"addr": "三重県尾鷲市三木里町1359番地",
+"url": "https://www.nap-camp.com/mie/16747"
+},
+{
+"pref": "三重県",
+"id": "16760",
+"name": "伊勢路オートキャンプ場＆ＲＶパーク",
+"addr": "三重県度会郡南伊勢町伊勢路2831-1",
+"url": "https://www.nap-camp.com/mie/16760"
+},
+{
+"pref": "三重県",
+"id": "16812",
+"name": "音の杜キャンプ場",
+"addr": "三重県四日市市堂ヶ山町1945-1",
+"url": "https://www.nap-camp.com/mie/16812"
+},
+{
+"pref": "三重県",
+"id": "16847",
+"name": "AOU no MORI-NIWA-",
+"addr": "三重県三重郡菰野町杉谷字倉谷２３０２−１",
+"url": "https://www.nap-camp.com/mie/16847"
+},
+{
+"pref": "三重県",
+"id": "16880",
+"name": "志摩グリーンアドベンチャーキャンプフィールド",
+"addr": "三重県志摩市浜島町迫子1614-1志摩グリーンアドベンチャー",
+"url": "https://www.nap-camp.com/mie/16880"
+},
+{
+"pref": "三重県",
+"id": "16938",
+"name": "縁 古民家&CAMP ～kitayama～",
+"addr": "三重県伊賀市北山392",
+"url": "https://www.nap-camp.com/mie/16938"
+},
+{
+"pref": "岐阜県",
+"id": "10353",
+"name": "下呂温泉乗政キャンプ場",
+"addr": "岐阜県下呂市乗政国有林内",
+"url": "https://www.nap-camp.com/gifu/10353"
+},
+{
+"pref": "岐阜県",
+"id": "10358",
+"name": "七宗遊園キャンプ場",
+"addr": "岐阜県加茂郡七宗町神渕",
+"url": "https://www.nap-camp.com/gifu/10358"
+},
+{
+"pref": "岐阜県",
+"id": "10362",
+"name": "馬小屋ベースキャンプ場",
+"addr": "岐阜県加茂郡八百津町久田見166",
+"url": "https://www.nap-camp.com/gifu/10362"
+},
+{
+"pref": "岐阜県",
+"id": "10364",
+"name": "迎島バンガロー",
+"addr": "岐阜県関市洞戸大野",
+"url": "https://www.nap-camp.com/gifu/10364"
+},
+{
+"pref": "岐阜県",
+"id": "10366",
+"name": "黒谷キャンプ場",
+"addr": "岐阜県関市板取3084",
+"url": "https://www.nap-camp.com/gifu/10366"
+},
+{
+"pref": "岐阜県",
+"id": "10367",
+"name": "板取川温泉オートキャンプ場",
+"addr": "岐阜県関市板取3586-1",
+"url": "https://www.nap-camp.com/gifu/10367"
+},
+{
+"pref": "岐阜県",
+"id": "10369",
+"name": "キャンプランド新板取",
+"addr": "岐阜県関市板取杉原4602",
+"url": "https://www.nap-camp.com/gifu/10369"
+},
+{
+"pref": "岐阜県",
+"id": "10378",
+"name": "アミーゴバンガロー村",
+"addr": "岐阜県郡上市高鷲町大鷲3151-2",
+"url": "https://www.nap-camp.com/gifu/10378"
+},
+{
+"pref": "岐阜県",
+"id": "10387",
+"name": "山と川の学校",
+"addr": "岐阜県郡上市八幡町初納1542-1",
+"url": "https://www.nap-camp.com/gifu/10387"
+},
+{
+"pref": "岐阜県",
+"id": "10392",
+"name": "こうじびら山の家",
+"addr": "岐阜県郡上市明宝畑佐137-3",
+"url": "https://www.nap-camp.com/gifu/10392"
+},
+{
+"pref": "岐阜県",
+"id": "10395",
+"name": "知多市野外教育センター",
+"addr": "岐阜県恵那市岩村町高松482-43",
+"url": "https://www.nap-camp.com/gifu/10395"
+},
+{
+"pref": "岐阜県",
+"id": "10401",
+"name": "高原川オートキャンプ場",
+"addr": "岐阜県高山市奥飛騨温泉郷村上1399",
+"url": "https://www.nap-camp.com/gifu/10401"
+},
+{
+"pref": "岐阜県",
+"id": "10402",
+"name": "合掌の森中尾キャンプ場",
+"addr": "岐阜県高山市奥飛騨温泉郷中尾温泉湯元",
+"url": "https://www.nap-camp.com/gifu/10402"
+},
+{
+"pref": "岐阜県",
+"id": "10404",
+"name": "奥飛騨リバーサイドキャンプ場",
+"addr": "岐阜県高山市奥飛騨温泉郷柏当553-2",
+"url": "https://www.nap-camp.com/gifu/10404"
+},
+{
+"pref": "岐阜県",
+"id": "10407",
+"name": "舟山高原キャンプ場",
+"addr": "岐阜県高山市久々野町無数河",
+"url": "https://www.nap-camp.com/gifu/10407"
+},
+{
+"pref": "岐阜県",
+"id": "10408",
+"name": "あららぎパーク",
+"addr": "岐阜県高山市久々野町無数河2501-1",
+"url": "https://www.nap-camp.com/gifu/10408"
+},
+{
+"pref": "岐阜県",
+"id": "10414",
+"name": "奥飛騨双六渓谷テント村",
+"addr": "岐阜県高山市上宝町双六401",
+"url": "https://www.nap-camp.com/gifu/10414"
+},
+{
+"pref": "岐阜県",
+"id": "10416",
+"name": "すのまたふるさと学校",
+"addr": "岐阜県高山市清見町巣野俣750-1",
+"url": "https://www.nap-camp.com/gifu/10416"
+},
+{
+"pref": "岐阜県",
+"id": "10420",
+"name": "岩舟河川公園",
+"addr": "岐阜県高山市丹生川町柏原",
+"url": "https://www.nap-camp.com/gifu/10420"
+},
+{
+"pref": "岐阜県",
+"id": "10424",
+"name": "丸美リゾート飛騨秋神高原オートキャンプ場",
+"addr": "岐阜県高山市朝日町西洞",
+"url": "https://www.nap-camp.com/gifu/10424"
+},
+{
+"pref": "岐阜県",
+"id": "10428",
+"name": "大登の森岳見高原キャンプ場",
+"addr": "岐阜県瑞浪市大湫町1032-1",
+"url": "https://www.nap-camp.com/gifu/10428"
+},
+{
+"pref": "岐阜県",
+"id": "10429",
+"name": "三の倉市民の里地球村",
+"addr": "岐阜県多治見市三の倉町猪場37",
+"url": "https://www.nap-camp.com/gifu/10429"
+},
+{
+"pref": "岐阜県",
+"id": "10430",
+"name": "八曽の里キャンプ場",
+"addr": "岐阜県多治見市北小木町332",
+"url": "https://www.nap-camp.com/gifu/10430"
+},
+{
+"pref": "岐阜県",
+"id": "10431",
+"name": "時山バンガロー村",
+"addr": "岐阜県大垣市上石津町時山924",
+"url": "https://www.nap-camp.com/gifu/10431"
+},
+{
+"pref": "岐阜県",
+"id": "10432",
+"name": "かみいしづ緑の村公園バンガロー村",
+"addr": "岐阜県大垣市上石津町上多良前ヶ瀬入会1-1",
+"url": "https://www.nap-camp.com/gifu/10432"
+},
+{
+"pref": "岐阜県",
+"id": "10433",
+"name": "大垣市野外活動センター",
+"addr": "岐阜県大垣市青墓町982",
+"url": "https://www.nap-camp.com/gifu/10433"
+},
+{
+"pref": "岐阜県",
+"id": "10438",
+"name": "けやき平キャンプ場",
+"addr": "岐阜県中津川市神坂袖林808-1",
+"url": "https://www.nap-camp.com/gifu/10438"
+},
+{
+"pref": "岐阜県",
+"id": "10439",
+"name": "富士見台高原 萬岳荘",
+"addr": "岐阜県中津川市神坂峠",
+"url": "https://www.nap-camp.com/gifu/10439"
+},
+{
+"pref": "岐阜県",
+"id": "10441",
+"name": "よこ川渓谷キャンプ場",
+"addr": "岐阜県中津川市田瀬1246-3",
+"url": "https://www.nap-camp.com/gifu/10441"
+},
+{
+"pref": "岐阜県",
+"id": "10443",
+"name": "蛭川オートキャンプ場",
+"addr": "岐阜県中津川市蛭川鳥沢4892-14",
+"url": "https://www.nap-camp.com/gifu/10443"
+},
+{
+"pref": "岐阜県",
+"id": "10444",
+"name": "大博士キャンプ場",
+"addr": "岐阜県中津川市蛭川柏ヶ根区1344",
+"url": "https://www.nap-camp.com/gifu/10444"
+},
+{
+"pref": "岐阜県",
+"id": "10446",
+"name": "付知峡大自然キャンプ場さんけい広場",
+"addr": "岐阜県中津川市付知町349",
+"url": "https://www.nap-camp.com/gifu/10446"
+},
+{
+"pref": "岐阜県",
+"id": "10447",
+"name": "花街道オートキャンプ場",
+"addr": "岐阜県中津川市付知町8593-22",
+"url": "https://www.nap-camp.com/gifu/10447"
+},
+{
+"pref": "岐阜県",
+"id": "10455",
+"name": "土岐市総合活動センター",
+"addr": "岐阜県土岐市泉町定林寺園戸959-7",
+"url": "https://www.nap-camp.com/gifu/10455"
+},
+{
+"pref": "岐阜県",
+"id": "10456",
+"name": "三国山キャンプ場",
+"addr": "岐阜県土岐市鶴里町柿野3512-4",
+"url": "https://www.nap-camp.com/gifu/10456"
+},
+{
+"pref": "岐阜県",
+"id": "10457",
+"name": "なかんじょ川キャンプ場",
+"addr": "岐阜県飛騨市河合町元田1092-2",
+"url": "https://www.nap-camp.com/gifu/10457"
+},
+{
+"pref": "岐阜県",
+"id": "10458",
+"name": "飛騨市森林公園キャンプ場｜観光スポット｜岐阜県観光公式サイト 「岐阜の旅ガイド」",
+"addr": "",
+"url": "https://www.nap-camp.com/gifu/10458"
+},
+{
+"pref": "岐阜県",
+"id": "10460",
+"name": "ひだ流葉オートキャンプ場｜観光スポット｜岐阜県観光公式サイト 「岐阜の旅ガイド」",
+"addr": "",
+"url": "https://www.nap-camp.com/gifu/10460"
+},
+{
+"pref": "岐阜県",
+"id": "10461",
+"name": "御殿山キャンプ場",
+"addr": "岐阜県美濃加茂市三和町廿屋字奥山979-1",
+"url": "https://www.nap-camp.com/gifu/10461"
+},
+{
+"pref": "岐阜県",
+"id": "10462",
+"name": "安毛オートキャンプ場",
+"addr": "岐阜県美濃市安毛",
+"url": "https://www.nap-camp.com/gifu/10462"
+},
+{
+"pref": "岐阜県",
+"id": "10465",
+"name": "殿屋敷キャンプ場",
+"addr": "岐阜県本巣市根尾大井1",
+"url": "https://www.nap-camp.com/gifu/10465"
+},
+{
+"pref": "岐阜県",
+"id": "10466",
+"name": "小笠原苑キャンプ場",
+"addr": "岐阜県本巣市根尾大井小笠原120",
+"url": "https://www.nap-camp.com/gifu/10466"
+},
+{
+"pref": "岐阜県",
+"id": "10467",
+"name": "八ヶ滝キャンプ場",
+"addr": "岐阜県本巣市根尾板所71-2",
+"url": "https://www.nap-camp.com/gifu/10467"
+},
+{
+"pref": "岐阜県",
+"id": "10469",
+"name": "根尾川谷汲温泉オートキャンプ場",
+"addr": "岐阜県揖斐郡揖斐川町谷汲長瀬西谷",
+"url": "https://www.nap-camp.com/gifu/10469"
+},
+{
+"pref": "岐阜県",
+"id": "10473",
+"name": "夕日谷キャンプ場",
+"addr": "岐阜県揖斐郡揖斐川町西横山",
+"url": "https://www.nap-camp.com/gifu/10473"
+},
+{
+"pref": "岐阜県",
+"id": "10474",
+"name": "谷汲山大橋キャンプ場",
+"addr": "岐阜県揖斐郡揖斐川町谷汲長瀬1211",
+"url": "https://www.nap-camp.com/gifu/10474"
+},
+{
+"pref": "岐阜県",
+"id": "10476",
+"name": "LScamp養老（旧 RECAMP養老）",
+"addr": "岐阜県養老郡養老町高林1298-2",
+"url": "https://www.nap-camp.com/gifu/10476"
+},
+{
+"pref": "岐阜県",
+"id": "13522",
+"name": "乗政リバーサイドオートキャンプ場",
+"addr": "岐阜県下呂市乗政2889-1",
+"url": "https://www.nap-camp.com/gifu/13522"
+},
+{
+"pref": "岐阜県",
+"id": "13598",
+"name": "粕川オートキャンプ場（粕川河川公園）",
+"addr": "岐阜県揖斐郡揖斐川町市場",
+"url": "https://www.nap-camp.com/gifu/13598"
+},
+{
+"pref": "岐阜県",
+"id": "13742",
+"name": "LCBひるがの高原",
+"addr": "岐阜県郡上市高鷲町ひるがの4673-158",
+"url": "https://www.nap-camp.com/gifu/13742"
+},
+{
+"pref": "岐阜県",
+"id": "13831",
+"name": "EARTH SHIP Camp＆Field",
+"addr": "岐阜県郡上市美並町白山1013",
+"url": "https://www.nap-camp.com/gifu/13831"
+},
+{
+"pref": "岐阜県",
+"id": "13840",
+"name": "トイの森",
+"addr": "岐阜県瑞浪市日吉町長作洞9476-1-2",
+"url": "https://www.nap-camp.com/gifu/13840"
+},
+{
+"pref": "岐阜県",
+"id": "13845",
+"name": "星降るWAN-WAキャンプ場",
+"addr": "岐阜県高山市清見町三ツ谷1111",
+"url": "https://www.nap-camp.com/gifu/13845"
+},
+{
+"pref": "岐阜県",
+"id": "14233",
+"name": "ヒトハリ",
+"addr": "岐阜県高山市奥飛騨温泉郷一重ケ根781",
+"url": "https://www.nap-camp.com/gifu/14233"
+},
+{
+"pref": "岐阜県",
+"id": "14305",
+"name": "バーベキューハウス四季の森",
+"addr": "岐阜県関市板取2255",
+"url": "https://www.nap-camp.com/gifu/14305"
+},
+{
+"pref": "岐阜県",
+"id": "14337",
+"name": "FORESTDOMEひだ高山（旧 ネイチャーチラックスひだ高山）",
+"addr": "岐阜県高山市清見町牧ケ洞244-1",
+"url": "https://www.nap-camp.com/gifu/14337"
+},
+{
+"pref": "岐阜県",
+"id": "14442",
+"name": "つる里園キャンプ場",
+"addr": "岐阜県土岐市鶴里町柿野1752",
+"url": "https://www.nap-camp.com/gifu/14442"
+},
+{
+"pref": "岐阜県",
+"id": "14694",
+"name": "鷲ヶ岳高原ホテルレインボー キャンプ場トワイライト",
+"addr": "岐阜県郡上市高鷲町大鷲3250",
+"url": "https://www.nap-camp.com/gifu/14694"
+},
+{
+"pref": "岐阜県",
+"id": "14722",
+"name": "トリッパーベース",
+"addr": "岐阜県関市洞戸高賀888-1",
+"url": "https://www.nap-camp.com/gifu/14722"
+},
+{
+"pref": "岐阜県",
+"id": "14782",
+"name": "ログランド奥美濃",
+"addr": "岐阜県郡上市大和町栗巣678",
+"url": "https://www.nap-camp.com/gifu/14782"
+},
+{
+"pref": "岐阜県",
+"id": "14922",
+"name": "ひるがの高原BASE",
+"addr": "岐阜県郡上市高鷲町ひるがの4670-4265",
+"url": "https://www.nap-camp.com/gifu/14922"
+},
+{
+"pref": "岐阜県",
+"id": "14990",
+"name": "キャンプ村しろとり野営場",
+"addr": "岐阜県郡上市白鳥町六ノ里クロヤ750-3",
+"url": "https://www.nap-camp.com/gifu/14990"
+},
+{
+"pref": "岐阜県",
+"id": "15025",
+"name": "フィッシングキャンプエリア瑞浪",
+"addr": "岐阜県瑞浪市大湫町107-1",
+"url": "https://www.nap-camp.com/gifu/15025"
+},
+{
+"pref": "岐阜県",
+"id": "15702",
+"name": "下呂温泉キャンプ場",
+"addr": "岐阜県下呂市萩原町西上田2148-1",
+"url": "https://www.nap-camp.com/gifu/15702"
+},
+{
+"pref": "岐阜県",
+"id": "15716",
+"name": "YOC養老温泉ゆせんの里キャンプ場",
+"addr": "岐阜県養老郡養老町押越1522-1",
+"url": "https://www.nap-camp.com/gifu/15716"
+},
+{
+"pref": "岐阜県",
+"id": "15874",
+"name": "新くるみランド",
+"addr": "岐阜県高山市朝日町胡桃島122-1",
+"url": "https://www.nap-camp.com/gifu/15874"
+},
+{
+"pref": "岐阜県",
+"id": "15943",
+"name": "日石ビレッジ",
+"addr": "岐阜県多治見市北小木町332",
+"url": "https://www.nap-camp.com/gifu/15943"
+},
+{
+"pref": "岐阜県",
+"id": "15981",
+"name": "ひちそう見晴らしキャンプ場（旧 太ッ腹キャンプ場）",
+"addr": "岐阜県加茂郡七宗町川並字樫左古毛335",
+"url": "https://www.nap-camp.com/gifu/15981"
+},
+{
+"pref": "岐阜県",
+"id": "16011",
+"name": "まぜ川上健康農園",
+"addr": "岐阜県下呂市馬瀬川上字東垣内494-20",
+"url": "https://www.nap-camp.com/gifu/16011"
+},
+{
+"pref": "岐阜県",
+"id": "16020",
+"name": "MOUNTAIN SIDE MIYA BASE",
+"addr": "岐阜県高山市一之宮町洞下4797-1",
+"url": "https://www.nap-camp.com/gifu/16020"
+},
+{
+"pref": "岐阜県",
+"id": "16060",
+"name": "Rustic Field",
+"addr": "岐阜県恵那市山岡町釜屋764-2",
+"url": "https://www.nap-camp.com/gifu/16060"
+},
+{
+"pref": "岐阜県",
+"id": "16156",
+"name": "mazecamp",
+"addr": "岐阜県下呂市馬瀬名丸1271",
+"url": "https://www.nap-camp.com/gifu/16156"
+},
+{
+"pref": "岐阜県",
+"id": "16266",
+"name": "HOLY FUNGUS",
+"addr": "岐阜県郡上市大和町栗巣1079",
+"url": "https://www.nap-camp.com/gifu/16266"
+},
+{
+"pref": "岐阜県",
+"id": "16270",
+"name": "天空の森野営キャンプフィールド Bushcraft HOKO",
+"addr": "岐阜県恵那市東野2390-165",
+"url": "https://www.nap-camp.com/gifu/16270"
+},
+{
+"pref": "岐阜県",
+"id": "16361",
+"name": "ひるがの高原あぐりの丘",
+"addr": "岐阜県郡上市高鷲町ひるがの4670-354",
+"url": "https://www.nap-camp.com/gifu/16361"
+},
+{
+"pref": "岐阜県",
+"id": "16376",
+"name": "プライベートキャンプ場 リノア白川町",
+"addr": "岐阜県加茂郡白川町上佐見5272-3",
+"url": "https://www.nap-camp.com/gifu/16376"
+},
+{
+"pref": "岐阜県",
+"id": "16443",
+"name": "s-craft camp",
+"addr": "岐阜県恵那市笠置町毛呂窪字滝坂1720-1",
+"url": "https://www.nap-camp.com/gifu/16443"
+},
+{
+"pref": "岐阜県",
+"id": "16548",
+"name": "金原里山キャンプ村",
+"addr": "岐阜県本巣市金原660",
+"url": "https://www.nap-camp.com/gifu/16548"
+},
+{
+"pref": "岐阜県",
+"id": "16739",
+"name": "フレンドハウスひるがの",
+"addr": "岐阜県郡上市高鷲町ひるがの4670-4062",
+"url": "https://www.nap-camp.com/gifu/16739"
+},
+{
+"pref": "岐阜県",
+"id": "16793",
+"name": "ボーの森",
+"addr": "岐阜県恵那市武並町藤2402-52",
+"url": "https://www.nap-camp.com/gifu/16793"
+},
+{
+"pref": "岐阜県",
+"id": "16795",
+"name": "TigerCampStore 白鳥Base",
+"addr": "岐阜県郡上市白鳥町石徹白第13号字馬瀬戸山4-3",
+"url": "https://www.nap-camp.com/gifu/16795"
+},
+{
+"pref": "愛知県",
+"id": "10035",
+"name": "八曽モミの木キャンプ場",
+"addr": "愛知県犬山市八曽1-1",
+"url": "https://www.nap-camp.com/aichi/10035"
+},
+{
+"pref": "愛知県",
+"id": "10049",
+"name": "中日テント村",
+"addr": "愛知県豊田市大桑町時上ヶ19",
+"url": "https://www.nap-camp.com/aichi/10049"
+},
+{
+"pref": "愛知県",
+"id": "14188",
+"name": "常滑りんくうビーチキャンプ",
+"addr": "愛知県常滑市りんくう町2丁目 常滑りんくうビーチパーク内",
+"url": "https://www.nap-camp.com/aichi/14188"
+},
+{
+"pref": "愛知県",
+"id": "14228",
+"name": "1010広場（てんてんひろば）キャンプサイト＆BBQ",
+"addr": "愛知県知多郡美浜町奥田砂原39-17",
+"url": "https://www.nap-camp.com/aichi/14228"
+},
+{
+"pref": "愛知県",
+"id": "14803",
+"name": "常滑市グリーンスポーツセンター（大曽公園）",
+"addr": "",
+"url": "https://www.nap-camp.com/aichi/14803"
+},
+{
+"pref": "愛知県",
+"id": "15887",
+"name": "Ocean front glamping 37BASE",
+"addr": "愛知県知多郡南知多町内海揚東55-1",
+"url": "https://www.nap-camp.com/aichi/15887"
+},
+{
+"pref": "愛知県",
+"id": "16173",
+"name": "ソロキャンフィールド鳳来",
+"addr": "愛知県新城市川合字大西11-34",
+"url": "https://www.nap-camp.com/aichi/16173"
+},
+{
+"pref": "愛知県",
+"id": "16413",
+"name": "Goofy（Cafe goofy）",
+"addr": "愛知県西尾市鳥羽町田尻54",
+"url": "https://www.nap-camp.com/aichi/16413"
+},
+{
+"pref": "愛知県",
+"id": "16424",
+"name": "レンタルキャンプ場MOON（キャンプMOON）",
+"addr": "愛知県西尾市吉良町宮崎東部田15-1",
+"url": "https://www.nap-camp.com/aichi/16424"
+},
+{
+"pref": "愛知県",
+"id": "16773",
+"name": "SUP&CAMP CRAZY ON FLEEK",
+"addr": "愛知県西尾市東幡豆町助八",
+"url": "https://www.nap-camp.com/aichi/16773"
+},
+{
+"pref": "愛知県",
+"id": "16980",
+"name": "Let it Camp",
+"addr": "愛知県岡崎市明大寺本町1丁目4（乙川河川敷）",
+"url": "https://www.nap-camp.com/aichi/16980"
+},
+{
+"pref": "長野県",
+"id": "12233",
+"name": "ヴィレッジファインオートキャンプ場",
+"addr": "長野県松本市奈川1173-175",
+"url": "https://www.nap-camp.com/nagano/12233"
+},
+{
+"pref": "長野県",
+"id": "12238",
+"name": "美ヶ原県民の森キャンプ場",
+"addr": "長野県松本市入山辺三城",
+"url": "https://www.nap-camp.com/nagano/12238"
+},
+{
+"pref": "長野県",
+"id": "12260",
+"name": "野尻湖高原キャンプ場",
+"addr": "信濃町野尻29-1",
+"url": "https://www.nap-camp.com/nagano/12260"
+},
+{
+"pref": "長野県",
+"id": "12273",
+"name": "青木湖北村キャンプ場",
+"addr": "長野県大町市平青木",
+"url": "https://www.nap-camp.com/nagano/12273"
+},
+{
+"pref": "長野県",
+"id": "12278",
+"name": "奥裾花キャンプ場",
+"addr": "長野市鬼無里奥裾花",
+"url": "https://www.nap-camp.com/nagano/12278"
+},
+{
+"pref": "長野県",
+"id": "12284",
+"name": "信州新町青少年旅行村キャンプ場",
+"addr": "長野市信州新町",
+"url": "https://www.nap-camp.com/nagano/12284"
+},
+{
+"pref": "長野県",
+"id": "12285",
+"name": "ヤックス聖山荘",
+"addr": "長野市大岡丙5402",
+"url": "https://www.nap-camp.com/nagano/12285"
+},
+{
+"pref": "長野県",
+"id": "12288",
+"name": "修那羅森林公園キャンプ場（アルパカの森キャンプ場）",
+"addr": "長野県東筑摩郡筑北村坂井8400",
+"url": "https://www.nap-camp.com/nagano/12288"
+},
+{
+"pref": "長野県",
+"id": "12320",
+"name": "オートキャンプ場NAMEGAWA",
+"addr": "長野県木曽郡上松町小川2524-1",
+"url": "https://www.nap-camp.com/nagano/12320"
+},
+{
+"pref": "長野県",
+"id": "13543",
+"name": "のよさの里キャンプ場",
+"addr": "長野県下水内郡栄村堺１８０２０−４９",
+"url": "https://www.nap-camp.com/nagano/13543"
+},
+{
+"pref": "長野県",
+"id": "13544",
+"name": "ist - Aokinodaira Field",
+"addr": "川上村樋沢1402",
+"url": "https://www.nap-camp.com/nagano/13544"
+},
+{
+"pref": "長野県",
+"id": "13715",
+"name": "なべくら高原・森の家テントサイト",
+"addr": "長野県飯山市照岡1571-15",
+"url": "https://www.nap-camp.com/nagano/13715"
+},
+{
+"pref": "長野県",
+"id": "13933",
+"name": "TKPホテル＆リゾート レクトーレ軽井沢",
+"addr": "軽井沢町長倉2103-2",
+"url": "https://www.nap-camp.com/nagano/13933"
+},
+{
+"pref": "長野県",
+"id": "13985",
+"name": "乙女の森バンガロー村",
+"addr": "佐久穂町大日向",
+"url": "https://www.nap-camp.com/nagano/13985"
+},
+{
+"pref": "長野県",
+"id": "14003",
+"name": "天仁の杜キャンプサイト",
+"addr": "長野県飯田市南信濃南和田1041",
+"url": "https://www.nap-camp.com/nagano/14003"
+},
+{
+"pref": "長野県",
+"id": "14091",
+"name": "悠合の森レストラン＆グランピング",
+"addr": "長野県駒ヶ根市赤穂16613-3",
+"url": "https://www.nap-camp.com/nagano/14091"
+},
+{
+"pref": "長野県",
+"id": "14101",
+"name": "ダボスの丘リゾート",
+"addr": "上田市菅平高原",
+"url": "https://www.nap-camp.com/nagano/14101"
+},
+{
+"pref": "長野県",
+"id": "14249",
+"name": "HOTEL&RESORT 山の内ヒルズ（キャンプ・グランピング）",
+"addr": "山ノ内町平穏5976-1",
+"url": "https://www.nap-camp.com/nagano/14249"
+},
+{
+"pref": "長野県",
+"id": "14336",
+"name": "白馬森林オートキャンプ場",
+"addr": "長野県北安曇郡白馬村北城9342-129",
+"url": "https://www.nap-camp.com/nagano/14336"
+},
+{
+"pref": "長野県",
+"id": "14397",
+"name": "軽井沢ガーデンテラス",
+"addr": "軽井沢町発地1130-357",
+"url": "https://www.nap-camp.com/nagano/14397"
+},
+{
+"pref": "長野県",
+"id": "14399",
+"name": "蓼科GREEN CAMP",
+"addr": "長野県茅野市北山蓼科5522",
+"url": "https://www.nap-camp.com/nagano/14399"
+},
+{
+"pref": "長野県",
+"id": "14412",
+"name": "YATTS GLAMP",
+"addr": "長野県諏訪郡富士見町",
+"url": "https://www.nap-camp.com/nagano/14412"
+},
+{
+"pref": "長野県",
+"id": "14502",
+"name": "野尻湖高原 BARTON薪火campBASE",
+"addr": "長野県上水内郡信濃町古海３３３２−３",
+"url": "https://www.nap-camp.com/nagano/14502"
+},
+{
+"pref": "長野県",
+"id": "14526",
+"name": "爺ガ岳キャンプ場",
+"addr": "長野県大町市（爺ガ岳スキー場）",
+"url": "https://www.nap-camp.com/nagano/14526"
+},
+{
+"pref": "長野県",
+"id": "14528",
+"name": "千代田湖キャンプ場",
+"addr": "伊那市高遠町藤沢４９７６－４",
+"url": "https://www.nap-camp.com/nagano/14528"
+},
+{
+"pref": "長野県",
+"id": "14568",
+"name": "戸狩温泉ふれあいの里キャンプ場",
+"addr": "飯山市常郷8389",
+"url": "https://www.nap-camp.com/nagano/14568"
+},
+{
+"pref": "長野県",
+"id": "14646",
+"name": "小岩岳温泉オートキャンプ場",
+"addr": "長野県安曇野市穂高有明2216-1",
+"url": "https://www.nap-camp.com/nagano/14646"
+},
+{
+"pref": "長野県",
+"id": "14655",
+"name": "suwa.c.site",
+"addr": "長野県諏訪市上諏訪13338-72",
+"url": "https://www.nap-camp.com/nagano/14655"
+},
+{
+"pref": "長野県",
+"id": "14672",
+"name": "森の家キャンプ場",
+"addr": "長野県下伊那郡高森町",
+"url": "https://www.nap-camp.com/nagano/14672"
+},
+{
+"pref": "長野県",
+"id": "14674",
+"name": "IIMORIオートキャンプ場",
+"addr": "長野県北安曇郡白馬村神城（エイブル白馬五竜IIMORI内）",
+"url": "https://www.nap-camp.com/nagano/14674"
+},
+{
+"pref": "長野県",
+"id": "14679",
+"name": "牧の入オートキャンプ場（Awesome forest）",
+"addr": "中野市牧ノ入2438-1",
+"url": "https://www.nap-camp.com/nagano/14679"
+},
+{
+"pref": "長野県",
+"id": "14684",
+"name": "ぽんぽこの湯キャンプフィールド",
+"addr": "中野市間山947",
+"url": "https://www.nap-camp.com/nagano/14684"
+},
+{
+"pref": "長野県",
+"id": "14692",
+"name": "いちばの森キャンプ場（旧：市場の間）",
+"addr": "長野県下伊那郡松川町元大島1773",
+"url": "https://www.nap-camp.com/nagano/14692"
+},
+{
+"pref": "長野県",
+"id": "14819",
+"name": "TSUGAIKE CAMP -LANTERN CAMPING FIELD-",
+"addr": "長野県北安曇郡小谷村（栂池高原）",
+"url": "https://www.nap-camp.com/nagano/14819"
+},
+{
+"pref": "長野県",
+"id": "14850",
+"name": "Azumino Garden Camp クラーレット",
+"addr": "長野県安曇野市穂高牧2354-1",
+"url": "https://www.nap-camp.com/nagano/14850"
+},
+{
+"pref": "長野県",
+"id": "14863",
+"name": "ランテラス信濃大町キャンプ場",
+"addr": "長野県大町市2598-4",
+"url": "https://www.nap-camp.com/nagano/14863"
+},
+{
+"pref": "長野県",
+"id": "14882",
+"name": "八ヶ岳高原キャンプ",
+"addr": "長野県諏訪郡原村",
+"url": "https://www.nap-camp.com/nagano/14882"
+},
+{
+"pref": "長野県",
+"id": "14954",
+"name": "CAMP ONTAKE 雲の上エリア",
+"addr": "長野県木曽郡王滝村",
+"url": "https://www.nap-camp.com/nagano/14954"
+},
+{
+"pref": "長野県",
+"id": "14960",
+"name": "ピザカヤ 陶芸とキャンプのサイト",
+"addr": "長野県北安曇郡白馬村",
+"url": "https://www.nap-camp.com/nagano/14960"
+},
+{
+"pref": "長野県",
+"id": "14987",
+"name": "南信州 OUTDOOR LIVINGの口コミ・予約（長野県飯田市） ｜ なっぷ",
+"addr": "",
+"url": "https://www.nap-camp.com/nagano/14987"
+},
+{
+"pref": "長野県",
+"id": "15020",
+"name": "山に恋するキャンプ場チルサイト",
+"addr": "木島平村上木島3278-262",
+"url": "https://www.nap-camp.com/nagano/15020"
+},
+{
+"pref": "長野県",
+"id": "15032",
+"name": "Cielの森キャンプ場",
+"addr": "長野県佐久市御馬寄３６１−２",
+"url": "https://www.nap-camp.com/nagano/15032"
+},
+{
+"pref": "長野県",
+"id": "15119",
+"name": "夢想庭園こもれびキャンプ場",
+"addr": "佐久市内山2707",
+"url": "https://www.nap-camp.com/nagano/15119"
+},
+{
+"pref": "長野県",
+"id": "15922",
+"name": "信州不動温泉 犀川キャンプ場",
+"addr": "長野市信州新町日原西300-1（信州不動温泉さぎり荘）",
+"url": "https://www.nap-camp.com/nagano/15922"
+},
+{
+"pref": "長野県",
+"id": "15998",
+"name": "NFH campspace",
+"addr": "長野県北安曇郡白馬村",
+"url": "https://www.nap-camp.com/nagano/15998"
+},
+{
+"pref": "長野県",
+"id": "15999",
+"name": "GREEN SOX TATESHINA（グランリゾート蓼科 CAMP FIELD）",
+"addr": "長野県茅野市泉野",
+"url": "https://www.nap-camp.com/nagano/15999"
+},
+{
+"pref": "長野県",
+"id": "16080",
+"name": "OUTDOOR BASE 白馬",
+"addr": "長野県北安曇郡白馬村神城4766-4",
+"url": "https://www.nap-camp.com/nagano/16080"
+},
+{
+"pref": "長野県",
+"id": "16111",
+"name": "THE GLAMPING SUGADAIRA is-ONE",
+"addr": "上田市菅平高原1237-5",
+"url": "https://www.nap-camp.com/nagano/16111"
+},
+{
+"pref": "長野県",
+"id": "16259",
+"name": "PET CAMP RUFF RUFF",
+"addr": "長和町大門3652（ブランシュたかやまスキー場内）",
+"url": "https://www.nap-camp.com/nagano/16259"
+},
+{
+"pref": "長野県",
+"id": "16354",
+"name": "トラウトキャンプソロー（TCT）",
+"addr": "長野県木曽郡木曽町開田高原西野5227-618",
+"url": "https://www.nap-camp.com/nagano/16354"
+},
+{
+"pref": "長野県",
+"id": "16364",
+"name": "Small Village Of Mother キャンプ場",
+"addr": "上田市真田町本原3556-2",
+"url": "https://www.nap-camp.com/nagano/16364"
+},
+{
+"pref": "長野県",
+"id": "16380",
+"name": "bokuya",
+"addr": "南牧村野辺山20-69",
+"url": "https://www.nap-camp.com/nagano/16380"
+},
+{
+"pref": "長野県",
+"id": "16416",
+"name": "開田高原マイアグリーンフィールド",
+"addr": "長野県木曽郡木曽町開田高原",
+"url": "https://www.nap-camp.com/nagano/16416"
+},
+{
+"pref": "長野県",
+"id": "16447",
+"name": "LCAサマーキャンプ場",
+"addr": "佐久穂町八郡2049-1737（LCAセミナーハウス八ヶ岳）",
+"url": "https://www.nap-camp.com/nagano/16447"
+},
+{
+"pref": "長野県",
+"id": "16479",
+"name": "瀬一梵ビストロ&キャンプ",
+"addr": "長野県伊那市（高遠）",
+"url": "https://www.nap-camp.com/nagano/16479"
+},
+{
+"pref": "長野県",
+"id": "16594",
+"name": "うぐいすの森 プライベート・キャンプサイト付貸別荘（Jzone943）",
+"addr": "佐久市東立科2664",
+"url": "https://www.nap-camp.com/nagano/16594"
+},
+{
+"pref": "長野県",
+"id": "16595",
+"name": "うぐいすの森 プライベート・キャンプサイト付貸別荘（Azone205）",
+"addr": "佐久市根岸4769-41",
+"url": "https://www.nap-camp.com/nagano/16595"
+},
+{
+"pref": "長野県",
+"id": "16610",
+"name": "Forest Garage Camp",
+"addr": "佐久市根岸東笹倉1255-246（美笹コスモスの里別荘地内）",
+"url": "https://www.nap-camp.com/nagano/16610"
+},
+{
+"pref": "長野県",
+"id": "16613",
+"name": "Camp muku",
+"addr": "長野県茅野市豊平7794-1",
+"url": "https://www.nap-camp.com/nagano/16613"
+},
+{
+"pref": "長野県",
+"id": "16916",
+"name": "Foresta Karuizawa 6",
+"addr": "軽井沢町追分725-12",
+"url": "https://www.nap-camp.com/nagano/16916"
+},
+{
+"pref": "静岡県",
+"id": "10026",
+"name": "さつきヶ丘公園",
+"addr": "静岡県伊豆の国市浮橋1597-3",
+"url": "https://www.nap-camp.com/shizuoka/10026"
+},
+{
+"pref": "静岡県",
+"id": "11749",
+"name": "モビリティーパーク",
+"addr": "静岡県伊豆の国市長者原1445-481",
+"url": "https://www.nap-camp.com/shizuoka/11749"
+},
+{
+"pref": "静岡県",
+"id": "11751",
+"name": "まほらまワイルドキャンプ場【H27/3閉鎖中】",
+"addr": "静岡県伊豆市加殿1131-107",
+"url": "https://www.nap-camp.com/shizuoka/11751"
+},
+{
+"pref": "静岡県",
+"id": "11753",
+"name": "もちこし来楽歩",
+"addr": "静岡県伊豆市持越692",
+"url": "https://www.nap-camp.com/shizuoka/11753"
+},
+{
+"pref": "静岡県",
+"id": "11754",
+"name": "SUN no MORI 伊豆（旧：土肥オートキャンプ場）",
+"addr": "静岡県伊豆市小土肥2021-35",
+"url": "https://www.nap-camp.com/shizuoka/11754"
+},
+{
+"pref": "静岡県",
+"id": "11755",
+"name": "天城ふるさと広場",
+"addr": "静岡県伊豆市上船原1120-1",
+"url": "https://www.nap-camp.com/shizuoka/11755"
+},
+{
+"pref": "静岡県",
+"id": "11756",
+"name": "だるま山高原キャンプ場",
+"addr": "静岡県伊豆市大沢1018-1",
+"url": "https://www.nap-camp.com/shizuoka/11756"
+},
+{
+"pref": "静岡県",
+"id": "11758",
+"name": "LScamp中伊豆（萬城の滝キャンプ場）",
+"addr": "静岡県伊豆市地蔵堂776-1",
+"url": "https://www.nap-camp.com/shizuoka/11758"
+},
+{
+"pref": "静岡県",
+"id": "11759",
+"name": "さざ波キャンプ場",
+"addr": "静岡県伊豆市土肥2906-3",
+"url": "https://www.nap-camp.com/shizuoka/11759"
+},
+{
+"pref": "静岡県",
+"id": "11760",
+"name": "ファーマーズヒル（旧かたつむり）",
+"addr": "静岡県伊豆市湯ケ島892‐66",
+"url": "https://www.nap-camp.com/shizuoka/11760"
+},
+{
+"pref": "静岡県",
+"id": "11762",
+"name": "今井浜オレンジヒルズフィールド",
+"addr": "静岡県賀茂郡河津町見高1237-1",
+"url": "https://www.nap-camp.com/shizuoka/11762"
+},
+{
+"pref": "静岡県",
+"id": "11763",
+"name": "大池キャンプ場",
+"addr": "静岡県賀茂郡河津町見高2358-2",
+"url": "https://www.nap-camp.com/shizuoka/11763"
+},
+{
+"pref": "静岡県",
+"id": "11764",
+"name": "オートキャンピング村アドベンチャーファミリー",
+"addr": "静岡県賀茂郡河津町上佐ヶ野大休場383-3",
+"url": "https://www.nap-camp.com/shizuoka/11764"
+},
+{
+"pref": "静岡県",
+"id": "11765",
+"name": "河津オートキャンプ場",
+"addr": "静岡県賀茂郡河津町川津筏場555",
+"url": "https://www.nap-camp.com/shizuoka/11765"
+},
+{
+"pref": "静岡県",
+"id": "11766",
+"name": "佐ヶ野オートキャンプ場",
+"addr": "静岡県賀茂郡河津町川津筏場上佐ヶ野1585-6",
+"url": "https://www.nap-camp.com/shizuoka/11766"
+},
+{
+"pref": "静岡県",
+"id": "11767",
+"name": "【R8/3現在　閉鎖】伊豆キャンパーズヴィレッジ",
+"addr": "静岡県賀茂郡河津町川津筏場滝の田1403-1",
+"url": "https://www.nap-camp.com/shizuoka/11767"
+},
+{
+"pref": "静岡県",
+"id": "11768",
+"name": "河津七滝オートキャンプ場",
+"addr": "静岡県賀茂郡河津町梨本470-1",
+"url": "https://www.nap-camp.com/shizuoka/11768"
+},
+{
+"pref": "静岡県",
+"id": "11769",
+"name": "雲見オートキャンプ場",
+"addr": "静岡県賀茂郡松崎町雲見40-1",
+"url": "https://www.nap-camp.com/shizuoka/11769"
+},
+{
+"pref": "静岡県",
+"id": "11770",
+"name": "雲見夕陽と潮騒の岬オートキャンプ場",
+"addr": "静岡県賀茂郡松崎町雲見塩谷83-1",
+"url": "https://www.nap-camp.com/shizuoka/11770"
+},
+{
+"pref": "静岡県",
+"id": "11771",
+"name": "オートキャンプ花沢",
+"addr": "静岡県賀茂郡松崎町雲見花沢934",
+"url": "https://www.nap-camp.com/shizuoka/11771"
+},
+{
+"pref": "静岡県",
+"id": "11772",
+"name": "南伊豆ランドホピア",
+"addr": "静岡県賀茂郡南伊豆町伊浜1597-1南伊豆ランドホピア",
+"url": "https://www.nap-camp.com/shizuoka/11772"
+},
+{
+"pref": "静岡県",
+"id": "11773",
+"name": "小杉原オートキャンプ場【H27 /6現在閉鎖中】",
+"addr": "静岡県賀茂郡松崎町小杉原543-2",
+"url": "https://www.nap-camp.com/shizuoka/11773"
+},
+{
+"pref": "静岡県",
+"id": "11774",
+"name": "オートキャンプ銀河",
+"addr": "静岡県賀茂郡西伊豆町一色八の段1986-1",
+"url": "https://www.nap-camp.com/shizuoka/11774"
+},
+{
+"pref": "静岡県",
+"id": "11775",
+"name": "宇久須キャンプ場",
+"addr": "静岡県賀茂郡西伊豆町宇久須2102-13",
+"url": "https://www.nap-camp.com/shizuoka/11775"
+},
+{
+"pref": "静岡県",
+"id": "11776",
+"name": "キャンプ黄金崎",
+"addr": "静岡県賀茂郡西伊豆町宇久須2182‐1",
+"url": "https://www.nap-camp.com/shizuoka/11776"
+},
+{
+"pref": "静岡県",
+"id": "11777",
+"name": "西天城高原牧場の家",
+"addr": "静岡県賀茂郡西伊豆町宇久須3609-1",
+"url": "https://www.nap-camp.com/shizuoka/11777"
+},
+{
+"pref": "静岡県",
+"id": "11778",
+"name": "西伊豆オートキャンプ場",
+"addr": "静岡県賀茂郡西伊豆町大沢里424-1",
+"url": "https://www.nap-camp.com/shizuoka/11778"
+},
+{
+"pref": "静岡県",
+"id": "11779",
+"name": "ネイチャービレッジおおたき　かざはなの谷キャンプ場",
+"addr": "静岡県賀茂郡西伊豆町大沢里456-1",
+"url": "https://www.nap-camp.com/shizuoka/11779"
+},
+{
+"pref": "静岡県",
+"id": "11780",
+"name": "田子プライベートキャンプ場",
+"addr": "静岡県賀茂郡西伊豆町田子今山",
+"url": "https://www.nap-camp.com/shizuoka/11780"
+},
+{
+"pref": "静岡県",
+"id": "11781",
+"name": "ストーンチェアキャンプ場",
+"addr": "静岡県賀茂郡東伊豆町稲取字休石3204-1",
+"url": "https://www.nap-camp.com/shizuoka/11781"
+},
+{
+"pref": "静岡県",
+"id": "11782",
+"name": "オートキャンプはがちざき",
+"addr": "静岡県賀茂郡南伊豆町伊浜1512",
+"url": "https://www.nap-camp.com/shizuoka/11782"
+},
+{
+"pref": "静岡県",
+"id": "11783",
+"name": "南伊豆夕日ヶ丘キャンプ場",
+"addr": "静岡県賀茂郡南伊豆町伊浜2222",
+"url": "https://www.nap-camp.com/shizuoka/11783"
+},
+{
+"pref": "静岡県",
+"id": "11784",
+"name": "CampFantasea（キャンプファンタジア）",
+"addr": "静岡県賀茂郡南伊豆町伊浜2733－3",
+"url": "https://www.nap-camp.com/shizuoka/11784"
+},
+{
+"pref": "静岡県",
+"id": "11785",
+"name": "キャンプイン桜",
+"addr": "静岡県賀茂郡南伊豆町一條702",
+"url": "https://www.nap-camp.com/shizuoka/11785"
+},
+{
+"pref": "静岡県",
+"id": "11786",
+"name": "【R2/10現在　閉鎖】ワンダーフォレスト TERRA (テラ)",
+"addr": "静岡県賀茂郡南伊豆町下賀茂899",
+"url": "https://www.nap-camp.com/shizuoka/11786"
+},
+{
+"pref": "静岡県",
+"id": "11787",
+"name": "キャンプ山の家",
+"addr": "静岡県賀茂郡南伊豆町蛇石676-7",
+"url": "https://www.nap-camp.com/shizuoka/11787"
+},
+{
+"pref": "静岡県",
+"id": "11788",
+"name": "石廊崎オートキャンプ場",
+"addr": "静岡県賀茂郡南伊豆町石廊崎199-4",
+"url": "https://www.nap-camp.com/shizuoka/11788"
+},
+{
+"pref": "静岡県",
+"id": "11789",
+"name": "南伊豆・入間キャンプ村",
+"addr": "静岡県賀茂郡南伊豆町入間",
+"url": "https://www.nap-camp.com/shizuoka/11789"
+},
+{
+"pref": "静岡県",
+"id": "11790",
+"name": "マリンロッヂ弓ヶ浜",
+"addr": "静岡県賀茂郡南伊豆町湊1096-1",
+"url": "https://www.nap-camp.com/shizuoka/11790"
+},
+{
+"pref": "静岡県",
+"id": "11791",
+"name": "ならここの里キャンプ場",
+"addr": "静岡県掛川市居尻179番地",
+"url": "https://www.nap-camp.com/shizuoka/11791"
+},
+{
+"pref": "静岡県",
+"id": "11793",
+"name": "火剣山キャンプ場",
+"addr": "静岡県菊川市富田3126【2024年4月リニューアルOPEN!!】",
+"url": "https://www.nap-camp.com/shizuoka/11793"
+},
+{
+"pref": "静岡県",
+"id": "11794",
+"name": "御殿場まるびオートキャンプ場",
+"addr": "静岡県御殿場市印野1379-1",
+"url": "https://www.nap-camp.com/shizuoka/11794"
+},
+{
+"pref": "静岡県",
+"id": "11795",
+"name": "御殿場欅平ファミリーキャンプ場",
+"addr": "静岡県御殿場市印野696-1",
+"url": "https://www.nap-camp.com/shizuoka/11795"
+},
+{
+"pref": "静岡県",
+"id": "11796",
+"name": "乙女森林公園第1キャンプ場",
+"addr": "静岡県御殿場市深沢2190",
+"url": "https://www.nap-camp.com/shizuoka/11796"
+},
+{
+"pref": "静岡県",
+"id": "11797",
+"name": "乙女森林公園第２キャンプ場",
+"addr": "静岡県御殿場市深沢2696-2",
+"url": "https://www.nap-camp.com/shizuoka/11797"
+},
+{
+"pref": "静岡県",
+"id": "11798",
+"name": "やまぼうしオートキャンプ場",
+"addr": "静岡県御殿場市板妻630",
+"url": "https://www.nap-camp.com/shizuoka/11798"
+},
+{
+"pref": "静岡県",
+"id": "11799",
+"name": "三島市立箱根の里",
+"addr": "静岡県三島市山中新田4710-1",
+"url": "https://www.nap-camp.com/shizuoka/11799"
+},
+{
+"pref": "静岡県",
+"id": "11800",
+"name": "吉川キャンプ場カワセミの里",
+"addr": "静岡県周智郡森町亀久保85-2",
+"url": "https://www.nap-camp.com/shizuoka/11800"
+},
+{
+"pref": "静岡県",
+"id": "11801",
+"name": "桃沢野外活動センター",
+"addr": "静岡県駿東郡長泉町元長窪895-108",
+"url": "https://www.nap-camp.com/shizuoka/11801"
+},
+{
+"pref": "静岡県",
+"id": "11802",
+"name": "おくだキャンプ場",
+"addr": "静岡県沼津市井田127",
+"url": "https://www.nap-camp.com/shizuoka/11802"
+},
+{
+"pref": "静岡県",
+"id": "11803",
+"name": "はかま滝オートキャンプ場",
+"addr": "静岡県沼津市戸田3908-13",
+"url": "https://www.nap-camp.com/shizuoka/11803"
+},
+{
+"pref": "静岡県",
+"id": "11804",
+"name": "沼津　市民の森",
+"addr": "静岡県沼津市西浦河内506",
+"url": "https://www.nap-camp.com/shizuoka/11804"
+},
+{
+"pref": "静岡県",
+"id": "11805",
+"name": "大瀬テント村",
+"addr": "静岡県沼津市西浦江梨977",
+"url": "https://www.nap-camp.com/shizuoka/11805"
+},
+{
+"pref": "静岡県",
+"id": "11808",
+"name": "くのわき親水公園キャンプ場",
+"addr": "静岡県榛原郡川根本町久野脇280",
+"url": "https://www.nap-camp.com/shizuoka/11808"
+},
+{
+"pref": "静岡県",
+"id": "11809",
+"name": "三ツ星オートキャンプ場",
+"addr": "静岡県榛原郡川根本町上長尾1143三ツ星オートキャンプ場",
+"url": "https://www.nap-camp.com/shizuoka/11809"
+},
+{
+"pref": "静岡県",
+"id": "11810",
+"name": "池の谷ファミリーキャンプ場",
+"addr": "静岡県榛原郡川根本町千頭528-5",
+"url": "https://www.nap-camp.com/shizuoka/11810"
+},
+{
+"pref": "静岡県",
+"id": "11811",
+"name": "八木キャンプ場",
+"addr": "静岡県榛原郡川根本町奥泉761-2",
+"url": "https://www.nap-camp.com/shizuoka/11811"
+},
+{
+"pref": "静岡県",
+"id": "11812",
+"name": "MOSS十里木キャンプリゾート",
+"addr": "静岡県裾野市須山2427-1 MOSS十里木キャンプリゾート",
+"url": "https://www.nap-camp.com/shizuoka/11812"
+},
+{
+"pref": "静岡県",
+"id": "11813",
+"name": "大野路ファミリーキャンプ場",
+"addr": "静岡県裾野市須山2934-3",
+"url": "https://www.nap-camp.com/shizuoka/11813"
+},
+{
+"pref": "静岡県",
+"id": "11814",
+"name": "みらくのキャンプ場",
+"addr": "静岡県裾野市須山2956-7",
+"url": "https://www.nap-camp.com/shizuoka/11814"
+},
+{
+"pref": "静岡県",
+"id": "11815",
+"name": "ながおねオートキャンプ場",
+"addr": "静岡県裾野市須山3406-2",
+"url": "https://www.nap-camp.com/shizuoka/11815"
+},
+{
+"pref": "静岡県",
+"id": "11816",
+"name": "PICA富士ぐりんぱ（旧：キャンピカ富士ぐりんぱ）",
+"addr": "静岡県裾野市須山字藤原2427",
+"url": "https://www.nap-camp.com/shizuoka/11816"
+},
+{
+"pref": "静岡県",
+"id": "11817",
+"name": "カントリーベアーファミリーキャンプ場",
+"addr": "静岡県裾野市須山大野2646",
+"url": "https://www.nap-camp.com/shizuoka/11817"
+},
+{
+"pref": "静岡県",
+"id": "11818",
+"name": "【閉鎖】富士すそ野ファミリーキャンプ場 ",
+"addr": "静岡県裾野市須山2655",
+"url": "https://www.nap-camp.com/shizuoka/11818"
+},
+{
+"pref": "静岡県",
+"id": "11819",
+"name": "Dog Field合衆国",
+"addr": "静岡県裾野市下和田572-1",
+"url": "https://www.nap-camp.com/shizuoka/11819"
+},
+{
+"pref": "静岡県",
+"id": "11821",
+"name": "井川青少年キャンプセンター",
+"addr": "静岡県静岡市葵区井川3055-1",
+"url": "https://www.nap-camp.com/shizuoka/11821"
+},
+{
+"pref": "静岡県",
+"id": "11822",
+"name": "静岡県県民の森キャンプ場",
+"addr": "静岡県静岡市葵区岩崎284",
+"url": "https://www.nap-camp.com/shizuoka/11822"
+},
+{
+"pref": "静岡県",
+"id": "11823",
+"name": "藤川キャンプヒルLUNA・Luna",
+"addr": "静岡県静岡市葵区黒俣2735",
+"url": "https://www.nap-camp.com/shizuoka/11823"
+},
+{
+"pref": "静岡県",
+"id": "11824",
+"name": "静岡市玉川キャンプセンター",
+"addr": "静岡県静岡市葵区長妻田755",
+"url": "https://www.nap-camp.com/shizuoka/11824"
+},
+{
+"pref": "静岡県",
+"id": "11825",
+"name": "南アルプス井川オートキャンプ場",
+"addr": "静岡県静岡市葵区田代449-2",
+"url": "https://www.nap-camp.com/shizuoka/11825"
+},
+{
+"pref": "静岡県",
+"id": "11826",
+"name": "静岡市梅ヶ島キャンプ場",
+"addr": "静岡県静岡市葵区梅ヶ島3198",
+"url": "https://www.nap-camp.com/shizuoka/11826"
+},
+{
+"pref": "静岡県",
+"id": "11827",
+"name": "清水森林公園 黒川キャンプ場",
+"addr": "静岡県静岡市清水区西里1310-1",
+"url": "https://www.nap-camp.com/shizuoka/11827"
+},
+{
+"pref": "静岡県",
+"id": "11828",
+"name": "静岡市浜石野外センター",
+"addr": "静岡県静岡市清水区由比阿僧934-6",
+"url": "https://www.nap-camp.com/shizuoka/11828"
+},
+{
+"pref": "静岡県",
+"id": "11829",
+"name": "修善寺ポマトランド【H27.3現在閉鎖中】",
+"addr": "静岡県田方郡修善寺町大平1057",
+"url": "https://www.nap-camp.com/shizuoka/11829"
+},
+{
+"pref": "静岡県",
+"id": "11830",
+"name": "函南町立木立キャンプ場",
+"addr": "静岡県田方郡函南町桑原1331-1",
+"url": "https://www.nap-camp.com/shizuoka/11830"
+},
+{
+"pref": "静岡県",
+"id": "11831",
+"name": "島田市野外活動センター山の家",
+"addr": "静岡県島田市身成48-3",
+"url": "https://www.nap-camp.com/shizuoka/11831"
+},
+{
+"pref": "静岡県",
+"id": "11832",
+"name": "童子沢親水公園",
+"addr": "静岡県島田市大代２４７７－１６",
+"url": "https://www.nap-camp.com/shizuoka/11832"
+},
+{
+"pref": "静岡県",
+"id": "11833",
+"name": "大久保キャンプ場",
+"addr": "静岡県藤枝市瀬戸ノ谷11029",
+"url": "https://www.nap-camp.com/shizuoka/11833"
+},
+{
+"pref": "静岡県",
+"id": "11834",
+"name": "竜洋海洋公園オートキャンプ場",
+"addr": "静岡県磐田市駒場6866-10",
+"url": "https://www.nap-camp.com/shizuoka/11834"
+},
+{
+"pref": "静岡県",
+"id": "11835",
+"name": "海辺の遊び場BARBEEふじ",
+"addr": "静岡県浜松市三ヶ日町大崎1021-4",
+"url": "https://www.nap-camp.com/shizuoka/11835"
+},
+{
+"pref": "静岡県",
+"id": "11836",
+"name": "浜松市渚園",
+"addr": "静岡県浜松市中央区舞阪町弁天島5005-1",
+"url": "https://www.nap-camp.com/shizuoka/11836"
+},
+{
+"pref": "静岡県",
+"id": "11838",
+"name": "浦川キャンプ村",
+"addr": "静岡県浜松市天竜区佐久間町浦川3454-12",
+"url": "https://www.nap-camp.com/shizuoka/11838"
+},
+{
+"pref": "静岡県",
+"id": "11839",
+"name": "上島キャンプ場",
+"addr": "静岡県浜松市天竜区佐久間町中部180-1",
+"url": "https://www.nap-camp.com/shizuoka/11839"
+},
+{
+"pref": "静岡県",
+"id": "11840",
+"name": "四駆アイランド",
+"addr": "静岡県浜松市天竜区春野町気田904",
+"url": "https://www.nap-camp.com/shizuoka/11840"
+},
+{
+"pref": "静岡県",
+"id": "11841",
+"name": "はるの川音の郷",
+"addr": "静岡県浜松市天竜区春野町宮川2098-1",
+"url": "https://www.nap-camp.com/shizuoka/11841"
+},
+{
+"pref": "静岡県",
+"id": "11842",
+"name": "べんてんじまヴィレッジ",
+"addr": "静岡県浜松市天竜区春野町川上383-2",
+"url": "https://www.nap-camp.com/shizuoka/11842"
+},
+{
+"pref": "静岡県",
+"id": "11843",
+"name": "【H26/6現在閉鎖中】熊切清竜荘",
+"addr": "静岡県浜松市天竜区春野町長蔵寺430",
+"url": "https://www.nap-camp.com/shizuoka/11843"
+},
+{
+"pref": "静岡県",
+"id": "11844",
+"name": "森山バンガロー",
+"addr": "静岡県浜松市天竜区春野町豊岡123",
+"url": "https://www.nap-camp.com/shizuoka/11844"
+},
+{
+"pref": "静岡県",
+"id": "11845",
+"name": "明野キャンプ場",
+"addr": "静岡県浜松市天竜区春野町堀之内434",
+"url": "https://www.nap-camp.com/shizuoka/11845"
+},
+{
+"pref": "静岡県",
+"id": "11846",
+"name": "秋葉オートキャンプ場",
+"addr": "静岡県浜松市天竜区春野町領家364",
+"url": "https://www.nap-camp.com/shizuoka/11846"
+},
+{
+"pref": "静岡県",
+"id": "11847",
+"name": "小川の里オートキャンプ場",
+"addr": "静岡県浜松市天竜区小川1800",
+"url": "https://www.nap-camp.com/shizuoka/11847"
+},
+{
+"pref": "静岡県",
+"id": "11848",
+"name": "小川の里 一景",
+"addr": "静岡県浜松市天竜区小川1839-1",
+"url": "https://www.nap-camp.com/shizuoka/11848"
+},
+{
+"pref": "静岡県",
+"id": "11849",
+"name": "星降るみさくぼキャンプ場よつばの杜",
+"addr": "静岡県浜松市天竜区水窪町奥領家4192-2",
+"url": "https://www.nap-camp.com/shizuoka/11849"
+},
+{
+"pref": "静岡県",
+"id": "11850",
+"name": "上阿多古バンガロー",
+"addr": "静岡県浜松市天竜区西藤平1542",
+"url": "https://www.nap-camp.com/shizuoka/11850"
+},
+{
+"pref": "静岡県",
+"id": "11851",
+"name": "あたご島キャンプ場",
+"addr": "静岡県浜松市天竜区西藤平207-1",
+"url": "https://www.nap-camp.com/shizuoka/11851"
+},
+{
+"pref": "静岡県",
+"id": "11852",
+"name": "石神の里キャンプ場",
+"addr": "静岡県浜松市天竜区石神1455番地の2石神の里キャンプ場",
+"url": "https://www.nap-camp.com/shizuoka/11852"
+},
+{
+"pref": "静岡県",
+"id": "11853",
+"name": "龍山秘密村",
+"addr": "静岡県浜松市天竜区龍山町大嶺1371-5",
+"url": "https://www.nap-camp.com/shizuoka/11853"
+},
+{
+"pref": "静岡県",
+"id": "11854",
+"name": "静岡県立森林公園キャンプ場",
+"addr": "静岡県浜松市浜北区尾野2597-7",
+"url": "https://www.nap-camp.com/shizuoka/11854"
+},
+{
+"pref": "静岡県",
+"id": "11855",
+"name": "てんてんゴーしぶ川",
+"addr": "静岡県浜松市北区引佐町渋川237-1",
+"url": "https://www.nap-camp.com/shizuoka/11855"
+},
+{
+"pref": "静岡県",
+"id": "11856",
+"name": "浜松市かわな野外活動センター",
+"addr": "静岡県浜松市北区引佐町川名455-5",
+"url": "https://www.nap-camp.com/shizuoka/11856"
+},
+{
+"pref": "静岡県",
+"id": "11857",
+"name": "エヌエルファーム",
+"addr": "静岡県浜名郡新居町中之郷3727-1",
+"url": "https://www.nap-camp.com/shizuoka/11857"
+},
+{
+"pref": "静岡県",
+"id": "11858",
+"name": "PICA表富士",
+"addr": "静岡県富士宮市粟倉2745",
+"url": "https://www.nap-camp.com/shizuoka/11858"
+},
+{
+"pref": "静岡県",
+"id": "11859",
+"name": "富士ファミリーオートキャンプ場【H27/6現在閉鎖中】",
+"addr": "静岡県富士宮市佐折430",
+"url": "https://www.nap-camp.com/shizuoka/11859"
+},
+{
+"pref": "静岡県",
+"id": "11860",
+"name": "天子の森キャンプ場",
+"addr": "静岡県富士宮市佐折631",
+"url": "https://www.nap-camp.com/shizuoka/11860"
+},
+{
+"pref": "静岡県",
+"id": "11861",
+"name": "表富士キャンピング場",
+"addr": "静岡県富士宮市上井出1253-1",
+"url": "https://www.nap-camp.com/shizuoka/11861"
+},
+{
+"pref": "静岡県",
+"id": "11862",
+"name": "GRAN REGALO ASAGIRI",
+"addr": "静岡県富士宮市上井出2460",
+"url": "https://www.nap-camp.com/shizuoka/11862"
+},
+{
+"pref": "静岡県",
+"id": "11863",
+"name": "朝霧ジャンボリーオートキャンプ場",
+"addr": "静岡県富士宮市猪之頭1162-3",
+"url": "https://www.nap-camp.com/shizuoka/11863"
+},
+{
+"pref": "静岡県",
+"id": "11864",
+"name": "朝霧高原オートキャンプ場",
+"addr": "静岡県富士宮市猪之頭2071",
+"url": "https://www.nap-camp.com/shizuoka/11864"
+},
+{
+"pref": "静岡県",
+"id": "11865",
+"name": "FUJIYAMA泉の森CAMPING FIELD",
+"addr": "静岡県富士宮市猪之頭2131-4管理事務所",
+"url": "https://www.nap-camp.com/shizuoka/11865"
+},
+{
+"pref": "静岡県",
+"id": "11867",
+"name": "ペンギン村オートキャンプ場",
+"addr": "静岡県富士宮市猪之頭2351",
+"url": "https://www.nap-camp.com/shizuoka/11867"
+},
+{
+"pref": "静岡県",
+"id": "11868",
+"name": "田貫湖キャンプ場",
+"addr": "静岡県富士宮市佐折634-1",
+"url": "https://www.nap-camp.com/shizuoka/11868"
+},
+{
+"pref": "静岡県",
+"id": "11869",
+"name": "Field Dogs Garden",
+"addr": "静岡県富士宮市猪之頭字人穴道1816-9",
+"url": "https://www.nap-camp.com/shizuoka/11869"
+},
+{
+"pref": "静岡県",
+"id": "11870",
+"name": "もちやキャンプ場",
+"addr": "静岡県富士宮市猪之頭1114-1",
+"url": "https://www.nap-camp.com/shizuoka/11870"
+},
+{
+"pref": "静岡県",
+"id": "11871",
+"name": "西富士オートキャンプ場",
+"addr": "静岡県富士宮市内野1687西富士オートキャンプ場",
+"url": "https://www.nap-camp.com/shizuoka/11871"
+},
+{
+"pref": "静岡県",
+"id": "11872",
+"name": "VOLCANO 白糸オートキャンプ場",
+"addr": "静岡県富士宮市内野1892-1",
+"url": "https://www.nap-camp.com/shizuoka/11872"
+},
+{
+"pref": "静岡県",
+"id": "11873",
+"name": "新富士オートキャンプ場",
+"addr": "静岡県富士宮市北山鞍骨7430",
+"url": "https://www.nap-camp.com/shizuoka/11873"
+},
+{
+"pref": "静岡県",
+"id": "11874",
+"name": "ふもとっぱら",
+"addr": "静岡県富士宮市麓156",
+"url": "https://www.nap-camp.com/shizuoka/11874"
+},
+{
+"pref": "静岡県",
+"id": "11875",
+"name": "富士オートキャンプ場ふもと村",
+"addr": "静岡県富士宮市麓174-1",
+"url": "https://www.nap-camp.com/shizuoka/11875"
+},
+{
+"pref": "静岡県",
+"id": "11876",
+"name": "朝霧高原ふもとオートキャンプ場【H27/5現在閉鎖中】",
+"addr": "静岡県富士宮市麓浅野397",
+"url": "https://www.nap-camp.com/shizuoka/11876"
+},
+{
+"pref": "静岡県",
+"id": "11877",
+"name": "静岡県富士山こどもの国",
+"addr": "静岡県富士市桑崎1015",
+"url": "https://www.nap-camp.com/shizuoka/11877"
+},
+{
+"pref": "静岡県",
+"id": "11878",
+"name": "須津山休養林キャンプ場",
+"addr": "静岡県富士市江尾1035",
+"url": "https://www.nap-camp.com/shizuoka/11878"
+},
+{
+"pref": "静岡県",
+"id": "11879",
+"name": "丸火自然公園グリーンキャンプ場",
+"addr": "静岡県富士市大淵10847-1　管理棟：富士市立少年自然の家",
+"url": "https://www.nap-camp.com/shizuoka/11879"
+},
+{
+"pref": "静岡県",
+"id": "11880",
+"name": "オートキャンプ場・麓晃庵",
+"addr": "静岡県富士市大淵4009-74",
+"url": "https://www.nap-camp.com/shizuoka/11880"
+},
+{
+"pref": "静岡県",
+"id": "11881",
+"name": " 野田山健康緑地公園 富士川キャンプ場（旧：金丸山広場）",
+"addr": "静岡県富士市中之郷",
+"url": "https://www.nap-camp.com/shizuoka/11881"
+},
+{
+"pref": "静岡県",
+"id": "11883",
+"name": "【R2/2現在閉鎖中】静波キャンプグランド",
+"addr": "静岡県牧之原市静波2220-89",
+"url": "https://www.nap-camp.com/shizuoka/11883"
+},
+{
+"pref": "静岡県",
+"id": "13541",
+"name": "PICA初島（旧：初島アイランドリゾート）",
+"addr": "静岡県熱海市初島",
+"url": "https://www.nap-camp.com/shizuoka/13541"
+},
+{
+"pref": "静岡県",
+"id": "13542",
+"name": "熊平水辺の里オートキャンプ場",
+"addr": "静岡県浜松市天竜区熊976-1",
+"url": "https://www.nap-camp.com/shizuoka/13542"
+},
+{
+"pref": "静岡県",
+"id": "13584",
+"name": "細野高原ツリーハウス村キャンプ場",
+"addr": "静岡県賀茂郡東伊豆町稲取細野高原3150",
+"url": "https://www.nap-camp.com/shizuoka/13584"
+},
+{
+"pref": "静岡県",
+"id": "13618",
+"name": "赤石小屋",
+"addr": "静岡県静岡市葵区田代",
+"url": "https://www.nap-camp.com/shizuoka/13618"
+},
+{
+"pref": "静岡県",
+"id": "13664",
+"name": "キャンプ山の上",
+"addr": "静岡県賀茂郡南伊豆町蛇石676-7",
+"url": "https://www.nap-camp.com/shizuoka/13664"
+},
+{
+"pref": "静岡県",
+"id": "13670",
+"name": "堂ヶ島ランドホピア",
+"addr": "静岡県賀茂郡西伊豆町仁科浮島海岸",
+"url": "https://www.nap-camp.com/shizuoka/13670"
+},
+{
+"pref": "静岡県",
+"id": "13674",
+"name": "ヴィラ弓ヶ浜",
+"addr": "静岡県賀茂郡南伊豆町湊1600",
+"url": "https://www.nap-camp.com/shizuoka/13674"
+},
+{
+"pref": "静岡県",
+"id": "13678",
+"name": "ルネッサ赤沢",
+"addr": "静岡県伊東市赤沢190-5",
+"url": "https://www.nap-camp.com/shizuoka/13678"
+},
+{
+"pref": "静岡県",
+"id": "13693",
+"name": "御殿場高原時之栖",
+"addr": "静岡県御殿場市神山719番地",
+"url": "https://www.nap-camp.com/shizuoka/13693"
+},
+{
+"pref": "静岡県",
+"id": "13736",
+"name": "川根温泉ふれあいコテージ",
+"addr": "静岡県島田市川根町笹間渡２２０",
+"url": "https://www.nap-camp.com/shizuoka/13736"
+},
+{
+"pref": "静岡県",
+"id": "13737",
+"name": "貸別荘　レイクタウン",
+"addr": "静岡県伊東市富戸1317-4689",
+"url": "https://www.nap-camp.com/shizuoka/13737"
+},
+{
+"pref": "静岡県",
+"id": "13738",
+"name": "ログハウスの宿LOG LOG inn(ログログイン)",
+"addr": "静岡県伊東市富戸１２７３−１３１",
+"url": "https://www.nap-camp.com/shizuoka/13738"
+},
+{
+"pref": "静岡県",
+"id": "13780",
+"name": "富士ミルクランド(キャンプランド)",
+"addr": "静岡県富士宮市上井出3690",
+"url": "https://www.nap-camp.com/shizuoka/13780"
+},
+{
+"pref": "静岡県",
+"id": "13786",
+"name": "カヤックリゾート南伊豆　ワンダフルワールド",
+"addr": "静岡県下田市吉佐美1889-26",
+"url": "https://www.nap-camp.com/shizuoka/13786"
+},
+{
+"pref": "静岡県",
+"id": "13816",
+"name": "不動の滝キャンプ場",
+"addr": "静岡県榛原郡川根本町下泉1122",
+"url": "https://www.nap-camp.com/shizuoka/13816"
+},
+{
+"pref": "静岡県",
+"id": "13832",
+"name": "【H31/04現在閉鎖中】LATN°34 74 伊豆 Bel Izu今井浜（ベリーズ今井浜）",
+"addr": "静岡県静岡県賀茂郡河津町見高２番地",
+"url": "https://www.nap-camp.com/shizuoka/13832"
+},
+{
+"pref": "静岡県",
+"id": "13834",
+"name": "Higher Ground Camping",
+"addr": "静岡県牧之原市静波2220－59",
+"url": "https://www.nap-camp.com/shizuoka/13834"
+},
+{
+"pref": "静岡県",
+"id": "13883",
+"name": "AQUA VILLAGE（アクアヴィレッジ）",
+"addr": "静岡県西伊豆田子",
+"url": "https://www.nap-camp.com/shizuoka/13883"
+},
+{
+"pref": "静岡県",
+"id": "13884",
+"name": "REN VILLAGE（レンヴィレッジ）",
+"addr": "静岡県西伊豆田子",
+"url": "https://www.nap-camp.com/shizuoka/13884"
+},
+{
+"pref": "静岡県",
+"id": "13889",
+"name": "炭焼の杜 明ケ島キャンプ場",
+"addr": "静岡県掛川市炭焼33-2",
+"url": "https://www.nap-camp.com/shizuoka/13889"
+},
+{
+"pref": "静岡県",
+"id": "13897",
+"name": "マリンパーク御前崎キャンプ場（旧：RECAMP 御前崎）",
+"addr": "静岡県御前崎市港6104-9マリンパーク御前崎",
+"url": "https://www.nap-camp.com/shizuoka/13897"
+},
+{
+"pref": "静岡県",
+"id": "13948",
+"name": "マヒナ･グランピング･スパ・ヴィレッジ",
+"addr": "静岡県賀茂郡東伊豆町大川1096-1",
+"url": "https://www.nap-camp.com/shizuoka/13948"
+},
+{
+"pref": "静岡県",
+"id": "13967",
+"name": "グリーンヴィレッジ川根",
+"addr": "静岡県島田市身成4856",
+"url": "https://www.nap-camp.com/shizuoka/13967"
+},
+{
+"pref": "静岡県",
+"id": "13969",
+"name": "ビーチキャンプBY-THE-SEA",
+"addr": "静岡県下田市吉佐美2248-2",
+"url": "https://www.nap-camp.com/shizuoka/13969"
+},
+{
+"pref": "静岡県",
+"id": "13998",
+"name": "泊まれる公園 INN THE PARK",
+"addr": "静岡県沼津市足高220-4",
+"url": "https://www.nap-camp.com/shizuoka/13998"
+},
+{
+"pref": "静岡県",
+"id": "14021",
+"name": "いにしえの杜　鉄橋の杜キャンプ場",
+"addr": "静岡県榛原郡川根本町崎平566",
+"url": "https://www.nap-camp.com/shizuoka/14021"
+},
+{
+"pref": "静岡県",
+"id": "14057",
+"name": "Fuji Camp Base 煌",
+"addr": "静岡県御殿場市東田中3373-25",
+"url": "https://www.nap-camp.com/shizuoka/14057"
+},
+{
+"pref": "静岡県",
+"id": "14075",
+"name": "UFUFU VILLAGE",
+"addr": "静岡県伊豆市月ケ瀬425-1",
+"url": "https://www.nap-camp.com/shizuoka/14075"
+},
+{
+"pref": "静岡県",
+"id": "14084",
+"name": "キャンプベアード",
+"addr": "静岡県伊豆市大平1052-1",
+"url": "https://www.nap-camp.com/shizuoka/14084"
+},
+{
+"pref": "静岡県",
+"id": "14085",
+"name": "GRAND CEREUS VILLAGE",
+"addr": "静岡県伊東市宇佐美3506-2",
+"url": "https://www.nap-camp.com/shizuoka/14085"
+},
+{
+"pref": "静岡県",
+"id": "14093",
+"name": "アーバンキャンピング朝霧宝山",
+"addr": "静岡県富士宮市根原371-5",
+"url": "https://www.nap-camp.com/shizuoka/14093"
+},
+{
+"pref": "静岡県",
+"id": "14102",
+"name": "FWA【富士山ワイルドアドベンチャー】",
+"addr": "静岡県富士宮市上井出2753-2FWA【富士山ワイルドアドベンチャー】",
+"url": "https://www.nap-camp.com/shizuoka/14102"
+},
+{
+"pref": "静岡県",
+"id": "14121",
+"name": "はままつフルーツパーク時之栖",
+"addr": "静岡県浜松市北区都田町4263-1",
+"url": "https://www.nap-camp.com/shizuoka/14121"
+},
+{
+"pref": "静岡県",
+"id": "14122",
+"name": "時之栖 もりのくに",
+"addr": "静岡県榛原郡川根本町奥泉840-1",
+"url": "https://www.nap-camp.com/shizuoka/14122"
+},
+{
+"pref": "静岡県",
+"id": "14138",
+"name": "ゆとりろグランピングガーデン熱海伊豆山",
+"addr": "静岡県熱海市伊豆山１１７３－５３４",
+"url": "https://www.nap-camp.com/shizuoka/14138"
+},
+{
+"pref": "静岡県",
+"id": "14168",
+"name": "アプトいちしろキャンプ場",
+"addr": "静岡県榛原郡川根本町梅地3-19アプトいちしろキャンプ場（管理棟）",
+"url": "https://www.nap-camp.com/shizuoka/14168"
+},
+{
+"pref": "静岡県",
+"id": "14181",
+"name": "NELO gotemba",
+"addr": "静岡県駿東郡小山町新柴字道端６７２−１",
+"url": "https://www.nap-camp.com/shizuoka/14181"
+},
+{
+"pref": "静岡県",
+"id": "14199",
+"name": "ラフォーレリゾート修善寺",
+"addr": "静岡県伊豆市大平 1529",
+"url": "https://www.nap-camp.com/shizuoka/14199"
+},
+{
+"pref": "静岡県",
+"id": "14204",
+"name": "ぼっちの森",
+"addr": "静岡県賀茂郡南伊豆町加納1232-155",
+"url": "https://www.nap-camp.com/shizuoka/14204"
+},
+{
+"pref": "静岡県",
+"id": "14255",
+"name": "丸鉄園キャンプ場",
+"addr": "静岡県賀茂郡東伊豆町奈良本1401",
+"url": "https://www.nap-camp.com/shizuoka/14255"
+},
+{
+"pref": "静岡県",
+"id": "14271",
+"name": "伊豆シャボテンヴィレッジグランピング",
+"addr": "静岡県伊東市富戸1317-584",
+"url": "https://www.nap-camp.com/shizuoka/14271"
+},
+{
+"pref": "静岡県",
+"id": "14289",
+"name": "水車むら",
+"addr": "静岡県藤枝市瀬戸ノ谷12317-1",
+"url": "https://www.nap-camp.com/shizuoka/14289"
+},
+{
+"pref": "静岡県",
+"id": "14302",
+"name": "Foresters Village Kobitto　あさぎりキャンプフィールド",
+"addr": "静岡県富士宮市猪之頭2350",
+"url": "https://www.nap-camp.com/shizuoka/14302"
+},
+{
+"pref": "静岡県",
+"id": "14326",
+"name": "Mt.FUJI　PARAGLIDING＆CAMP（旧アサギリ高原パラグライダースクール＆キャンプ）",
+"addr": "静岡県富士宮市根原282-1",
+"url": "https://www.nap-camp.com/shizuoka/14326"
+},
+{
+"pref": "静岡県",
+"id": "14334",
+"name": "【R4現在休止中】グリムの森キャンプ場",
+"addr": "静岡県賀茂郡南伊豆町下賀茂899",
+"url": "https://www.nap-camp.com/shizuoka/14334"
+},
+{
+"pref": "静岡県",
+"id": "14344",
+"name": "宇佐美城山公園キャンプ場 USAMI SHIROYAMA CAMP FIELD",
+"addr": "静岡県伊東市宇佐美1721-5海ホテル・アンカーテラス",
+"url": "https://www.nap-camp.com/shizuoka/14344"
+},
+{
+"pref": "静岡県",
+"id": "14391",
+"name": "はるの山の村",
+"addr": "静岡県浜松市天竜区春野町杉943-1はるの山の村",
+"url": "https://www.nap-camp.com/shizuoka/14391"
+},
+{
+"pref": "静岡県",
+"id": "14392",
+"name": "OUTDOOR HILL VILLAGE",
+"addr": "静岡県御殿場市神山719ブルーベリーロッジフロント",
+"url": "https://www.nap-camp.com/shizuoka/14392"
+},
+{
+"pref": "静岡県",
+"id": "14460",
+"name": "【R7/3閉鎖】ミニキャンプ浜名湖",
+"addr": "静岡県浜松市浜名区三ヶ日町大崎1899-5　浜名湖遊覧船みっかび瀬戸港",
+"url": "https://www.nap-camp.com/shizuoka/14460"
+},
+{
+"pref": "静岡県",
+"id": "14486",
+"name": "朝霧高原 英知の杜キャンプ場",
+"addr": "静岡県富士宮市根原71-3",
+"url": "https://www.nap-camp.com/shizuoka/14486"
+},
+{
+"pref": "静岡県",
+"id": "14494",
+"name": "Mt. FUJI SATOYAMA VACATION (マウントフジ里山バケーション）",
+"addr": "静岡県富士宮市狩宿8-2",
+"url": "https://www.nap-camp.com/shizuoka/14494"
+},
+{
+"pref": "静岡県",
+"id": "14509",
+"name": "川の駅　伊豆ゲートウェイ函南",
+"addr": "静岡県田方郡函南町塚本920-1",
+"url": "https://www.nap-camp.com/shizuoka/14509"
+},
+{
+"pref": "静岡県",
+"id": "14511",
+"name": "伊豆海の森スマイルキャンプ場　IZUMI RESORT",
+"addr": "静岡県伊東市富戸354-1IZUMI DIVING RESORT",
+"url": "https://www.nap-camp.com/shizuoka/14511"
+},
+{
+"pref": "静岡県",
+"id": "14514",
+"name": "野営人",
+"addr": "静岡県賀茂郡南伊豆町毛倉野855-1",
+"url": "https://www.nap-camp.com/shizuoka/14514"
+},
+{
+"pref": "静岡県",
+"id": "14547",
+"name": "藤乃煌 富士御殿場",
+"addr": "静岡県御殿場市東田中3373-25",
+"url": "https://www.nap-camp.com/shizuoka/14547"
+},
+{
+"pref": "静岡県",
+"id": "14582",
+"name": "富士箱根ランド キャンプ場",
+"addr": "静岡県田方郡函南町桑原笛場1354富士箱根ランドスコーレプラザホテル＆ホテル富士箱根",
+"url": "https://www.nap-camp.com/shizuoka/14582"
+},
+{
+"pref": "静岡県",
+"id": "14599",
+"name": "スタイルキャビンあさぎり",
+"addr": "静岡県富士宮市根原449-11",
+"url": "https://www.nap-camp.com/shizuoka/14599"
+},
+{
+"pref": "静岡県",
+"id": "14659",
+"name": "リバティーリゾート大東温泉",
+"addr": "静岡県掛川市国安2808-2",
+"url": "https://www.nap-camp.com/shizuoka/14659"
+},
+{
+"pref": "静岡県",
+"id": "14677",
+"name": "アカオビーチキャンプ【ACAO BEACH CAMP】",
+"addr": "静岡県熱海市上多賀1027-8ACAO BEACH",
+"url": "https://www.nap-camp.com/shizuoka/14677"
+},
+{
+"pref": "静岡県",
+"id": "14723",
+"name": "伊豆高原テントリゾート",
+"addr": "静岡県伊東市池614－171",
+"url": "https://www.nap-camp.com/shizuoka/14723"
+},
+{
+"pref": "静岡県",
+"id": "14749",
+"name": "バモサンキャンプサイト",
+"addr": "静岡県賀茂郡南伊豆町一條693",
+"url": "https://www.nap-camp.com/shizuoka/14749"
+},
+{
+"pref": "静岡県",
+"id": "14780",
+"name": "南伊豆キャンピングテラス",
+"addr": "静岡県賀茂郡南伊豆町子浦1349-6",
+"url": "https://www.nap-camp.com/shizuoka/14780"
+},
+{
+"pref": "静岡県",
+"id": "14791",
+"name": "リバウッドリゾート",
+"addr": "静岡県周智郡森町大鳥居1",
+"url": "https://www.nap-camp.com/shizuoka/14791"
+},
+{
+"pref": "静岡県",
+"id": "14797",
+"name": "ビンタンビンタングリーンヴィレッジ",
+"addr": "静岡県榛原郡川根本町東藤川669-1",
+"url": "https://www.nap-camp.com/shizuoka/14797"
+},
+{
+"pref": "静岡県",
+"id": "14806",
+"name": "Fuji Camp Village",
+"addr": "静岡県富士宮市猪之頭2227-1",
+"url": "https://www.nap-camp.com/shizuoka/14806"
+},
+{
+"pref": "静岡県",
+"id": "14830",
+"name": "富士祥栄・グランピング",
+"addr": "静岡県駿東郡小山町用沢１３３７",
+"url": "https://www.nap-camp.com/shizuoka/14830"
+},
+{
+"pref": "静岡県",
+"id": "14869",
+"name": "Forest Camp 南伊豆",
+"addr": "静岡県賀茂郡南伊豆町下賀茂899-113",
+"url": "https://www.nap-camp.com/shizuoka/14869"
+},
+{
+"pref": "静岡県",
+"id": "14886",
+"name": "so-an morie",
+"addr": "静岡県賀茂郡東伊豆町稲取3348-17so-an morie",
+"url": "https://www.nap-camp.com/shizuoka/14886"
+},
+{
+"pref": "静岡県",
+"id": "14890",
+"name": "【R5/1 現在閉鎖】カノー伝説/ネシアの旅人（CAMP&NATURE TOUR）",
+"addr": "静岡県賀茂郡南伊豆町加納柿ノ木硲1187-1",
+"url": "https://www.nap-camp.com/shizuoka/14890"
+},
+{
+"pref": "静岡県",
+"id": "14898",
+"name": "伊豆キャンファーム",
+"addr": "静岡県伊豆市小下田1953",
+"url": "https://www.nap-camp.com/shizuoka/14898"
+},
+{
+"pref": "静岡県",
+"id": "14914",
+"name": "キウイフルーツカントリーキャンプ場",
+"addr": "静岡県掛川市上内田2040",
+"url": "https://www.nap-camp.com/shizuoka/14914"
+},
+{
+"pref": "静岡県",
+"id": "14920",
+"name": "【R5/9閉鎖】CAMPGARDEN　NADESHIKO",
+"addr": "静岡県伊豆市湯ケ島895-1",
+"url": "https://www.nap-camp.com/shizuoka/14920"
+},
+{
+"pref": "静岡県",
+"id": "14928",
+"name": "音助の里",
+"addr": "静岡県浜松市北区三ヶ日町都筑3610  音助の里",
+"url": "https://www.nap-camp.com/shizuoka/14928"
+},
+{
+"pref": "静岡県",
+"id": "14977",
+"name": "さんかく山 CAMP FIELD",
+"addr": "静岡県静岡市葵区内牧955",
+"url": "https://www.nap-camp.com/shizuoka/14977"
+},
+{
+"pref": "静岡県",
+"id": "14979",
+"name": "YAMA NO NIWA AUTO CAMP",
+"addr": "静岡県裾野市須山８０４−２",
+"url": "https://www.nap-camp.com/shizuoka/14979"
+},
+{
+"pref": "静岡県",
+"id": "14982",
+"name": "ヒリゾ浜シーサイドBBQ",
+"addr": "静岡県賀茂郡南伊豆町入間1675",
+"url": "https://www.nap-camp.com/shizuoka/14982"
+},
+{
+"pref": "静岡県",
+"id": "14983",
+"name": "天城高原オートキャンプ場",
+"addr": "静岡県賀茂郡東伊豆町白田1458-5",
+"url": "https://www.nap-camp.com/shizuoka/14983"
+},
+{
+"pref": "静岡県",
+"id": "15006",
+"name": "Pagurus Nature&Camp 鹿島",
+"addr": "静岡県牧之原市勝俣3354-1",
+"url": "https://www.nap-camp.com/shizuoka/15006"
+},
+{
+"pref": "静岡県",
+"id": "15011",
+"name": "【R8/1移転の為閉鎖】十里木BASEキャンプ場",
+"addr": "静岡県裾野市須山2255-3108",
+"url": "https://www.nap-camp.com/shizuoka/15011"
+},
+{
+"pref": "静岡県",
+"id": "15012",
+"name": "高嶺の森のキャンプ場",
+"addr": "静岡県御殿場市上小林1489-1",
+"url": "https://www.nap-camp.com/shizuoka/15012"
+},
+{
+"pref": "静岡県",
+"id": "15036",
+"name": "magichour camp",
+"addr": "静岡県静岡市清水区由比入山3497",
+"url": "https://www.nap-camp.com/shizuoka/15036"
+},
+{
+"pref": "静岡県",
+"id": "15044",
+"name": "グランパパキャンプ",
+"addr": "静岡県富士宮市猪之頭26-1",
+"url": "https://www.nap-camp.com/shizuoka/15044"
+},
+{
+"pref": "静岡県",
+"id": "15087",
+"name": "earthcolor",
+"addr": "静岡県伊豆の国市中1606-71",
+"url": "https://www.nap-camp.com/shizuoka/15087"
+},
+{
+"pref": "静岡県",
+"id": "15101",
+"name": "キャンプ場此処野静岡",
+"addr": "静岡県静岡市葵区新間2082",
+"url": "https://www.nap-camp.com/shizuoka/15101"
+},
+{
+"pref": "静岡県",
+"id": "15107",
+"name": "とことん遊べる学校キャンプ カタショー",
+"addr": "静岡県牧之原市片浜1254-1",
+"url": "https://www.nap-camp.com/shizuoka/15107"
+},
+{
+"pref": "静岡県",
+"id": "15108",
+"name": "ニットーランド貸切キャンプ場",
+"addr": "静岡県伊豆市大沢1021-50",
+"url": "https://www.nap-camp.com/shizuoka/15108"
+},
+{
+"pref": "静岡県",
+"id": "15111",
+"name": "天城スカイラインキャンプ場",
+"addr": "静岡県伊東市池895-81",
+"url": "https://www.nap-camp.com/shizuoka/15111"
+},
+{
+"pref": "静岡県",
+"id": "15120",
+"name": "浜名湖カナルオートキャンプ場",
+"addr": "静岡県浜松市中央区村櫛町4607‐13ボートクラブカナル",
+"url": "https://www.nap-camp.com/shizuoka/15120"
+},
+{
+"pref": "静岡県",
+"id": "15655",
+"name": "静波リゾートキャンプサイト",
+"addr": "静岡県牧之原市静波２２２８−４３ リゾートホテル・スウィングビーチ 内",
+"url": "https://www.nap-camp.com/shizuoka/15655"
+},
+{
+"pref": "静岡県",
+"id": "15670",
+"name": "Seaside Base ARARI",
+"addr": "静岡県賀茂郡西伊豆町安良里928-4",
+"url": "https://www.nap-camp.com/shizuoka/15670"
+},
+{
+"pref": "静岡県",
+"id": "15686",
+"name": "朝霧Camp Base そらいろ",
+"addr": "静岡県富士宮市麓624-7",
+"url": "https://www.nap-camp.com/shizuoka/15686"
+},
+{
+"pref": "静岡県",
+"id": "15688",
+"name": "K`s CAMP 伊豆高原グランピング",
+"addr": "静岡県伊東市富戸1074-1",
+"url": "https://www.nap-camp.com/shizuoka/15688"
+},
+{
+"pref": "静岡県",
+"id": "15713",
+"name": "崎平 YANBY OUTDOOR FIELD",
+"addr": "静岡県榛原郡川根本町崎平376-3",
+"url": "https://www.nap-camp.com/shizuoka/15713"
+},
+{
+"pref": "静岡県",
+"id": "15727",
+"name": "マリンベース西伊豆",
+"addr": "静岡県伊豆市八木沢1363-2",
+"url": "https://www.nap-camp.com/shizuoka/15727"
+},
+{
+"pref": "静岡県",
+"id": "15733",
+"name": "おきつがわオートキャンプ場",
+"addr": "静岡県静岡市清水区茂野島1100",
+"url": "https://www.nap-camp.com/shizuoka/15733"
+},
+{
+"pref": "静岡県",
+"id": "15760",
+"name": "高原キャンプ場 樹庭夢",
+"addr": "静岡県伊豆の国市中１６０６−１",
+"url": "https://www.nap-camp.com/shizuoka/15760"
+},
+{
+"pref": "静岡県",
+"id": "15761",
+"name": "KAWAZU BEACH HOUSE BLUE MOON",
+"addr": "静岡県賀茂郡河津町見高2",
+"url": "https://www.nap-camp.com/shizuoka/15761"
+},
+{
+"pref": "静岡県",
+"id": "15767",
+"name": "オートキャンプもぐら",
+"addr": "静岡県沼津市西浦河内西浦河内字正木ヶ沢538-63",
+"url": "https://www.nap-camp.com/shizuoka/15767"
+},
+{
+"pref": "静岡県",
+"id": "15768",
+"name": "HIMENOYU MOTHER",
+"addr": "静岡県伊豆市姫之湯248-1",
+"url": "https://www.nap-camp.com/shizuoka/15768"
+},
+{
+"pref": "静岡県",
+"id": "15816",
+"name": "【R7/8月 閉鎖】富士山フロントパークしの坂",
+"addr": "静岡県富士宮市山宮3645-307",
+"url": "https://www.nap-camp.com/shizuoka/15816"
+},
+{
+"pref": "静岡県",
+"id": "15823",
+"name": "大川オートキャンプ場",
+"addr": "静岡県静岡市葵区坂ノ上",
+"url": "https://www.nap-camp.com/shizuoka/15823"
+},
+{
+"pref": "静岡県",
+"id": "15826",
+"name": "villa vacances hamanako",
+"addr": "静岡県浜松市西区協和町102",
+"url": "https://www.nap-camp.com/shizuoka/15826"
+},
+{
+"pref": "静岡県",
+"id": "15847",
+"name": "GARAGE Secret Base",
+"addr": "静岡県駿東郡長泉町元長窪字芹沢566番5",
+"url": "https://www.nap-camp.com/shizuoka/15847"
+},
+{
+"pref": "静岡県",
+"id": "15882",
+"name": "【R7/2　閉鎖】AlicaBeach南伊豆",
+"addr": "静岡県賀茂郡南伊豆町石廊崎159-1",
+"url": "https://www.nap-camp.com/shizuoka/15882"
+},
+{
+"pref": "静岡県",
+"id": "15909",
+"name": "めいぷる",
+"addr": "静岡県富士宮市人穴136-4",
+"url": "https://www.nap-camp.com/shizuoka/15909"
+},
+{
+"pref": "静岡県",
+"id": "15917",
+"name": "たまゆらBBQ",
+"addr": "静岡県藤枝市岡部町玉取1452朝比奈活性化施設たまゆら",
+"url": "https://www.nap-camp.com/shizuoka/15917"
+},
+{
+"pref": "静岡県",
+"id": "16032",
+"name": "glampark 一句石",
+"addr": "静岡県伊豆の国市中1360-1",
+"url": "https://www.nap-camp.com/shizuoka/16032"
+},
+{
+"pref": "静岡県",
+"id": "16061",
+"name": "富士見の丘オートキャンプ場",
+"addr": "静岡県富士市大淵1297富士見の丘オートキャンプ場",
+"url": "https://www.nap-camp.com/shizuoka/16061"
+},
+{
+"pref": "静岡県",
+"id": "16070",
+"name": "富士山と夜景のキャンプ場　桂の森CAMPERSFIELD",
+"addr": "静岡県富士宮市大中里1884-5",
+"url": "https://www.nap-camp.com/shizuoka/16070"
+},
+{
+"pref": "静岡県",
+"id": "16115",
+"name": "キャンプ場フィール",
+"addr": "静岡県裾野市茶畑2008-1",
+"url": "https://www.nap-camp.com/shizuoka/16115"
+},
+{
+"pref": "静岡県",
+"id": "16144",
+"name": "川の駅　伊豆城山",
+"addr": "静岡県伊豆の国市神島141-4",
+"url": "https://www.nap-camp.com/shizuoka/16144"
+},
+{
+"pref": "静岡県",
+"id": "16145",
+"name": "Ogawa. Camp Field",
+"addr": "静岡県浜松市天竜区小川1170−1",
+"url": "https://www.nap-camp.com/shizuoka/16145"
+},
+{
+"pref": "静岡県",
+"id": "16146",
+"name": "浜名湖パークビレッジ",
+"addr": "静岡県湖西市新居町新居3228-201",
+"url": "https://www.nap-camp.com/shizuoka/16146"
+},
+{
+"pref": "静岡県",
+"id": "16158",
+"name": "伊豆グランピングリゾートIshiki385",
+"addr": "静岡県賀茂郡西伊豆町一色385番地伊豆グランピングリゾートIshiki385",
+"url": "https://www.nap-camp.com/shizuoka/16158"
+},
+{
+"pref": "静岡県",
+"id": "16172",
+"name": "富士山オートキャンプ場GENSHIJIN",
+"addr": "静岡県富士宮市上井出2527番地の１",
+"url": "https://www.nap-camp.com/shizuoka/16172"
+},
+{
+"pref": "静岡県",
+"id": "16178",
+"name": "キャンプすがり1",
+"addr": "静岡県浜松市天竜区横川741-2キャンプすがり1",
+"url": "https://www.nap-camp.com/shizuoka/16178"
+},
+{
+"pref": "静岡県",
+"id": "16180",
+"name": "あてらの森　キャンプ場",
+"addr": "静岡県浜松市天竜区阿寺429-4",
+"url": "https://www.nap-camp.com/shizuoka/16180"
+},
+{
+"pref": "静岡県",
+"id": "16181",
+"name": "Fuji Rv Field",
+"addr": "静岡県富士宮市杉田486",
+"url": "https://www.nap-camp.com/shizuoka/16181"
+},
+{
+"pref": "静岡県",
+"id": "16195",
+"name": "TREE LINE chillax field",
+"addr": "静岡県富士宮市人穴791-1",
+"url": "https://www.nap-camp.com/shizuoka/16195"
+},
+{
+"pref": "静岡県",
+"id": "16198",
+"name": "伊東　奏の森キャンプ場（旧：奏の森リゾート　フォレストグランピング）",
+"addr": "静岡県伊東市十足325-1",
+"url": "https://www.nap-camp.com/shizuoka/16198"
+},
+{
+"pref": "静岡県",
+"id": "16208",
+"name": "foothillsキャンプ場",
+"addr": "静岡県富士宮市北山7429‐2",
+"url": "https://www.nap-camp.com/shizuoka/16208"
+},
+{
+"pref": "静岡県",
+"id": "16209",
+"name": "ログハウス・SAKURA FAMILIAR",
+"addr": "静岡県賀茂郡河津町川津筏場天子平1596-581",
+"url": "https://www.nap-camp.com/shizuoka/16209"
+},
+{
+"pref": "静岡県",
+"id": "16243",
+"name": "ヒュッゲ湖西市民キャンプ場",
+"addr": "静岡県湖西市吉美２５７１ヒュッゲ湖西市民キャンプ場",
+"url": "https://www.nap-camp.com/shizuoka/16243"
+},
+{
+"pref": "静岡県",
+"id": "16250",
+"name": "HAZ CAMP",
+"addr": "静岡県牧之原市波津1223-6",
+"url": "https://www.nap-camp.com/shizuoka/16250"
+},
+{
+"pref": "静岡県",
+"id": "16260",
+"name": "びく石山 静かな夜のキャンプ場",
+"addr": "静岡県藤枝市瀬戸ノ谷5610",
+"url": "https://www.nap-camp.com/shizuoka/16260"
+},
+{
+"pref": "静岡県",
+"id": "16261",
+"name": "COW RESORT IDEBOK",
+"addr": "静岡県富士宮市人穴728番地",
+"url": "https://www.nap-camp.com/shizuoka/16261"
+},
+{
+"pref": "静岡県",
+"id": "16300",
+"name": "浜岡砂丘キャンプ場",
+"addr": "静岡県御前崎市池新田9122-1",
+"url": "https://www.nap-camp.com/shizuoka/16300"
+},
+{
+"pref": "静岡県",
+"id": "16305",
+"name": "限界集落　天空の館",
+"addr": "静岡県磐田市万瀬493-2",
+"url": "https://www.nap-camp.com/shizuoka/16305"
+},
+{
+"pref": "静岡県",
+"id": "16350",
+"name": "檜の森キャンプ場",
+"addr": "静岡県駿東郡小山町棚頭1491-2",
+"url": "https://www.nap-camp.com/shizuoka/16350"
+},
+{
+"pref": "静岡県",
+"id": "16358",
+"name": "天空テラス",
+"addr": "静岡県沼津市戸田3878-72",
+"url": "https://www.nap-camp.com/shizuoka/16358"
+},
+{
+"pref": "静岡県",
+"id": "16393",
+"name": "lodge sora",
+"addr": "静岡県藤枝市瀬戸ノ谷10352",
+"url": "https://www.nap-camp.com/shizuoka/16393"
+},
+{
+"pref": "静岡県",
+"id": "16431",
+"name": "Whole Earth Communications",
+"addr": "静岡県静岡市駿河区高松字浜地3093-6",
+"url": "https://www.nap-camp.com/shizuoka/16431"
+},
+{
+"pref": "静岡県",
+"id": "16455",
+"name": "お茶畑のとなり",
+"addr": "静岡県御前崎市白羽2158-5",
+"url": "https://www.nap-camp.com/shizuoka/16455"
+},
+{
+"pref": "静岡県",
+"id": "16474",
+"name": "hamanako camp field ASOVIVA",
+"addr": "静岡県浜松市中央区村櫛町19",
+"url": "https://www.nap-camp.com/shizuoka/16474"
+},
+{
+"pref": "静岡県",
+"id": "16477",
+"name": "RECAMP 富士スピードウェイ",
+"addr": "静岡県駿東郡小山町中日向694富士スピードウェイ内",
+"url": "https://www.nap-camp.com/shizuoka/16477"
+},
+{
+"pref": "静岡県",
+"id": "16499",
+"name": "Glamping＆Port 結",
+"addr": "静岡県島田市湯日564番地",
+"url": "https://www.nap-camp.com/shizuoka/16499"
+},
+{
+"pref": "静岡県",
+"id": "16506",
+"name": "凸凹広場",
+"addr": "静岡県牧之原市静波2220-2",
+"url": "https://www.nap-camp.com/shizuoka/16506"
+},
+{
+"pref": "静岡県",
+"id": "16524",
+"name": "十里木フジドッグ",
+"addr": "静岡県裾野市須山2255-1172",
+"url": "https://www.nap-camp.com/shizuoka/16524"
+},
+{
+"pref": "静岡県",
+"id": "16542",
+"name": "にのまるキャンプ",
+"addr": "静岡県富士市大淵4632",
+"url": "https://www.nap-camp.com/shizuoka/16542"
+},
+{
+"pref": "静岡県",
+"id": "16556",
+"name": "富士山あんもの森 Camp Field",
+"addr": "静岡県富士宮市山宮3690",
+"url": "https://www.nap-camp.com/shizuoka/16556"
+},
+{
+"pref": "静岡県",
+"id": "16560",
+"name": "ANOTHAPLACE",
+"addr": "静岡県富士宮市山宮３６６６ー５５０",
+"url": "https://www.nap-camp.com/shizuoka/16560"
+},
+{
+"pref": "静岡県",
+"id": "16578",
+"name": "キャンプすがり2 RV・車中泊スポット",
+"addr": "静岡県浜松市天竜区横川３２４２−１キャンプすがり2 RV・車中泊スポット",
+"url": "https://www.nap-camp.com/shizuoka/16578"
+},
+{
+"pref": "静岡県",
+"id": "16614",
+"name": "フォレストベースきねがやと",
+"addr": "静岡県賀茂郡南伊豆町手石28",
+"url": "https://www.nap-camp.com/shizuoka/16614"
+},
+{
+"pref": "静岡県",
+"id": "16619",
+"name": "城ヶ崎BASE",
+"addr": "静岡県伊東市八幡野字磯道1031-40伊豆急城ヶ崎6次4番",
+"url": "https://www.nap-camp.com/shizuoka/16619"
+},
+{
+"pref": "静岡県",
+"id": "16634",
+"name": "MIYAKODA.BBQ.FEILD",
+"addr": "静岡県浜松市浜名区都田町4302-1MIYAKODA.BBQ.FIELD",
+"url": "https://www.nap-camp.com/shizuoka/16634"
+},
+{
+"pref": "静岡県",
+"id": "16695",
+"name": "めぐみ荘のキャンプ場",
+"addr": "静岡県賀茂郡南伊豆町伊浜504-2",
+"url": "https://www.nap-camp.com/shizuoka/16695"
+},
+{
+"pref": "静岡県",
+"id": "16741",
+"name": "atago feels (あたごフィールズ)",
+"addr": "静岡県浜松市天竜区上野948",
+"url": "https://www.nap-camp.com/shizuoka/16741"
+},
+{
+"pref": "静岡県",
+"id": "16758",
+"name": "ふじやまテラス",
+"addr": "静岡県富士宮市人穴480-2",
+"url": "https://www.nap-camp.com/shizuoka/16758"
+},
+{
+"pref": "静岡県",
+"id": "16774",
+"name": "ロングビーチ御前崎キャンプ場",
+"addr": "静岡県御前崎市御前崎5866-2",
+"url": "https://www.nap-camp.com/shizuoka/16774"
+},
+{
+"pref": "静岡県",
+"id": "16796",
+"name": "接岨YANBY OUTDOOR FIELD",
+"addr": "静岡県榛原郡川根本町犬間　長嶋公園敷地内",
+"url": "https://www.nap-camp.com/shizuoka/16796"
+},
+{
+"pref": "静岡県",
+"id": "16802",
+"name": "GROVE camping hill",
+"addr": "静岡県熱海市泉75-1",
+"url": "https://www.nap-camp.com/shizuoka/16802"
+},
+{
+"pref": "静岡県",
+"id": "16803",
+"name": "さくら山キャンプ場",
+"addr": "静岡県伊豆市土肥2389-2",
+"url": "https://www.nap-camp.com/shizuoka/16803"
+},
+{
+"pref": "静岡県",
+"id": "16807",
+"name": "koniwa CAMP 天城湯ヶ島",
+"addr": "静岡県伊豆市湯ケ島８９５−１",
+"url": "https://www.nap-camp.com/shizuoka/16807"
+},
+{
+"pref": "静岡県",
+"id": "16810",
+"name": "SECRET BASE",
+"addr": "静岡県御殿場市東田中1920-1-2",
+"url": "https://www.nap-camp.com/shizuoka/16810"
+},
+{
+"pref": "静岡県",
+"id": "16874",
+"name": "ＳＯＬＡＣＥの丘",
+"addr": "静岡県熱海市下多賀１４９２－１SOLACEの丘",
+"url": "https://www.nap-camp.com/shizuoka/16874"
+},
+{
+"pref": "静岡県",
+"id": "16881",
+"name": "滝沢キャンプ場",
+"addr": "静岡県浜松市浜名区滝沢町626",
+"url": "https://www.nap-camp.com/shizuoka/16881"
+}
+]
