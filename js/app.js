@@ -1,12 +1,11 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30e */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30f */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30e";
+  var BUILD = "2026-09-30f";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
   var FAC_LABEL = { power: "AC電源", shower: "シャワー", onsen: "温泉", flush_toilet: "水洗トイレ", shop: "売店", rental: "レンタル" };
-  var BOOK_LABEL = { web: "ネット予約可", phone: "電話予約", none: "予約不要" };
   var PREF_ORDER = ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県",
     "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県",
     "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県",
@@ -225,7 +224,7 @@
     }
     var st = c.site_types || [];
     if (s.types.length && !s.types.some(function (t) { return st.indexOf(t) >= 0; })) return false;
-    if (s.book.length && s.book.indexOf(c.booking_type) < 0) return false;
+    if (s.book.length && !s.book.some(function (b) { return bookKinds(c).indexOf(b) >= 0; })) return false;
     var fc = c.facilities || [];
     if (s.fac.length && !s.fac.every(function (f) { return fc.indexOf(f) >= 0; })) return false;
     return true;
@@ -381,12 +380,71 @@
   }
 
   // ---------- 詳細 ----------
+  // 予約方法の絞り込み用：web=ネット予約、phone=電話予約、none=予約不要
+  function bookKinds(c) {
+    var k = (c.resv_methods || []).filter(function (m) { return m === "web" || m === "phone"; });
+    if (c.resv === "not_required") k.push("none");
+    return k;
+  }
+  var RESV_LABEL = { required: "要予約", not_required: "予約不要", recommended: "予約がおすすめ" };
+  var METHOD_LABEL = { web: "ネット", phone: "電話", email: "メール", fax: "FAX", onsite: "現地", mail: "郵送", app: "アプリ" };
+  function ymd(d) { var p = String(d || "").split("-"); return p.length === 3 ? p[0] + "/" + Number(p[1]) + "/" + Number(p[2]) : d; }
+  function md(d) { var p = String(d || "").split("-"); return p.length === 3 ? Number(p[1]) + "/" + Number(p[2]) : d; }
+
+  function resvBlock(c) {
+    var lab = RESV_LABEL[c.resv];
+    var methods = (c.resv_methods || []).map(function (m) { return METHOD_LABEL[m] || m; }).join("・");
+    var bookLink = safeUrl(c.affiliate_url) || safeUrl(c.booking_url);
+    var h = '<div class="d-sec"><h3>予約</h3>';
+    if (!lab && !c.resv_text) {
+      h += '<p class="d-p">予約が必要かは未確認です。公式サイトか電話で確認してください。</p>';
+      if (bookLink) h += '<p class="d-p"><a href="' + esc(bookLink) + '" target="_blank" rel="noopener">予約ページを開く</a></p>';
+      return h + "</div>";
+    }
+    h += "<dl>" + row("予約の要否", lab || "未確認") + row("予約の方法", c.resv_text || (methods ? methods + "で予約" : "")) +
+      (bookLink ? "<dt>予約ページ</dt><dd><a href=\"" + esc(bookLink) + '" target="_blank" rel="noopener">開く</a></dd>' : "") + "</dl>";
+    if (c.resv_quote) {
+      h += '<p class="d-note">根拠：「' + esc(c.resv_quote) + "」" + (safeUrl(c.resv_url) ? '（<a href="' + esc(c.resv_url) + '" target="_blank" rel="noopener">ページ</a>）' : "") + "。変わることがあるので予約前に公式で確認してください。</p>";
+    }
+    return h + "</div>";
+  }
+
+  function bearBlock(c) {
+    var b = c.bear;
+    var h = '<div class="d-sec bear"><h3>クマの出没（直近1年）</h3>';
+    if (!b) return h + '<p class="d-p">この県のクマ出没情報はまだ取り込んでいません。市町村や県の出没情報を確認してください。</p></div>';
+    var srcLink = safeUrl(b.url) ? '<a href="' + esc(b.url) + '" target="_blank" rel="noopener">' + esc(b.src) + "</a>" : esc(b.src);
+    if (b.na) return h + '<p class="d-p">' + srcLink + "の情報をまだ取り込めていません。行く前に県の出没情報を確認してください。</p></div>";
+    var hit = (b.n || 0) + (b.nc || 0) > 0;
+    var lines = [];
+    if (b.r != null) {
+      lines.push(b.n ? "半径" + b.r + "km以内で<b>" + b.n + "件</b>" : "半径" + b.r + "km以内の記録はありません");
+    }
+    if (b.city) {
+      lines.push(b.nc ? "同じ市町村（" + esc(b.city) + "）で<b>" + b.nc + "件</b>（最新 " + ymd(b.cl) + "）" + (b.injury ? "。うち人身被害 " + b.injury + "件" : "")
+        : "同じ市町村（" + esc(b.city) + "）の記録はありません");
+    }
+    h += '<div class="bear-box' + (hit ? " hit" : "") + '">' + lines.map(function (x) { return "<p>" + x + "</p>"; }).join("");
+    if ((b.recent || []).length) {
+      h += "<ul>" + b.recent.map(function (r) {
+        return "<li>" + ymd(r.d) + "　" + esc(r.pl) + "（約" + r.km + "km）" + (r.k ? '<span class="sub">　' + esc(r.k) + "</span>" : "") + "</li>";
+      }).join("") + "</ul>";
+      if (b.n > b.recent.length) h += '<p class="sub">新しい順に3件を表示しています。</p>';
+    }
+    h += "</div>";
+    var note = "出典：" + srcLink + "（" + md(b.at) + "取得）。";
+    if (b.city && b.r == null) note += "この県は地点が公表されていないため、市町村単位で数えています。";
+    if (b.area) note += "一部は地区（町字）の位置で数えています。";
+    note += "県に届いた情報だけなので、記録がなくてもクマがいないとは限りません。";
+    return h + '<p class="d-note">' + note + "</p></div>";
+  }
+
   function row(label, val) { return val ? "<dt>" + esc(label) + "</dt><dd>" + esc(val) + "</dd>" : ""; }
 
   function tips(c) {
     var t = [];
     var st = c.site_types || [];
-    if (c.booking_type === "none") t.push("予約不要：連休や夏休みは早めの到着が安心です");
+    if (c.resv === "not_required") t.push("予約不要：連休や夏休みは早めの到着が安心です");
     if (st.indexOf("free") >= 0) t.push("フリーサイト：平らな場所を選べるよう、明るいうちの設営がおすすめです");
     if (c.pet === true) t.push("ペット可：リードと足ふきタオル、ペット用の水を用意");
     if (c.mountain) t.push("山岳テント場：軽量の装備と防寒着を。車は近くまで入れません");
@@ -453,7 +511,8 @@
     h.push(priceBlock(c));
 
     var tags = [];
-    tags.push('<span class="tag-i book">' + esc(BOOK_LABEL[c.booking_type] || "予約方法 未確認") + "</span>");
+    tags.push('<span class="tag-i book">' + esc(RESV_LABEL[c.resv] || "予約 未確認") + "</span>");
+    if (c.bear && (c.bear.n || c.bear.nc)) tags.push('<span class="tag-i bear-tag">クマ出没あり' + (c.bear.n ? "（" + c.bear.r + "km内）" : "（同じ市町村）") + "</span>");
     (c.site_types || []).forEach(function (t) { tags.push('<span class="tag-i">' + esc(TYPE_LABEL[t] || t) + "</span>"); });
     if (c.pet === true) tags.push('<span class="tag-i">ペット可</span>');
     if (c.pet === false) tags.push('<span class="tag-i">ペット不可</span>');
@@ -474,9 +533,9 @@
       h.push('<div class="d-sec"><h3>設備</h3><div class="tags">' + c.facilities.map(function (f) { return '<span class="tag-i">' + esc(FAC_LABEL[f] || f) + "</span>"; }).join("") + "</div></div>");
     }
     var linkRow = function (label, html) { return html ? "<dt>" + esc(label) + "</dt><dd>" + html + "</dd>" : ""; };
-    var bookLink = safeUrl(c.affiliate_url) || safeUrl(c.booking_url);
+    h.push(resvBlock(c));
+    h.push(bearBlock(c));
     var info = linkRow("電話", c.tel ? '<a href="tel:' + esc(c.tel.replace(/[^0-9+]/g, "")) + '">' + esc(c.tel) + "</a>" : "") +
-      linkRow("予約", bookLink ? '<a href="' + esc(bookLink) + '" target="_blank" rel="noopener">予約ページを開く</a>' : "") +
       row("営業期間", c.season) + row("休業日など", c.closed_note) + row("チェックイン", c.checkin) + row("チェックアウト", c.checkout) + row("住所", c.address) + row("サイトの種類", !c.priced ? c.types_text : "");
     if (info) h.push('<div class="d-sec"><h3>基本情報</h3><dl>' + info + "</dl></div>");
 

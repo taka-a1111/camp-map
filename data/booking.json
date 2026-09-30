@@ -1,0 +1,5958 @@
+{
+"三重県|なぎキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"app"
+],
+"method_text": "LINEまたは予約システム（なっぷ等）、問い合わせフォームで予約",
+"quote": "なぎキャンプ場は事前予約制です。",
+"confidence": "high",
+"url": "https://www.nagicamp.com/"
+},
+"三重県|グランピング施設 Offleek(オフリーク)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約（グランピング）",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://www.mie-glamping.com/"
+},
+"三重県|おわせむかい農園 海が見える段々畑のキャンプ場 minore": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話、またはなっぷでオンライン予約・決済",
+"quote": "予約をする際は下記のお問い合わせ先にご連絡いただくか",
+"confidence": "high",
+"url": "https://www.city.owase.lg.jp/owatabi/0000020577.html"
+},
+"三重県|キャンプinn海山": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約、または電話（9:00〜17:00）",
+"quote": "電話で予約",
+"confidence": "medium",
+"url": "http://camp-inn-miyama.com/"
+},
+"三重県|すぽっとキャンプ 銚子川ツリーサイト(紀北みやまや)": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "電話またはメールで宿泊予約（粟谷小屋など）",
+"quote": "宿泊される方もこちらからご予約お願いします。",
+"confidence": "medium",
+"url": "https://www.kihoku-miyamaya.com/"
+},
+"三重県|きいながしま比幾海岸オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "利用日の3か月前の1日から電話で受付",
+"quote": "ご予約は利用日の3ヶ月前の1日から受付開始",
+"confidence": "medium",
+"url": "https://kihoku-kanko.com/stay/11890/"
+},
+"三重県|古里海岸キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（繋がらない時は観光協会へ）",
+"quote": "お問合せ・予約 Reservation | お電話にてお願いします。",
+"confidence": "medium",
+"url": "https://kihoku-kanko.com/stay/16916/"
+},
+"三重県|うぐいすの森キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話、または公式サイトの空き状況ページから予約",
+"quote": "うぐいすの森キャンプ場は、事前のご予約制となっております。",
+"confidence": "high",
+"url": "https://uguisunomori.co.jp/"
+},
+"三重県|MAC孫太郎オートキャンプ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "インターネットのみ受付（電話予約は不可）",
+"quote": "WEB上からご予約ください。",
+"confidence": "high",
+"url": "http://magotarou.com/"
+},
+"三重県|Log&Sauna Jyouno-hama": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "Web予約、または電話・メール（10:00〜18:00）",
+"quote": "Web予約はこちら",
+"confidence": "medium",
+"url": "https://www.mieowase-glamping.com/"
+},
+"三重県|大杉谷林間キャンプ場(大杉谷林間キャンプ村)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "リンク先の予約ページから予約",
+"quote": "ご予約はリンク先のページからおこなっていただけます。",
+"confidence": "medium",
+"url": "https://web-odai.info/fc/map_detail_j.php?code=197"
+},
+"三重県|WAGUビーチサイドオートキャンプ場(WAGU BEACH HOUSE japonica)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約フォームから申込み（電話予約は不可）",
+"quote": "ご予約フォームよりお申し込みください。",
+"confidence": "high",
+"url": "https://www.wagubeachhouse.com/autocamp/"
+},
+"三重県|さきしまマリーナ水上キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ExCAMPで予約",
+"quote": "予約・メッセージ",
+"confidence": "medium",
+"url": "https://excamp.jp/land/651/"
+},
+"三重県|グランピングヴィレッジ サンズ(THANS)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEBで予約（電話は9:00〜18:00）",
+"quote": "当館ではご予約・変更・追加・キャンセルはWEBよりお願いしております。",
+"confidence": "high",
+"url": "https://www.ise-glamping.com/"
+},
+"三重県|離島キャンプ&サウナ@間崎島": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約リンクから予約（3名以上）",
+"quote": "予約：必要",
+"confidence": "high",
+"url": "https://www.kanko-shima.com/purpose/399/"
+},
+"三重県|御座白浜キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"mail"
+],
+"method_text": "電話で予約受付、予約金は現金書留で送付",
+"quote": "ご予約お問合せ Tel:0599-88-3021",
+"confidence": "medium",
+"url": "https://www.isesima.net/goza-camp/"
+},
+"三重県|美浜キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "直接電話で問い合わせ・予約",
+"quote": "【キャンプ場ご予約の案内】",
+"confidence": "medium",
+"url": "https://isesima.jp/mihama/"
+},
+"三重県|LUXUNA伊勢志摩(ラグナ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトのWeb予約から予約",
+"quote": "Web予約はこちら",
+"confidence": "medium",
+"url": "https://luxuna2021.com/"
+},
+"三重県|御座白浜はまゆうバンガロー(はまゆうキャンプ場)": {
+"reservation": "required",
+"quote": "ご予約の前には、必ず『キャンプ場利用について』をご一読いただき",
+"confidence": "medium",
+"url": "https://shirahama-hamayu.com/"
+},
+"三重県|白浜パールキャンプ場": {
+"reservation": "required",
+"method_text": "バンガローは3か月前の月の1日8時から予約受付",
+"quote": "3か月前の月の1日8時受付開始",
+"confidence": "medium",
+"url": "http://pearl-camp.com/"
+},
+"三重県|四季の森キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷで予約（毎月1日から3か月先まで）",
+"quote": "毎月1日よりご予約が可能、3か月先までのご予約が可能となっております。",
+"confidence": "high",
+"url": "https://sikinomoricamp.com/"
+},
+"三重県|志摩市ともやま公園キャンプ村": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ホームページから申込み（利用日の3日前まで）",
+"quote": "ご利用日の3日前までに予約が原則必要です",
+"confidence": "high",
+"url": "https://www.city.shima.mie.jp/kakuka/tomoyama/1454320094354.html"
+},
+"三重県|しゅくたそ笑楽校(わがら)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約フォームからテントキャンプを予約",
+"quote": "テントキャンプ予約",
+"confidence": "medium",
+"url": "https://www.wagara-shukutaso.com/"
+},
+"三重県|星畑キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ExCAMPで予約",
+"quote": "予約に進む¥5500 ~ / 1 グループ",
+"confidence": "medium",
+"url": "https://excamp.jp/land/1369"
+},
+"三重県|CAMP&BEER BEER BELLY 伊勢志摩": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約申込フォームから申込み、オンライン決済で確定",
+"quote": "当施設では、お申し込み後のオンライン決済完了をもって予約確定となります。",
+"confidence": "high",
+"url": "https://beerbellycamp.com/"
+},
+"三重県|GRANP GLAMPING RESORT(グランパ グランピングリゾート)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約リンクから予約",
+"quote": "予約：必要",
+"confidence": "high",
+"url": "https://www.kanko-shima.com/purpose/730/"
+},
+"三重県|ログコテージはた(グランピングはた・バンガローはた)": {
+"reservation": "required",
+"method_text": "利用日の10日前までに予約",
+"quote": "市が運営する施設。利用日の１０日前までに予約が必要。",
+"confidence": "high",
+"url": "https://www.kankomie.or.jp/spot/24737"
+},
+"三重県|賢島グランドホテル オートキャンプ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトのオートキャンプ予約ページ、または電話",
+"quote": "オートキャンプのご予約はこちら",
+"confidence": "medium",
+"url": "http://www.kashikojima.jp/stay/autocamp-seafod-bbq/"
+},
+"三重県|GLAMP DOME 伊勢賢島(グランドーム伊勢賢島)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEB予約、または電話（10:00〜18:00）",
+"quote": "予約： 必要",
+"confidence": "high",
+"url": "https://www.glamping-iseshima.com/"
+},
+"三重県|伊勢志摩パールヴィレッジ オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトのキャンプ場予約ページ、または電話",
+"quote": "キャンプ場予約",
+"confidence": "medium",
+"url": "https://iseshima-pearl-village.com/"
+},
+"三重県|伊勢海悠 Con Perro ~グランドッグ伊勢賢島~": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "空室確認・予約ページ、または電話（10:00〜18:00）",
+"quote": "空室確認・ご予約",
+"confidence": "medium",
+"url": "https://dogglamping-iseshima.com/"
+},
+"三重県|Asobino(キャンプ アソビノ)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "なっぷで予約、または電話・メール",
+"quote": "RESERVE 御予約はこちらから",
+"confidence": "high",
+"url": "https://taiki-okuise.jp/stay/asobino/"
+},
+"三重県|奥伊勢フォレストピア キャンプinリバーサイドビレッジ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷでオンライン予約（2か月前から）、電話でも受付",
+"quote": "※ご予約には「なっぷ（キャンプ場検索・予約サイト）」の会員登録が必要です。",
+"confidence": "high",
+"url": "https://okuiseforestpia.com/camp/"
+},
+"三重県|伊勢志摩エバーグレイズ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話",
+"quote": "予約方法・キャンセル規定・場内ルール",
+"confidence": "medium",
+"url": "https://www.everglades.jp/iseshima/"
+},
+"三重県|伊勢路オートキャンプ場&RVパーク": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷの予約サイトで予約",
+"quote": "伊勢路オートキャンプ場 | キャンプ場検索・予約サイト【なっぷ】",
+"confidence": "high",
+"url": "https://iseji-autocamp.jp/"
+},
+"三重県|大滝峡キャンプ場(おおみや青少年旅行村)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "RESERVE 御予約はこちらから",
+"confidence": "medium",
+"url": "https://taiki-okuise.jp/stay/omiya-youth-travel-village/"
+},
+"三重県|語らいの里 噺野": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約は公式サイトのみ受付（電話は問合せ専用）",
+"quote": "※問合せ専用。予約はHPでのみ受付",
+"confidence": "high",
+"url": "http://camp-hanashino.com/"
+},
+"三重県|神岳テラス KAMIDAKE TERRACE camping park": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話（9:00〜18:00）",
+"quote": "キャンプサイトのご予約はこちら",
+"confidence": "high",
+"url": "https://kamidake.jp/"
+},
+"三重県|鳥羽キャンプセンター": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話のみで予約（インターネット・FAXは不可）",
+"quote": "予約はお電話でお願いします。(インターネット・FAXでは受付いたしておりません。)",
+"confidence": "high",
+"url": "https://toba-campcenter.com/"
+},
+"三重県|M's VILLAGE(エムズビレッジ)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷで予約（24時間）、電話・問い合わせフォームも可",
+"quote": "※ご予約はお電話またはお問い合わせフォームより承っております。",
+"confidence": "high",
+"url": "https://ms-village.com/"
+},
+"三重県|つつじの里 荒滝キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話",
+"quote": "ご予約はこちらから。",
+"confidence": "medium",
+"url": "http://www.ma.mctv.ne.jp/~arataki/"
+},
+"三重県|エバーグレイズ香肌峡": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話",
+"quote": "予約方法・キャンセル規定・場内ルール",
+"confidence": "medium",
+"url": "https://www.everglades.jp/kahada/"
+},
+"三重県|Luxury Trailers 離宮 伊勢": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEBで予約（変更・キャンセルもWEB）",
+"quote": "当館ではご予約・変更・追加・キャンセルはWEBよりお願いしております。",
+"confidence": "high",
+"url": "https://www.glamping-ise.com/"
+},
+"三重県|Marci Forest Camp(M.F.C)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトのみで予約（電話予約は不可）",
+"quote": "ご予約はホームページからのみとさせていただいております。",
+"confidence": "high",
+"url": "https://www.mfc-style.com/"
+},
+"三重県|多気町五桂池ふるさと村キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "ふるさと村へ電話などで事前予約",
+"quote": "ふるさと村へご予約のうえご利用ください",
+"confidence": "high",
+"url": "https://gokatsura.com/stay/"
+},
+"三重県|ふれあいの森 勢山荘": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で事前予約",
+"quote": "料金：【要予約】",
+"confidence": "medium",
+"url": "https://www.sato.pref.mie.lg.jp/facility_single/?id=81"
+},
+"三重県|鳥羽キャンピングガーデン GRENBLU": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "鳥羽キャンピングガーデンGRENBLU | キャンプ場検索・予約サイト【なっぷ】",
+"confidence": "high",
+"url": "https://grenblu.com/"
+},
+"三重県|大淀西海岸ムーンビーチキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約（電話予約は不可）",
+"quote": "※お電話でご予約はできません",
+"confidence": "medium",
+"url": "http://www.moon-beach.com/"
+},
+"三重県|ヒストリーパーク塚原オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷまたは楽天トラベルキャンプで予約",
+"quote": "キャンプサイト（宿泊、デイキャンプ）の予約は外部予約サイト（なっぷ、楽天）にてお願い致します。",
+"confidence": "high",
+"url": "https://historyparktsukahara.com/"
+},
+"三重県|松阪市森林公園": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "キャンプの予約は、予約サイト「なっぷ」で受け付けています。",
+"confidence": "high",
+"url": "http://www.msk-shinrin-kouen.or.jp/"
+},
+"三重県|大淀ふれあいキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "要予約（オンライン予約・決済に対応）",
+"quote": "キャンプ場施設は要予約とさせていただきます。",
+"confidence": "high",
+"url": "https://meiwa.sub.jp/camp/camp.html"
+},
+"三重県|赤目四十八滝キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（利用月の1日に受付開始）",
+"quote": "今シーズンは利用月の1日(土日祝の場合は前日31日)にご予約受付予定です。",
+"confidence": "high",
+"url": "https://www.akame-camp-ground.com/"
+},
+"三重県|キャンプサイトかわせみ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイト、または電話（9:00-20:00）で予約",
+"quote": "公式サイトからのご予約、お電話でのご予約が最安値です。",
+"confidence": "medium",
+"url": "https://www.akame-sansuien.jp/"
+},
+"三重県|わかすぎの里キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "津市の予約システム（外部リンク）から予約",
+"quote": "9時よりご予約受付開始致します。",
+"confidence": "medium",
+"url": "https://wakasuginosato.jp/"
+},
+"三重県|青山ハーモニー・フォレスト": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話のみで受付（施設ごとに予約開始日が異なる）",
+"quote": "ご予約はお電話でのみ受付しています。",
+"confidence": "high",
+"url": "https://www.harmony-forest.org/"
+},
+"三重県|浜風キャンプ場(浜風公園内キャンプ場)": {
+"reservation": "required",
+"methods": [
+"phone",
+"fax"
+],
+"method_text": "平日8:30〜17:00に電話・FAXで使用申込み（当日不可）",
+"quote": "当日の申し込みは不可とします。",
+"confidence": "high",
+"url": "https://camp.tabinchuya.com/"
+},
+"三重県|青山高原保健休養地キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷで予約、または電話",
+"quote": "ご予約はこちら ⇒ なっぷ予約サイトへ",
+"confidence": "high",
+"url": "http://www.aoyama-hoyochi.co.jp/"
+},
+"三重県|オートパークガーデン白山 キャンピングプレイス": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話で予約（WEB予約システムも準備中）",
+"quote": "システム完成まで、お電話でのご予約お願いします。",
+"confidence": "high",
+"url": "https://autopark-garden.jp/camp/"
+},
+"三重県|涼風ガーデン(磨洞温泉 涼風荘)": {
+"reservation": "required",
+"methods": [
+"app",
+"web",
+"phone"
+],
+"method_text": "LINEまたは申込フォームで予約（電話問合せも可）",
+"quote": "ご予約制になります。",
+"confidence": "medium",
+"url": "https://www.ryoufu.com/dicamp"
+},
+"三重県|OKオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式予約サイト（ネット予約のみ、平日枠は電話可）",
+"quote": "インターネット予約のみとなっております。",
+"confidence": "high",
+"url": "https://www.ok-autocamp.com/"
+},
+"三重県|さるびの温泉オートキャンプ場 SOUZONE": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約フォームから予約、電話も可（9:00〜21:00）",
+"quote": "キャンプのご利用は要予約制です。",
+"confidence": "high",
+"url": "https://www.souzone.jp/"
+},
+"三重県|岩倉峡公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite"
+],
+"method_text": "電話で空き確認のうえ、申請書を記入して申込み",
+"quote": "電話等で施設の空きを確認していただき、係員の案内により申請書を記入いただきお申込下さい。",
+"confidence": "medium",
+"url": "http://www.bunto.com/?p=401"
+},
+"三重県|かぶとの森テラス": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "Reservationご予約",
+"confidence": "medium",
+"url": "http://kabutonomori.com/"
+},
+"三重県|ATAATA RESORT": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"app"
+],
+"method_text": "公式サイトの予約ページから（電話対応なし、メール・LINEで問合せ）",
+"quote": "キャンプのご予約はこちらから",
+"confidence": "medium",
+"url": "https://ataata.link/camp"
+},
+"三重県|たそがれテラスまきやま": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "事前予約制（電話で問合せ・予約）",
+"quote": "※利用は事前予約制です。詳しい利用方法等は、たそがれテラスHPをご覧ください。",
+"confidence": "medium",
+"url": "https://tasogareterrace.amebaownd.com/"
+},
+"三重県|鈴鹿峠自然の家": {
+"reservation": "required",
+"methods": [
+"phone",
+"email",
+"fax",
+"mail",
+"onsite"
+],
+"method_text": "電話・メールで仮予約し、利用3週間前までに申請書を提出",
+"quote": "仮予約・申請は、利用日の３週間前までに行ってください。",
+"confidence": "high",
+"url": "https://www.city.kameyama.mie.jp/kyouiku/article/2014112307467/sizennoie.html"
+},
+"三重県|音の杜キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://otonomori-park.com/"
+},
+"三重県|みさとスポーツ&キャンプ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "キャンプ予約サイト（Web予約）から予約",
+"quote": "★キャンプ予約サイト",
+"confidence": "high",
+"url": "https://misato-t.jp/?page_id=146"
+},
+"三重県|小岐須渓谷キャンプ場(山の家オートキャンプ場)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で問合せ・予約",
+"quote": "【お問合せ・ご予約】",
+"confidence": "medium",
+"url": "https://www.kanko.suzuka.mie.jp/information/2018/"
+},
+"三重県|猿田彦BASE": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "ネット予約、または電話",
+"quote": "ネット予約OK",
+"confidence": "medium",
+"url": "https://sarutahiko-farm.com/"
+},
+"三重県|俺たちのキャンプ場": {
+"reservation": "required",
+"methods": [
+"app"
+],
+"method_text": "公式InstagramのDMで予約",
+"quote": "公式InstagramからDMで予約",
+"confidence": "high",
+"url": "https://www.instagram.com/oretachino_camp/"
+},
+"三重県|FREE AND EASY CAMP RESORT": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷの予約サイトで予約",
+"quote": "予約サイトより各プランをご確認ください。",
+"confidence": "medium",
+"url": "https://fecr.jp/"
+},
+"三重県|朝明茶屋キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "電話にて、ご予約下さい。",
+"confidence": "medium",
+"url": "http://www7b.biglobe.ne.jp/~asaketyaya/"
+},
+"三重県|グリーンランドあさけ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（現地事務所では受付不可）",
+"quote": "※現地事務所でのご予約は受付ておりません。ご予約の方は、ご予約ページよりお願いします。",
+"confidence": "high",
+"url": "https://www.asake.jp/"
+},
+"三重県|朝明ロッジ": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話で予約（じゃらんでも一部販売）",
+"quote": "お電話にてご予約をお願いします",
+"confidence": "high",
+"url": "https://www.asake.net/"
+},
+"三重県|西山荘": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "予約:059(393)2941",
+"confidence": "medium",
+"url": "https://kyanpu.wixsite.com/nisiyamasou"
+},
+"三重県|MyCamp桑名(RVパーク桑名)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約のみ（3か月前から、電話予約は不可）",
+"quote": "電話での予約は受け付けておりません",
+"confidence": "high",
+"url": "https://b-l.jp/my-camp-2"
+},
+"三重県|八風キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページから（会員ランクで予約開始時期が異なる）",
+"quote": "八風キャンプ場のご予約はこちら",
+"confidence": "high",
+"url": "https://happu-camp.com/"
+},
+"三重県|青川峡キャンピングパーク": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式予約ページ、または電話（9:00〜13:00、16:00〜18:00）",
+"quote": "予約ページはこちら！※水辺オートサイトを除く",
+"confidence": "high",
+"url": "https://www.aogawa.jp/"
+},
+"三重県|いなべ市梅林公園 あわい": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトのキャンプサイト予約ページから予約",
+"quote": "のやど・はなれ 予約 キャンプサイトはこちら",
+"confidence": "medium",
+"url": "https://www.inabe-awai.jp"
+},
+"岐阜県|glampark海津温泉": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約（グランピング）",
+"quote": "予約はこちら",
+"confidence": "medium",
+"url": "https://glampark.co.jp/accommodation/glampark-kaiduonsen/"
+},
+"岐阜県|ロッヂ岐阜": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル・じゃらんnetなどの予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル じゃらんnet",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp612/"
+},
+"岐阜県|羽根谷だんだん公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷでオンライン予約",
+"quote": "キャンプ場予約サイト「なっぷ」",
+"confidence": "high",
+"url": "https://www.city.kaizu.lg.jp/dandan-camp/0000003163.html"
+},
+"岐阜県|くしはら温泉オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "フリーサイトは予約不要、電源・区画サイトは要予約",
+"quote": "フリーサイトはご予約の必要はありません（電源サイト・区画サイトのみ要予約）。",
+"confidence": "medium",
+"url": "https://sasayurinoyu.jp/"
+},
+"岐阜県|奥矢作レクリエーションセンター": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "AeruStayで予約（利用日の1か月前から）、電話確認も可",
+"quote": "■施設のご利用の際にはご予約をお願いします。",
+"confidence": "high",
+"url": "https://okuyahagi-shinrinjuku.com/"
+},
+"岐阜県|木蓮キャンプ場(Caf'e木蓮)": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "電話またはメールで予約（返信メールで確定）",
+"quote": "折り返しメールが届きましたら予約完了です。",
+"confidence": "high",
+"url": "https://cafe-mokuren.com/free/camp"
+},
+"岐阜県|グリーン・ウッド関ケ原 オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "インターネット予約（24時間）、電話・メールでも受付",
+"quote": "（インターネットでの予約は24時間受け付けております）",
+"confidence": "high",
+"url": "https://www.gws.gifu.jp/"
+},
+"岐阜県|kito.関ヶ原 岐阜グランピング": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "Web予約（電話は9:00〜18:00、繋がらない場合はメール）",
+"quote": "Web予約はこちら",
+"confidence": "medium",
+"url": "https://www.gifu-glampingresort.com/"
+},
+"岐阜県|福寿の里モンゴル村": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://fukujyunosato.com/"
+},
+"岐阜県|伊木山フォレスト": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "HPからオンライン予約（電話予約は不可、当日のみ電話）",
+"quote": "【予約方法】HPからのオンライン予約",
+"confidence": "high",
+"url": "https://www.igiyamaforest.com/"
+},
+"岐阜県|根の上アウトドアパーク恵那 保古グランピング": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "専用予約フォーム、または電話（9:00〜18:00）",
+"quote": "ご予約は専用予約フォーム、",
+"confidence": "high",
+"url": "https://hokoglamping.com/"
+},
+"岐阜県|リバポの森キャンプ場(RIVER PORT PARK 美濃加茂)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "個人はなっぷで予約、団体は問い合わせフォーム",
+"quote": "個人でのキャンプ利用は、予約サイト「なっぷ」よりお申し込みください。",
+"confidence": "high",
+"url": "https://rppm.jp/camp/"
+},
+"岐阜県|大津谷公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約のみ",
+"quote": "ネット予約のみ",
+"confidence": "medium",
+"url": "https://otsudani.jp/"
+},
+"岐阜県|ブッシュクラフト岐阜恵那": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公開フィールドはWEB予約、非公開フィールドは問合せ",
+"quote": "公開フィールドWEB予約",
+"confidence": "medium",
+"url": "https://bcge.jp/"
+},
+"岐阜県|NAGI dog glamping ena": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "Web予約（5名以上は電話で相談）",
+"quote": "Web予約はこちら",
+"confidence": "medium",
+"url": "http://nagi-enadogglamping.com/"
+},
+"岐阜県|癒しの森キャンプ場 恵那": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "完全予約制（電話で予約）",
+"quote": "それぞれのエリアは少人数、完全予約制で、プライベートな時間を大切にした設計となっています。",
+"confidence": "high",
+"url": "https://iyasinomori-ena.jimdofree.com/"
+},
+"岐阜県|ながら川ふれあいの森(キャンプ場)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "利用日の60日前から電話で予約（当日受付は不可）",
+"quote": "ご利用は事前予約が必要です。当日の予約受付けはできません。",
+"confidence": "high",
+"url": "https://fureainomori.jp/"
+},
+"岐阜県|飯地高原自然テント村": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "なっぷで予約（テントは2か月前の1日から）、電話・メールも可",
+"quote": "予約開始／建物予約は3か月前の1日より販売・テント予約2か月前の1日より販売",
+"confidence": "high",
+"url": "https://iijitentomuracamp.localinfo.jp/"
+},
+"岐阜県|クアリゾート湯舟沢 ほしとせせらぎのぐらんぴんぐ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの宿泊予約ページ、または電話",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://hoshi-glamping.com/"
+},
+"岐阜県|グランピング場 星が見の杜": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話",
+"quote": "ご予約はこちらから",
+"confidence": "medium",
+"url": "https://hoshigaminomori.co.jp/"
+},
+"岐阜県|文殊の森公園": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（営業日の10:00〜17:00）",
+"quote": "予約受付時間：営業日の10：00～17：00",
+"confidence": "medium",
+"url": "http://www.motosukankou.gr.jp/02_sightseeing/02_10.html"
+},
+"岐阜県|長者の里キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で事前予約（9:00〜16:30、水曜定休）",
+"quote": "利用される場合は原則事前予約をお願いします。",
+"confidence": "high",
+"url": "https://www.town.ibigawa.lg.jp/site/kankou/2414.html"
+},
+"岐阜県|A LAISE CAMP すめらぎの森": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの宿泊予約ページから予約",
+"quote": "宿泊予約はこちらから",
+"confidence": "medium",
+"url": "https://sumeraginomori.jp/"
+},
+"岐阜県|揖斐高原キャンピングフィールドAFUREPPA": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEBまたは電話で予約（2か月前の月初めから）",
+"quote": "WEB・電話予約共に2ヵ月前の月初め",
+"confidence": "high",
+"url": "https://afureppa.jp/"
+},
+"岐阜県|福岡ローマン渓谷オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（月ごとに受付開始日あり）",
+"quote": "電話でのご予約およびお問い合わせの受付開始",
+"confidence": "high",
+"url": "http://ro-man.jp/"
+},
+"岐阜県|TERRACED FIELDS CAMP": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "電話またはオンラインで予約（先着順の予約制）",
+"quote": "お電話もしくはオンラインにてご予約ください。",
+"confidence": "high",
+"url": "https://www.tfcamp.jp/"
+},
+"岐阜県|月夜谷ふれあいの里": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（年度分は3月1日8時から受付）",
+"quote": "コテージ宿泊やＢＢＱサイトの利用はすべて予約制となります。",
+"confidence": "medium",
+"url": "http://doinaka-kk.com/"
+},
+"岐阜県|美濃白川アウトドアリゾート クオーレふれあいの里": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "事前オンライン予約必須（3か月前から、無予約は入場不可）",
+"quote": "当施設は完全予約制。来場時の予約は必須です",
+"confidence": "high",
+"url": "http://e-900.com/"
+},
+"岐阜県|椛の湖オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "インターネット予約のみ（毎月10日受付開始、電話・メール不可）",
+"quote": "ご予約とキャンセルはインターネットで２４時間受け付けております。",
+"confidence": "high",
+"url": "http://www.hananoko-camp.jp/"
+},
+"岐阜県|Falling Stars Minokichi": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話のみで予約",
+"quote": "ご予約はお電話のみ受け付けております。",
+"confidence": "high",
+"url": "https://arax-2024minokichi.jimdofree.com/"
+},
+"岐阜県|宮代オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約のみ（電話予約は不可）",
+"quote": "※お電話でのご予約は出来ません。",
+"confidence": "high",
+"url": "https://aozora-kenbun.com/miyashiroautocampsite/"
+},
+"岐阜県|グリーンプラザみやま": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "一般はオンライン予約サイト、貸切は電話で予約",
+"quote": "《一般》オンライン 予約サイト",
+"confidence": "high",
+"url": "https://www.gpmiyama.jp/"
+},
+"岐阜県|鮎の里ほらど オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "お食事・オートキャンプ場の予約は",
+"confidence": "high",
+"url": "https://www.ayunosato-horado.com/"
+},
+"岐阜県|竜神の滝キャンプ場(旧夕森渓谷キャンプ場)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式の予約ページから（貸切・20名以上の団体は電話）",
+"quote": "ご予約はこちらからお願いします。",
+"confidence": "medium",
+"url": "http://youmorikeikoku.com/"
+},
+"岐阜県|藤橋キャンピングベース": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式予約サイトで予約",
+"quote": "当キャンプ場はサイト数に限りがあるため、事前のご予約をお願いします。",
+"confidence": "high",
+"url": "https://fujihashi.info/destination/fujihashi/"
+},
+"岐阜県|ネイチャーランドかみのほ": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話のみで予約",
+"quote": "予約は電話のみの受付となっております。",
+"confidence": "high",
+"url": "https://natureland-kaminoho.jimdofree.com/"
+},
+"岐阜県|CROCE RESORT(星降る丘キャンプ場・CROCEグランピング)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "公式サイト、電話、またはメールで予約（9:00〜18:00）",
+"quote": "CROCERESORT公式サイトまたはお電話、またはMail:inquires.form@granpeaks.com",
+"confidence": "medium",
+"url": "https://www.croce-resort.com/"
+},
+"岐阜県|魚の宿": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページ、または電話",
+"quote": "魚の宿 予約・公式サイト",
+"confidence": "medium",
+"url": "https://www.sakananoyado.com/"
+},
+"岐阜県|森林レンタルサービス forenta 東白川キャンプエリア": {
+"reservation": "required",
+"methods": [
+"web",
+"app"
+],
+"method_text": "内覧予約後、募集期間内にエントリー申込み（年間契約・選考あり）",
+"quote": "ご利用希望の方は初めに内覧予約をお願いいたします。",
+"confidence": "medium",
+"url": "https://www.forenta.net/"
+},
+"岐阜県|美濃白川ふるさと体験村(佐見川峡キャンプ場)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（6か月前から）",
+"quote": "電話受付（6か月前から予約可）",
+"confidence": "medium",
+"url": "https://www.town.shirakawa.lg.jp/kankou/1002411/1002219/1002424.html"
+},
+"岐阜県|付知峡アオミキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話のみで予約（例年2月1日から、付知町観光協会）",
+"quote": "ご予約の受付はお電話のみです",
+"confidence": "high",
+"url": "https://www.tsukechi.jp/"
+},
+"岐阜県|北恵那キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（例年3月1日から受付）",
+"quote": "2026年の予約受付は3月1日から",
+"confidence": "high",
+"url": "https://kitaenacamp.jp/"
+},
+"岐阜県|付知峡県立自然公園 森林キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "完全予約制、電話のみで受付",
+"quote": "完全予約制で安心して楽しめます",
+"confidence": "high",
+"url": "https://www.tsukechi.net/"
+},
+"岐阜県|ふくべの里 粥川バンガロー村": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約受付",
+"quote": "予約受付 080-3643-1726",
+"confidence": "medium",
+"url": "http://fukubenosato.web.fc2.com/"
+},
+"岐阜県|長良川リバーサイドグランピング KITEN": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEBで予約（変更・キャンセルもWEB）",
+"quote": "ご予約・変更・追加・キャンセルはWEBよりお願いしております。",
+"confidence": "high",
+"url": "https://www.gifu-riverside-glamping.com/"
+},
+"岐阜県|ヒマラヤNEOキャンピングパーク": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約（電話予約は不可）",
+"quote": "電話予約は受け付けておりません",
+"confidence": "high",
+"url": "https://neo-camp.jp/"
+},
+"岐阜県|板取キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの空き状況・予約ページ、または電話",
+"quote": "空き状況・予約",
+"confidence": "medium",
+"url": "https://xn--nck7d9azd439v1qf323a.jp/"
+},
+"岐阜県|三ッ石オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "ご予約・お問い合わせはお電話で承っております。",
+"confidence": "high",
+"url": "https://www.mitsuishicamp.com/"
+},
+"岐阜県|AUTO CAMPING TACランドいたどり": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約（F・Gサイトはなっぷ）",
+"quote": "オートサイトＦとＧは「なっぷ」の方から予約をお願いします",
+"confidence": "medium",
+"url": "https://tacland.jimdofree.com/"
+},
+"岐阜県|すぎのこキャンプ場 バンガロー村": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約案内ページから予約",
+"quote": "ご予約を希望のお客様はご予約案内ページからご予約頂けます。",
+"confidence": "high",
+"url": "https://gifu-itadoricamp.jp/"
+},
+"岐阜県|乙女渓谷キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または問い合わせフォームで予約",
+"quote": "ご予約はお電話または問い合わせフォームにて",
+"confidence": "high",
+"url": "https://fa-kashimo.jp/camp/"
+},
+"岐阜県|和良川公園オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷでオンライン予約、電話も可",
+"quote": "オンライン予約はこちら",
+"confidence": "high",
+"url": "https://www.waragawa.com/warariverparkac"
+},
+"岐阜県|郡上八幡リバーウッドオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約フォーム、または電話（9:00〜17:00）",
+"quote": "【予約方法】ご予約フォーム又は電話にて。（電話の受付時間は9:00～17:00）",
+"confidence": "high",
+"url": "http://riverwood.jp/"
+},
+"岐阜県|めいほうキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または予約フォーム（利用日の3日前まで）",
+"quote": "◎ご利用日3日前までにご予約をお願いいたします。",
+"confidence": "high",
+"url": "http://meiho-camp.com/"
+},
+"岐阜県|母袋キャンプ場(アウトドアイン母袋)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約受付",
+"quote": "不定休 予約専用のためお問合わせください。",
+"confidence": "medium",
+"url": "https://www.outdoor-in-motai.com/"
+},
+"岐阜県|プライベートキャンプフィールド EBOSHI": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約カレンダーからオンライン予約",
+"quote": "※ 空き状況を確認し、必ず事前にご予約ください",
+"confidence": "high",
+"url": "https://eboshi.site/"
+},
+"岐阜県|和み舎せせらぎ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトからのみ予約受付",
+"quote": "ご予約はウェブサイトからのみの受付となります。",
+"confidence": "high",
+"url": "http://www.nagomi-ya.jp/seseragi/"
+},
+"岐阜県|馬瀬川の里 すずし野": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "上記電話番号にお電話でご連絡ください。",
+"confidence": "high",
+"url": "http://suzushino.com/"
+},
+"岐阜県|油坂さくらパーク": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはインターネットで予約（6か月前の1日から）",
+"quote": "【予約方法】電話（予約受付時間‥9:00～16:00）、インターネット（24時間）、※6ヶ月前の1日から受付",
+"confidence": "high",
+"url": "http://www.camping.gr.jp/spot.php?campsite_id=11"
+},
+"岐阜県|CAMP SITE AORAKI": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷのみで予約受付（3か月前から、24時間）",
+"quote": "【予約方法】なっぷからの予約のみ受付",
+"confidence": "high",
+"url": "http://www.camping.gr.jp/spot.php?campsite_id=38"
+},
+"岐阜県|旅籠パークリゾート": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約サイト（2か月前〜3日前）、または電話",
+"quote": "予約サイトではチェックイン日の２か月前から３日前まで受け付けております。",
+"confidence": "high",
+"url": "https://hatago-park-resort.com"
+},
+"岐阜県|めいほう高原キャンプフィールド": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトで予約（キャンセルはマイページ）",
+"quote": "広々約１３６平米。完全予約の芝サイト。",
+"confidence": "high",
+"url": "https://www.meihoski.co.jp/green/"
+},
+"岐阜県|のほほんパークひだおさか(飛騨小坂ふれあいの森)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約サイト、または電話で予約",
+"quote": "各予約サイトまたはお電話でご予約できます。",
+"confidence": "high",
+"url": "https://www.nohohonpark.com/"
+},
+"岐阜県|南飛騨健康増進センター キャンプ縄文(県営)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（3か月前の同日8:30から、前日正午まで）",
+"quote": "事前予約制ですので、当センター（電話0576-55-0010）まで申し込みください。",
+"confidence": "high",
+"url": "https://www.pref.gifu.lg.jp/kodomo/kenko/kenko_sisetu/minamihida_sisetu/11223/index_16832.html"
+},
+"岐阜県|N.A.O.明野高原キャンプ場&貸別荘": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEB予約、または電話",
+"quote": "オートキャンプ場のWEB予約はこちら",
+"confidence": "high",
+"url": "https://naocorp.jp/"
+},
+"岐阜県|パスカル清見オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトからオンライン予約（電話・メール予約は不可）",
+"quote": "※電話・Eメールでのキャンプサイトやバンガローのご予約は受付しておりません。",
+"confidence": "high",
+"url": "https://camp.hidayume.com/"
+},
+"岐阜県|くるみ温泉&キャンプ": {
+"reservation": "required",
+"methods": [
+"phone",
+"email",
+"web"
+],
+"method_text": "電話、メール、またはホームページで予約",
+"quote": "・ご予約方法：電話、メール、ホームページ",
+"confidence": "medium",
+"url": "https://www.hidatakayama.or.jp/spot/detail_4300.html"
+},
+"岐阜県|飛騨荘川 一色の森キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページ・お問い合わせ欄から申込み",
+"quote": "ご予約の際は、お問い合わせ欄から代表者様の氏名・携帯電話番号、利用人数を入力してお申し込みください。",
+"confidence": "high",
+"url": "http://isshiki-mori.com/"
+},
+"岐阜県|カオレオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話、または公式サイト内の予約フォーム",
+"quote": "※ご予約は電話又はHP内の",
+"confidence": "medium",
+"url": "http://mazekanko.jp/stay.html"
+},
+"岐阜県|OUTDOOR STYLE AMIDA": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト（じゃらん・楽天）で予約",
+"quote": "この宿泊施設を予約する",
+"confidence": "medium",
+"url": "https://www.outdoor-style-amida.com/"
+},
+"岐阜県|N.E.W 奥長良キャンプ場&WANKO": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約申込、または電話（8:00〜19:00）",
+"quote": "空き状況・予約申込",
+"confidence": "medium",
+"url": "https://newhothot.com/"
+},
+"岐阜県|Orkひるがの": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "インターネット予約のみ",
+"quote": "ご予約はインターネット予約のみとさせていただいております。",
+"confidence": "high",
+"url": "https://www.ork-hirugano.co.jp/"
+},
+"岐阜県|でじろうの森キャンプ場(郡上ヴァカンス村)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイト、または電話で予約",
+"quote": "宿泊予約はホームページが①番お得",
+"confidence": "medium",
+"url": "http://www.gujyokogen-hotel.com/"
+},
+"岐阜県|ダイナランドキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "外部の予約サイトから予約",
+"quote": "★ ご予約はこちらのロゴをタップ（外部サイトが開きます）！",
+"confidence": "medium",
+"url": "https://www.dynaland.co.jp/camp/"
+},
+"岐阜県|North Village Hirugano - Camping Fields": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約フォームから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://select-type.com/p/northvillagehirugano/"
+},
+"岐阜県|N.A.O.高山すずらん高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはホームページから予約",
+"quote": "■予約方法 電話、ホームページ",
+"confidence": "medium",
+"url": "https://naosuzuran.jp/"
+},
+"岐阜県|Alpen Outdoors しろとりフィールド": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "事前予約制。予約サイト（なっぷ）で予約",
+"quote": "※宿泊は、事前予約の上、当日受付を済ませ料金を先にお支払いください。",
+"confidence": "high",
+"url": "https://www.alpen-group.net/outdoors/shirotori/"
+},
+"岐阜県|シャンティリゾート": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトで予約（1週間前まで）。事前振込で確定",
+"quote": "原則、利用希望日の１週間前までのご予約を受け付けております。",
+"confidence": "medium",
+"url": "https://www.rainbow8.org/"
+},
+"岐阜県|ロックフィールドいとしろ": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "3月1日10時から予約受付。電話やじゃらんで予約",
+"quote": "（※3月1日 10:00より予約受付）",
+"confidence": "medium",
+"url": "https://www.rockfield-itoshiro.com/"
+},
+"岐阜県|満天の宿 IORI": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトからWEB予約",
+"quote": "WEB予約",
+"confidence": "medium",
+"url": "https://www.gifu-spa-glamping.com/"
+},
+"岐阜県|ひるがの高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはオンライン予約（4月1日・6月1日に受付開始）",
+"quote": "団体貸切などもございますので事前に必ずご予約ください。",
+"confidence": "medium",
+"url": "http://www.hirugano-camp.com/"
+},
+"岐阜県|ひるがの高原コテージパーク四季の郷": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "インターネット予約または電話で予約",
+"quote": "オートキャンプの空き状況チェック・ご予約はこちら",
+"confidence": "medium",
+"url": "https://shikinosato.co.jp/"
+},
+"岐阜県|山のハコ -camp studio-": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちらから",
+"confidence": "medium",
+"url": "https://yamanohaco.site/"
+},
+"岐阜県|こもれびの森キャンプ荘川": {
+"reservation": "required",
+"methods": [
+"phone",
+"app"
+],
+"method_text": "電話、Instagram、LINEから予約",
+"quote": "お問い合わせ・ご予約はInstagramまたはLINEから",
+"confidence": "medium",
+"url": "https://komorebinomori-camp.jimdofree.com/"
+},
+"岐阜県|森林レンタルサービス forenta 子ノ原高原キャンプエリア": {
+"reservation": "required",
+"methods": [
+"web",
+"app"
+],
+"method_text": "内覧予約後、募集期間中にエントリーし選考",
+"quote": "ご利用希望の方は初めに内覧予約をお願いいたします。",
+"confidence": "medium",
+"url": "https://www.forenta.net/"
+},
+"岐阜県|せせらぎキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷまたは電話で予約（3か月前から受付）",
+"quote": "ご予約をご希望される方は、予約サイト「なっぷ」、またはお電話よりご予約いただけます。",
+"confidence": "high",
+"url": "https://seseragicamp.com/"
+},
+"岐阜県|カクレハ高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"fax",
+"web"
+],
+"method_text": "電話・FAX・予約フォームで申込、管理人の了承で確定",
+"quote": "管理人から了承メールもしくはお電話が入りますので、そこで予約完了となります。",
+"confidence": "high",
+"url": "https://www.hidaasahi.jp/%E3%82%AB%E3%82%AF%E3%83%AC%E3%83%8F%E9%AB%98%E5%8E%9F%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4/"
+},
+"岐阜県|白山ブナの森キャンプ場(旧 大白川野営場)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（完全予約制、当日予約は15時まで）",
+"quote": "※完全予約制です",
+"confidence": "high",
+"url": "https://www.shirakawa-go.org/1119.htm"
+},
+"岐阜県|さくら街道白川郷 ひらせ温泉キャンプサイト": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "電話またはメールで予約（完全予約制）",
+"quote": "（完全予約制）",
+"confidence": "high",
+"url": "https://hirase-camp.com/"
+},
+"岐阜県|NOASOBIキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ノアソビキャンプ場 — 春夏予約受付中 —",
+"confidence": "medium",
+"url": "https://www.noasobicampfield.com/"
+},
+"岐阜県|アスク山王": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "Web予約（じゃらん）中心。当日・前日は電話可",
+"quote": "Web予約、電話予約があります。お好きな方法をお選びください。",
+"confidence": "high",
+"url": "https://yamabikokan.com/ask/"
+},
+"岐阜県|奥飛騨温泉郷オートキャンプ場": {
+"reservation": "recommended",
+"methods": [
+"web",
+"phone",
+"fax"
+],
+"method_text": "要予約だが当日空きがあれば利用可。Web・電話・FAX",
+"quote": "当日空きサイトがあればご利用可能です。（受付PM4：30まで）",
+"confidence": "medium",
+"url": "https://www.okuhida-camp.com/"
+},
+"岐阜県|ひだ流葉オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」で予約",
+"quote": "12月&1月 の予約受付中！",
+"confidence": "medium",
+"url": "https://hida-nagareha.com/"
+},
+"岐阜県|NatureMIYAGAWA": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式予約サイトから予約",
+"quote": "ご予約は下記の予約サイトより承っております。",
+"confidence": "high",
+"url": "https://nature-miyagawa.jp/"
+},
+"岐阜県|山之村キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」から予約",
+"quote": "ご予約は以下のリンクから、キャンプ場予約サイト「なっぷ」にてお願いいたします。",
+"confidence": "high",
+"url": "https://hida-yamanomura-camp.com/"
+},
+"愛知県|VILLA YAHACHI GARDEN": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの宿泊予約ページから予約",
+"quote": "空き状況・宿泊予約",
+"confidence": "medium",
+"url": "https://yahachi.jp/"
+},
+"愛知県|表浜ほうべの森キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話、楽天トラベル、じゃらんで予約（半年前から）",
+"quote": "※ご予約は利用日の半年前から受け付けます。",
+"confidence": "medium",
+"url": "http://yanokuchikouen.com/"
+},
+"愛知県|滝頭公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite"
+],
+"method_text": "管理棟へ電話で仮予約、当日に窓口で申込書記入・許可証受取",
+"quote": "利用申し込みが必要です。",
+"confidence": "high",
+"url": "https://takigasira.on360.net/"
+},
+"愛知県|篠島デューテラス オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"email",
+"app"
+],
+"method_text": "電話、メール、InstagramのDMで予約",
+"quote": "ご相談・ご予約は、お電話にてお気軽にお問い合わせください。",
+"confidence": "medium",
+"url": "https://shinojima-kankou.com/"
+},
+"愛知県|-SORA-BASE-(ソラベース)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "完全予約制。オンライン予約（3日前まで）",
+"quote": "完全予約制クレジット払いです。",
+"confidence": "high",
+"url": "https://sora-base.com/"
+},
+"愛知県|SANTA BARBARA SUNSET 南知多": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（3か月前から受付）",
+"quote": "3か月前から予約可能です。",
+"confidence": "medium",
+"url": "https://santa-barbara-sunset.com/"
+},
+"愛知県|The Resort Glamping Hotel MOKA": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトでプランを予約し、事前振込",
+"quote": "HPでお好きなプランをご予約ください。",
+"confidence": "high",
+"url": "https://resorthotel-moka.com/"
+},
+"愛知県|中日小野浦キャンプバンガロー村": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（受付8:00〜20:00）",
+"quote": "ご予約・お問い合わせはお電話で",
+"confidence": "medium",
+"url": "https://onoura-camp.jp/"
+},
+"愛知県|南知多グリーンバレイ トレーラーキャンプ(トレキャン)": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "完全予約制。電話が基本、楽天・いこーよ等でも受付",
+"quote": "完全予約制",
+"confidence": "high",
+"url": "https://www.green-v.jp/trailercamp"
+},
+"愛知県|浜オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "完全予約制。電話・予約ページ・なっぷで予約（2日前まで）",
+"quote": "ご利用は完全予約制となっています。",
+"confidence": "high",
+"url": "https://n8qt1.crayonsite.net/"
+},
+"愛知県|ウッドデザインパーク野間(Glamping&Resort WOOD DESIGN PARK NOMA)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "宿泊プラン・客室タイプから予約",
+"quote": "宿泊プランからご予約",
+"confidence": "medium",
+"url": "https://wood-designpark.jp/noma/"
+},
+"愛知県|東海ビーチグランピングリゾート Kingboy": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "完全予約制。WEB予約から申込",
+"quote": "(完全予約制）",
+"confidence": "high",
+"url": "http://www.kingboy-web.com"
+},
+"愛知県|ライオン カフェ&リゾート(グランピング)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "宿泊予約ページから予約",
+"quote": "ご宿泊予約はこちらから",
+"confidence": "medium",
+"url": "https://lion-resort.jp/"
+},
+"愛知県|BAMBOO RESORT MIHAMA 繋": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://bambooresort-mihama-tsunagu.com"
+},
+"愛知県|にしうらシーサイドキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約が基本。当日予約・貸切は電話",
+"quote": "☻ご予約はオンライン予約からお願いします。",
+"confidence": "medium",
+"url": "http://info.marinejet.co.jp/campsite"
+},
+"愛知県|愛知こどもの国キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "申請書をダウンロードし送信フォームで仮申込み",
+"quote": "デイキャンプを利用される方は以下の内容を必ずご確認の上、仮申込みを行ってください。",
+"confidence": "medium",
+"url": "https://www.kodomo-aichi.jp/camp/"
+},
+"愛知県|glampark 海陽閣": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイト等の予約ページから予約",
+"quote": "1日3組限定なので予約必須です＾＾",
+"confidence": "high",
+"url": "https://glampark.co.jp/accommodation/glampark-kaiyokaku/"
+},
+"愛知県|坂井温泉 湯本館 海辺のグランピング": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約から申込",
+"quote": "Reservationオンライン予約",
+"confidence": "medium",
+"url": "https://sakaionsen-yumotokan.com/glamping.php"
+},
+"愛知県|さがらの森": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "2か月前から利用当日まで電話で利用予約",
+"quote": "事前に利用予約（ご利用日の２ヵ月前から利用当日まで）をしてください。",
+"confidence": "high",
+"url": "https://www.city.gamagori.lg.jp/unit/sports/sagara.html"
+},
+"愛知県|平原の滝キャンプ場": {
+"reservation": "required",
+"method_text": "要予約（方法は不明）",
+"quote": "無料（要予約）",
+"confidence": "medium",
+"url": "https://nishimikawanavi.jp/spots/detail/1291/"
+},
+"愛知県|不動ヶ滝園地(荻不動ヶ滝キャンプ場)": {
+"reservation": "required",
+"methods": [
+"web",
+"onsite"
+],
+"method_text": "町の予約システムで抽選・先着予約、公民館で許可申請",
+"quote": "不動ケ滝園地の広場を占用利用する場合は、事前に許可が必要になります。",
+"confidence": "high",
+"url": "https://www.town.kota.lg.jp/soshiki/15/1350.html"
+},
+"愛知県|常滑りんくうビーチキャンプ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」から予約",
+"quote": "利用予約は、キャンプ場予約サイト『なっぷ』からどうぞ。",
+"confidence": "high",
+"url": "https://rinku-beach.jp/category/camp"
+},
+"愛知県|大曽公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "管理事務所へ電話で申込（2か月以内）",
+"quote": "2か月以内の予約が可能です",
+"confidence": "medium",
+"url": "https://www.ohso-park.com/"
+},
+"愛知県|CAMP LOVE": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "オンライン・電話・メールで予約（2か月前の1日9時開始）",
+"quote": "電話／メールでのご予約もOK！",
+"confidence": "high",
+"url": "https://www.camp-love.com/"
+},
+"愛知県|安城市作手高原野外センター": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite"
+],
+"method_text": "空き状況を電話確認後、利用許可申請書を提出（1週間前まで）",
+"quote": "申込みの前には必ずスポーツ課に空き状況をご確認ください。",
+"confidence": "medium",
+"url": "https://www.city.anjo.aichi.jp/tanoshimu/sports/yagai-center.html"
+},
+"愛知県|DAY FOREST Nukata": {
+"reservation": "required",
+"methods": [
+"app",
+"phone"
+],
+"method_text": "公式LINEまたは電話で申込",
+"quote": "予約カレンダーより空き情報をお確かめのうえ公式LINEまたはお電話にてお申し込みください",
+"confidence": "high",
+"url": "https://day-forest.com/"
+},
+"愛知県|ちたブルーベリー(女性専用ソロキャンプ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "キャンプ専用の予約システムから予約",
+"quote": "予約システムからご利用日を予約します。",
+"confidence": "high",
+"url": "https://chita-blueberry.com/"
+},
+"愛知県|TSUNAGU camp": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"phone"
+],
+"method_text": "予約ページまたはメールで事前予約、当日予約は電話",
+"quote": "事前予約：お問合せからメールにて",
+"confidence": "high",
+"url": "https://tsunagu-create.com/"
+},
+"愛知県|鳳来の森": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約状況を確認し予約フォームから申込",
+"quote": "ご予約は、以下の予約状況でご確認の上、予約フォームからお願いします。",
+"confidence": "high",
+"url": "https://horainomori.com/"
+},
+"愛知県|愛知県野外教育センター": {
+"reservation": "required",
+"method_text": "利用6か月前の月初〜1か月前までに申込",
+"quote": "利用予定日の6か月前の月の1日から1ヶ月前までにお申し込みください。",
+"confidence": "medium",
+"url": "https://manabi.pref.aichi.jp/provider/detail/101"
+},
+"愛知県|リバーベース塩瀬": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約（電話予約は不可）",
+"quote": "ご予約につきましては、「なっぷ」をご利用ください",
+"confidence": "high",
+"url": "https://www.riverbase-shioze.com/"
+},
+"愛知県|大府市野外教育センター": {
+"reservation": "required",
+"methods": [
+"onsite",
+"web"
+],
+"method_text": "市役所の窓口で申請。システムで仮予約も可",
+"quote": "窓口で申請をお願いします。",
+"confidence": "high",
+"url": "https://www.city.obu.aichi.jp/kosodate/1004225/index.html"
+},
+"愛知県|山びこの丘(学童農園 山びこの丘)": {
+"reservation": "required",
+"methods": [
+"phone",
+"fax"
+],
+"method_text": "3か月前の1日から電話のみで予約、利用申込書をFAX提出",
+"quote": "受付は午前8時よりお電話のみで行われ、先着順となります。",
+"confidence": "high",
+"url": "http://www.sanyurin.jp/"
+},
+"愛知県|愛知県民の森キャンプ場(モリトピア愛知)": {
+"reservation": "required",
+"methods": [
+"onsite",
+"phone",
+"web"
+],
+"method_text": "前日17時まで予約制。窓口・電話・ネットで申込",
+"quote": "施設のご利用は予約制となっております。",
+"confidence": "high",
+"url": "https://moritopia-aichi.port-sanko.jp/"
+},
+"愛知県|ふれあい牧場 高原ハウス(オートキャンプ)": {
+"reservation": "required",
+"method_text": "要予約",
+"quote": "【要予約】",
+"confidence": "medium",
+"url": "https://aichinow.pref.aichi.jp/spots/detail/2568/"
+},
+"愛知県|ソロキャンフィールド鳳来": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷのみで予約（電話・メール不可、当日11時まで）",
+"quote": "お電話やメールでは受付しておりません。",
+"confidence": "high",
+"url": "https://www.yozora-hoshi-camp.com/p/14/"
+},
+"愛知県|リバーサイドキャンプ腰掛(腰掛山荘)": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはHP予約ページで予約（HP予約は準備中）",
+"quote": "キャンプ場のご予約はこちら",
+"confidence": "medium",
+"url": "https://www.koshikake.jp/bbq"
+},
+"愛知県|三河路(湖畔キャンプ場)": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または公式サイトの予約ページで予約",
+"quote": "電話にて受付",
+"confidence": "medium",
+"url": "https://www.tourismtoyota.jp/outdoor/camp/detail/25/"
+},
+"愛知県|大窪公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（56日前から）。市へ行為許可申請書を提出",
+"quote": "どちらも予約が必要で、利用する初日の56日前から可能です。",
+"confidence": "high",
+"url": "https://tokaishishisetsukanrikyokai.jp/park/city06/"
+},
+"愛知県|豊田市総合野外センター(六所山キャンプ場・自然の家)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "団体は利用調整後、電話で申込み・事前打合せ・下見",
+"quote": "利用調整・電話での利用申し込み→利用申請・事前打ち合わせ・下見→（利用内容の変更）→入所",
+"confidence": "medium",
+"url": "https://cul-toyota.or.jp/yagai/"
+},
+"愛知県|三河高原キャンプ村": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "要予約（4日前まで）。公式サイトで空き状況を確認",
+"quote": "・要予約（4日前まで）",
+"confidence": "high",
+"url": "http://www.mikawakougen.com/"
+},
+"愛知県|東宝苑": {
+"reservation": "required",
+"method_text": "要予約（金額は要相談）",
+"quote": "要予約・金額も要相談",
+"confidence": "medium",
+"url": "https://aichinow.pref.aichi.jp/spots/detail/4099/"
+},
+"愛知県|The Ninja Mansion Camp(ザ・ニンジャベース)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトのフォームから申込、確定メールで完了（電話不可）",
+"quote": "ご予約は予約サイトよりお願いいたします",
+"confidence": "high",
+"url": "https://www.ninjamansion.com/camp"
+},
+"愛知県|PARKFIELD Snow Peak TOYOTA-KURAGAIKE(パークフィールド スノーピーク豊田鞍ヶ池)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式予約サイトから予約",
+"quote": "愛知県 | 公式予約",
+"confidence": "medium",
+"url": "https://go-snowpeak.reservation.jp/ja/hotels/toyotakuragaike"
+},
+"愛知県|ゾレンキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷまたは公式サイトから予約",
+"quote": "ゾレンキャンプ場ホームページからご予約ください。",
+"confidence": "high",
+"url": "https://www.noasobi-healthcare.com/sollencampfield"
+},
+"愛知県|豊川市野外センター きららの里": {
+"reservation": "required",
+"method_text": "利用3か月前から申込（申込先は野外センター）",
+"quote": "利用日の3ヶ月前からお申込みできます。",
+"confidence": "medium",
+"url": "https://aichinow.pref.aichi.jp/spots/detail/2257/"
+},
+"愛知県|香嵐渓 一の谷 グランピング(プライベートキャンプ一の谷)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約（1日1組限定）",
+"quote": "ご予約はこちらから",
+"confidence": "medium",
+"url": "https://ichinotani1.com/"
+},
+"愛知県|互いの森PARK(ルモ・キャンプ・オオタガ)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "事前予約制（予約優先）。公式サイト、電話、メールで予約",
+"quote": "※ご利用には事前予約が必要です。",
+"confidence": "medium",
+"url": "https://tagainomori.com/"
+},
+"愛知県|Kaede Valley&Hill(カエデバレーアンドヒル)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」から予約",
+"quote": "ご予約は下記ホームページ「なっぷ」よりお願いします。",
+"confidence": "high",
+"url": "https://www.instagram.com/kaede_camp2022/"
+},
+"愛知県|設楽オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約または電話で予約",
+"quote": "オンライン予約からでもご予約可能です。",
+"confidence": "high",
+"url": "https://www.shitara-ac.com/"
+},
+"愛知県|つぐ高原グリーンパーク(GP CAMP)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約（電話は土日・連休は繋がりにくい）",
+"quote": "※ ご予約はオンラインにてお願いします",
+"confidence": "high",
+"url": "https://www.green-park.net/"
+},
+"愛知県|ウッドデザインパーク瀬戸": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約カレンダーから宿泊予約",
+"quote": "宿泊ご予約",
+"confidence": "medium",
+"url": "https://wood-designpark.jp/seto/"
+},
+"愛知県|とよねランドオートキャンプ村": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "60日前からWEB予約（優先）または電話で予約",
+"quote": "ご利用の60日前より予約可能",
+"confidence": "high",
+"url": "https://toyoneland.com/"
+},
+"愛知県|アウトドアガーデンいなぶ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約システムから予約（電話予約は基本不可）",
+"quote": "※予約システムからご予約くださいませ。",
+"confidence": "high",
+"url": "https://oinabu.net/"
+},
+"愛知県|名古屋市野外学習センター": {
+"reservation": "required",
+"methods": [
+"email",
+"fax",
+"onsite",
+"mail"
+],
+"method_text": "メール・FAX・来所・郵送で申込、1か月前の1日から受付",
+"quote": "2026年度のご予約をメールまたはFAXにて受け付けております。",
+"confidence": "high",
+"url": "https://www.homex.jp/yagaigakusyucenter/"
+},
+"愛知県|カントリーレストラン渓流荘 キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "原則予約制。電話またはHPから予約",
+"quote": "※当店は原則予約制とさせていただいております。",
+"confidence": "medium",
+"url": "https://keiryuusou.com/"
+},
+"愛知県|オバッタベッタ ヤネルCAMP": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」で予約（変更・取消は電話）",
+"quote": "予約サイト[なっぷ]が開きます。",
+"confidence": "high",
+"url": "https://obattabetta.jp/yaneru-camp/"
+},
+"愛知県|FAB(Fujioka Activity Base)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "予約をする",
+"confidence": "medium",
+"url": "https://fab-fujioka.com"
+},
+"愛知県|瀬戸市定光寺野外活動センター": {
+"reservation": "required",
+"methods": [
+"onsite"
+],
+"method_text": "利用日の2か月前までに来所して申込、許可書を受取",
+"quote": "利用申し込みは、利用日の2か月前までに来所してください。",
+"confidence": "high",
+"url": "https://www.homex.jp/jyoukouji/"
+},
+"愛知県|ウッドデザインパークいちのみや -紡-": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約カレンダーから予約",
+"quote": "WEBからのご予約",
+"confidence": "medium",
+"url": "https://wood-designpark.jp/ichinomiya/"
+},
+"愛知県|春日井市少年自然の家キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話で仮予約（受付初日は9時から）、予約システムも利用",
+"quote": "電話での仮予約について",
+"confidence": "medium",
+"url": "https://www.city.kasugai.lg.jp/shisei/shisetsu/sonota/ie/index.html"
+},
+"愛知県|ホテルレイクサイド入鹿 グランピング": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "じゃらんまたは電話で予約（グランピングは電話問合せ）",
+"quote": "じゃらんの予約サイトまたは、お電話にてご予約ください。",
+"confidence": "high",
+"url": "https://lakesideiruka-inuyama.com/"
+},
+"愛知県|木曽川扶桑緑地公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"onsite"
+],
+"method_text": "使用1か月前から総合体育館窓口で申請（電話予約不可）",
+"quote": "必ず事前に申請を行ってください。",
+"confidence": "high",
+"url": "https://camp.tabinchuya.com/aiti/"
+},
+"長野県|大河内森林公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話のみで予約、利用日の7日前まで",
+"quote": "必ずご利用日の７日前までにご予約をお願いします。",
+"confidence": "high",
+"url": "https://www.vill-tenryu.jp/information/okouchiforestpark/"
+},
+"長野県|茶臼山高原レイクサイドキャンプ場(旧 木のぼりキャンプ村)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "HPから24時間予約、電話も可。原則事前支払い",
+"quote": "原則事前予約、事前支払いになります。",
+"confidence": "high",
+"url": "https://j-gr.jp/camp/"
+},
+"長野県|茶臼山山荘キャンプフィールド": {
+"reservation": "required",
+"methods": [
+"email",
+"web",
+"phone"
+],
+"method_text": "メールまたはなっぷで予約（カエル館が受付）",
+"quote": "※茶臼山山荘は、キャンプ場検索予約サイト「なっぷ」からも予約ができます。",
+"confidence": "high",
+"url": "http://w.speedia.jp/wz50581bcaeru/sansou.html"
+},
+"長野県|CAMP屋 うるぎキャンプフィールド": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約（電話は予約センター）。予約なし来場枠もあり",
+"quote": "オンライン予約",
+"confidence": "medium",
+"url": "https://www.campya-urugi.com/"
+},
+"長野県|Stella Snow Campia 南信州": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "空き状況・ご予約",
+"confidence": "medium",
+"url": "https://stella-snowcampia.site/"
+},
+"長野県|岩倉ダムキャンプ場": {
+"reservation": "not_required",
+"method_text": "予約不要",
+"quote": "※予約不要。",
+"confidence": "high",
+"url": "https://msnav.com/nav/iwakuradamcamp/"
+},
+"長野県|旧二瀬キャンプ場": {
+"reservation": "not_required",
+"method_text": "テントサイトは予約不要、料金は夕方管理人に支払う",
+"quote": "テントサイトは予約不要、料金は夕方管理人に支払う。",
+"confidence": "high",
+"url": "https://msnav.com/nav/%e6%97%a7%e4%ba%8c%e7%80%ac%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%97%e5%a0%b4/"
+},
+"長野県|阿南少年自然の家キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または申し込み案内から申込",
+"quote": "まずはご予約が必要となります。",
+"confidence": "high",
+"url": "https://ananshonen.jp/"
+},
+"長野県|むくの里キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"phone"
+],
+"method_text": "ホームページ、メール、予約専用電話で予約（インスタ不可）",
+"quote": "管理棟への直接のご予約は無効とさせていただきます。",
+"confidence": "high",
+"url": "https://mukunosato.amebaownd.com/"
+},
+"長野県|キャンプ&コテージかじか荘(阿南温泉かじかの湯)": {
+"reservation": "not_required",
+"methods": [
+"phone"
+],
+"method_text": "フリーサイトは予約不要。コテージは6か月前から電話予約",
+"quote": "※ フリーサイトですのでご予約は受け付けておりません。",
+"confidence": "high",
+"url": "https://kajikanoyu.com/"
+},
+"長野県|二軒屋キャンプ場": {
+"reservation": "not_required",
+"method_text": "予約不要",
+"quote": "※予約不要",
+"confidence": "high",
+"url": "https://vill.yasuoka.nagano.jp/docs/2539.html"
+},
+"長野県|面平キャンプ場(面平レンタルテント・キャンプ場)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "南信州観光公社へ予約（ガイド帯同登山のみ、令和3年度）",
+"quote": "予約はこちらから",
+"confidence": "medium",
+"url": "https://www.mstb.jp/sangakubunka/campsite"
+},
+"長野県|聖光小屋 便ヶ島森林公園キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント泊は予約不要、当日に小屋で受付（小屋泊は予約制）",
+"quote": "持ち込みテント泊の場合は隣接の森林公園をご利用ください（予約はいりません）",
+"confidence": "high",
+"url": "https://seikougoya.info/"
+},
+"長野県|キャンプサイトジブ": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "予約ボタンから予約サイトで申込（連絡はメール中心）",
+"quote": "予約は「予約する」ボタンをクリックし、「Bock Site」に入って行うことができます。",
+"confidence": "high",
+"url": "https://www.campjibu.net/"
+},
+"長野県|銀河もみじキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "宿泊予約ページの予約フォームから申込",
+"quote": "宿泊予約RESERVATION",
+"confidence": "medium",
+"url": "https://ginga-momiji.camp/"
+},
+"長野県|おおぐて湖キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約サイトまたは電話で予約",
+"quote": "お電話でも直接ご予約頂けます。",
+"confidence": "medium",
+"url": "https://www.shirasagisou.com/"
+},
+"長野県|glampark 月下美人": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトや予約サイトから予約",
+"quote": "予約はこちら",
+"confidence": "medium",
+"url": "https://glampark.co.jp/accommodation/glampark-gekkabijin/"
+},
+"長野県|GAKU金野キャンプフィールド": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（9:00〜18:00）",
+"quote": "ご予約電話番号",
+"confidence": "medium",
+"url": "https://gakucamp.com/"
+},
+"長野県|しらびそ高原山岳オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷまたは楽天トラベルキャンプで予約",
+"quote": "ご予約はなっぷ（別サイト）、または楽天トラベルキャンプで承ります。",
+"confidence": "high",
+"url": "https://shirabiso-amanogawa.com/campsite/"
+},
+"長野県|弓の又キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "事前予約制。ウェブまたは電話で予約（サイトは先着順）",
+"quote": "当キャンプ場は、事前予約制となっております。",
+"confidence": "high",
+"url": "https://yuminomata.com/"
+},
+"長野県|南信州 OUTDOOR LIVING": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから予約",
+"quote": "予約サイトへ",
+"confidence": "medium",
+"url": "https://tatue.jp/system/22155-2"
+},
+"長野県|mökki〜STARDUST GLAMPING〜": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEB予約。12〜3月は電話で問合せ",
+"quote": "Web予約はこちら",
+"confidence": "medium",
+"url": "https://www.naganoachimura-glamping.com/"
+},
+"長野県|ひるがみの森 BBQ&グランピング": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "インターネット予約のみ（当日予約も可）",
+"quote": "ご予約方法は、インターネット申し込みのみとなります。",
+"confidence": "medium",
+"url": "https://hirumori.co.jp/"
+},
+"長野県|萬岳荘": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "完全予約制。予約フォームまたは電話（12〜13時のみ）",
+"quote": "小屋泊、テント泊、車中泊とも完全予約制です。",
+"confidence": "high",
+"url": "https://bangakusou.wixsite.com/home"
+},
+"長野県|矢筈公園キャンプ場": {
+"reservation": "not_required",
+"method_text": "予約不要",
+"quote": "※予約不要",
+"confidence": "high",
+"url": "https://www.vill.takagi.nagano.jp/docs/2016062200010/"
+},
+"長野県|FREE SITE BASE とよおかベース": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（問合せはフォーム・電話）",
+"quote": "予約後に受け取れる暗証番号で管理棟用スマートキーボックスの鍵を開けます。",
+"confidence": "high",
+"url": "https://freesitebase.com/"
+},
+"長野県|大鹿キャンプ場ストリーム深ヶ沢": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約",
+"quote": "オンライン予約",
+"confidence": "medium",
+"url": "https://www.stream-shinngasawa.com/"
+},
+"長野県|三伏峠小屋 テント場": {
+"reservation": "not_required",
+"method_text": "テント泊は予約不要（小屋泊はネット予約）",
+"quote": "【テント泊は予約不要】",
+"confidence": "high",
+"url": "http://sanpukutouge.com/"
+},
+"長野県|アウトドアひろば梅松苑": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "専用サイトで予約（電話も可）",
+"quote": "ご予約は下記の専用サイトからお願いいたします。",
+"confidence": "high",
+"url": "https://baishoen.com/"
+},
+"長野県|山の寺キャンプ場(ヤマンテラ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから予約（月ごとに受付開始）",
+"quote": "山の寺キャンプ場の予約はこちら",
+"confidence": "high",
+"url": "https://takamori.camp/"
+},
+"長野県|星灯りの森キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」から予約",
+"quote": "ご予約は【なっぷ】よりお願いいたします。",
+"confidence": "high",
+"url": "https://www.hoshiakari.org/"
+},
+"長野県|ツリードーム南信州まつかわ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトで予約（電話・LINE・フォームで相談可）",
+"quote": "ご予約は予約サイトをご覧ください。",
+"confidence": "medium",
+"url": "https://dansuki.jp/stay/td/"
+},
+"長野県|ties Camp Ground Nagiso": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://tiescamp.com/"
+},
+"長野県|森の小さな秘密基地": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "初回は電話のみで予約",
+"quote": "初回予約はお電話のみのご予約となります",
+"confidence": "medium",
+"url": "https://morichi152.com/"
+},
+"長野県|桑原キャンプ場(KUWABARA CAMPING FIELD)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "なっぷで予約する",
+"confidence": "high",
+"url": "http://kuwabara-camping-field.com"
+},
+"長野県|アルプスBASE": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "WEB予約ページから予約（メールでも問合せ可）",
+"quote": "ご予約はこちらから",
+"confidence": "medium",
+"url": "https://www.glamping-shinshu.com/"
+},
+"長野県|今心 imacoco": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "事前予約制。電話またはメールで問合せ・予約",
+"quote": "（事前予約制）",
+"confidence": "high",
+"url": "https://imacoco.jimdosite.com/"
+},
+"長野県|与田切公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷのオンライン予約、またはコールセンターへ電話",
+"quote": "※電話予約よりオンライン予約のほうが早く開始します。",
+"confidence": "high",
+"url": "https://yotagiri-camp.com/"
+},
+"長野県|キャンプファーム いなかの風": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "サイト予約ページから予約",
+"quote": "2026年シーズン宿泊予約 受付開始！",
+"confidence": "high",
+"url": "https://inakanokaze.com/"
+},
+"長野県|フォレスパ木曽 あてら荘 キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "ご予約は「なっぷ」から →",
+"confidence": "high",
+"url": "https://forespakiso.jp/"
+},
+"長野県|阿寺渓谷キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」で予約",
+"quote": "ご予約はキャンプ場予約サイト「なっぷ」をご利用ください。",
+"confidence": "high",
+"url": "https://db.go-nagano.net/topics_detail6/id=624"
+},
+"長野県|檜尾小屋 テント場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で事前予約（受付9:00〜18:00）",
+"quote": "【重要】小屋ご宿泊、テント幕営地ご利用の場合、必ず事前予約をお願いします。",
+"confidence": "high",
+"url": "https://www.hinokio-chuoalps.com/"
+},
+"長野県|駒ヶ根Camping Resort by 駒ヶ根高原家族旅行村": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "HPまたはなっぷで予約。電話予約も可",
+"quote": "HPよりご予約ください。",
+"confidence": "high",
+"url": "https://campingresort-komagane.com/"
+},
+"長野県|Re:tama Camp Forest(りたまキャンプフォレスト)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約（問合せは電話・メール）",
+"quote": "事前にご予約ください。",
+"confidence": "high",
+"url": "https://retama-camp-forest.com/"
+},
+"長野県|駒ヶ根キャンプセンター": {
+"reservation": "required",
+"method_text": "予約制（キャンセル規定あり）",
+"quote": "※原則としてキャンセルなしの上でご予約を頂いております。",
+"confidence": "medium",
+"url": "https://www.komacamp.jp/"
+},
+"長野県|宮田高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "予約受付期間中に電話・予約ページで予約",
+"quote": "※キャンプ場予約受付期間：4月1日～10月24日",
+"confidence": "high",
+"url": "https://kankou.vill.miyada.nagano.jp/camp/booking"
+},
+"長野県|宝剣山荘 幕営地": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "事前予約が必要（Web予約あり）",
+"quote": "テント幕営地も事前予約が必要",
+"confidence": "high",
+"url": "https://miyadakankou.co.jp/"
+},
+"長野県|おんたけ休暇村 キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "ご予約は、お電話でお願いします。",
+"confidence": "high",
+"url": "http://www.ontake-kyukamura.net/"
+},
+"長野県|おんたけ森きちオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（3月1日8:30から受付、2023年情報）",
+"quote": "予約開始は3月1日8：30より電話にてご予約承ります。",
+"confidence": "high",
+"url": "http://takigoshi.sakura.ne.jp/morikichi.html"
+},
+"長野県|鹿嶺高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約フォームから事前予約（2か月前の1日朝8時開始）",
+"quote": "ご予約フォーム にて事前予約をお願い致します。",
+"confidence": "high",
+"url": "https://karei-kogen.com/"
+},
+"長野県|キャンピングフィールド木曽古道": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約のみ（電話不可、問合せはメール）",
+"quote": "※ご予約は、「WEB受付のみ」です",
+"confidence": "high",
+"url": "https://tmokiso.com/kisokodo/"
+},
+"長野県|エコウォームオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "電話で予約（前日まで、当日は要相談）",
+"quote": "前日までの受付でお願いいたします。当日受付は要相談。",
+"confidence": "medium",
+"url": "http://pechika.info/otokyannpujyou"
+},
+"長野県|小黒川渓谷キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "サイト予約ページまたはなっぷで予約",
+"quote": "2026年シーズン宿泊予約 受付開始！",
+"confidence": "high",
+"url": "https://ogurogawakeikokucamp.com/"
+},
+"長野県|ホテル木曽温泉 黄金の湯 Glamping ONTAKE": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約または電話で予約",
+"quote": "オンラインでのご予約",
+"confidence": "medium",
+"url": "https://koganenoyu.jp/"
+},
+"長野県|フォレストドーム木曽駒高原": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEBまたは電話で予約",
+"quote": "WEBからのご予約はこちら",
+"confidence": "medium",
+"url": "https://www.forest-dome.com/"
+},
+"長野県|Windera CAMPGROUNDS": {
+"reservation": "required",
+"methods": [
+"web",
+"onsite"
+],
+"method_text": "なっぷで予約。受付フロントでも受付",
+"quote": "各施設の予約を予約サイト「なっぷ」で予約する",
+"confidence": "high",
+"url": "https://windera.jp/camp/"
+},
+"長野県|信州大芝高原オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはネット予約",
+"quote": "ご予約はお電話またはネット予約にてお願いいたします。",
+"confidence": "high",
+"url": "https://oshiba.jp/"
+},
+"長野県|信州経ヶ岳高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "HPの予約ボタンから予約（変更・取消は電話）",
+"quote": "ホームページの「予約する」ボタンからご予約お願いします。",
+"confidence": "high",
+"url": "https://kyogatake-camp.com/"
+},
+"長野県|富士見町町民広場キャンプ場": {
+"reservation": "required",
+"methods": [
+"onsite",
+"phone"
+],
+"method_text": "海洋センター窓口で許可申請。前月11日から予約受付",
+"quote": "利用には事前に許可申請が必要です。",
+"confidence": "high",
+"url": "https://www.town.fujimi.lg.jp/site/shisetsu/sy01sports-hiroba.html"
+},
+"長野県|マナスル山荘天文館 星のキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷのネット予約。満室時は電話で相談",
+"quote": "6/22より 2026年夏休み以降（7/25～11/8）のネット予約受付を開始しました。",
+"confidence": "medium",
+"url": "https://manasuru.com/"
+},
+"長野県|富士見高原リゾート 花の里キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "利用日の2か月前の1日から、専用ページまたは電話で予約",
+"quote": "当キャンプ場は 予約制です",
+"confidence": "high",
+"url": "https://hanano-sato.jp/camping.html"
+},
+"長野県|樽尾沢キャンプ場(みのわダム)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "申込みフォームから予約（1日先着25組まで）",
+"quote": "申込みフォームにてご予約ください（二通りの期間あり）",
+"confidence": "high",
+"url": "https://www.town.minowa.lg.jp/soshiki/kensetu/gyomu/2/5775.html"
+},
+"長野県|せせらぎの里 町田市自然休暇村(テントサイト・キャビンサイト)": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはWebで申込み（夏・年末年始は抽選）",
+"quote": "せせらぎの里 町田市自然休暇村までお電話またはＷｅｂよりお申し込みください。",
+"confidence": "high",
+"url": "http://www.machidakyukamura.jp/"
+},
+"長野県|富士見高原貸別荘 ドッグランキャンプサイト": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "利用月の2か月前1日から予約サイトまたは電話で受付",
+"quote": "ご予約は2か月前の1日からインターネットおよびお電話にて受付開始致します。",
+"confidence": "high",
+"url": "https://fujimikogen-kashibesso.jp/camping.html"
+},
+"長野県|立場川キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "予約制ではない。管理棟で申込書を記入し料金を添えて申込み",
+"quote": "予約制ではありません",
+"confidence": "high",
+"url": "https://db.go-nagano.net/topics_detail6/id=574"
+},
+"長野県|CAMP FUMON": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトから予約（当日予約可、急ぎは電話）",
+"quote": "ただいま11月までご予約可能です。",
+"confidence": "medium",
+"url": "https://camp-fumon.com/"
+},
+"長野県|あぴの森キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイト「なっぷ」で予約（当日予約可）",
+"quote": "予約サイト「なっぷ」でカード決済が可能です。",
+"confidence": "medium",
+"url": "https://www.facebook.com/morinojunin"
+},
+"長野県|やぶはら高原こだまの森": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約のみ（電話・窓口では受付なし）",
+"quote": "宿泊予約は WEB予約のみとなります。",
+"confidence": "high",
+"url": "https://www.kodamanomori.jp/"
+},
+"長野県|RiversideOasis WAKU↑WAKU-BASE": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから申込み、クレジットカード事前決済",
+"quote": "予約サイトから申し込み時にクレジットカード決済手続きにてお支払いください",
+"confidence": "medium",
+"url": "https://www.wakuwaku.nagano-kv.com/glamping/"
+},
+"長野県|行者小屋 テント場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント泊は予約不要・人数制限なし（食事のみ要予約）",
+"quote": "テント泊は予約不要・人数制限無の形式です",
+"confidence": "high",
+"url": "https://www.akadakekousen.jp/gyoujyagoya"
+},
+"長野県|黒百合ヒュッテ テント場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント泊は予約不要（小屋泊は予約フォームか電話）",
+"quote": "なお、テント泊の方は予約の必要はございません。",
+"confidence": "high",
+"url": "https://www.kuroyurihyutte.com/"
+},
+"長野県|Camp muku": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "完全予約制。WEB予約または電話",
+"quote": "当店は1グループ貸切の5部制で営業しており、完全予約制となっております。",
+"confidence": "medium",
+"url": "https://saunamuku.com/"
+},
+"長野県|美濃戸高原やまのこ村 テント場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEB予約（カード決済可）または電話で予約",
+"quote": "こちらのサイトから予約、カード決済が可能です。",
+"confidence": "medium",
+"url": "https://yamanokomura.com/"
+},
+"長野県|しだれ栗森林公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約受付（通年、8:30〜17:15）",
+"quote": "ご予約は通年受け付けております。",
+"confidence": "medium",
+"url": "https://shidarekuri.com/camp/"
+},
+"長野県|蓼科∞GRAND(蓼科インフィニティーグランド)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約申込みフォームから申込み、3日前までにPayPal支払い",
+"quote": "ご予約申込み",
+"confidence": "medium",
+"url": "https://camp.tatesina.info/"
+},
+"長野県|蓼の花オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約制だが新規予約の受入れは停止中",
+"quote": "新規予約受入れが不可になりました。",
+"confidence": "medium",
+"url": "https://www.tadenohana.com/camp/"
+},
+"長野県|松原湖高原オートキャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "予約不要（受付時間内に受付）。バンガロー等はHPで予約",
+"quote": "2024年度から予約不要となりました。",
+"confidence": "medium",
+"url": "http://www.matsubarako-kogen.jp"
+},
+"長野県|長者の森キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約のみ（毎月5日10時に1か月分ずつ公開）",
+"quote": "電話での予約は受け付けておりません",
+"confidence": "high",
+"url": "https://kitaaiki.com/"
+},
+"長野県|岡谷市塩嶺野外活動センター キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"fax"
+],
+"method_text": "利用日の前日までに電話またはFAXで予約",
+"quote": "利用日の前日までにご予約をしていただきますようお願いします。",
+"confidence": "medium",
+"url": "https://www.city.okaya.lg.jp/okayashikyoikuiinkai/tetsuzuki/9557.html"
+},
+"長野県|KURUMAYAMA CAMP SKY FIELD": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ボタンから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://kurumayama-skypark.com/camp/"
+},
+"長野県|グラマラスダイニング蓼科 THE CAMP": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式HP、楽天トラベル、じゃらんで予約",
+"quote": "HPまたは楽天トラベル・じゃらんでもご予約承っております。",
+"confidence": "medium",
+"url": "https://navi.chinotabi.jp/spot/13717/"
+},
+"長野県|蓼科高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約サイトで受付（毎月1日に1か月分公開）、電話予約も可",
+"quote": "公式サイトから予約受付中",
+"confidence": "high",
+"url": "https://tateshina-kogen.com/camp/"
+},
+"長野県|ウッディ・もっく": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "Web予約専用サイトまたは電話で予約",
+"quote": "お電話でもご予約OK",
+"confidence": "high",
+"url": "https://mock.furusatonagawa.com/"
+},
+"長野県|野麦峠オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "Web予約専用サイトまたは電話で予約（Web優先）",
+"quote": "お電話でもご予約OK",
+"confidence": "high",
+"url": "https://nomugi.furusatonagawa.com/"
+},
+"長野県|高ソメキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "Web予約専用サイトまたは電話で予約（Web優先）",
+"quote": "お電話でもご予約OK",
+"confidence": "high",
+"url": "https://takasome.furusatonagawa.com/"
+},
+"長野県|駒出池キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約のみ（毎月10日10時に1か月分公開）、電話不可",
+"quote": "電話での予約は受け付けておりません",
+"confidence": "high",
+"url": "https://yachiho-kogen.com/camp/"
+},
+"長野県|霧ヶ峰キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "予約不要。当日、管理センターで受付（9:00〜17:00）",
+"quote": "当キャンプ場は事前予約なしでご利用いただけます。",
+"confidence": "high",
+"url": "https://kirigamine-camp.com/"
+},
+"長野県|GLAMPING BASE enCamp": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトから空室確認・予約",
+"quote": "空室確認やご予約は、",
+"confidence": "medium",
+"url": "https://encamp-glamping.com/"
+},
+"長野県|白駒池 青苔荘キャンプ場(キャンプ指定地)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "テント場はYamatanのみで予約（1か月前の0時から）",
+"quote": "当荘は予約制です。必ず事前にご予約をお願いいたします",
+"confidence": "high",
+"url": "https://seitaisou.jp/"
+},
+"長野県|しらびそ小屋 テント場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "要予約（電話のみ）",
+"quote": "要予約（電話のみ）",
+"confidence": "high",
+"url": "https://mt-yatsugatake.jp/yamagoya/yamagoya-612/"
+},
+"長野県|白樺湖畔の貸切キャンプ場 Hygge": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "ネットまたは電話で予約",
+"quote": "ネットから予約する",
+"confidence": "medium",
+"url": "https://camp.hygge-shirakaba.com/"
+},
+"長野県|takibi hut": {
+"reservation": "required",
+"quote": "予約が必要です",
+"confidence": "medium",
+"url": "http://takibihut.com"
+},
+"長野県|夢の平キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "町の公共施設予約システムで利用者登録し、予約・支払い",
+"quote": "初めて使用申込をする方は上記リンクより利用者登録をお願いします。",
+"confidence": "high",
+"url": "https://www.town.tateshina.nagano.jp/soshiki/sangyo_shinko/kanko_shoko/484.html"
+},
+"長野県|白樺リゾート キャンピングビレッジ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約（3か月前の90日前から）",
+"quote": "ご予約はなっぷサイトにて3か月前（90日）よりご予約可能です。",
+"confidence": "high",
+"url": "https://www.shirakabaresort.jp/camping-village/"
+},
+"長野県|高ボッチ高原キャンプエリア": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷのみで予約（3月1日10時開始）",
+"quote": "上記サイトからのみ予約を受け付けます。",
+"confidence": "high",
+"url": "https://tokimeguri.jp/guide/takabotchicamp/"
+},
+"長野県|双子池キャンプ場(双子池ヒュッテ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約フォームで事前予約必須（メール・電話不可）",
+"quote": "ご予約がない場合、設営できません。",
+"confidence": "high",
+"url": "https://www.tateshina2531.com/futagoike-campsite"
+},
+"長野県|まつもと里山キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（10〜17時、当日予約可）",
+"quote": "【要予約】",
+"confidence": "high",
+"url": "https://outdoorfield-matsumoto.jp/camp"
+},
+"長野県|グランピングリゾートヴィーナス": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約フォームまたは電話で予約（当日朝10時頃まで可）",
+"quote": "ご予約フォームへ",
+"confidence": "medium",
+"url": "https://www.glamping-venus.jp/"
+},
+"長野県|桜清水コテージ(桜清水オートキャンプ場)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "完全予約制。公式サイト・じゃらん・電話で予約",
+"quote": "完全予約制ですのでご予約を必ず行ってください",
+"confidence": "high",
+"url": "https://www.sakurashimizu.jp/"
+},
+"長野県|漁樵カオス": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"phone"
+],
+"method_text": "予約フォームまたはメールで事前予約（当日分は電話相談）",
+"quote": "ご利用の際は事前にご予約をお願いします",
+"confidence": "high",
+"url": "https://www.mcci.or.jp/www/khaos/"
+},
+"長野県|赤倉の森オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "Camp-netでオンライン予約、または電話（バンガロー等はオンラインのみ）",
+"quote": "ご予約はCamp-net（キャンプネット）からオンライン予約いただくか、お電話にて受け付けております。",
+"confidence": "high",
+"url": "http://akakuranomori.jp/"
+},
+"長野県|三城いこいの広場オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "フリーサイトは電話またはメールで予約",
+"quote": "フリーサイトのご予約はお電話、メールにて承ります。",
+"confidence": "medium",
+"url": "https://www.sanjiro-camp.com/"
+},
+"長野県|波田リバーパークキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "事前に電話で予約（空きがあれば当日予約も可）",
+"quote": "事前に電話で予約をお願いします。",
+"confidence": "high",
+"url": "https://www.city.matsumoto.nagano.jp/soshiki/239/5708.html"
+},
+"長野県|キャンプ・アーボ 女神湖": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約（2か月前の1日0時から）",
+"quote": "キャンプ場検索・予約サイト「なっぷ」からご予約を承っております。",
+"confidence": "high",
+"url": "https://camp-arbo-megamiko.com/"
+},
+"長野県|姫木平ホワイトバーチキャンプフィールド": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約サイトで予約",
+"quote": "ご予約はこちらから！",
+"confidence": "high",
+"url": "https://whitebirch-himeki.com/"
+},
+"長野県|ペンションマドンナ ペットとキャンプ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "キャンプの予約はなっぷから",
+"quote": "(キャンプご予約はなっぷからお願い致します♪)",
+"confidence": "high",
+"url": "https://www.madonna-norikura.com/"
+},
+"長野県|乗鞍BASE": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンラインで予約（当日は総合受付で受付）",
+"quote": "ご予約はオンラインで、ご利用当日の受付は、総合受付までお越しください。",
+"confidence": "medium",
+"url": "https://norikurabase.com/"
+},
+"長野県|南岳小屋 テント場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント場は予約不要。フロントで受付",
+"quote": "※テント場のご利用はご予約不要です。",
+"confidence": "high",
+"url": "https://www.yarigatake.co.jp/minamidake/"
+},
+"長野県|徳本峠小屋 テント場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話予約（利用の1か月前から）",
+"quote": "10名迄 予約必要です。",
+"confidence": "medium",
+"url": "http://tokugo.com/"
+},
+"長野県|西穂山荘 テント場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント場は先着受付制。山荘売店で受付",
+"quote": "テント場は先着受付制のため、山荘売店で受付を行った方から、設営をお願いします。",
+"confidence": "high",
+"url": "http://www.nishiho.com/"
+},
+"長野県|望月キャンプサイト 野らら": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式予約サイトでオンライン予約",
+"quote": "◎オンライン予約",
+"confidence": "medium",
+"url": "https://nolala.net/"
+},
+"長野県|ヒュッテ西岳 テント場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "WEB宿泊予約（テント）または電話で予約",
+"quote": "宿泊予約（テント）",
+"confidence": "medium",
+"url": "https://www.enzanso.co.jp/hutte-nishidake"
+},
+"長野県|荒船パノラマキャンプフィールド": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "佐久市振興公社の予約サイトで事前予約",
+"quote": "事前予約をお願いします。",
+"confidence": "high",
+"url": "http://www.shinkou-saku.or.jp/arafune/index.html"
+},
+"長野県|BaCo Resort 長野(水のキャンパス)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "ネット予約、または事前に電話で予約",
+"quote": "事前のお電話でのご予約も承っております",
+"confidence": "medium",
+"url": "https://bacoresort.com/"
+},
+"長野県|モジュベルク キャンプベース": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約",
+"quote": "オンライン予約はこちら",
+"confidence": "medium",
+"url": "https://mojubelk.com/"
+},
+"長野県|松本市美鈴湖もりの国オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ウェブから予約",
+"quote": "ご予約は、ウェブよりお願いいたします。",
+"confidence": "high",
+"url": "https://misuzuko.net/"
+},
+"長野県|徳沢キャンプ場(氷壁の宿 徳澤園)": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "キャンプ場は予約不要、現地で受付（宿は電話予約）",
+"quote": "予約不要です。",
+"confidence": "medium",
+"url": "https://www.tokusawaen.com/"
+},
+"長野県|パラダキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトから予約（2026年は4月1日受付開始）",
+"quote": "2026シーズンのパラダキャンプ場予約受付を、4月1日よりスタートいたします。",
+"confidence": "high",
+"url": "http://paradacamp.com/"
+},
+"長野県|ミノワ・リバーサイドオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトで予約、当日分は電話",
+"quote": "当日のご予約はお電話にて承ります。",
+"confidence": "high",
+"url": "https://www.yadominowa.com/"
+},
+"長野県|KARUIZAWA CAMP GOLD": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約、当日予約は電話",
+"quote": "また、当日予約はお電話にてお受けいたします。",
+"confidence": "high",
+"url": "https://www.karuizawa.camp"
+},
+"長野県|グランセルキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから予約",
+"quote": "予約サイト",
+"confidence": "medium",
+"url": "https://grandsel.com/"
+},
+"長野県|芸術むら公園キャンプ場(アートヴィレッジ明神館)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページから予約（2名以下は電話）",
+"quote": "ご予約ページ",
+"confidence": "medium",
+"url": "https://www.myojinkan.com/blank-1"
+},
+"長野県|天平の森オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "オートキャンプ場要予約",
+"confidence": "high",
+"url": "http://www.anc-tv.ne.jp/~nes/"
+},
+"長野県|山王山公園 ひみつきち": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約（公式HPからは不可）",
+"quote": "ご予約は「なっぷ」から",
+"confidence": "high",
+"url": "http://www.himitukichi.biz/"
+},
+"長野県|別所温泉森林公園キャンプ場": {
+"reservation": "required",
+"method_text": "利用予定日の2週間前までに予約",
+"quote": "御利用予定日の2週間前までに御予約をお願いしてます",
+"confidence": "medium",
+"url": "https://www.city.ueda.nagano.jp/soshiki/sinrin/3188.html"
+},
+"長野県|Whistler SKYBASE KOMORO(ウィスラースカイベース小諸)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "サイトごとに予約（2か月前の1日0時開始）、一部は電話",
+"quote": "またそれに伴い3ヵ月前からのご予約を、2ヵ月前のご予約開始に変更させていただく事になりました。",
+"confidence": "high",
+"url": "https://www.officekaruizawa.com/bbq-1"
+},
+"長野県|KOMOROBI Athletic & Camp": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "キャンプ(宿泊)のご予約はこちら",
+"confidence": "medium",
+"url": "https://komorobi.com/"
+},
+"長野県|安曇野くぬぎの森ガーデン キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "詳細・ご予約はなっぷよりお願いします。",
+"confidence": "high",
+"url": "http://www.azumino-garden.com/"
+},
+"長野県|中房温泉キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトで予約（電話予約は時期限定）",
+"quote": "キャンプ場予約も開始されます。",
+"confidence": "medium",
+"url": "https://nakabusa.com/"
+},
+"長野県|あさまの森オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約制（通年営業）。予約サイトから予約",
+"quote": "不定休（予約制／通年営業）",
+"confidence": "high",
+"url": "http://www.asamanomori.com/index.html"
+},
+"長野県|湯の丸キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "予約不要、当日先着順。湯の丸高原ホテルで受付",
+"quote": "事前予約はしておりません。",
+"confidence": "high",
+"url": "https://yunomaru.co.jp/camp/"
+},
+"長野県|かじかの里公園キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite",
+"phone"
+],
+"method_text": "無料サイトは予約不要。有料区画（10区画）は予約制",
+"quote": "※有料区画サイト以外の予約は不要です。",
+"confidence": "high",
+"url": "https://kajikanosato-park.jp/"
+},
+"長野県|YMP(ゆんたメモリアルパーク)": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "電話またはメールで予約",
+"quote": "電話またはメールにて受付",
+"confidence": "medium",
+"url": "https://enjou.co.jp/"
+},
+"長野県|YOKOTE FOREST BASE(青木村営 横手キャンプ場)": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "なっぷで予約（3日前以降はメール連絡）",
+"quote": "【予約制】",
+"confidence": "high",
+"url": "http://www.vill.aoki.nagano.jp/accoc/stay/kyanpu.html"
+},
+"長野県|信州とうみオートキャンプ場 Glänta(グランタ)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイト・なっぷのWEB予約、または電話",
+"quote": "ご予約はHPの予約フォームあるいはお電話で承ります。",
+"confidence": "high",
+"url": "https://glanta.site/"
+},
+"長野県|市民の森公園キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "事前予約不可。当日わしば山荘で先着順に受付",
+"quote": "キャンプ場の事前予約はできません。",
+"confidence": "high",
+"url": "https://www.city.ueda.nagano.jp/soshiki/sports/4658.html"
+},
+"長野県|レフヒオラパス": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご宿泊１名〜４名様用ご予約はこちら。",
+"confidence": "medium",
+"url": "https://refugiolapaz.jimdofree.com/"
+},
+"長野県|大峰高原白樺の森キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "専用の予約サイトから予約",
+"quote": "大峰高原白樺の森キャンプ場利用予約サイト",
+"confidence": "medium",
+"url": "https://reserva.be/ominecamp/about"
+},
+"長野県|高津屋森林公園 キャンプエリア": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または楽天トラベルキャンプで予約",
+"quote": "【キャンプ予約】電話または楽天トラベルキャンプにて予約を行ってください。",
+"confidence": "high",
+"url": "http://www.village.ikusaka.nagano.jp/sisetu/takatuyasinrinkouen.htm"
+},
+"長野県|千曲市大池市民の森 大池キャンプ場": {
+"reservation": "recommended",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷで予約。予約なしでも空きがあれば当日利用可",
+"quote": "予約無しでも当日来場していただき空きがあれば",
+"confidence": "medium",
+"url": "http://ooike-chikuma.com/"
+},
+"長野県|木崎湖POW WOW キャンプ場&アウトドアクラブ": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話またはオンラインで予約",
+"quote": "ご予約はお電話、もしくはオンラインにて",
+"confidence": "high",
+"url": "https://kizakiko-powwow.com/"
+},
+"長野県|鹿島槍スポーツヴィレッジ キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンラインで予約（団体は問い合わせ）",
+"quote": "一般でご利用の方はオンラインでのご予約が",
+"confidence": "medium",
+"url": "http://www.kashimayari.net"
+},
+"長野県|濁沢キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite",
+"phone"
+],
+"method_text": "登山シーズン中は予約不要（7名以上の団体は電話予約）",
+"quote": "7名以上の団体を除き予約不要",
+"confidence": "medium",
+"url": "https://montrek55.com/tentsite-na/uraginza/"
+},
+"長野県|船窪小屋 テント場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約フォームで予約（3日前まで）、直前は電話",
+"quote": "テント場も完全予約制です。",
+"confidence": "high",
+"url": "https://funakubogoya.net/"
+},
+"長野県|針ノ木小屋 テント場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント場は予約不要の先着順",
+"quote": "テント場の利用につきましては、予約なしの先着順です。",
+"confidence": "high",
+"url": "http://www.harinoki.com/"
+},
+"長野県|心笑館 こまどめの湯 キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷまたは公式ページで予約、電話でも受付",
+"quote": "ご予約は「なっぷ」から",
+"confidence": "high",
+"url": "http://cocoekan.jp/"
+},
+"長野県|菅平高原ファミリーオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オンライン予約のみ（電話・メール不可）",
+"quote": "ご予約はすべてオンライン予約です。",
+"confidence": "high",
+"url": "http://sugadaira.camp/"
+},
+"長野県|THE KIZAKI CAMP&LAKE RESORT": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "ご予約：予約サイト「なっぷ」から承っています。",
+"confidence": "high",
+"url": "https://thekizaki.com/"
+},
+"長野県|ZEKKEI GLAMPING & CAMPING RESORT": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約リンクから予約",
+"quote": "ご予約は以下のリンクから！",
+"confidence": "medium",
+"url": "https://rewild-camping.com/glamping/zekkei/"
+},
+"長野県|空庭 CAMP SITE(SORANIWA)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約サイトまたは電話・問合せフォームで予約",
+"quote": "ご予約の際に、ペンションの空き状況を必ずご確認ください。",
+"confidence": "medium",
+"url": "https://sora.avoriaz.jp/"
+},
+"長野県|須坂健康の森 RVリゾート": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約または電話で予約",
+"quote": "ご予約はオンライン予約、またはお電話で承っております。",
+"confidence": "high",
+"url": "https://suzaka-onsen.myqol.jp/"
+},
+"長野県|子安温泉キャンプ場(KOYASU CAMP SITE)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "キャンプ場予約ページでサイトごとに予約",
+"quote": "キャンプ場各サイトの予約は下記より。",
+"confidence": "medium",
+"url": "https://koyasu-onsen.com/camp/"
+},
+"長野県|天狗山荘テント場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "宿泊予約フォームから予約（テント場も完全予約制）",
+"quote": "天狗山荘テント場（要予約）",
+"confidence": "high",
+"url": "https://yamagoya.hakubakousha.com/"
+},
+"長野県|須坂温泉 山の神キャンプ場": {
+"reservation": "required",
+"methods": [
+"app",
+"web"
+],
+"method_text": "LINE公式アカウントまたは予約サイトから予約",
+"quote": "ご予約はLINE@から",
+"confidence": "high",
+"url": "http://kodama-forest-workers-nagano.com/camp/"
+},
+"長野県|白馬森のわさび農園オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "キャンプ/キャビンのご予約はこちら(^^)/♪",
+"confidence": "medium",
+"url": "http://morinowasabi.com/"
+},
+"長野県|FARM & CAMP Re:HAKUBA": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約サイトまたは電話で予約",
+"quote": "ご予約はお電話で",
+"confidence": "medium",
+"url": "https://www.farmhakuba.jp/sightseeing.html#sec6"
+},
+"長野県|Hakuba47 マウンテンスポーツパーク キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite",
+"web"
+],
+"method_text": "フリーサイトは予約不要。AC電源・マウンテンサイトは予約制",
+"quote": "予約サイト以外のフリーサイトも予約なしでご利用可能です。",
+"confidence": "high",
+"url": "https://www.hakuba47.co.jp/summer/"
+},
+"長野県|白馬グリーンスポーツの森 キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "予約制ではない。当日受付で先着、60張り上限",
+"quote": "キャンプ場は予約を受け付けていません。",
+"confidence": "high",
+"url": "http://green-sport.hakubakousha.com/"
+},
+"長野県|Romperdog Site": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトで予約（3か月前の1日から）",
+"quote": "予約はこちらから（3ヶ月前の1日から予約出来ます）",
+"confidence": "high",
+"url": "http://romperdog.com/"
+},
+"長野県|From P": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://fromp-hakuba.jp/"
+},
+"長野県|nagano forest village キャンプフィールド(旧 飯綱高原キャンプ場)": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"phone"
+],
+"method_text": "予約サイト、メール、電話で予約",
+"quote": "ご予約は予約サイト・メール・お電話にて",
+"confidence": "high",
+"url": "https://naganoforestvillage.eternal-story.com/"
+},
+"長野県|トワノワ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから予約（11月分は9月1日受付開始）",
+"quote": "9月1日から、11月までの予約受付開始となります。",
+"confidence": "high",
+"url": "https://towanowa.ex-comms.com/"
+},
+"長野県|倉下の湯キャンプ場(WHM CAMP)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページで予約（締切は2日前）、直前は電話",
+"quote": "ご予約ページよりご予約を進めてください。",
+"confidence": "high",
+"url": "https://whmcamp.com/"
+},
+"長野県|SEASHA キャンプサイト": {
+"reservation": "required",
+"quote": "テントサイト（要予約）",
+"confidence": "high",
+"url": "https://seasha.jp"
+},
+"長野県|Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから宿泊予約",
+"quote": "グリーンシーズンご宿泊予約",
+"confidence": "medium",
+"url": "https://fieldsuite-hakuba.com/"
+},
+"長野県|Snow Peak LANDSTATION HAKUBA キャンプサイト": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトから宿泊プランを予約",
+"quote": "宿泊プランのご予約",
+"confidence": "medium",
+"url": "https://www.snowpeak.co.jp/landstation/hakuba/facility/stay/"
+},
+"長野県|白馬岩岳マウンテンリゾート キャンプ場(ヒトトキノモリ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約のみ（なっぷ、60日前から）",
+"quote": "ネット予約のみとなります。(60日前から予約可)",
+"confidence": "high",
+"url": "https://iwatake-mountain-resort.com/green/camp"
+},
+"長野県|白馬尻テント場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約（テント場は完全予約制）",
+"quote": "テント場の利用は完全予約制です。",
+"confidence": "medium",
+"url": "https://hakubakan.com/lodge/sarukuraso-hakubajiri/"
+},
+"長野県|白馬アルプスオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷのみで予約（当日受付も含む）",
+"quote": "当日受付も含め、全て「なっぷ」からのご予約となります。",
+"confidence": "high",
+"url": "https://hakubadonguri.com/"
+},
+"長野県|森の灯キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷでオンライン予約（電話予約は不可）",
+"quote": "【オンライン予約はナップから】",
+"confidence": "high",
+"url": "https://morinoakari2020.com/"
+},
+"長野県|志賀高原 熊の湯キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "予約専用ダイヤルまたは予約システムで予約",
+"quote": "予約システムへ代行入力いたします（㈱たび寅）",
+"confidence": "high",
+"url": "https://www.kumanoyu.co.jp/camp/"
+},
+"長野県|木戸池温泉キャンプ場": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "事前予約不可。当日受付順で案内",
+"quote": "当日受け付け順でのご案内です。（事前予約不可）",
+"confidence": "medium",
+"url": "https://kidoike.com/"
+},
+"長野県|GLAMPROOK 飯綱高原": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または予約サイトで予約",
+"quote": "ご予約は、お電話または予約サイトから承っております。",
+"confidence": "medium",
+"url": "https://glamprook.jp/iizuna/"
+},
+"長野県|キャンプラスいいづな(飯綱東高原オートキャンプ場)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "Web予約で受付（大人2名以上）",
+"quote": "2026シーズンご予約受付中",
+"confidence": "high",
+"url": "https://camplus.camp"
+},
+"長野県|鬼無里ランタンヴィレッジ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://lantern-village.com/"
+},
+"長野県|北信濃ふるさとの森文化公園オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オートキャンプ区画は要予約（3か月前から）。連泊は電話",
+"quote": "要予約(3か月前から)",
+"confidence": "medium",
+"url": "https://furusatonomori-bunkakoen.jp/"
+},
+"長野県|SORA GLAMPING RESORT": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "予約はこちら",
+"confidence": "medium",
+"url": "http://www.ryuoo.com/glamping"
+},
+"長野県|おたり自然学校 石坂森林探険村": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "事前予約制。予約ページから予約",
+"quote": "必ず事前にご予約ください。",
+"confidence": "high",
+"url": "https://www.otarinatureschool.net/"
+},
+"長野県|まだらおの湯 コテージ・キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイト、楽天トラベル、じゃらんで予約",
+"quote": "《 楽天トラベル 》《 じゃらん 》からもご予約いただけるようになりました♪",
+"confidence": "medium",
+"url": "https://madaraonoyu.com/"
+},
+"長野県|湖楽園キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "区画指定で予約（予約空き情報あり）",
+"quote": "キャンプ区画は区画制なのでご希望の場所が予約可能です。",
+"confidence": "medium",
+"url": "https://michikusaboo.wixsite.com/korakuenn/home"
+},
+"長野県|キャンプフィールド木島平": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約、当日予約は電話",
+"quote": "当日予約はお電話ください",
+"confidence": "high",
+"url": "https://campfield-kijimadaira.com/"
+},
+"長野県|北信州・高社山森林キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベルキャンプなどの予約サイトで予約",
+"quote": "楽天トラベルキャンプで予約！",
+"confidence": "high",
+"url": "https://sinsyu-camp.jimdofree.com/"
+},
+"長野県|森のロッジ村 ラボランドくろひめ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "問い合わせフォームまたは電話で予約",
+"quote": "お問い合わせフォームにて、またはお電話等で予約（お問い合わせ）ください。",
+"confidence": "medium",
+"url": "https://www.laboland.jp"
+},
+"長野県|やすらぎの森オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "Webサイトから予約（セルフチェックイン）",
+"quote": "2026年11月分までご予約を受付中です。",
+"confidence": "high",
+"url": "https://yasuragi.natureservice.jp/"
+},
+"長野県|斑尾高原どんぐり村": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "予約フォーム・メールフォーム・電話で予約",
+"quote": "ファミリーロッジのご予約は「予約フォーム」よりお願いいたします。",
+"confidence": "medium",
+"url": "http://www.dongurimura.jp/"
+},
+"長野県|斑尾高原キャンピングパーク": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトのネット予約",
+"quote": "ネット予約はこちら",
+"confidence": "medium",
+"url": "http://www.madarao.jp/camp/"
+},
+"長野県|雨飾高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"onsite"
+],
+"method_text": "予約ページで予約（電話不可）。フリーサイトは予約不要",
+"quote": "予約ページからご予約下さい。※電話での予約受付はしておりません。",
+"confidence": "medium",
+"url": "https://www.amakazari.com/"
+},
+"長野県|のよさの里キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約（当日予約は9:00〜15:00受付）",
+"booking_url": "https://www.nap-camp.com/nagano/13543",
+"quote": "※当日以外のご予約・空き確認はWEBよりお願い致します。",
+"confidence": "high",
+"url": "http://sakae-akiyamago.com/stay/5059/"
+},
+"長野県|風吹山荘 テント場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "テントも予約が必要。電話で問い合わせ",
+"quote": "テントもご予約が必要です。",
+"confidence": "high",
+"url": "https://kazabukisansou.jimdofree.com/"
+},
+"長野県|飯山 FOREST BASE 292": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "楽天トラベルなど3社の予約サイトまたは電話",
+"quote": "オンライン予約は3社の予約サイトより可能",
+"confidence": "medium",
+"url": "https://treehouse-oef.com"
+},
+"長野県|スタカ湖キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（9:00〜16:00）",
+"quote": "5月8日(金)より予約受付開始",
+"confidence": "medium",
+"url": "http://www.nozawaski.com/summer/camp/"
+},
+"長野県|nozawa green field": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "2026シーズン予約開始",
+"confidence": "high",
+"url": "https://www.nozawagreenfield.com/"
+},
+"長野県|戸狩温泉 星降る★キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "ご予約は「なっぷ」から承っております。",
+"confidence": "high",
+"url": "https://togari.jp/summer/"
+},
+"長野県|桂池テントサイト": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "専用フォームで予約と決済",
+"quote": "専用フォームからご予約と決済をお願いいたします。",
+"confidence": "high",
+"url": "https://www.s-trail.net/cms/tent/"
+},
+"長野県|北信州・飯山 岩の平オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約フォームまたは電話（9:00〜18:00）",
+"quote": "予約申し込み",
+"confidence": "medium",
+"url": "http://iiyama-camp.com/"
+},
+"長野県|なべくら高原・森の家テントサイト": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "テントサイト予約ページ、または電話で予約",
+"quote": "テントサイト予約",
+"confidence": "medium",
+"url": "http://www.nabekura.net/"
+},
+"長野県|さかえ倶楽部キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷまたは電話で予約（貸切は電話のみ）",
+"quote": "※貸切はTEL予約のみ",
+"confidence": "medium",
+"url": "http://sakae-akiyamago.com/stay/6922/"
+},
+"静岡県|ロングビーチ御前崎": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちらから",
+"confidence": "medium",
+"url": "https://www.longbeach-camp.com/"
+},
+"静岡県|ぼっちの森": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"booking_url": "https://www.nap-camp.com/shizuoka/14204",
+"quote": "ご予約はこちらから",
+"confidence": "high",
+"url": "https://mukku4443.wixsite.com/mysite"
+},
+"静岡県|浜岡砂丘キャンプ場なごみ": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "電話で予約（メールフォームもあり）",
+"quote": "各種サービスのご予約はお電話にて承ります。",
+"confidence": "medium",
+"url": "http://nagomi-hamaokasakyu.com/"
+},
+"静岡県|ヴィラ弓ヶ浜": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトからのクレジット決済予約のみ（電話・メール不可）",
+"quote": "ご予約はホームページからのクレジット決済の予約のみとなります。",
+"confidence": "high",
+"url": "http://www.yumigahama.com/"
+},
+"静岡県|竜洋海洋公園オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "ネット予約または電話（9:00〜17:00）",
+"quote": "電話受付、ネット予約完了をもって、予約完了となります。",
+"confidence": "high",
+"url": "https://ryuyo-auto.entetsuassist-dms.com/"
+},
+"静岡県|カヤックリゾート南伊豆 ワンダフルワールド": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約フォームまたは電話（9:00〜18:00）",
+"quote": "予約フォームから申し込む",
+"confidence": "medium",
+"url": "https://www.wonderful-world.net/"
+},
+"静岡県|ウェーブキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"phone"
+],
+"method_text": "完全予約制。予約フォームまたはメールで申込、事前振込",
+"quote": "完全予約制",
+"confidence": "high",
+"url": "http://inside-y.jp/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E3%82%B5%E3%82%A4%E3%83%88/"
+},
+"静岡県|南伊豆キャンピングテラス": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（月ごとに受付開始日あり）",
+"quote": "ご予約受付を開始いたします",
+"confidence": "medium",
+"url": "https://camp.imagining.jp/"
+},
+"静岡県|HAZ CAMP": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "予約ページにてキャンセルポリシーをご確認ください。",
+"confidence": "medium",
+"url": "https://hazcottage.jp/"
+},
+"静岡県|南伊豆ランドホピア": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://hopia.jp/minamiizu/"
+},
+"静岡県|浜名湖パークビレッジ": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話（9:00〜17:00）でも予約受付",
+"quote": "キャンプパークへお電話での予約・空き状況の確認・その他お問い合わせは",
+"confidence": "medium",
+"url": "https://hamanako-p-v.com"
+},
+"静岡県|バモサンキャンプサイト": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "サイトの詳細ページから予約",
+"quote": "サイトの詳細・予約はこちら",
+"confidence": "medium",
+"url": "https://www.vamosuncamp-site.com/"
+},
+"静岡県|CampFantasea 南伊豆オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "ネット予約または電話（8:00〜20:00）",
+"quote": "空き状況と予約はこちらから",
+"confidence": "medium",
+"url": "https://www.campfantasea.com/"
+},
+"静岡県|南伊豆夕日ヶ丘キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約システムから予約",
+"quote": "予約システムに進む",
+"confidence": "medium",
+"url": "https://www.yu-higaoka-camp.com/"
+},
+"静岡県|とことん遊べる学校キャンプカタショー": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページで空き状況を確認して予約",
+"quote": "予約（空き状況）",
+"confidence": "medium",
+"url": "https://katasho.jp/"
+},
+"静岡県|oneFRITcampfieldHAMANAKO": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約カレンダー（ネット予約）または電話（9:00〜18:00）",
+"quote": "ご予約は下記「ご予約」ボタンを押して、予約ページへおすすみください。",
+"confidence": "high",
+"url": "https://onefrit-campfield.jp/"
+},
+"静岡県|きぼうの森": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite"
+],
+"method_text": "電話または窓口で予約、施設利用申請書が必要",
+"quote": "青少年の家のご利用は予約制です。",
+"confidence": "medium",
+"url": "https://h-seisyounen-ie.entetsuassist-dms.com/"
+},
+"静岡県|鷲沢オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（問い合わせフォームは不可）",
+"quote": "予約ページからの予約をお願いします。",
+"confidence": "high",
+"url": "https://washizawacamp.com/"
+},
+"静岡県|オートキャンプ花沢": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ホームページから予約（キャンセルは電話）",
+"quote": "当ホームページよりご予約の場合に限り",
+"confidence": "medium",
+"url": "http://www.mjnet.ne.jp/hanazawa/"
+},
+"静岡県|雲見夕日と潮騒の岬オートキャンプ場": {
+"reservation": "required",
+"method_text": "電話予約は不可",
+"quote": "電話予約不可",
+"confidence": "medium",
+"url": "https://yuuhi-shiosai.com/"
+},
+"静岡県|Tiny Base": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp149/"
+},
+"静岡県|Camilaトレーラールーム": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル・じゃらんnet等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル じゃらんnet",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp579/"
+},
+"静岡県|Higher Ground Camping": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約・空き状況ページから予約",
+"quote": "予約・空き状況の確認はこちらからお願いします。",
+"confidence": "medium",
+"url": "http://www.hgcamping.jp"
+},
+"静岡県|へんな村 キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "予約/問合せフォームから予約（返信メールあり）",
+"quote": "予約/問合せ",
+"confidence": "medium",
+"url": "http://ihssaito.wixsite.com/hennamura"
+},
+"静岡県|Hamanako Camp Field ASOVIVA": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "セクションサイト(なっぷ)",
+"confidence": "high",
+"url": "https://www.asoviva-camp.com/"
+},
+"静岡県|伊豆松崎あそび島": {
+"reservation": "required",
+"methods": [
+"phone",
+"email"
+],
+"method_text": "繁忙期は完全予約制。電話またはメールで予約",
+"quote": "繁忙期（GW、6月～9月末、大型連休など）は完全予約制！",
+"confidence": "high",
+"url": "http://www.asobijima.com/"
+},
+"静岡県|Beverly Glamping": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベルで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp299/"
+},
+"静岡県|つま恋リゾート彩の郷": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約システムから予約",
+"quote": "ご予約はこちらから",
+"confidence": "medium",
+"url": "https://hmihotelgroup.com/sainosato/play/camp.html"
+},
+"静岡県|浜名湖パームスプリングス by les quatre saisons": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp339/"
+},
+"静岡県|グランピング&ヴィラLa-gom(ラゴム)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "Web予約ページから予約",
+"quote": "Web予約はこちら",
+"confidence": "medium",
+"url": "https://www.el-lagom.com/"
+},
+"静岡県|細野高原ツリーハウス村キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの空き検索・オンライン予約",
+"quote": "ご予約は上段の「空き検索・オンライン予約」にて承ります。",
+"confidence": "high",
+"url": "https://www.hosonokogen.com/index.html"
+},
+"静岡県|風遊心リゾート(野天の湯/キャンプ場)": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "ネットから予約（電話予約は不可）、返信はメール",
+"quote": "■2026年キャンプご予約可能営業日",
+"confidence": "high",
+"url": "https://sansenkai.wixsite.com/fuuyuushin/kusematsu"
+},
+"静岡県|静岡県立森林公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite",
+"fax"
+],
+"method_text": "利用日の3か月前から電話または窓口で予約、団体は申請書をFAX",
+"quote": "スポーツ広場南半分でのテント設置にも、ご予約と手続が必要となります。",
+"confidence": "medium",
+"url": "https://kenritsu-shinrinkouen.jp/facilities/camp/"
+},
+"静岡県|IZU GLAMPING RESORT Ishiki 385": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの空室カレンダー、または楽天トラベル等",
+"quote": "ご予約は、当サイトの「空室カレンダー」から直接ご予約を承っております。",
+"confidence": "high",
+"url": "https://izuglam385.com"
+},
+"静岡県|オートキャンプ銀河": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約フォームまたは電話（10:00〜18:00）",
+"quote": "ご予約はお電話、またはこちらの予約フォームより承っています。",
+"confidence": "high",
+"url": "http://www.ac-ginga.com/"
+},
+"静岡県|河津オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "利用月の3か月前の1日から、予約フォームまたは電話（9:00〜18:00）",
+"quote": "テントは要予約となりますのでお早めに！",
+"confidence": "high",
+"url": "http://kawazucamp.sakura.ne.jp/"
+},
+"静岡県|火剣山キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "火剣山キャンプ場予約サイト（なっぷ）",
+"confidence": "high",
+"url": "http://www.city.kikugawa.shizuoka.jp/shoukoukankou/hitsurugisan_campba.html"
+},
+"静岡県|AQUA VILLAGE(アクアヴィレッジ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトから予約（電話予約不可）",
+"quote": "お電話でのご予約は承っておりません。ご予約はこちらよりお願いいたします。",
+"confidence": "high",
+"url": "http://villageinc.jp/aqua/"
+},
+"静岡県|西伊豆オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトから予約、事前決済",
+"quote": "予約時：事前決済",
+"confidence": "medium",
+"url": "https://www.241z-autocamp.com/"
+},
+"静岡県|MIYAKODA.BBQ.FIELD": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "完全予約制。予約フォームから予約（キャンプは1週間前まで）",
+"quote": "完全予約制",
+"confidence": "high",
+"url": "https://miyakoda-bbq-field.com/"
+},
+"静岡県|Apartment & Glamping 森の風": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル・じゃらんnet等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル じゃらんnet",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp373/"
+},
+"静岡県|伊豆天城高原オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "なっぷで予約受付中！",
+"confidence": "high",
+"url": "https://www.izu-camp.jp/"
+},
+"静岡県|SeasideBaseARARI": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "予約フォームから申込",
+"quote": "ご予約お申し込みは【予約フォーム】よりお願いします。",
+"confidence": "high",
+"url": "https://arari-camp.jp/"
+},
+"静岡県|フリーサイトベース伊豆大川": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約後に暗証番号がメールで届く（フォームから予約）",
+"quote": "予約後に受け取れる暗証番号で管理棟用スマートキーボックスの鍵を開けます。",
+"confidence": "high",
+"url": "https://freesitebase.com/"
+},
+"静岡県|WASABI VILLAGE ~わさびビレッジ~": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://www.nishiizu-kankou.com/stay/wasabivillage"
+},
+"静岡県|宇久須キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（4〜6月利用分は2/1、7〜11月利用分は6/1から受付）",
+"quote": "※ご予約はお電話にてお受けしております。",
+"confidence": "high",
+"url": "https://www.nishiizu-kankou.com/stay/ugusucanp"
+},
+"静岡県|リバウッドリゾート": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約ページまたは電話（9:00〜17:00）",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://rivwoodsresort.com/"
+},
+"静岡県|プレジャーリゾート伊豆赤沢温泉": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp871/"
+},
+"静岡県|koniwa CAMP 天城湯ヶ島": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトで予約",
+"quote": "詳しいプランや料金、ご予約はこちら",
+"confidence": "medium",
+"url": "https://niwa-camp.jp/"
+},
+"静岡県|ならここの里キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約（予約月の2か月前の0時から受付）",
+"quote": "ネット予約を主体に切り替わりました",
+"confidence": "high",
+"url": "https://narakoko.info/"
+},
+"静岡県|天城スカイラインキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約",
+"quote": "なっぷでの予約受付け中！",
+"confidence": "high",
+"url": "https://www.sky-camp.jp/"
+},
+"静岡県|atago feels (あたごフィールズ)": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "予約受付を開始しました！（ホテル・キャンプ場）",
+"confidence": "medium",
+"url": "https://atago-feels.com/"
+},
+"静岡県|伊豆市持越オートキャンプ場 もちこし来楽歩": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約申込みフォームまたは電話",
+"quote": "予約申込みRESERVE",
+"confidence": "medium",
+"url": "http://mochikoshi-club.com/"
+},
+"静岡県|伊豆高原テントリゾート": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約・空室カレンダーまたは電話（8:00〜21:00）",
+"quote": "ご予約・空室カレンダーはこちら",
+"confidence": "medium",
+"url": "https://tentresort-izu.com"
+},
+"静岡県|石神の里": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "完全予約制。90日前から予約可（一部区画はなっぷ）",
+"quote": "完全予約制です。事前予約をお願いします。",
+"confidence": "high",
+"url": "https://ishigaminosato.com/"
+},
+"静岡県|伊豆隠れオートキャンプ場": {
+"reservation": "recommended",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "楽天トラベルキャンプで予約。空きがあれば予約なしの当日利用も可",
+"quote": "空きがある場合は当日利用にも対応しています。",
+"confidence": "high",
+"url": "https://kakure-camp.corpkj.com/"
+},
+"静岡県|炭焼の杜 明ケ島キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約サイトまたは電話で事前予約（電話は当日も可）",
+"quote": "●ご予約は「予約サイト」または「お電話」より、事前に行ってください。",
+"confidence": "high",
+"url": "http://www.bt-r.jp/smc/"
+},
+"静岡県|伊豆グランヴィレッジグランピング": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル じゃらんnet JTB",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp216/"
+},
+"静岡県|K'sCamp伊豆高原グランピング": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "空室確認・予約ページ、または電話（9:00〜18:00）",
+"quote": "空室確認・ご予約",
+"confidence": "medium",
+"url": "https://www.ks-camp.jp/"
+},
+"静岡県|キャンプすがり": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトで予約",
+"quote": "最新の料金・空き状況は予約サイトをご確認ください",
+"confidence": "medium",
+"url": "https://camp-sugari.com/"
+},
+"静岡県|伊豆シャボテンヴィレッジグランピング": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "3か月前から予約受付（公式サイトで予約）",
+"quote": "ご希望のご宿泊日の3か月前より予約を受け付けております。",
+"confidence": "medium",
+"url": "https://id-village.jp/glamping/"
+},
+"静岡県|伊東 奏の森キャンプ場(旧:奏の森リゾート フォレストグランピング)": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "予約状況を確認のうえ電話で予約",
+"quote": "宿泊のご予約は上記予約状況をご確認の上お電話ください。",
+"confidence": "high",
+"url": "https://kanadenomori-resorts.jp/"
+},
+"静岡県|UFUFU VILLAGE": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの空室検索から予約、当日12時以降は電話",
+"quote": "「空室検索」もしくは「プランを見る」ボタンより予約",
+"confidence": "high",
+"url": "https://ufufu-village.jp/"
+},
+"静岡県|HIMENOYU MOTHER": {
+"reservation": "required",
+"method_text": "1日1組限定の貸切キャンプ（予約制）",
+"quote": "キャンプのご予約",
+"confidence": "medium",
+"url": "https://himenoyumother.com/"
+},
+"静岡県|自由キャンプ場 伊東": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "必ず事前予約してから入場（電話）",
+"quote": "必ず予約してから入場して下さい。",
+"confidence": "high",
+"url": "https://freecamp-ito.officialblog.jp/"
+},
+"静岡県|VACATION VILLA&GLAMPING BLUE EDEN": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp105/"
+},
+"静岡県|てんてんゴーしぶ川": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約",
+"quote": "料金はご予約の際に電話にてご確認ください。",
+"confidence": "medium",
+"url": "http://www.tentengo.jp/index.php"
+},
+"静岡県|グリーンヴィレッジ川根": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "ネット予約または電話",
+"quote": "ネット予約はこちら",
+"confidence": "medium",
+"url": "http://www.ne.jp/asahi/greenvillage/kawane/sonota/index.html"
+},
+"静岡県|CAMP BEAN": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "各サイトの詳細は予約ページからご確認ください。",
+"confidence": "medium",
+"url": "https://www.campbean.jp/"
+},
+"静岡県|沼津市戸田はかま滝オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "事前予約制。電話のみ受付（3日前まで）",
+"quote": "当キャンプ場は、事前予約制です。",
+"confidence": "high",
+"url": "https://jforestheda.wixsite.com/hakamacamp"
+},
+"静岡県|びく石山 静かな夜のキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトで予約",
+"quote": "※詳しくは予約サイトをご覧ください。",
+"confidence": "medium",
+"url": "https://bikuishi.jp/"
+},
+"静岡県|大久保キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話または公式サイトで予約（5か月前から受付）",
+"quote": "メールでの予約はできません。電話、または公式サイトから確認・予約をお願いします。",
+"confidence": "high",
+"url": "https://www.city.fujieda.shizuoka.jp/soshiki/_shisetsu/1445918550085.html"
+},
+"静岡県|だるま山高原キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "だるま山高原レストハウスへ電話で予約",
+"quote": "予約はこちらへ",
+"confidence": "medium",
+"url": "https://www.city.izu.shizuoka.jp/soshiki/1004/2/1/928.html"
+},
+"静岡県|グランピングコテージ たまこて": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp244/"
+},
+"静岡県|はるの川音の郷": {
+"reservation": "required",
+"methods": [
+"phone",
+"web"
+],
+"method_text": "電話（9:00〜17:00）またはオンライン予約",
+"quote": "ご予約・お問い合わせはお電話にて承ります。",
+"confidence": "high",
+"url": "http://kawaoto.jp/"
+},
+"静岡県|龍山秘密村": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "宿泊予約ページから予約（3か月前から受付）",
+"quote": "宿泊予約ページの予約画面ボタンからカレンダーを開いて直接ご確認ください",
+"confidence": "medium",
+"url": "https://himitsumura.com"
+},
+"静岡県|くのわき親水公園キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（2か月前の1日朝8時から受付）",
+"quote": "※ご予約は2ヶ月前の1日朝8時より受け付けいたします。",
+"confidence": "high",
+"url": "https://www.kunowaki.net"
+},
+"静岡県|川の駅 伊豆城山": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "その他の注意事項につきましては、ご予約ページのプラン詳細をご覧ください。",
+"confidence": "medium",
+"url": "https://kanogawakamishima.com/"
+},
+"静岡県|Memoria Collina IZU80": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp416/"
+},
+"静岡県|The Old Bus(予約制営業)": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "予約のお問い合わせフォームから申込（電話予約不可）",
+"quote": "※お電話からのご予約は承っておりません。",
+"confidence": "high",
+"url": "https://theoldbus.net/"
+},
+"静岡県|不動の滝自然広場オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトから予約（ウェブのみ）",
+"quote": "※ご予約はウェブサイトからのみとなります。",
+"confidence": "high",
+"url": "http://ffnpcs.com/"
+},
+"静岡県|OutDoorFieldせせらぎ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "お問い合わせ予約フォームから予約",
+"quote": "お問い合わせは、お問い合わせ予約フォームにてお願いします",
+"confidence": "medium",
+"url": "http://seseragi.nabase.group/"
+},
+"静岡県|はるの山の村": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "キャンプ予約ページから予約",
+"quote": "キャンプ予約",
+"confidence": "medium",
+"url": "https://harunoyama.org"
+},
+"静岡県|藤川キャンプヒルLUNA・Luna": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約（GW・お盆・連休はネットのみ）",
+"quote": "ネット予約のみ",
+"confidence": "high",
+"url": "https://camp-lunaluna.com/"
+},
+"静岡県|SOLACEの丘": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベルCAMP・じゃらんで予約（当日予約は13時まで）",
+"quote": "楽天トラベルキャンプから予約する",
+"confidence": "high",
+"url": "https://solace-atami.com/"
+},
+"静岡県|三ツ星オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約（2か月前の1日0時から、24時間受付）",
+"quote": "ネット予約のみ（宿泊日の2か月前の1日0：00から）",
+"confidence": "high",
+"url": "http://kawanelife.org/camp/"
+},
+"静岡県|浦川キャンプ村": {
+"reservation": "recommended",
+"method_text": "事前予約を推奨。当日予約・予約なしは不可の場合あり",
+"quote": "当日予約や予約なしの場合、ご利用いただけない場合がございます",
+"confidence": "medium",
+"url": "http://urakawacamp.com/"
+},
+"静岡県|大川オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "完全予約制（当日利用は不可）",
+"quote": "■完全予約制 （当日のご利用はご対応できません）",
+"confidence": "high",
+"url": "https://ohkawahouseunion.wixsite.com/ohkawa"
+},
+"静岡県|エメラルドの森 伊豆の国グランピングテラス": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル じゃらんnet",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp63/"
+},
+"静岡県|キャンプ広場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（宿泊予定日の2週間前まで）",
+"quote": "宿泊予定日の2週間前までにご予約下さい。",
+"confidence": "medium",
+"url": "https://www.kawanoekiizugateway.com/guide"
+},
+"静岡県|鉄橋の杜キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話予約のみ（9:00〜19:00）",
+"quote": "（電話予約のみ）",
+"confidence": "high",
+"url": "https://inishiemori.com/tetsudou-mori-camp/"
+},
+"静岡県|黒川キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "インターネット予約（24時間、1か月前から受付）",
+"quote": "＊キャンプ場の予約がインターネットで出来るようになりました。",
+"confidence": "high",
+"url": "http://www.chabashira.co.jp/shinrinkanri/"
+},
+"静岡県|THE GLAMPING 箱根十国峠": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベル等の予約サイトで予約",
+"quote": "予約サイトを選ぶ 楽天トラベル Yahoo!トラベル じゃらんnet JTB",
+"confidence": "medium",
+"url": "https://kyuzitsu-glampingbu.com/hotel/glamp276/"
+},
+"静岡県|GROVE camping hill": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "営業日カレンダーから予約フォームで予約",
+"quote": "営業日カレンダー・ご予約はこちら",
+"confidence": "high",
+"url": "https://grove-yugawara.com/"
+},
+"静岡県|富士箱根ランドキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "大自然の中のキャンプ場がオープン！ご予約はコチラ",
+"confidence": "medium",
+"url": "http://www.fujihakoneland.or.jp/"
+},
+"静岡県|野田山健康緑地公園 富士川キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "ネット予約のみ（電話予約不可）、3か月前の月初0時から",
+"quote": "当キャンプ場は完全予約制です。",
+"confidence": "high",
+"url": "https://fujikawa-camp.jp/"
+},
+"静岡県|エバーグリーンガーデン": {
+"reservation": "required",
+"methods": [
+"phone",
+"fax"
+],
+"method_text": "事前に電話またはFAXで申込",
+"quote": "施設の利用を希望される方は事前にお申し込みをお願いします。",
+"confidence": "medium",
+"url": "http://evergreen-garden.net/"
+},
+"静岡県|玉川キャンプセンター": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オクシズばったで予約（利用1週間前まで）",
+"quote": "事前に予約されていない場合はご利用いただけません。",
+"confidence": "high",
+"url": "https://www.city.shizuoka.lg.jp/okushizuoka/p009766.html"
+},
+"静岡県|CAMPAGE": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページ（手ぶらキャンプ予約）から予約",
+"quote": "予約に進む",
+"confidence": "medium",
+"url": "https://www.campage2021.com"
+},
+"静岡県|アプトいちしろキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "原則ネット予約（団体・貸切のみ電話受付）",
+"quote": "原則としてすべて予約はネットでの受付となりました。",
+"confidence": "high",
+"url": "https://abt-camp.shizu.website/"
+},
+"静岡県|桃沢野外活動センター 桃沢キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite",
+"web"
+],
+"method_text": "野外活動センターへ電話・窓口で予約（宿泊棟などは予約フォーム）",
+"quote": "ご予約は野外活動センターへご連絡ください。",
+"confidence": "medium",
+"url": "https://www.momozawa.fun/"
+},
+"静岡県|Monny's Outdoor Company": {
+"reservation": "required",
+"method_text": "完全予約制",
+"quote": "通年 (完全予約制)",
+"confidence": "high",
+"url": "http://monnys.net/"
+},
+"静岡県|八木キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "※キャンプ場の予約はこちらから※",
+"confidence": "medium",
+"url": "https://www.okuooi.gr.jp/topics/page.php?id=62"
+},
+"静岡県|須津山休養林キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite"
+],
+"method_text": "林政課へ直接または電話で予約（3か月前の月初日から）",
+"quote": "キャンプ場を利用される際は、林政課まで直接又は電話で予約をお願いします。",
+"confidence": "high",
+"url": "https://www.city.fuji.shizuoka.jp/fujijikan/sp/enjoy/kb719c00000016ji.html"
+},
+"静岡県|POPOookubobase": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "楽天トラベルCAMPで予約（車両1台ごとに1予約）",
+"quote": "※ご予約お支払は楽天トラベルキャンプとなります。",
+"confidence": "high",
+"url": "http://popo-ookubo.jimdofree.com/"
+},
+"静岡県|富士山と夜景のキャンプ場桂の森CAMPERSFIELD": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから予約（電話予約不可）",
+"quote": "ご予約は以下のリンク先より",
+"confidence": "high",
+"url": "https://katsura-no-mori.com/"
+},
+"静岡県|丸火自然公園 東・西グリーンキャンプ場": {
+"reservation": "recommended",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "なっぷで予約（前日16時まで）。当日利用は電話で空き確認",
+"quote": "当日利用（飛び込み利用）は必ずお電話にて空き状況をご確認ください。",
+"confidence": "medium",
+"url": "https://www.fuji-marubi.jp/"
+},
+"静岡県|静岡県県民の森": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "HPのオンライン予約または電話（利用日の90日前から）",
+"quote": "ご利用には、予約が必要となります。",
+"confidence": "high",
+"url": "http://www.kenmori.info/"
+},
+"静岡県|Forrest village 裾野": {
+"reservation": "required",
+"methods": [
+"web",
+"email"
+],
+"method_text": "全サイト予約制。予約フォームから申込（2日前まで）",
+"quote": "ForRest Villageは全サイト予約制となっております。",
+"confidence": "high",
+"url": "https://forrest-village.camp/"
+},
+"静岡県|十里木フジドッグ": {
+"reservation": "recommended",
+"methods": [
+"web"
+],
+"method_text": "事前予約がおすすめ（予約ボタン）。空いていれば予約なしも可",
+"quote": "フィールドが空いていれば予約なしでのご利用も可能です。",
+"confidence": "high",
+"url": "https://fuji.dog/"
+},
+"静岡県|赤石小屋": {
+"reservation": "not_required",
+"methods": [
+"onsite"
+],
+"method_text": "テント泊は予約制なし、当日受付（山小屋は要予約）",
+"quote": "幕営地でのテント泊は予約制をとらず、当日の受け付けです。",
+"confidence": "medium",
+"url": "https://www.t-forest.com/alpsinfo/climber/lodgeinfo/"
+},
+"静岡県|静岡市梅ヶ島キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "オクシズばったで予約（利用1週間前まで）",
+"quote": "事前に予約されていない場合はご利用いただけません。",
+"confidence": "high",
+"url": "https://www.city.shizuoka.lg.jp/okushizuoka/spot/s000068.html"
+},
+"静岡県|村山ジャンボキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（キャンプ場専用の番号あり）",
+"quote": "キャンプ場予約： 090-1863-0918",
+"confidence": "high",
+"url": "http://murayama-jumbo.com/"
+},
+"静岡県|富士見の丘オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトから予約（電話予約不可）",
+"quote": "※お電話からのご予約は承っておりません。",
+"confidence": "high",
+"url": "https://fujimicamp.jp/"
+},
+"静岡県|SECRET BASE": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "WEB予約が基本（当日予約は原則不可）。不明時は電話・メール",
+"quote": "基本的にはWEBサイトよりお客様自身でご予約お願い致します。",
+"confidence": "high",
+"url": "https://www.garage-secret-base.com/"
+},
+"静岡県|やまぼうしオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"email"
+],
+"method_text": "メールで予約（毎月1日0時から受付、電話不可）",
+"quote": "お電話を頂いても予約を受ける事が出来ません。",
+"confidence": "high",
+"url": "http://g-news.jp/yamaboushi/"
+},
+"静岡県|長田山荘キャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（9:00〜18:00）、当日予約も可",
+"quote": "当日予約にも対応します。",
+"confidence": "medium",
+"url": "https://osadacamp.wixsite.com/osadacamp"
+},
+"静岡県|ANOTHAPLACE": {
+"reservation": "required",
+"method_text": "全区画予約制",
+"quote": "・全区画予約制",
+"confidence": "high",
+"url": "http://www.anothaplace.com/"
+},
+"静岡県|Fuji Camp Base 煌": {
+"reservation": "required",
+"methods": [
+"phone",
+"email",
+"web"
+],
+"method_text": "電話・メール・予約サイトで予約",
+"quote": "ご予約は、お電話、メールまたは予約サイトから承っております。",
+"confidence": "medium",
+"url": "https://www.fu-ji-no.jp/kirameki/campbase/index.html"
+},
+"静岡県|MOSS十里木キャンプリゾート": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "WEB予約フォームから予約",
+"quote": "WEB予約フォーム",
+"confidence": "medium",
+"url": "https://moss-camp.jp/"
+},
+"静岡県|乙女森林公園第1キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷで予約（月ごとに受付開始日あり）",
+"quote": "なっぷ上では、リアルタイムで空き状況の照会・予約が可能です。",
+"confidence": "high",
+"url": "http://gotemba-otome.jp/"
+},
+"静岡県|PICA富士ぐりんぱ": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約（フロントの電話予約は当日のみ）",
+"quote": "ご予約についてはオンライン予約をご利用ください。",
+"confidence": "high",
+"url": "https://www.pica-resort.jp/grinpa/"
+},
+"静岡県|MT. FUJI SATOYAMA VACATION": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約、または電話",
+"quote": "オンライン予約",
+"confidence": "medium",
+"url": "https://satoyama-vacation.com"
+},
+"静岡県|NELOgotemba": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約サイトの予約画面から予約",
+"quote": "詳しくはご予約画面よりご確認ください。",
+"confidence": "medium",
+"url": "https://challengeoutdoor.co/nelogotemba/"
+},
+"静岡県|GRAN REGALO ASAGIRI": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "なっぷまたは公式サイトから予約",
+"quote": "なっぷから予約",
+"confidence": "high",
+"url": "https://gran-regalo.com/"
+},
+"静岡県|白糸オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "予約制（電話は9:00〜17:00）",
+"quote": "予約完了後の減泊はお受け出来ません。",
+"confidence": "medium",
+"url": "https://volcano-camp.amebaownd.com/"
+},
+"静岡県|富士山オートキャンプ場GENSHIJIN": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約ページから予約、電話対応は24時間",
+"quote": "ご予約はこちら",
+"confidence": "medium",
+"url": "https://genshijin-fujinomiya.com/"
+},
+"静岡県|西富士オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "公式サイトの予約ページから予約",
+"quote": "ご予約はこちら公式サイトからが１番お得！",
+"confidence": "medium",
+"url": "http://www.nishifuji.com/"
+},
+"静岡県|天子の森オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"email",
+"phone"
+],
+"method_text": "楽天トラベルキャンプのネット予約、またはメール・電話",
+"quote": "※楽天トラベル キャンプサイトよりネット予約が可能です。",
+"confidence": "high",
+"url": "http://tenshinomori.net/"
+},
+"静岡県|高嶺の森のキャンプ場": {
+"reservation": "required",
+"methods": [
+"phone",
+"onsite"
+],
+"method_text": "電話または受付で予約（予約制）",
+"quote": "予約制ですのでお電話又は受付にてお問い合わせ下さい",
+"confidence": "medium",
+"url": "https://takane-camp.com/"
+},
+"静岡県|FUJIYAMA 泉の森キャンピングフィールド": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（3か月前の月初めから受付）",
+"quote": "（３ヶ月前の月始めから予約開始）",
+"confidence": "high",
+"url": "https://www.fujiyamaizumi.com/ja/"
+},
+"静岡県|ペンギン村オートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "予約ページ、または電話・メールで予約",
+"quote": "キャンプの予約は電話・メールでもお受けします。",
+"confidence": "high",
+"url": "http://pengin.grupo.jp/"
+},
+"静岡県|Foresters Village Kobitto あさぎりキャンプフィールド": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "オンライン予約、または予約センターへ電話",
+"quote": "１日47組限定で１区画のみの予約制です。",
+"confidence": "medium",
+"url": "https://www.kobitto-asagiri.com/"
+},
+"静岡県|Field Dogs Garden": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約フォームから申込（電話予約不可）",
+"quote": "お電話での宿泊予約・オフ会予約は承れませんので、ご予約フォームからお問合せ下さい。",
+"confidence": "high",
+"url": "https://www.fielddogsgarden.com/"
+},
+"静岡県|グランパパ -大人の隠れ場- キャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約（2日前15時締切、3か月先まで）",
+"quote": "ご予約は翌々日～3か月先まで ※前々日15時締切",
+"confidence": "high",
+"url": "https://www.gran-papa.com/"
+},
+"静岡県|朝霧高原もちやキャンプ場": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "完全予約制。問い合わせフォームから申込（3日前まで）",
+"quote": "３日前の完全予約制となっております。",
+"confidence": "high",
+"url": "http://www.mochiya.co.jp/camp.html"
+},
+"静岡県|井出トマト農園 富士高原トマトフィールド": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "申込みフォーム送信後、予約金入金で予約確定",
+"quote": "入金確認後、予約確定",
+"confidence": "medium",
+"url": "https://corp.idetomato.com/experience#fujiplateau"
+},
+"静岡県|朝霧ジャンボリーオートキャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "フリーサイトはネット・電話、他サイトは電話のみ",
+"quote": "※ご予約はネット、電話どちらも承ります！",
+"confidence": "high",
+"url": "https://asagiri-camp.net/"
+},
+"静岡県|朝霧CampBaseそらいろ": {
+"reservation": "required",
+"methods": [
+"web"
+],
+"method_text": "予約ページから予約",
+"quote": "ご予約はこちらから",
+"confidence": "high",
+"url": "https://sorairo-camp.jp/"
+},
+"静岡県|アーバンキャンピング朝霧宝山": {
+"reservation": "required",
+"methods": [
+"phone"
+],
+"method_text": "電話で予約（当日予約も電話で可）",
+"quote": "ご予約はお電話でお願いします。",
+"confidence": "high",
+"url": "https://www.urban-camping.jp/"
+},
+"静岡県|あさぎりフードパーク(スタイルキャビンあさぎり)": {
+"reservation": "required",
+"methods": [
+"web",
+"phone",
+"email"
+],
+"method_text": "ネット予約（貸切は電話・問い合わせフォーム）",
+"quote": "キャンプ場･スタイルキャビン予約開始日のお知らせ",
+"confidence": "medium",
+"url": "https://asagiri-foodpark.com/"
+},
+"静岡県|朝霧高原英知の杜キャンプ場": {
+"reservation": "required",
+"methods": [
+"web",
+"phone"
+],
+"method_text": "予約サイトまたは電話で事前予約（電話は当日も可）",
+"quote": "●ご予約は「予約サイト」または「お電話」より、事前に行ってください。",
+"confidence": "high",
+"url": "https://www.bt-r.jp/aec/"
+}
+}

@@ -22,6 +22,10 @@ GEOCACHE = ROOT / "data" / "geocode_cache.json"
 FEESTATUS = ROOT / "data" / "fee_status.json"
 NAPINDEX = ROOT / "data" / "nap_index.json"
 SEASON = ROOT / "data" / "season.json"
+BOOKING = ROOT / "data" / "booking.json"
+BEARS = ROOT / "data" / "bears.json"
+CAMP_MUNI = ROOT / "data" / "camp_muni.json"
+BEAR_RADIUS_KM = 5
 OUT = ROOT / "data" / "camps.json"
 
 # キャンプ場らしい名前（これに当たらず公式URLもないものは除外）
@@ -49,6 +53,60 @@ def dist_km(a, b) -> float:
     dl = math.radians(b[1] - a[1])
     h = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
     return 2 * r * math.asin(math.sqrt(h))
+
+
+def bear_summary(rec, bears, camp_muni, today):
+    """直近1年に県が公表したクマの出没情報のうち、キャンプ場の近く（地点がわかるもの）または同じ市町村のものを数える。"""
+    pref = rec["pref"]
+    src = (bears.get("sources") or {}).get(pref)
+    if not src:
+        return None
+    recs = (bears.get("records") or {}).get(pref) or []
+    since = (today - __import__("datetime").timedelta(days=365)).isoformat()
+    recs = [r for r in recs if r["d"] >= since]
+    out = {"src": src.get("name", ""), "url": src.get("url", ""), "at": src.get("fetched") or bears.get("updated", "")}
+    if not src.get("ok") and not recs:
+        out["na"] = 1
+        return out
+    muni = camp_muni.get(f"{rec['lat']:.5f},{rec['lng']:.5f}", "")
+    if not muni:
+        # 逆ジオコーダの結果がまだないときは住所の書き出しから市町村名を取る
+        addr = re.sub(r"^.{2,3}?[都道府県]", "", unicodedata.normalize("NFKC", rec.get("address", "") or ""))
+        addr = re.sub(r"^[^市町村]{1,5}郡", "", addr)
+        names = {r["c"] for r in recs if r.get("c")}
+        hit = sorted((n for n in names if addr.startswith(n)), key=len, reverse=True)
+        muni = hit[0] if hit else ""
+    here = (rec["lat"], rec["lng"])
+    pts = []
+    for r in recs:
+        if r.get("lat") is None:
+            continue
+        d = dist_km(here, (r["lat"], r["lng"]))
+        if d <= BEAR_RADIUS_KM:
+            pts.append((r["d"], round(d, 1), r))
+    city = [r for r in recs if r.get("g") == "city" and muni and (r["c"] == muni or (muni.endswith("市") and r["c"].startswith(muni)))]
+    has_points = any(r.get("lat") is not None for r in recs)
+    if has_points:
+        pts.sort(key=lambda x: x[0], reverse=True)
+        out["r"] = BEAR_RADIUS_KM
+        out["n"] = len(pts)
+        out["recent"] = [{"d": d, "km": km, "pl": r["pl"] if r.get("c", "") in r.get("pl", "") else r.get("c", "") + r.get("pl", ""),
+                          "k": r.get("k", "")} for d, km, r in pts[:3]]
+        if any(r.get("g") == "area" for _, _, r in pts):
+            out["area"] = 1
+    if city or (not has_points and muni):
+        out["city"] = muni
+        out["nc"] = len(city)
+        if city:
+            out["cl"] = max(r["d"] for r in city)
+            kinds = {}
+            for r in city:
+                kinds[r.get("k", "目撃")] = kinds.get(r.get("k", "目撃"), 0) + 1
+            if kinds.get("人身被害"):
+                out["injury"] = kinds["人身被害"]
+    if not has_points and not muni:
+        out["na"] = 1
+    return out
 
 
 def host(url: str) -> str:
@@ -135,6 +193,11 @@ def main() -> int:
     fee_status = json.loads(FEESTATUS.read_text(encoding="utf-8")) if FEESTATUS.exists() else {}
     nap_index = json.loads(NAPINDEX.read_text(encoding="utf-8")) if NAPINDEX.exists() else []
     season = json.loads(SEASON.read_text(encoding="utf-8")) if SEASON.exists() else {}
+    booking = json.loads(BOOKING.read_text(encoding="utf-8")) if BOOKING.exists() else {}
+    bears = json.loads(BEARS.read_text(encoding="utf-8")) if BEARS.exists() else {}
+    camp_muni = json.loads(CAMP_MUNI.read_text(encoding="utf-8")) if CAMP_MUNI.exists() else {}
+    import datetime
+    today = datetime.date.today()
     nap_by_pref = {}
     for x in nap_index:
         nap_by_pref.setdefault(x["pref"], []).append((norm(x["name"]), x["url"]))
@@ -321,6 +384,36 @@ def main() -> int:
             rec["fee_status"] = fs["status"]
             rec["fee_quote"] = fs.get("quote", "")
             rec["fee_url"] = fs.get("url", "")
+        # 予約の要否と方法（手入力の確認済みデータを優先し、なければ公式ページの読み取り結果）
+        bk = booking.get(f"{pref}|{name}")
+        bt = m.get("booking_type")
+        if bt in ("web", "phone"):
+            rec["resv"] = "required"
+            rec["resv_methods"] = [bt]
+        elif bt == "none":
+            rec["resv"] = "not_required"
+        if bk and (not rec.get("resv") or bk.get("reservation") == rec.get("resv")):
+            rec["resv"] = bk.get("reservation") if bk.get("reservation") != "unknown" else rec.get("resv", "")
+            if bk.get("methods"):
+                rec["resv_methods"] = bk["methods"]
+            rec["resv_text"] = bk.get("method_text", "")
+            rec["resv_quote"] = bk.get("quote", "")
+            rec["resv_url"] = bk.get("url", "")
+            if not rec.get("booking_url") and bk.get("booking_url"):
+                rec["booking_url"] = clean_url(bk["booking_url"])
+        # 無料野営地の利用者情報（料金のメモ）に「要予約」「予約不要」とあれば使う
+        fn = m.get("fee_note", "")
+        if not rec.get("resv") and fn:
+            mm = re.search(r"[^（(、，,・\s]*(要予約|予約制|予約不要|予約なし|申込不要|要申請|要申込|要届出|許可制)[^）)、，,・\s]*", fn)
+            if mm:
+                w = mm.group(1)
+                rec["resv"] = "not_required" if w in ("予約不要", "予約なし", "申込不要") else "required"
+                rec["resv_text"] = mm.group(0) + ("（利用者の情報）" if "利用者" in fn else "")
+                rec["resv_quote"] = fn[:80]
+                rec["resv_url"] = m.get("source_url", "")
+        bs = bear_summary(rec, bears, camp_muni, today) if bears else None
+        if bs:
+            rec["bear"] = bs
         if m:
             rec["priced"] = m.get("site_fee") is not None and m.get("status") != "unknown"
             rec["fee_note"] = m.get("fee_note", "")

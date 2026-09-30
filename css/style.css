@@ -318,3 +318,15 @@ select { max-width: 150px; }
 .month-row select { width: auto; max-width: 140px; }
 .inline { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; }
 .inline input { accent-color: var(--accent); }
+
+/* 予約・クマの出没 */
+.d-p { margin: 0 0 4px; font-size: 13.5px; line-height: 1.7; }
+.d-note { margin: 6px 0 0; font-size: 12px; color: var(--sub); line-height: 1.7; }
+.d-note a, .d-p a { color: var(--accent); }
+.bear-box { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: 13.5px; line-height: 1.7; }
+.bear-box p { margin: 0; }
+.bear-box ul { margin: 4px 0 0; padding-left: 1.2em; }
+.bear-box .sub { color: var(--sub); font-size: 12px; }
+.bear-box.hit { background: #fff4e0; border-color: #f3d19e; }
+.bear-box.hit b { color: var(--warn); }
+.tag-i.bear-tag { background: #fff4e0; color: var(--warn); border-color: #f3d19e; }
