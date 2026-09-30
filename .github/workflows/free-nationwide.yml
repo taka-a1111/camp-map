@@ -1,0 +1,32 @@
+name: free-nationwide
+
+# 全国の無料キャンプ場の候補を集める（crawl/free_request.txt を更新して push すると実行）。
+# 結果はリポジトリには入れず一時ファイル（artifact）として保存する。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "crawl/free_request.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 無料野営地まとめ（全都道府県）
+        run: python scripts/fetch_checklists.py
+      - name: OpenStreetMap の料金なしキャンプ場（全国）
+        run: python scripts/fetch_osm_free.py || true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: free-nationwide
+          path: crawl_out/
+          retention-days: 14
