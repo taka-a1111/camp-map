@@ -16545,7 +16545,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 41.545682,
+"lng": 140.913458,
+"geo": "osm"
 },
 {
 "name": "平川市自然の森キャンプ場",
@@ -16629,7 +16632,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 40.974865,
+"lng": 140.468512,
+"geo": "osm"
 },
 {
 "name": "花岡公園キャンプ場",
@@ -16653,7 +16659,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 40.717755,
+"lng": 140.569544,
+"geo": "osm"
 },
 {
 "name": "鋳釜崎キャンプ場",
@@ -16713,7 +16722,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.816405,
+"lng": 140.276291,
+"geo": "osm"
 },
 {
 "name": "いちかわ市民キャンプ場",
@@ -16725,7 +16737,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.816405,
+"lng": 140.276291,
+"geo": "osm"
 },
 {
 "name": "睦沢町緑化休養施設 やすらぎの森",
@@ -16749,7 +16764,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.816405,
+"lng": 140.276291,
+"geo": "osm"
 },
 {
 "name": "正月鼻古墳公園キャンプ場（岡村島）",
@@ -17049,7 +17067,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.082437,
+"lng": 132.923304,
+"geo": "osm"
 },
 {
 "name": "大角海浜公園キャンプ場",
@@ -17205,7 +17226,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.972791,
+"lng": 136.59548,
+"geo": "osm"
 },
 {
 "name": "野坂いこいの森",
@@ -17229,7 +17253,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.897667,
+"lng": 136.651813,
+"geo": "osm"
 },
 {
 "name": "矢筈山キャンプ場",
@@ -17241,7 +17268,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.914863,
+"lng": 130.951133,
+"geo": "osm"
 },
 {
 "name": "北九州市立 帆柱キャンプ場",
@@ -17337,7 +17367,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.127061,
+"lng": 130.550054,
+"geo": "osm"
 },
 {
 "name": "帆柱市民キャンプ場",
@@ -17397,7 +17430,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 37.419725,
+"lng": 140.078991,
+"geo": "osm"
 },
 {
 "name": "崎川浜キャンプ場",
@@ -17433,7 +17469,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 37.620991,
+"lng": 140.373067,
+"geo": "osm"
 },
 {
 "name": "水林自然林キャンプ場",
@@ -17457,7 +17496,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 37.156229,
+"lng": 140.612163,
+"geo": "osm"
 },
 {
 "name": "小玉ダムキャンプ場",
@@ -17589,7 +17631,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 36.771218,
+"lng": 139.153112,
+"geo": "osm"
 },
 {
 "name": "渡良瀬川河川敷青少年ひろばキャンプ場",
@@ -17673,19 +17718,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
-},
-{
-"name": "高谷山広場旧キャンプ場",
-"pref": "広島県",
-"city": "",
-"address": "広島県三次市",
-"official_url": "",
-"source_url": "https://camp.tabinchuya.com/hiroshima/",
-"source_kind": "aggregator",
-"status": "unknown",
-"types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.689485,
+"lng": 133.3694,
+"geo": "osm"
 },
 {
 "name": "聖湖キャンプ場",
@@ -17733,7 +17769,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.409959,
+"lng": 132.522204,
+"geo": "osm"
 },
 {
 "name": "野呂川ダム公園 キャンプ場",
@@ -17781,7 +17820,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.487672,
+"lng": 132.899658,
+"geo": "osm"
 },
 {
 "name": "県央の森公園キャンプ場",
@@ -17829,7 +17871,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.493031,
+"lng": 134.824062,
+"geo": "osm"
 },
 {
 "name": "丸山県民サンビーチキャンプ場",
@@ -17889,7 +17934,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.077717,
+"lng": 135.112101,
+"geo": "osm"
 },
 {
 "name": "武嶋キャンプ場",
@@ -18144,18 +18192,6 @@
 "note": "無料野営地まとめサイト（旅人茶屋）の情報"
 },
 {
-"name": "田の浦野営場（旧）",
-"pref": "香川県",
-"city": "",
-"address": "香川県東かがわ市",
-"official_url": "",
-"source_url": "https://camp.tabinchuya.com/kagawa/",
-"source_kind": "aggregator",
-"status": "unknown",
-"types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
-},
-{
 "name": "公渕森林公園 青少年の森キャンプ場",
 "pref": "香川県",
 "city": "",
@@ -18309,7 +18345,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 31.272469,
+"lng": 130.792169,
+"geo": "osm"
 },
 {
 "name": "円山公園 ふれあいの森キャンプ場",
@@ -18321,7 +18360,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 31.362272,
+"lng": 131.012642,
+"geo": "osm"
 },
 {
 "name": "平江キャンプ場",
@@ -18333,7 +18375,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.013691,
+"lng": 130.484322,
+"geo": "osm"
 },
 {
 "name": "火之神公園キャンプ場",
@@ -18441,7 +18486,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 28.125485,
+"lng": 129.362568,
+"geo": "osm"
 },
 {
 "name": "瀬田海海浜公園",
@@ -18888,18 +18936,6 @@
 "note": "無料野営地まとめサイト（旅人茶屋）の情報"
 },
 {
-"name": "轟の滝キャンプ場（旧）",
-"pref": "高知県",
-"city": "",
-"address": "高知県香美市",
-"official_url": "",
-"source_url": "https://camp.tabinchuya.com/kouti/",
-"source_kind": "aggregator",
-"status": "unknown",
-"types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
-},
-{
 "name": "種崎千松公園キャンプ場",
 "pref": "高知県",
 "city": "",
@@ -19197,7 +19233,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 38.146927,
+"lng": 140.758002,
+"geo": "osm"
 },
 {
 "name": "平筒沼ふれあい公園",
@@ -19245,7 +19284,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 38.146927,
+"lng": 140.758002,
+"geo": "osm"
 },
 {
 "name": "大嶽山交流広場",
@@ -19269,7 +19311,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 38.146927,
+"lng": 140.758002,
+"geo": "osm"
 },
 {
 "name": "田代高原キャンプ場",
@@ -19281,7 +19326,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 38.146927,
+"lng": 140.758002,
+"geo": "osm"
 },
 {
 "name": "板ヶ原オートキャンプ場",
@@ -19324,18 +19372,6 @@
 "pref": "宮崎県",
 "city": "",
 "address": "宮崎県児湯郡川南町",
-"official_url": "",
-"source_url": "https://camp.tabinchuya.com/miyazaki/",
-"source_kind": "aggregator",
-"status": "unknown",
-"types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
-},
-{
-"name": "樫葉オートキャンプ村（旧）",
-"pref": "宮崎県",
-"city": "",
-"address": "宮崎県東臼杵郡美郷町",
 "official_url": "",
 "source_url": "https://camp.tabinchuya.com/miyazaki/",
 "source_kind": "aggregator",
@@ -19401,7 +19437,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.422845,
+"lng": 131.673571,
+"geo": "osm"
 },
 {
 "name": "川中自然公園",
@@ -19425,7 +19464,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.226945,
+"lng": 131.485815,
+"geo": "osm"
 },
 {
 "name": "上田市市民の森キャンプ場",
@@ -19521,7 +19563,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.688159,
+"lng": 130.126322,
+"geo": "osm"
 },
 {
 "name": "野田浜キャンプ場",
@@ -19605,7 +19650,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.701841,
+"lng": 129.892148,
+"geo": "osm"
 },
 {
 "name": "木坂御前浜園地",
@@ -19905,7 +19953,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.648185,
+"lng": 133.425445,
+"geo": "osm"
 },
 {
 "name": "そうじゃ水辺の楽校",
@@ -19929,7 +19980,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.0888,
+"lng": 133.857536,
+"geo": "osm"
 },
 {
 "name": "虎口池野営場",
@@ -19953,7 +20007,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.286062,
+"lng": 133.574616,
+"geo": "osm"
 },
 {
 "name": "高間キャンプ場",
@@ -19965,7 +20022,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.754702,
+"lng": 133.638215,
+"geo": "osm"
 },
 {
 "name": "幡降野営場",
@@ -20013,7 +20073,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 26.355846,
+"lng": 126.716681,
+"geo": "osm"
 },
 {
 "name": "佐和田の浜 ふれあい広場",
@@ -20073,7 +20136,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.951601,
+"lng": 131.444041,
+"geo": "osm"
 },
 {
 "name": "番匠川河川公園",
@@ -20136,18 +20202,6 @@
 "note": "無料野営地まとめサイト（旅人茶屋）の情報"
 },
 {
-"name": "竜体山公園",
-"pref": "大分県",
-"city": "",
-"address": "大分県日田市",
-"official_url": "",
-"source_url": "https://camp.tabinchuya.com/ooita/",
-"source_kind": "aggregator",
-"status": "unknown",
-"types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
-},
-{
 "name": "中岳キャンプ場",
 "pref": "大分県",
 "city": "",
@@ -20157,7 +20211,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.835167,
+"lng": 131.586592,
+"geo": "osm"
 },
 {
 "name": "カワセミ公園",
@@ -20169,7 +20226,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 32.905331,
+"lng": 131.451583,
+"geo": "osm"
 },
 {
 "name": "波当津海水浴場",
@@ -20205,7 +20265,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.331528,
+"lng": 130.889425,
+"geo": "osm"
 },
 {
 "name": "伏木公園キャンプ場",
@@ -20229,7 +20292,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.163223,
+"lng": 131.721051,
+"geo": "osm"
 },
 {
 "name": "鳥取池緑地 桜の園",
@@ -20253,7 +20319,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.412255,
+"lng": 135.529588,
+"geo": "osm"
 },
 {
 "name": "佐賀バルーンフェスタ臨時オートキャンプ場",
@@ -20361,7 +20430,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 36.117044,
+"lng": 139.217464,
+"geo": "osm"
 },
 {
 "name": "湖岸緑地 新海薩摩地区 南三ツ谷公園",
@@ -20685,7 +20757,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.924057,
+"lng": 134.496051,
+"geo": "osm"
 },
 {
 "name": "宮川内ダム公園（宮川内公園）",
@@ -20721,7 +20796,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 35.634632,
+"lng": 139.241374,
+"geo": "osm"
 },
 {
 "name": "羽伏浦キャンプ場",
@@ -20757,7 +20835,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.322924,
+"lng": 139.220359,
+"geo": "osm"
 },
 {
 "name": "大浦キャンプ場",
@@ -20769,7 +20850,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.329525,
+"lng": 139.208326,
+"geo": "osm"
 },
 {
 "name": "長浜キャンプ場",
@@ -20805,7 +20889,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.12666,
+"lng": 139.814422,
+"geo": "osm"
 },
 {
 "name": "つがスポーツ公園",
@@ -20952,18 +21039,6 @@
 "note": "無料野営地まとめサイト（旅人茶屋）の情報"
 },
 {
-"name": "一枚岩自然公園",
-"pref": "和歌山県",
-"city": "",
-"address": "和歌山県東牟婁郡古座川町",
-"official_url": "",
-"source_url": "https://camp.tabinchuya.com/wakayama/",
-"source_kind": "aggregator",
-"status": "unknown",
-"types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
-},
-{
 "name": "猪谷川水辺公園",
 "pref": "和歌山県",
 "city": "",
@@ -20973,7 +21048,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 33.967727,
+"lng": 135.421819,
+"geo": "osm"
 },
 {
 "name": "月野瀬古座川河川敷",
@@ -21093,7 +21171,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.157995,
+"lng": 131.023314,
+"geo": "osm"
 },
 {
 "name": "阿武川河川公園",
@@ -21129,7 +21210,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.103914,
+"lng": 131.307512,
+"geo": "osm"
 },
 {
 "name": "ときわ湖畔北キャンプ場",
@@ -21201,7 +21285,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.103914,
+"lng": 131.307512,
+"geo": "osm"
 },
 {
 "name": "皇座山キャンプ場",
@@ -21213,7 +21300,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.103914,
+"lng": 131.307512,
+"geo": "osm"
 },
 {
 "name": "千坊川砂防公園キャンプ場",
@@ -21249,7 +21339,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.103914,
+"lng": 131.307512,
+"geo": "osm"
 },
 {
 "name": "物見山総合公園キャンプ場",
@@ -21261,7 +21354,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "フリー",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.103914,
+"lng": 131.307512,
+"geo": "osm"
 },
 {
 "name": "烏帽子岳ウッドパーク キャンプ場",
@@ -21273,7 +21369,10 @@
 "source_kind": "aggregator",
 "status": "unknown",
 "types": "",
-"note": "無料野営地まとめサイト（旅人茶屋）の情報"
+"note": "無料野営地まとめサイト（旅人茶屋）の情報",
+"lat": 34.103914,
+"lng": 131.307512,
+"geo": "osm"
 },
 {
 "name": "ハートランドひらお スポーツレクリエーション公園",
@@ -21298,5 +21397,305 @@
 "status": "unknown",
 "types": "フリー",
 "note": "無料野営地まとめサイト（旅人茶屋）の情報"
+},
+{
+"name": "キムアネップ岬キャンプ場",
+"pref": "北海道",
+"city": "",
+"address": "",
+"official_url": "https://www.town.saroma.hokkaido.jp/kakuka/keizaika/kimuaneppu.html",
+"source_url": "https://www.openstreetmap.org/node/4299400864",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 44.107377,
+"lng": 143.906887,
+"geo": "osm"
+},
+{
+"name": "柏木地区レクリエーション施設キャンプ場",
+"pref": "北海道",
+"city": "",
+"address": "",
+"official_url": "http://www.eniwa-ciu.jp/kashiwagi.html",
+"source_url": "https://www.openstreetmap.org/node/6515719685",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 42.88882,
+"lng": 141.54022,
+"geo": "osm"
+},
+{
+"name": "南茅部河川公園",
+"pref": "北海道",
+"city": "",
+"address": "",
+"official_url": "https://www.hakobura.jp/db/db-fun/2010/08/post-12.html",
+"source_url": "https://www.openstreetmap.org/node/9134792669",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 41.938592,
+"lng": 140.913207,
+"geo": "osm"
+},
+{
+"name": "ウスタイベ千畳岩キャンプ場",
+"pref": "北海道",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/403649089",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 44.96053,
+"lng": 142.582046,
+"geo": "osm"
+},
+{
+"name": "自然休養村キャンプ場",
+"pref": "北海道",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/505304349",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 43.75367,
+"lng": 143.914878,
+"geo": "osm"
+},
+{
+"name": "渓谷公園 キャンプ場",
+"pref": "北海道",
+"city": "Takinoue",
+"address": "",
+"official_url": "https://takinoue.com/",
+"source_url": "https://www.openstreetmap.org/way/1385685795",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 44.199419,
+"lng": 143.095846,
+"geo": "osm"
+},
+{
+"name": "自然の森野営場",
+"pref": "群馬県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/1191194874",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 36.847914,
+"lng": 139.173179,
+"geo": "osm"
+},
+{
+"name": "池尻キャンプ場",
+"pref": "和歌山県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/1166233030",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 34.2803,
+"lng": 135.001711,
+"geo": "osm"
+},
+{
+"name": "高谷山キャンプ場",
+"pref": "広島県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/5248647001",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 34.796513,
+"lng": 132.823336,
+"geo": "osm"
+},
+{
+"name": "本郷憩の森キャンプ場",
+"pref": "広島県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/7999394785",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 34.485694,
+"lng": 133.249121,
+"geo": "osm"
+},
+{
+"name": "華山キャンプ場（無料）",
+"pref": "山口県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/10249349106",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 34.176385,
+"lng": 131.041968,
+"geo": "osm"
+},
+{
+"name": "アクトビレッジおのキャンプ場",
+"pref": "山口県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/10249368011",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 34.10479,
+"lng": 131.308945,
+"geo": "osm"
+},
+{
+"name": "華山キャンプ場",
+"pref": "山口県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/1120615850",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 34.176015,
+"lng": 131.041773,
+"geo": "osm"
+},
+{
+"name": "勝浦フライイトパーク オートキャンプ場",
+"pref": "徳島県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/13255860501",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 33.959519,
+"lng": 134.506824,
+"geo": "osm"
+},
+{
+"name": "井野浦ムーンビーチキャンプ場",
+"pref": "愛媛県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/9716993632",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 33.37247,
+"lng": 132.109548,
+"geo": "osm"
+},
+{
+"name": "野田浜海水浴場キャンプ場",
+"pref": "長崎県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/10269026575",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 32.626429,
+"lng": 130.154934,
+"geo": "osm"
+},
+{
+"name": "白浜海水浴場キャンプ場",
+"pref": "長崎県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/node/10723527634",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 32.609755,
+"lng": 130.174976,
+"geo": "osm"
+},
+{
+"name": "百合岳キャンプ場",
+"pref": "長崎県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/552400838",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 33.040462,
+"lng": 129.608185,
+"geo": "osm"
+},
+{
+"name": "火之神キャンプ場",
+"pref": "鹿児島県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/1306081041",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 31.251981,
+"lng": 130.279791,
+"geo": "osm"
+},
+{
+"name": "畦キャンプ場",
+"pref": "鹿児島県",
+"city": "",
+"address": "",
+"official_url": "",
+"source_url": "https://www.openstreetmap.org/way/1539295357",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "",
+"note": "OpenStreetMap の登録情報",
+"lat": 27.846303,
+"lng": 128.969834,
+"geo": "osm"
 }
 ]

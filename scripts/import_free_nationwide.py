@@ -27,7 +27,7 @@ cov = json.load(open(ROOT + "coverage.json"))
 man = json.load(open(ROOT + "manual.json"))
 season = json.load(open(ROOT + "season.json"))
 
-have_manual = {(c["pref"], c["match"]) for c in man["camps"]}
+have_manual = {(c["pref"], b.norm(c["match"])) for c in man["camps"]}
 existing = {}
 for c in camps:
     existing.setdefault(c["pref"], []).append(c)
@@ -44,6 +44,9 @@ BASE = dict(site_label="キャンプ場（無料）", site_fee=0, site_includes=
             tent_included=None, tarp_fee=0, vehicle_fee=None, vehicle_note="", fixed_fee=0, fixed_label="", per_person_tax=0,
             site_types=[], facilities=[], pet=None, booking_type=None, booking_url="", official_url="", tel="", season="",
             checkin="", checkout="", confidence="low")
+
+
+OLD = re.compile(r"[（(]旧[）)]|旧キャンプ場")
 
 
 def months_from(text):
@@ -74,7 +77,9 @@ added_cov = added_man = matched_existing = 0
 skipped = []
 for e in entries:
     fee = e.get("fee", "")
-    if not re.match(r"利用料[：:]\s*無料", fee) or re.search(r"閉鎖|禁止|有料化|利用不可|休止", fee):
+    if not re.match(r"利用料[：:]\s*無料", fee) or re.search(r"閉鎖|禁止|有料化|利用不可|休止|(今|現在)はキャンプ場ではありません|廃止", fee):
+        continue
+    if OLD.search(e["name"]):
         continue
     pref, name = e["pref"], e["name"].strip()
     if not pref or not name:
@@ -97,13 +102,13 @@ for e in entries:
         cov.append(rec)
         cov_keys.add((pref, name))
         added_cov += 1
-    if (pref, key_name) in have_manual:
+    if (pref, b.norm(key_name)) in have_manual:
         continue
     m = dict(BASE)
     m.update(match=key_name, pref=pref, fee_note=f"利用料：{cond}" + (f"（{date}時点・利用者の情報）" if date else "（利用者の情報）"),
              source_url=e["url"], notice=notice)
     man["camps"].append(m)
-    have_manual.add((pref, key_name))
+    have_manual.add((pref, b.norm(key_name)))
     added_man += 1
     ms = months_from(cond)
     if ms and f"{pref}|{key_name}" not in season:
@@ -117,7 +122,7 @@ for o in osm:
         continue
     pref = ISO.get(o["iso"], "")
     name = t.get("name:ja") or t.get("name") or ""
-    if not pref or not name or b.norm(name) in b.GENERIC:
+    if not pref or not name or b.norm(name) in b.GENERIC or not b.JA.search(name) or re.search(r"デイキャンプ", name):
         continue
     ex = find_existing(pref, name)
     key_name = ex["name"] if ex else name
@@ -126,15 +131,32 @@ for o in osm:
                     "source_url": f"https://www.openstreetmap.org/{o['osm']}", "source_kind": "aggregator", "status": "unknown",
                     "types": "", "note": "OpenStreetMap の登録情報", "lat": round(o["lat"], 6), "lng": round(o["lon"], 6), "geo": "osm"})
         cov_keys.add((pref, name))
-    if (pref, key_name) in have_manual:
+    if (pref, b.norm(key_name)) in have_manual:
         continue
     m = dict(BASE)
     m.update(match=key_name, pref=pref, fee_note="OpenStreetMap の登録で料金なし（fee=no）", source_url=f"https://www.openstreetmap.org/{o['osm']}",
              official_url=t.get("website", ""),
              notice="公式ページでは料金を確認できていません。無料は OpenStreetMap の登録情報によるもので、利用前に確認してください。")
     man["camps"].append(m)
-    have_manual.add((pref, key_name))
+    have_manual.add((pref, b.norm(key_name)))
     osm_added += 1
+
+old_names = {(e["pref"], e["name"].strip()) for e in entries if OLD.search(e["name"]) or re.search(r"(今|現在)はキャンプ場ではありません|廃止", e.get("fee", ""))}
+n0 = len(cov)
+cov = [r for r in cov if (r["pref"], r["name"]) not in old_names]
+man["camps"] = [m for m in man["camps"] if (m["pref"], m["match"]) not in old_names]
+print(f"以前の取り込みから外した旧キャンプ場 {n0 - len(cov)}件")
+
+# 既に取り込んだ候補のうち、位置が住所（市町村）からの目安のものは OSM の位置に合わせる
+moved = 0
+for rec in cov:
+    if rec.get("geo") == "osm" or rec.get("source_kind") != "aggregator" or rec["pref"] in ("愛知県", "岐阜県", "長野県", "静岡県", "三重県"):
+        continue
+    o = find_osm(rec["pref"], rec["name"])
+    if o:
+        rec.update(lat=round(o["lat"], 6), lng=round(o["lon"], 6), geo="osm")
+        moved += 1
+print(f"OSMの位置に合わせた候補 {moved}件")
 
 json.dump(cov, open(ROOT + "coverage.json", "w"), ensure_ascii=False, indent=0)
 json.dump(man, open(ROOT + "manual.json", "w"), ensure_ascii=False, indent=1)
