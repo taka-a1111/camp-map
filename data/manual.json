@@ -1670,6 +1670,47 @@
    "tel": "0265-22-4511",
    "notice": "飯田市の案内では、令和7年10月28日から倒木の危険があるため、当面の間キャンプ場を閉鎖しています。",
    "source_url": "https://www.city.iida.lg.jp/soshiki/171/myoukin-riyoukinshi.html"
+  },
+  {
+   "match": "須原親水広場",
+   "pref": "三重県",
+   "site_label": "河川敷のフリースペース（無料）",
+   "site_fee": 0,
+   "site_includes": "",
+   "site_capacity": null,
+   "adult_fee": 0,
+   "adult_label": "",
+   "child_fee": 0,
+   "child_label": "",
+   "infant_fee": 0,
+   "people_included_in_site": 0,
+   "extra_person_fee": 0,
+   "tent_fee": 0,
+   "tent_included": null,
+   "tarp_fee": 0,
+   "vehicle_fee": 0,
+   "vehicle_note": "",
+   "fixed_fee": 0,
+   "fixed_label": "",
+   "per_person_tax": 0,
+   "site_types": [
+    "free"
+   ],
+   "facilities": [
+    "flush_toilet"
+   ],
+   "pet": null,
+   "booking_type": "none",
+   "booking_url": "",
+   "official_url": "",
+   "tel": "",
+   "season": "",
+   "checkin": "",
+   "checkout": "",
+   "fee_note": "櫛田川の河川敷。予約不要・無料とされる（利用者の情報）。日中は利用者が多く、イベント時は駐車場になることがある",
+   "source_url": "https://camp.tabinchuya.com/mie/suhara_shinsuihiroba.html",
+   "confidence": "low",
+   "notice": "多気町の公式ページでは料金・宿泊の可否を確認できていません。無料・予約不要は利用者の情報によるものです。"
   }
  ]
 }
