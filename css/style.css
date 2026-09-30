@@ -386,3 +386,7 @@ select { max-width: 150px; }
 .on-more > summary::-webkit-details-marker { display: none; }
 .on-more[open] > summary { color: var(--sub); }
 .btn.on-gmap { margin: 4px 0 2px; font-size: 13.5px; }
+.fee-text { margin-top: 8px; font-size: 13px; }
+.fee-text > summary { cursor: pointer; color: var(--accent); font-weight: 700; padding: 2px 0; }
+.fee-text ul { margin: 6px 0 0; padding-left: 1.2em; line-height: 1.6; }
+.fee-text li { margin: 2px 0; }

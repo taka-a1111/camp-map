@@ -1,7 +1,8 @@
 name: crawl-pages
 
-# crawl/request.txt を更新して push すると実行（手動実行も可）。
-# 公式ページの本文と候補リストを集め、リポジトリには入れず一時ファイル（artifact）として保存する。
+# 毎月、キャンプ場の公式・自治体ページを取得する（crawl/request.txt の push や手動でも実行）。
+# 本文と候補リストは一時ファイル（artifact）に保存し、料金が書かれた行だけを data/fee_text.json に抜き出してコミットする。
+# 抜き出しは文字パターンで行い、Claude（AI）は使わないので費用はかからない。
 on:
   push:
     branches: [main]
@@ -12,7 +13,7 @@ on:
     - cron: "41 19 3 * *"   # 毎月4日 4:41（日本時間）。結果は次回の見直しで使う
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   crawl:
@@ -24,9 +25,21 @@ jobs:
         with:
           python-version: "3.12"
       - name: 候補リスト（無料・格安の野営地）を取得
+        if: github.event_name == 'schedule'
         run: python scripts/fetch_checklists.py
       - name: 公式・自治体ページを取得
         run: python scripts/crawl_pages.py --only-unpriced
+      - name: 料金が書かれた行を抜き出す
+        run: python scripts/fee_excerpts.py
+      - name: コミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fee_text.json
+          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
+          git commit -m "キャンプ場の料金の記載（公式ページから自動抜き出し）を更新"
+          git pull --rebase origin main
+          git push
       - uses: actions/upload-artifact@v4
         with:
           name: crawl-out

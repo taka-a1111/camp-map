@@ -26,6 +26,7 @@ BOOKING = ROOT / "data" / "booking.json"
 BEARS = ROOT / "data" / "bears.json"
 CAMP_MUNI = ROOT / "data" / "camp_muni.json"
 ONSENS = ROOT / "data" / "onsens.json"
+FEE_TEXT = ROOT / "data" / "fee_text.json"
 ONSEN_KM = 30
 BEAR_RADIUS_KM = 5
 OUT = ROOT / "data" / "camps.json"
@@ -201,6 +202,7 @@ def main() -> int:
     bears = json.loads(BEARS.read_text(encoding="utf-8")) if BEARS.exists() else {}
     camp_muni = json.loads(CAMP_MUNI.read_text(encoding="utf-8")) if CAMP_MUNI.exists() else {}
     onsen_list = json.loads(ONSENS.read_text(encoding="utf-8"))["onsens"] if ONSENS.exists() else []
+    fee_text = json.loads(FEE_TEXT.read_text(encoding="utf-8")) if FEE_TEXT.exists() else {}
     import datetime
     today = datetime.date.today()
     nap_by_pref = {}
@@ -429,6 +431,12 @@ def main() -> int:
         bs = bear_summary(rec, bears, camp_muni, today) if bears else None
         if bs:
             rec["bear"] = bs
+        # 料金が未確認のときは、公式ページから自動で抜き出した料金の記載を添える（総額の計算には使わない）
+        ft = fee_text.get(f"{pref}|{name}")
+        if ft and not (m and m.get("site_fee") is not None):
+            rec["fee_text"] = ft["lines"]
+            rec["fee_text_url"] = ft.get("url", "")
+            rec["fee_text_at"] = ft.get("fetched", "")
         if m:
             rec["priced"] = m.get("site_fee") is not None and m.get("status") != "unknown"
             rec["fee_note"] = m.get("fee_note", "")

@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30k */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30l */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30k";
+  var BUILD = "2026-09-30l";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -560,6 +560,15 @@
     return t;
   }
 
+  // 公式ページから自動で抜き出した料金の記載（計算はしない）
+  function feeTextBlock(c) {
+    if (!(c.fee_text || []).length) return "";
+    return '<details class="fee-text"' + (c.fee_status === "paid" ? "" : " open") + "><summary>料金の記載（公式ページより）</summary><ul>" +
+      c.fee_text.map(function (l) { return "<li>" + esc(l) + "</li>"; }).join("") + "</ul>" +
+      '<p class="d-note">公式ページの料金らしい行を自動で抜き出したもので、合計は計算していません。' + (c.fee_text_at ? md(c.fee_text_at) + "取得。" : "") +
+      (safeUrl(c.fee_text_url) ? '<a href="' + esc(c.fee_text_url) + '" target="_blank" rel="noopener">元のページ</a>で確認してください。' : "") + "</p></details>";
+  }
+
   function priceBlock(c) {
     var r = c._calc;
     var h = [];
@@ -569,12 +578,14 @@
     if (!r) {
       if (c.fee_status === "paid") {
         h.push('<div class="total unknown">有料（金額は未確認）</div>');
-        h.push('<p class="d-note">' + (c.fee_quote ? "公式ページの記載：「" + esc(c.fee_quote) + "」" : "") + (safeUrl(c.fee_url) ? ' <a href="' + esc(c.fee_url) + '" target="_blank" rel="noopener">ページを開く</a>' : "") + "</p></div>");
+        h.push('<p class="d-note">' + (c.fee_quote ? "公式ページの記載：「" + esc(c.fee_quote) + "」" : "") + (safeUrl(c.fee_url) ? ' <a href="' + esc(c.fee_url) + '" target="_blank" rel="noopener">ページを開く</a>' : "") + "</p>");
+        h.push(feeTextBlock(c) + "</div>");
         return h.join("");
       }
       h.push('<div class="total unknown">料金は未確認</div>');
       if (c.fee_note) h.push('<p class="d-note">' + esc(c.fee_note) + "</p>");
-      h.push('<p class="d-note">公式サイトで料金を確認してください。</p></div>');
+      h.push(c.fee_text ? feeTextBlock(c) : '<p class="d-note">公式サイトで料金を確認してください。</p>');
+      h.push("</div>");
       return h.join("");
     }
     if (r.total == null) {
