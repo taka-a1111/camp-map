@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-29d */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30a */
 (function () {
   "use strict";
-  var BUILD = "2026-09-29d";
+  var BUILD = "2026-09-30a";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -421,6 +421,7 @@
     if (listWasOpen) h.push('<button type="button" class="back" id="backToList">← 一覧に戻る</button>');
     h.push('<h2 class="d-name">' + esc(c.name) + "</h2>");
     h.push('<p class="d-area">' + esc(c.pref + (c.city ? " " + c.city : "")) + (c.mountain ? "　山岳テント場" : "") + "</p>");
+    if (c.notice) h.push('<p class="notice">' + esc(c.notice) + "</p>");
     if (c.status !== "open") h.push('<p class="notice">営業しているかは未確認です（掲載元：' + esc(c.source || "") + "）。行く前に必ず確認してください。</p>");
     h.push(priceBlock(c));
 

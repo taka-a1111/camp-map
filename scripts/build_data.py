@@ -248,7 +248,7 @@ def main() -> int:
         name = m.get("name") or unicodedata.normalize("NFKC", cv.get("name") or (ja[0] if ja else k["names"][0])).strip()
         types_text = cv.get("types", "")
         mountain = t.get("backcountry") == "yes" or "山岳" in types_text or "テント場" in name
-        status = "open" if m else ("open" if cv.get("status") == "open" else "unknown")
+        status = m.get("status") or ("open" if m else ("open" if cv.get("status") == "open" else "unknown"))
         rec = {
             "id": (k["osm"].replace("/", "-") if k["osm"] else "c-%s-%d" % (pref, i)),
             "name": name,
@@ -277,9 +277,10 @@ def main() -> int:
             "source_url": m.get("source_url") or cv.get("source_url", ""),
             "verified_at": manual.get("verified_at_default") if m else "",
             "confidence": m.get("confidence", ""),
+            "notice": m.get("notice", ""),
         }
         if m:
-            rec["priced"] = m.get("site_fee") is not None
+            rec["priced"] = m.get("site_fee") is not None and m.get("status") != "unknown"
             for key in FEE_KEYS:
                 rec[key] = m.get(key)
         # 空の項目は出力しない（ファイルを軽くするため）
