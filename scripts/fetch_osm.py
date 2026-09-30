@@ -49,7 +49,14 @@ def main() -> int:
     rows = []
     stamp = ""
     for code, pref in PREFS.items():
-        d = query_pref(code)
+        try:
+            d = query_pref(code)
+        except RuntimeError as e:
+            # Overpass が混雑して取れないときは、前回取得したデータのまま公開を続ける
+            if OUT.exists():
+                print(f"::warning::{e}。前回取得したデータ（{OUT.name}）をそのまま使います")
+                return 0
+            raise
         stamp = d.get("osm3s", {}).get("timestamp_osm_base", stamp)
         n = 0
         for e in d.get("elements", []):
@@ -68,6 +75,9 @@ def main() -> int:
         time.sleep(5)
     if len(rows) < 50:
         print("取得件数が少なすぎるため保存しません", file=sys.stderr)
+        if OUT.exists():
+            print(f"::warning::前回取得したデータ（{OUT.name}）をそのまま使います")
+            return 0
         return 1
     OUT.write_text(json.dumps({"timestamp_osm_base": stamp, "elements": rows}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"合計 {len(rows)}件 → {OUT}")

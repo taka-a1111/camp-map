@@ -32,14 +32,7 @@ jobs:
       - name: 料金が書かれた行を抜き出す
         run: python scripts/fee_excerpts.py
       - name: コミット
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/fee_text.json
-          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
-          git commit -m "キャンプ場の料金の記載（公式ページから自動抜き出し）を更新"
-          git pull --rebase origin main
-          git push
+        run: bash scripts/commit_push.sh "キャンプ場の料金の記載（公式ページから自動抜き出し）を更新" data/fee_text.json
       - uses: actions/upload-artifact@v4
         with:
           name: crawl-out

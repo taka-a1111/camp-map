@@ -29,11 +29,4 @@ jobs:
       - name: なっぷの掲載一覧を更新
         run: python scripts/nap_index.py --max 600
       - name: コミット
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/nap_index.json data/nap_listed.json
-          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
-          git commit -m "なっぷの掲載一覧を更新"
-          git pull --rebase origin main
-          git push
+        run: bash scripts/commit_push.sh "なっぷの掲載一覧を更新" data/nap_index.json data/nap_listed.json
