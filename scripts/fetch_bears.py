@@ -127,11 +127,16 @@ def wareki(s):
     return None
 
 
+GEO_START = time.time()
+
+
 def geocode(q, cache):
     if q in cache:
         return cache[q]
+    if time.time() - GEO_START > 900:
+        return None
     try:
-        res = json.loads(get("https://msearch.gsi.go.jp/address-search/AddressSearch?q=" + urllib.parse.quote(q)))
+        res = json.loads(get("https://msearch.gsi.go.jp/address-search/AddressSearch?q=" + urllib.parse.quote(q), timeout=15))
     except Exception:  # noqa: BLE001
         return None
     time.sleep(0.3)
@@ -301,27 +306,39 @@ def gifu_probe():
 
 
 # ---- キャンプ場の市町村（逆ジオコーダ）
-def camp_muni():
+def camp_muni(budget_s=900):
+    """キャンプ場の位置から市町村名を調べる（一度調べた位置は再問い合わせしない）。時間がかかるので上限を決め、残りは次回に回す。"""
+    from concurrent.futures import ThreadPoolExecutor
     camps = json.loads((ROOT / "data" / "camps.json").read_text(encoding="utf-8"))["camps"]
     cache = json.loads(MUNI_OUT.read_text(encoding="utf-8")) if MUNI_OUT.exists() else {}
-    n = 0
+    todo = []
     for c in camps:
-        if c["pref"] not in SOURCES:
-            continue
         k = f"{c['lat']:.5f},{c['lng']:.5f}"
-        if k in cache:
-            continue
+        if c["pref"] in SOURCES and k not in cache and k not in todo:
+            todo.append(k)
+    start = time.time()
+
+    def work(k):
+        if time.time() - start > budget_s:
+            return k, None
+        lat, lng = k.split(",")
         try:
-            d = json.loads(get(f"https://mreversegeoc.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat={c['lat']}&lon={c['lng']}"))
+            req = urllib.request.Request(f"https://mreversegeoc.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat={lat}&lon={lng}", headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=15) as r:
+                d = json.loads(r.read().decode("utf-8"))
             code = (d.get("results") or {}).get("muniCd", "")
-            cache[k] = MUNI.get(code.lstrip("0"), ("", ""))[1]
-        except Exception as e:  # noqa: BLE001
-            print("  逆ジオコーダ失敗", c["name"], e)
-            continue
-        n += 1
-        time.sleep(0.2)
+            return k, MUNI.get(code.lstrip("0"), ("", ""))[1]
+        except Exception:  # noqa: BLE001
+            return k, None
+
+    n = 0
+    with ThreadPoolExecutor(max_workers=4) as ex:
+        for k, v in ex.map(work, todo):
+            if v is not None:
+                cache[k] = v
+                n += 1
     MUNI_OUT.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
-    print(f"キャンプ場の市町村：新しく {n}件（計 {len(cache)}件）")
+    print(f"キャンプ場の市町村：新しく {n}件／対象 {len(todo)}件（計 {len(cache)}件）", flush=True)
 
 
 def main():
@@ -339,7 +356,7 @@ def main():
             recs = [r for r in recs if r["d"] >= cutoff and r["d"] <= TODAY.isoformat()]
             recs.sort(key=lambda r: r["d"], reverse=True)
             src.update(ok=bool(recs), fetched=TODAY.isoformat(), note=note, count=len(recs))
-            print(f"{pref}: {len(recs)}件（{note}）")
+            print(f"{pref}: {len(recs)}件（{note}）", flush=True)
         except Exception as e:  # noqa: BLE001
             print(f"{pref}: 失敗 {e}")
             recs = []
