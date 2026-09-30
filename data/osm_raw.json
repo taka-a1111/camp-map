@@ -1,5 +1,5 @@
 {
- "timestamp_osm_base": "2026-09-30T12:39:22Z",
+ "timestamp_osm_base": "2026-09-30T14:36:56Z",
  "elements": [
   {
    "osm": "node/939880987",
@@ -1404,22 +1404,6 @@
    }
   },
   {
-   "osm": "node/13954931096",
-   "pref": "長野県",
-   "lat": 36.134715,
-   "lon": 138.037339,
-   "tags": {
-    "capacity:caravans": "11",
-    "capacity:tents": "25",
-    "caravans": "yes",
-    "name": "高ボッチ高原キャンプエリア",
-    "name:en": "Takabocchi Plateau Campground",
-    "tents": "yes",
-    "tourism": "camp_site",
-    "website": "https://tokimeguri.jp/guide/takabotchicamp/"
-   }
-  },
-  {
    "osm": "way/182855517",
    "pref": "長野県",
    "lat": 36.547669,
@@ -1621,9 +1605,7 @@
    "lat": 36.238534,
    "lon": 138.606618,
    "tags": {
-    "check_date": "2026-06-22",
-    "name": "荒船パノラマキャンプフィールド",
-    "name:en": "Arafune Panorama Campfield",
+    "name": "内山牧場キャンプ場",
     "tourism": "camp_site"
    }
   },
