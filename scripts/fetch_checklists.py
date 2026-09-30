@@ -15,7 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crawl_pages import fetch, page_text  # noqa: E402
 
 OUT = Path(__file__).resolve().parent.parent / "crawl_out"
-PREFS = {"aichi": "愛知県", "gifu": "岐阜県", "nagano": "長野県", "shizuoka": "静岡県", "mie": "三重県"}
+PREFS = {"aiti": "愛知県", "gifu": "岐阜県", "nagano": "長野県", "shizuoka": "静岡県", "mie": "三重県"}
 BASE = "https://camp.tabinchuya.com/"
 
 

@@ -1,0 +1,567 @@
+{
+ "長野県|山の寺キャンプ場(ヤマンテラ)": {
+  "status": "paid",
+  "quote": "追加車両￥1,000/1泊、1台の追加オプション利用となります。",
+  "url": "https://takamori.camp/?page_id=1916"
+ },
+ "三重県|大淀西海岸ムーンビーチキャンプ場": {
+  "status": "paid",
+  "quote": "テントサイト | ¥4,000 | ¥15,000",
+  "url": "http://www.moon-beach.com/facility.php"
+ },
+ "長野県|GLAMPROOK 飯綱高原": {
+  "status": "paid",
+  "quote": "※料金は1室3名様利用時の金額です。",
+  "url": "https://glamprook.jp/iizuna/news/202600624/"
+ },
+ "静岡県|IZU GLAMPING RESORT Ishiki 385": {
+  "status": "paid",
+  "quote": "ご宿泊料金は、空室カレンダーのプラン画面にてご確認いただけます。",
+  "url": "https://izuglam385.com/booking-guide/"
+ },
+ "静岡県|あてらの森キャンプ場": {
+  "status": "paid",
+  "quote": "全サイト 同額料金になります",
+  "url": "https://ateranomori.com/76280/voice/"
+ },
+ "長野県|KOMOROBI Athletic & Camp": {
+  "status": "paid",
+  "quote": "キャンプチケット ¥2,500",
+  "url": "https://komorobi.com/price/"
+ },
+ "岐阜県|南飛騨健康増進センター キャンプ縄文(県営)": {
+  "status": "paid",
+  "quote": "料金：1人1泊につき3,650円",
+  "url": "https://www.pref.gifu.lg.jp/page/6022.html"
+ },
+ "三重県|伊勢海悠 Con Perro ~グランドッグ伊勢賢島~": {
+  "status": "paid",
+  "quote": "23,980円～(大人4名様ご利用時、1室1名様あたり)。",
+  "url": "https://www.kankomie.or.jp/report/895"
+ },
+ "長野県|BaCo Resort 長野(水のキャンパス)": {
+  "status": "paid",
+  "quote": "おひとり様11,900円で気軽にグランピング体験が可能です。",
+  "url": "https://bacoresort.com/"
+ },
+ "静岡県|THE GLAMPING 箱根十国峠": {
+  "status": "paid",
+  "quote": "9/30(水) 16,200〜",
+  "url": "https://kyuzitsu-glampingbu.com/hotel/glamp276/"
+ },
+ "岐阜県|亀淵オートキャンプ場": {
+  "status": "paid",
+  "quote": "グループの方は１サイトで５０００円で４名様まで使用可。",
+  "url": "https://www.kankou-gifu.jp/spot/detail_9662.html"
+ },
+ "長野県|中房温泉キャンプ場": {
+  "status": "paid",
+  "quote": "テントは1人2500円です。",
+  "url": "https://nakabusa.com/"
+ },
+ "岐阜県|OUTDOOR VILLAGE 373": {
+  "status": "paid",
+  "quote": "通常 35,500円〜",
+  "url": "https://tabitabigujo.com/outdoor/outdoor_spot/outdoor-village-373/"
+ },
+ "三重県|奥伊勢フォレストピア キャンプinリバーサイドビレッジ": {
+  "status": "paid",
+  "quote": "サイト料 電源サイト 2,500円～、区画サイト 1,500円～、フリーサイト1,000円～",
+  "url": "https://www.kankomie.or.jp/spot/23668"
+ },
+ "長野県|北穂高小屋 南陵テント場": {
+  "status": "paid",
+  "quote": "１人１泊 2,000円",
+  "url": "https://www.kitaho.co.jp/camping-ground"
+ },
+ "長野県|与田切公園キャンプ場": {
+  "status": "paid",
+  "quote": "土曜日の宿泊料金だけで最大47時間滞在可能となります！",
+  "url": "https://yotagiri-camp.com/"
+ },
+ "長野県|白樺リゾート キャンピングビレッジ": {
+  "status": "paid",
+  "quote": "【平日】12,000円／【週末】【特別】15,000円（1区画1泊）税込",
+  "url": "https://www.shirakabaresort.jp/camping-village/"
+ },
+ "三重県|THE GLAMPING PLAZA 伊勢志摩BASE": {
+  "status": "paid",
+  "quote": "夕食BBQ付き特割プラン！ 18,000円〜",
+  "url": "https://gp-plaza.com/iseshima-base/"
+ },
+ "岐阜県|宮代オートキャンプ場": {
+  "status": "paid",
+  "quote": "5,000円/1泊 | 車両１台/電源有",
+  "url": "https://aozora-kenbun.com/miyashiroautocampsite/"
+ },
+ "長野県|やすらぎの森オートキャンプ場": {
+  "status": "paid",
+  "quote": "サイト1泊につき、《サイト料金》＋《ご利用人数分の入場料》をいただいております。",
+  "url": "https://yasuragi.natureservice.jp/sites/powered-site"
+ },
+ "岐阜県|郡上八幡リバーウッドオートキャンプ場": {
+  "status": "paid",
+  "quote": "大人：1000円（中学生以上）／１泊",
+  "url": "http://riverwood.jp/"
+ },
+ "長野県|涸沢キャンプ場(涸沢ヒュッテ)": {
+  "status": "paid",
+  "quote": "大人 2,000円（人／泊）",
+  "url": "https://karasawa-hyutte.com/inn"
+ },
+ "長野県|野俣沢林間キャンプ場(あさひプライム)": {
+  "status": "paid",
+  "quote": "当キャンプ場は、サイト料金の他に施設利用料をいただいております。",
+  "url": "https://asahivalley.jp/summer/price-list/"
+ },
+ "長野県|望月キャンプサイト 野らら": {
+  "status": "paid",
+  "quote": "利用料 | 大人 | 1,500円／人 | 2,000円／人",
+  "url": "https://nolala.net/"
+ },
+ "愛知県|バンガロー村 古里とみやま": {
+  "status": "paid",
+  "quote": "【テントサイト(1区画)】A 3,000円 / B 1,500円 / C 2,500円",
+  "url": "https://aichinow.pref.aichi.jp/spots/detail/1446/"
+ },
+ "静岡県|Higher Ground Camping": {
+  "status": "paid",
+  "quote": "※定員以上追加料金：4,000円/1名",
+  "url": "http://www.hgcamping.jp/facility/"
+ },
+ "長野県|蓼の花オートキャンプ場": {
+  "status": "paid",
+  "quote": "オートキャンプ ご利用料金 １泊 （キャンプサイト利用料・駐車料金[1区画1台まで] 含む）",
+  "url": "https://www.tadenohana.com/camp/dish.html"
+ },
+ "愛知県|とよねランドオートキャンプ村": {
+  "status": "paid",
+  "quote": "全プラン26サイトは一律料金 1区画3000円で",
+  "url": "https://toyoneland.com/"
+ },
+ "長野県|マナスル山荘天文館 星のキャンプ場": {
+  "status": "paid",
+  "quote": "2,000円（土曜・休日前・特別日3,000円）／1区画",
+  "url": "https://manasuru.com/lodge"
+ },
+ "三重県|鳥羽キャンピングガーデン GRENBLU": {
+  "status": "paid",
+  "quote": "キャンプ場の利用料金は、シーズンによって変動はなく、サイト料金＋入場料となります。",
+  "url": "https://www.iseshima-kanko.jp/reporter/grenblu"
+ },
+ "長野県|聖高原キャンプ場": {
+  "status": "paid",
+  "quote": "共同施設使用料 １泊 大人：500円",
+  "url": "https://www.vill.omi.nagano.jp/kanko/guide/stay/kanko90.html"
+ },
+ "長野県|南岳小屋 テント場": {
+  "status": "paid",
+  "quote": "テント（1名様）※ | 2,000円",
+  "url": "https://www.yarigatake.co.jp/lodge?item=fee"
+ },
+ "長野県|オーレン小屋 テント場(岳樺テントサイト)": {
+  "status": "paid",
+  "quote": "使用料：大人2,000円、小学生1,000円",
+  "url": "https://www.o-ren.net/tent/"
+ },
+ "長野県|nagano forest village キャンプフィールド(旧 飯綱高原キャンプ場)": {
+  "status": "paid",
+  "quote": "テント、タープ、スクリーンテント | 1,000円 | 1,500円",
+  "url": "https://naganoforestvillage.eternal-story.com/camp/"
+ },
+ "静岡県|浜名湖パークビレッジ": {
+  "status": "paid",
+  "quote": "区画サイトは1張り3,000円(税込3,300円)でテントの追加ができます。",
+  "url": "https://hamanako-p-v.com/camp/"
+ },
+ "岐阜県|奥飛騨温泉郷オートキャンプ場": {
+  "status": "paid",
+  "quote": "サイト1 5,500円（AC電源あり、電源料別途）",
+  "url": "https://www.hidatakayama.or.jp/spot/detail_1728.html"
+ },
+ "岐阜県|さくら街道白川郷 ひらせ温泉キャンプサイト": {
+  "status": "paid",
+  "quote": "［オート区画Bサイト］基本料金：5500円",
+  "url": "https://www.vill.shirakawa.lg.jp/1176.htm"
+ },
+ "三重県|涼風ガーデン(磨洞温泉 涼風荘)": {
+  "status": "paid",
+  "quote": "利用料【平日】（大人)2,500円/人",
+  "url": "https://www.ryoufu.com/dicamp"
+ },
+ "長野県|コルチナオートキャンプ場(パウダーロッジコルチナ)": {
+  "status": "paid",
+  "quote": "中学生以上1,000円、小学生500円/1人1日",
+  "url": "https://www.kita-alps.jp/camp.html"
+ },
+ "長野県|眺望の郷キャンプ場": {
+  "status": "paid",
+  "quote": "20サイト指定なし2,000円",
+  "url": "https://www.kita-alps.jp/camp.html"
+ },
+ "岐阜県|大津谷公園キャンプ場": {
+  "status": "paid",
+  "quote": "宿泊キャンプ3,300円/泊～、デイキャンプ1,650円～、バーベキュー2,750円～、ソロキャンプ825円～",
+  "url": "https://www.kankou-gifu.jp/spot/detail_7171.html"
+ },
+ "長野県|高ソメキャンプ場": {
+  "status": "paid",
+  "quote": "サイト区画とタイプごとに料金のそれぞれ設定があります。",
+  "url": "https://takasome.furusatonagawa.com/infomation.html"
+ },
+ "長野県|nozawa green field": {
+  "status": "paid",
+  "quote": "1:・大人４名・小学生２名・テント2張り：平日¥30,000- 土曜¥35,000-",
+  "url": "https://www.nozawagreenfield.com/tree-camp"
+ },
+ "静岡県|つま恋リゾート彩の郷": {
+  "status": "paid",
+  "quote": "※入場料とは別に駐車料金1台／500円を頂戴いたします。",
+  "url": "https://hmihotelgroup.com/sainosato/play/camp.html"
+ },
+ "岐阜県|シャンティリゾート": {
+  "status": "paid",
+  "quote": "19,800円～（１人あたり）",
+  "url": "https://www.rainbow8.org/menu/business-camp/"
+ },
+ "長野県|野麦峠オートキャンプ場": {
+  "status": "paid",
+  "quote": "サイト区画とタイプごとに料金のそれぞれ設定があります。",
+  "url": "https://nomugi.furusatonagawa.com/infomation.html"
+ },
+ "静岡県|PICA富士ぐりんぱ": {
+  "status": "paid",
+  "quote": "1泊1名 2,720円～",
+  "url": "https://www.pica-resort.jp/grinpa/stay/plan/day_camp.html"
+ },
+ "岐阜県|NatureMIYAGAWA": {
+  "status": "paid",
+  "quote": "区画料金：¥9,600（1区画あたり）",
+  "url": "https://nature-miyagawa.jp/price.html"
+ },
+ "長野県|The Forest Glamping & Grill(白馬樅の木ホテル)": {
+  "status": "paid",
+  "quote": "24,000円〜 (1泊2食付お一人様)",
+  "url": "https://www.mominokihotel.com/activity/289/"
+ },
+ "長野県|山王山公園 ひみつきち": {
+  "status": "paid",
+  "quote": "ひみつきち 宿泊プラン AM11: 00 ～ AM10: 00 ☆平日13,000円 ☆トップシーズン・土日・祝祭日15,000円",
+  "url": "http://www.himitukichi.biz/"
+ },
+ "三重県|Marci Forest Camp(M.F.C)": {
+  "status": "paid",
+  "quote": "６，６００円",
+  "url": "https://www.mfc-style.com/price"
+ },
+ "長野県|白林台キャンプ場": {
+  "status": "paid",
+  "quote": "持ち込みテント・1泊1人￥1,200",
+  "url": "http://www.dcn.ne.jp/~hakurin/camp.html"
+ },
+ "長野県|高ボッチ高原キャンプエリア": {
+  "status": "paid",
+  "quote": "・stay15:00～10:00 5,000円/1区画",
+  "url": "https://tokimeguri.jp/guide/takabotchicamp/"
+ },
+ "静岡県|リバティーリゾート大東温泉": {
+  "status": "paid",
+  "quote": "3,500円～6,000円",
+  "url": "https://daitoonsen.jp/camp.php"
+ },
+ "長野県|銀河もみじキャンプ場": {
+  "status": "paid",
+  "quote": "サイト料金は、１サイトあたりの料金となります。",
+  "url": "https://ginga-momiji.camp/"
+ },
+ "愛知県|CAMP LOVE": {
+  "status": "paid",
+  "quote": "※料金目安：88,000円～176,000円(税込)",
+  "url": "https://www.camp-love.com/"
+ },
+ "静岡県|自由キャンプ場 伊東": {
+  "status": "paid",
+  "quote": "料金 1人1000円 14歳以下無料5組限定キャンプ場",
+  "url": "https://freecamp-ito.officialblog.jp/"
+ },
+ "三重県|GLAMP DOME 伊勢賢島(グランドーム伊勢賢島)": {
+  "status": "paid",
+  "quote": "価格： 1泊2食付き 20,800円〜（特別価格）",
+  "url": "https://www.glamping-iseshima.com/news/summersale/"
+ },
+ "静岡県|沼津市戸田はかま滝オートキャンプ場": {
+  "status": "paid",
+  "quote": "１サイト１泊 税別価格５,０００円（税込み５,５００円）",
+  "url": "https://jforestheda.wixsite.com/hakamacamp/blank-4"
+ },
+ "静岡県|オートキャンプ花沢": {
+  "status": "paid",
+  "quote": "オートキャンプ 施設使用料",
+  "url": "http://www.mjnet.ne.jp/hanazawa/ryokin.html"
+ },
+ "愛知県|つぐ高原グリーンパーク(GP CAMP)": {
+  "status": "paid",
+  "quote": "ウッディエリア 通常サイト 4,500円～",
+  "url": "https://aichinow.pref.aichi.jp/spots/detail/1421/"
+ },
+ "三重県|猿田彦BASE": {
+  "status": "paid",
+  "quote": "1台1泊3,000円（※時期により変動となります）",
+  "url": "https://www.kankomie.or.jp/report/1713"
+ },
+ "岐阜県|日和田高原ロッジ・キャンプ場": {
+  "status": "paid",
+  "quote": "ご利用料金（税込）宿泊税別",
+  "url": "https://www.hiwadakougen.jp/camp/"
+ },
+ "愛知県|-SORA-BASE-(ソラベース)": {
+  "status": "paid",
+  "quote": "通常価格 22,000円×2人、11,000円×2人 合計＝66,000円",
+  "url": "https://sora-base.com/"
+ },
+ "長野県|天平の森オートキャンプ場": {
+  "status": "paid",
+  "quote": "旧タイプ 11,700円",
+  "url": "http://www.anc-tv.ne.jp/~nes/"
+ },
+ "長野県|北信濃ふるさとの森文化公園オートキャンプ場": {
+  "status": "paid",
+  "quote": "1泊1区画3,000円",
+  "url": "https://furusatonomori-bunkakoen.jp/"
+ },
+ "愛知県|ホテルレイクサイド入鹿 グランピング": {
+  "status": "paid",
+  "quote": "グランピング 55,000円～",
+  "url": "https://inuyama.gr.jp/stay/detail/13/"
+ },
+ "三重県|なぎキャンプ場": {
+  "status": "paid",
+  "quote": "サイト料金 No.1,2,4,5：2000円 No.3：4,000円 No.6,7：3000円 No.8：4000円 No.10：5000円",
+  "url": "https://www.nagicamp.com/price"
+ },
+ "三重県|M's VILLAGE(エムズビレッジ)": {
+  "status": "paid",
+  "quote": "平日：6,600円～",
+  "url": "https://www.kankomie.or.jp/spot/24995"
+ },
+ "静岡県|朝霧高原英知の杜キャンプ場": {
+  "status": "paid",
+  "quote": "定員3人限定サイト（25000円～10000円）",
+  "url": "https://www.bt-r.jp/aec/"
+ },
+ "三重県|大淀ふれあいキャンプ場": {
+  "status": "paid",
+  "quote": "テント（持ち込み）：4,000円(1張1泊)",
+  "url": "https://www.kankomie.or.jp/spot/3295"
+ },
+ "愛知県|リバーベース塩瀬": {
+  "status": "paid",
+  "quote": "料金：6,000円（税込）～",
+  "url": "https://www.riverbase-shioze.com/camping"
+ },
+ "三重県|岩倉峡公園キャンプ場": {
+  "status": "paid",
+  "quote": "無料（キャンプ場は有料）",
+  "url": "https://www.igaueno.net/?p=1674"
+ },
+ "長野県|雨飾高原キャンプ場": {
+  "status": "paid",
+  "quote": "バリュー 3,300円",
+  "url": "https://www.amakazari.com/price/"
+ },
+ "三重県|美浜キャンプ場": {
+  "status": "paid",
+  "quote": "大人１名1,000円・小人１名800円",
+  "url": "https://gozashirahama.com/mihama"
+ },
+ "静岡県|グランパパ -大人の隠れ場- キャンプ場": {
+  "status": "paid",
+  "quote": "人数追加1名様 +￥1,000/泊",
+  "url": "https://www.gran-papa.com/plan/"
+ },
+ "三重県|桜並木の木津川ガーデン(伊賀・風鈴屋敷「風処」)": {
+  "status": "paid",
+  "quote": "２名４０,０００円（一人あたり２０,０００円）",
+  "url": "https://kazedokoro.com/deluxe/"
+ },
+ "静岡県|おおはし緑水苑": {
+  "status": "paid",
+  "quote": "宿泊料金のご案内（2026年）",
+  "url": "http://www.shimoda-ryokusuien.com/ryokin.html"
+ },
+ "長野県|キャンプファーム いなかの風": {
+  "status": "paid",
+  "quote": "基本利用料（2名様まで）：38,000円～",
+  "url": "https://inakanokaze.com/info"
+ },
+ "長野県|千年の森自然学校(森のくらしの郷)": {
+  "status": "paid",
+  "quote": "バンガロー（2500円）または持参テント（1000円）で可能",
+  "url": "https://morikura.com/1623guidetour"
+ },
+ "長野県|駒ヶ根Camping Resort by 駒ヶ根高原家族旅行村": {
+  "status": "paid",
+  "quote": "ケビン | 16,000～ | 23,800～ | 25,800～",
+  "url": "https://campingresort-komagane.com/cabin-village/"
+ },
+ "静岡県|ぼっちの森": {
+  "status": "paid",
+  "quote": "平日ソロキャン新価格￥2,500～",
+  "url": "https://mukku4443.wixsite.com/mysite"
+ },
+ "岐阜県|アスク山王": {
+  "status": "paid",
+  "quote": "1棟（4-5名）19,500円(税込)",
+  "url": "https://www.hida-kankou.jp/spot/376"
+ },
+ "愛知県|PARKFIELD Snow Peak TOYOTA-KURAGAIKE(パークフィールド スノーピーク豊田鞍ヶ池)": {
+  "status": "paid",
+  "quote": "5,000円～",
+  "url": "https://www.tourismtoyota.jp/outdoor/camp/detail/4/"
+ },
+ "長野県|のよさの里キャンプ場": {
+  "status": "paid",
+  "quote": "大人・・・2,000円",
+  "url": "http://sakae-akiyamago.com/stay/5059/"
+ },
+ "岐阜県|山之村キャンプ場": {
+  "status": "paid",
+  "quote": "テントサイト（フリー） 1張 ¥3,300",
+  "url": "https://www.hida-kankou.jp/spot/483"
+ },
+ "三重県|伊勢路オートキャンプ場&RVパーク": {
+  "status": "paid",
+  "quote": "施設利用料 ※1人・1泊あたり | 大人（中学生以上） | 1,000円",
+  "url": "https://www.iseshima-kanko.jp/reporter/iseji-auto"
+ },
+ "長野県|CAMP FUMON": {
+  "status": "paid",
+  "quote": "ソロテント1張 2500円",
+  "url": "https://www.vill.hara.lg.jp/sightseeing/facility/61729.html"
+ },
+ "静岡県|富士山と夜景のキャンプ場桂の森CAMPERSFIELD": {
+  "status": "paid",
+  "quote": "※ソロプラン 5,500円～",
+  "url": "https://katsura-no-mori.com/siteinfo/"
+ },
+ "静岡県|南アルプス井川オートキャンプ場": {
+  "status": "paid",
+  "quote": "テント持込 670円／1張",
+  "url": "https://www.city.shizuoka.lg.jp/okushizuoka/spot/s000068.html"
+ },
+ "静岡県|アーバンキャンピング朝霧宝山": {
+  "status": "paid",
+  "quote": "【料金】キャンプ場利用料1名 550円税込",
+  "url": "https://www.urban-camping.jp/"
+ },
+ "愛知県|ゾレンキャンプ場": {
+  "status": "paid",
+  "quote": "区画サイト、フリーサイト、ソロキャンサイト、広場サイト、木漏れ日サイトは4,100円",
+  "url": "https://www.tourismtoyota.jp/outdoor/camp/detail/27/"
+ },
+ "愛知県|犬山市野外活動センター": {
+  "status": "paid",
+  "quote": "キャンプ場（テント宿泊1張1040円、日帰り1張510円、毛布1枚50円）",
+  "url": "https://www.city.inuyama.aichi.jp/shisetsu/koukyoshisetsu/1001550/1001562.html"
+ },
+ "三重県|オートパークガーデン白山 キャンピングプレイス": {
+  "status": "paid",
+  "quote": "区画サイト（12サイト）：6,000円",
+  "url": "https://autopark-garden.jp/camp/"
+ },
+ "長野県|常念小屋 テント場": {
+  "status": "paid",
+  "quote": "テント場利用料 2,000円／１人（トイレチップ含む）",
+  "url": "http://www.mt-jonen.com/charges/"
+ },
+ "静岡県|風遊心リゾート(野天の湯/キャンプ場)": {
+  "status": "paid",
+  "quote": "1日/1人 大人 3500円 （税込）",
+  "url": "https://sansenkai.wixsite.com/fuuyuushin/kusematsu"
+ },
+ "長野県|西穂山荘 テント場": {
+  "status": "paid",
+  "quote": "テントでのご宿泊 利用料金 お一人様：2,000円",
+  "url": "http://www.nishiho.com/syukuhaku.htm"
+ },
+ "三重県|俺たちのキャンプ場": {
+  "status": "paid",
+  "quote": "ソロ宿泊（1人＋車1台）： 5,000円（宿泊4,000円＋車横付け1,000円）",
+  "url": "https://www.kankomie.or.jp/report/2185"
+ },
+ "静岡県|グリーンヴィレッジ川根": {
+  "status": "paid",
+  "quote": "オートキャンプ | 1泊1区画 4名様まで7,000円",
+  "url": "http://www.ne.jp/asahi/greenvillage/kawane/camp/index.html"
+ },
+ "長野県|SENKO TINY CAMP": {
+  "status": "paid",
+  "quote": "25,300円",
+  "url": "https://www.senko-tiny-camp.jp/guide.html"
+ },
+ "岐阜県|Alpen Outdoors しろとりフィールド": {
+  "status": "paid",
+  "quote": "料金 | 5,000円～",
+  "url": "https://www.alpen-group.net/outdoors/shirotori/campsite"
+ },
+ "岐阜県|めいほう高原キャンプフィールド": {
+  "status": "paid",
+  "quote": "お1人様 ￥600（未就学児3歳以下無料）",
+  "url": "https://www.meihoski.co.jp/green/camp/"
+ },
+ "岐阜県|プライベートキャンプフィールド EBOSHI": {
+  "status": "paid",
+  "quote": "3,000円(税込) /１名 /１泊につき",
+  "url": "https://eboshi.site/"
+ },
+ "三重県|かぶとの森テラス": {
+  "status": "paid",
+  "quote": "バリューシーズン：5,500円（5人含む）",
+  "url": "http://kabutonomori.com/camp/index.html"
+ },
+ "静岡県|SOLACEの丘": {
+  "status": "paid",
+  "quote": "価格 | 6,000円(2名様まで)",
+  "url": "https://solace-atami.com/camp/"
+ },
+ "愛知県|名古屋市野外学習センター": {
+  "status": "paid",
+  "quote": "キャンプ場 | 大人1名 | 100円",
+  "url": "https://www.homex.jp/yagaigakusyucenter/price/index.html"
+ },
+ "長野県|TINY GARDEN 蓼科": {
+  "status": "paid",
+  "quote": "【利用料金】1名 8,000円/ 2名 12,000円/ 3名 15,000円",
+  "url": "https://www.urban-research.co.jp/special/tinygarden/"
+ },
+ "長野県|富士見高原貸別荘 ドッグランキャンプサイト": {
+  "status": "paid",
+  "quote": "※テント2張目または車2台目からは追加料金（+3,300円）がかかります",
+  "url": "https://fujimikogen-kashibesso.jp/camping.html"
+ },
+ "岐阜県|北恵那キャンプ場": {
+  "status": "paid",
+  "quote": "料 金・・・平日・休前日・夏休み 4，5００円",
+  "url": "https://kitaenacamp.jp/facilities.html"
+ },
+ "長野県|白馬岩岳マウンテンリゾート キャンプ場(ヒトトキノモリ)": {
+  "status": "paid",
+  "quote": "平日:20,000円／2人、追加1人にて10,000円",
+  "url": "https://iwatake-mountain-resort.com/green/camp"
+ },
+ "長野県|グランセルキャンプ場": {
+  "status": "paid",
+  "quote": "通常平日・土曜日：7,500円",
+  "url": "https://grandsel.com/"
+ },
+ "長野県|長者の森キャンプ場": {
+  "status": "paid",
+  "quote": "ソロキャンプ | 1名 | ¥2,000 | ¥2,300 | ¥2,500",
+  "url": "https://kitaaiki.com/%e6%96%99%e9%87%91/"
+ },
+ "長野県|蓼科高原キャンプ場": {
+  "status": "paid",
+  "quote": "ノーマルシーズン | 3,500円",
+  "url": "https://tateshina-kogen.com/camp/price/"
+ }
+}

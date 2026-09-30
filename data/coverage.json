@@ -16186,5 +16186,53 @@
 "status": "unknown",
 "types": "フリー（河川敷）",
 "note": "櫛田川河川敷の広場。町の公式ページは見つからず、利用者の情報で無料・予約不要とされる"
+},
+{
+"name": "朝鳥公園",
+"pref": "岐阜県",
+"city": "",
+"address": "岐阜県揖斐郡揖斐川町",
+"official_url": "",
+"source_url": "https://camp.tabinchuya.com/",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "フリー",
+"note": "無料野営地まとめサイトの情報"
+},
+{
+"name": "美濃橋 長良川河川敷",
+"pref": "岐阜県",
+"city": "",
+"address": "岐阜県美濃市",
+"official_url": "",
+"source_url": "https://camp.tabinchuya.com/",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "フリー",
+"note": "無料野営地まとめサイトの情報"
+},
+{
+"name": "伊東市青少年キャンプ場",
+"pref": "静岡県",
+"city": "",
+"address": "静岡県伊東市池字676-1",
+"official_url": "",
+"source_url": "https://camp.tabinchuya.com/",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "フリー",
+"note": "無料野営地まとめサイトの情報"
+},
+{
+"name": "犂谷公園付近の河川敷",
+"pref": "三重県",
+"city": "",
+"address": "三重県多気郡大台町",
+"official_url": "",
+"source_url": "https://camp.tabinchuya.com/",
+"source_kind": "aggregator",
+"status": "unknown",
+"types": "フリー",
+"note": "無料野営地まとめサイトの情報"
 }
 ]

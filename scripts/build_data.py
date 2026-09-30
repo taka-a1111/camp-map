@@ -19,6 +19,7 @@ RAW = ROOT / "data" / "osm_raw.json"
 MANUAL = ROOT / "data" / "manual.json"
 COVER = ROOT / "data" / "coverage.json"
 GEOCACHE = ROOT / "data" / "geocode_cache.json"
+FEESTATUS = ROOT / "data" / "fee_status.json"
 OUT = ROOT / "data" / "camps.json"
 
 # キャンプ場らしい名前（これに当たらず公式URLもないものは除外）
@@ -129,6 +130,7 @@ def main() -> int:
     cover = json.loads(COVER.read_text(encoding="utf-8")) if COVER.exists() else []
     geocache = json.loads(GEOCACHE.read_text(encoding="utf-8")) if GEOCACHE.exists() else {}
     clean_address = load_geocode()
+    fee_status = json.loads(FEESTATUS.read_text(encoding="utf-8")) if FEESTATUS.exists() else {}
     blocked = manual.get("blocked_urls", [])
 
     def clean_url(u: str) -> str:
@@ -279,6 +281,11 @@ def main() -> int:
             "confidence": m.get("confidence", ""),
             "notice": m.get("notice", ""),
         }
+        fs = fee_status.get(f"{pref}|{name}")
+        if fs and not m:
+            rec["fee_status"] = fs["status"]
+            rec["fee_quote"] = fs.get("quote", "")
+            rec["fee_url"] = fs.get("url", "")
         if m:
             rec["priced"] = m.get("site_fee") is not None and m.get("status") != "unknown"
             for key in FEE_KEYS:

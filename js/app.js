@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30a */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30b */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30a";
+  var BUILD = "2026-09-30b";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -383,6 +383,11 @@
     h.push('<div class="lbl">料金の目安（1泊）</div>');
     h.push(partyHtml("detail"));
     if (!r) {
+      if (c.fee_status === "paid") {
+        h.push('<div class="total unknown">有料（金額は未確認）</div>');
+        h.push('<p class="d-note">' + (c.fee_quote ? "公式ページの記載：「" + esc(c.fee_quote) + "」" : "") + (safeUrl(c.fee_url) ? ' <a href="' + esc(c.fee_url) + '" target="_blank" rel="noopener">ページを開く</a>' : "") + "</p></div>");
+        return h.join("");
+      }
       h.push('<div class="total unknown">料金は未確認</div>');
       h.push('<p class="d-note">公式サイトで料金を確認してください。</p></div>');
       return h.join("");

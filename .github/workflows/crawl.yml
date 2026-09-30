@@ -8,6 +8,8 @@ on:
     paths:
       - "crawl/request.txt"
   workflow_dispatch:
+  schedule:
+    - cron: "41 19 3 * *"   # 毎月4日 4:41（日本時間）。結果は次回の見直しで使う
 
 permissions:
   contents: read
