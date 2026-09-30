@@ -380,3 +380,4 @@ select { max-width: 150px; }
   .detail.dragging { overflow: hidden; }
   .detail::before { width: 44px; height: 5px; }
 }
+.onsen-toggle.far { opacity: .75; }

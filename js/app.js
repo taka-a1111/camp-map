@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30g */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30h */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30g";
+  var BUILD = "2026-09-30h";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -75,7 +75,7 @@
       b.id = "onsenToggle";
       b.innerHTML = "♨ 温泉";
       L.DomEvent.disableClickPropagation(b);
-      L.DomEvent.on(b, "click", function () { setOnsen(!showOnsen); writeUrl(getState()); });
+      L.DomEvent.on(b, "click", function () { setOnsen(!showOnsen); writeUrl(getState()); if (showOnsen && map.getZoom() < ONSEN_MIN_ZOOM) toast("温泉は地図を拡大すると表示されます"); });
       return b;
     }
   });
@@ -84,8 +84,18 @@
     showOnsen = on;
     var b = $("onsenToggle");
     if (b) { b.classList.toggle("on", on); b.setAttribute("aria-pressed", on ? "true" : "false"); b.title = on ? "温泉を地図から消す" : "温泉を地図に表示"; }
-    if (on) map.addLayer(onsenLayer); else map.removeLayer(onsenLayer);
+    syncOnsenLayer();
   }
+  // 広い範囲ではキャンプ場が見づらくなるので、ある程度拡大したときだけ♨を出す
+  var ONSEN_MIN_ZOOM = 9;
+  function syncOnsenLayer() {
+    var vis = showOnsen && map.getZoom() >= ONSEN_MIN_ZOOM;
+    if (vis && !map.hasLayer(onsenLayer)) map.addLayer(onsenLayer);
+    if (!vis && map.hasLayer(onsenLayer)) map.removeLayer(onsenLayer);
+    var b = $("onsenToggle");
+    if (b) b.classList.toggle("far", showOnsen && !vis);
+  }
+  map.on("zoomend", syncOnsenLayer);
 
   // 現在地ボタン（右下）
   var meLayer = L.layerGroup().addTo(map);
