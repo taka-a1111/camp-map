@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30i */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30j */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30i";
+  var BUILD = "2026-09-30j";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -466,7 +466,7 @@
     }
     if (o.fee_note) h += '<p class="d-p">' + esc(o.fee_note) + "</p>";
     if (o.hours) h += '<p class="d-p">営業時間：' + esc(o.hours) + "</p>";
-    h += '<p class="d-p">' + onsenLinks(o) + "</p>";
+    h += '<p class="d-p">' + onsenLinks(o) + (safeUrl(o.page) ? '　<a href="' + esc(o.page) + '" target="_blank" rel="noopener">' + esc(o.site || "観光協会") + "の紹介</a>" : "") + "</p>";
     if (o.fee_note_auto) h += '<p class="d-p">' + esc(o.fee_note_auto) + "</p>";
     if (o.fee_quote) h += '<p class="d-note">料金の根拠：「' + esc(o.fee_quote) + "」" + (safeUrl(o.fee_url) ? '（<a href="' + esc(o.fee_url) + '" target="_blank" rel="noopener">' + esc(o.fee_site || "ページ") + "</a>）" : "") +
       (o.fee_src === "auto" ? "。観光協会サイトの掲載から自動で読み取った料金です。" : "") + "</p>";
@@ -481,12 +481,15 @@
     if (!list.length) return Object.keys(onsens).length ? '<div class="d-sec"><h3>近くの日帰り温泉</h3><p class="d-p">30km以内に見つかりませんでした。</p></div>' : "";
     var n = party.a + party.c;
     var h = '<div class="d-sec onsen"><h3>近くの日帰り温泉<span class="h-sub">総額は' + esc(partyText()) + "の場合</span></h3>";
-    h += list.map(function (x) {
+    var item = function (x) {
       var o = x[0];
       return '<details class="on-item"><summary><span class="on-ic" aria-hidden="true">♨</span><span class="on-n">' + esc(o.name) +
+        (o.type ? '<span class="on-type">' + esc(o.type) + "</span>" : "") +
         '</span><span class="on-km">' + x[1] + 'km</span><span class="on-y' + (o.adult == null ? " un" : "") + '">' + onsenSummary(o) + "</span></summary>" +
         '<div class="on-b">' + onsenDetail(o) + "</div></details>";
-    }).join("");
+    };
+    h += list.slice(0, 3).map(item).join("");
+    if (list.length > 3) h += '<details class="on-more"><summary>ほかに' + (list.length - 3) + "件を表示</summary>" + list.slice(3).map(item).join("") + "</details>";
     return h + '<p class="d-note">距離はキャンプ場からの直線距離です。料金は目安で、' + n + "人分で計算しています。営業日や料金は施設で確認してください。</p></div>";
   }
 

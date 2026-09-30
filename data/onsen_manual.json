@@ -1,0 +1,672 @@
+{
+"node/10293467006": {
+"fee_note": "スパリゾート入場料（施設全体）・幼児1,640円・アフターヌーン料金等あり",
+"url": "https://www.hawaiians.co.jp/asobu/yoichi/"
+},
+"node/11495859469": {
+"adult": 1300,
+"child": 700,
+"child_label": "小学生",
+"fee_note": "タオル付1,500円/小児900円。2026/10/1から平日1,600円等に改定",
+"hours": "8:00～22:00（最終受付21:00）",
+"url": "https://www.centrair.jp/shop-dine/shop/fu-no-yu.html",
+"fee_url": "https://www.centrair.jp/shop-dine/shop/fu-no-yu.html",
+"fee_quote": "大人 タオル無し1,300円 タオル付1,500円 小児(6-11歳)700円"
+},
+"node/11542203199": {
+"fee_note": "県資料(古い可能性)。現行料金は要確認",
+"hours": "5:30〜21:30"
+},
+"node/12050647043": {
+"adult": 1300,
+"child": 500,
+"child_label": "小学生",
+"fee_note": "中高生700円（学生証提示）",
+"url": "https://yokote.co.jp/yuyu/onsen/",
+"fee_url": "https://yokote.co.jp/yuyu/onsen/",
+"fee_quote": "おとな 1300円"
+},
+"node/13070061168": {
+"adult": 0,
+"fee_note": "無料の混浴露天・湯浴み着レンタル2,000円（返却時1,000円返金）",
+"hours": "24時間（清掃時は入浴不可）",
+"url": "https://www.maniwa.or.jp/web/index.cgi?c=spot-2&pk=8",
+"fee_url": "https://www.maniwa.or.jp/web/index.cgi?c=spot-2&pk=8",
+"fee_quote": "24時間無料で開放されている"
+},
+"node/13073463261": {
+"adult": 800,
+"child": 400,
+"child_label": "子供（小学生）",
+"fee_note": "入浴2回（4時間）1,300円・小学生未満300円・家族風呂2,500円",
+"url": "https://www.kasioonsen.com/",
+"fee_url": "https://www.kasioonsen.com/",
+"fee_quote": "入浴1回（1時間以内） 800円"
+},
+"node/13415601422": {
+"adult": 400,
+"child": 150,
+"child_label": "小学生",
+"fee_note": "幼児（3歳以上）80円・平日昼割あり（大人300円・小学生100円）",
+"hours": "年中無休",
+"fee_url": "https://www.toyomizunoyu.com/",
+"fee_quote": "400円"
+},
+"node/13734686516": {
+"fee_note": "県資料(発行年古い可)の料金",
+"hours": "7:00-21:00 木休(1・2・8月は営業)"
+},
+"node/1631143932": {
+"adult": 400,
+"child": 200,
+"child_label": "小学生",
+"fee_note": "70歳以上300円・回数券あり",
+"url": "https://town.nakatane.kagoshima.jp/fukushi/machinojoho/kanko/shukuhaku-onsen/onsen/onsenhoyocenter.html",
+"fee_url": "https://town.nakatane.kagoshima.jp/fukushi/machinojoho/kanko/shukuhaku-onsen/onsen/onsenhoyocenter.html",
+"fee_quote": "大人（中学生以上）400円"
+},
+"node/2002477815": {
+"fee_note": "2026年6月1日に料金改定・金額は抜粋に無し",
+"url": "https://www.hotespa.net/spa/chula-u/"
+},
+"node/2012226376": {
+"url": "https://ito-marinetown.co.jp/seasidespa\t,https://ito-marinetown.co.jp/english"
+},
+"node/3921512123": {
+"adult": 600,
+"child": 300,
+"child_label": "小人",
+"fee_note": "不定休",
+"hours": "9:00～21:00（最終入場20:15）",
+"url": "http://www.ztv.ne.jp/irukaspa/yunokuchi.html",
+"fee_url": "https://www.kankomie.or.jp/spot/811",
+"fee_quote": "大人600円、小人300円"
+},
+"node/3949218444": {
+"url": "https://www.kanassa.jp/index.html"
+},
+"node/4270793593": {
+"url": "http://www.jumbo-group.com"
+},
+"node/4554760789": {
+"hours": "8:00〜22:30",
+"url": "https://www.takaosan-onsen.jp/"
+},
+"node/6171954317": {
+"fee_note": "パルパル入園者限定券 大人1,000円・小学生以下660円／えんてつカード提示で900円",
+"url": "https://hanasakinoyu.jp/"
+},
+"node/6172370286": {
+"adult": 700,
+"child": 500,
+"child_label": "小学生",
+"fee_note": "年中無休（メンテ休業あり）",
+"hours": "10:00～21:00（受付20:30迄）",
+"fee_url": "https://www.kankou-gifu.jp/spot/detail_3163.html",
+"fee_quote": "大人700円 小学生500円"
+},
+"node/6673911858": {
+"url": "https://www.city.izunokuni.shizuoka.jp/sien_koureisha/kenko/koureisha/onsen/index.html"
+},
+"node/6680113990": {
+"adult": 500,
+"child": 300,
+"child_label": "子供（小学生以下）",
+"fee_note": "２歳以下無料・土日祝のみ営業の記載あり",
+"hours": "11:00〜19:00（土日祝のみ営業の記載あり）",
+"url": "https://itospa.com/spa/detail_54227.html",
+"fee_url": "https://itospa.com/spa/detail_54227.html",
+"fee_quote": "入浴料：大人５００円"
+},
+"node/6709084785": {
+"url": "https://niijima-info.jp/enjoy/hotspring/yunohama/"
+},
+"node/6796522486": {
+"fee_note": "水曜休（祝日は翌平日）。料金は確認できず",
+"hours": "10:00～20:00受付（20:45閉館）"
+},
+"node/7398048797": {
+"url": "http://www.mitoro.co.jp/mitoroso.htm"
+},
+"node/7804955928": {
+"url": "http://www.miyagawa.org/natural-hot-spring"
+},
+"node/8278599864": {
+"adult": 1300,
+"child": 650,
+"child_label": "子供（4才以上）",
+"fee_note": "タトゥーはカバーシール必要",
+"hours": "10:00〜24:00（最終入館23:00）・第1・3木曜休",
+"url": "http://www.suiransou.com/",
+"fee_url": "http://www.suiransou.com/",
+"fee_quote": "大人（中学生以上）1,300円"
+},
+"node/9137265268": {
+"adult": 900,
+"child": 430,
+"child_label": "こども（3歳〜小6）",
+"fee_note": "土日祝は大人1,000円・こども480円の可能性（表の2列目）・2歳以下無料",
+"hours": "平日9:00〜23:00・土日祝6:00〜23:00（受付30分前まで）",
+"url": "https://www.gokurakuyu.ne.jp/tempo/tomiya/index.html",
+"fee_url": "https://www.gokurakuyu.ne.jp/tempo/tomiya/index.html",
+"fee_quote": "900円"
+},
+"node/9150882297": {
+"url": "http://www.yumoto-kumegawa.jp/"
+},
+"node/9681923408": {
+"url": "https://seinanomori.com/field/sauna/"
+},
+"node/9817905318": {
+"adult": 550,
+"child": 200,
+"child_label": "小学生（中人）",
+"fee_note": "小学生未満100円・愛知県の銭湯統一料金",
+"fee_url": "https://aichi1010.jp/page/detail/l/71",
+"fee_quote": "大人（中学生以上）550円"
+},
+"relation/10452311": {
+"fee_note": "コース別の料金表（例:大人1,550円税込〜）だが区分不明・3歳以下無料",
+"hours": "7:00〜翌1:00（最終受付24:00）",
+"url": "https://rakuspa.com/hamamatsu/"
+},
+"relation/8436405": {
+"hours": "10:00〜17:00（最終受付16:00）・火曜休",
+"url": "https://www.okuyama-onsen.com/"
+},
+"relation/9442250": {
+"adult": 900,
+"child": 500,
+"child_label": "小人（小学生以下）",
+"fee_note": "土日祝は大人950円・天然温泉は入湯税50円別途",
+"url": "https://grannoyu.com/",
+"fee_url": "https://grannoyu.com/intro/guide",
+"fee_quote": "900円"
+},
+"relation/9605066": {
+"adult": 850,
+"child": 500,
+"child_label": "子供（小学生以下）",
+"fee_note": "土日祝は大人900円・館内着150円別",
+"hours": "10:00〜22:00",
+"url": "https://onomichi-radon-onsen.co.jp/",
+"fee_url": "https://onomichi-radon-onsen.co.jp/",
+"fee_quote": "大人（中学生以上）※タオル・館内着別 | 850円"
+},
+"way/116792130": {
+"adult": 800,
+"child": 400,
+"child_label": "小人",
+"hours": "10:00〜21:00・水曜休（祝日は営業）",
+"url": "https://toueionsen.com/",
+"fee_url": "https://toueionsen.com/",
+"fee_quote": "大人：800円 / 小人：400円"
+},
+"way/1192559647": {
+"url": "https://shitoku.net/"
+},
+"way/1217012361": {
+"fee_note": "食事なしプラン（最大3時間・フリードリンク付・入湯税100円含む）・ランチプラン6,800円",
+"hours": "10:00〜18:30（最終入館16:30）"
+},
+"way/1221445279": {
+"adult": 600,
+"child": 300,
+"child_label": "中学生以下",
+"fee_note": "大人は高校生以上・小学生未満の料金は抜粋に無し・11枚綴り6,000円",
+"hours": "木曜定休",
+"url": "https://www.city.chino.lg.jp/soshiki/chiikifukushi/1356.html",
+"fee_url": "https://www.city.chino.lg.jp/soshiki/chiikifukushi/1356.html",
+"fee_quote": "600円"
+},
+"way/1254249720": {
+"adult": 800,
+"child": 450,
+"child_label": "小人（4歳以上〜小学生）",
+"fee_note": "土日祝は大人900円・乳幼児250円・岩盤浴込み・GW/お盆/年末年始は土日料金",
+"hours": "10:00〜23:00（岩盤浴は閉店1時間前まで）",
+"url": "https://www.kamaba-onsen.jp/",
+"fee_url": "https://www.kamaba-onsen.jp/",
+"fee_quote": "800円"
+},
+"way/133428444": {
+"adult": 600,
+"child": 300,
+"child_label": "小人",
+"fee_note": "市営の日帰り温泉",
+"hours": "9:30〜16:30（札止16:00）",
+"url": "https://www.city.shizuoka.lg.jp/okushizuoka/spot/s000050.html",
+"fee_url": "https://www.city.shizuoka.lg.jp/okushizuoka/spot/s000050.html",
+"fee_quote": "大人600円 小人300円 9時30分から16時30分（札止め16時00分）"
+},
+"way/1411200924": {
+"adult": 780,
+"child": 300,
+"child_label": "小人（小学生）",
+"fee_note": "土日祝は大人850円・幼児200円",
+"url": "http://www.kotobukinoyu.com/",
+"fee_url": "http://www.kotobukinoyu.com/",
+"fee_quote": "(平日)780円"
+},
+"way/1431643583": {
+"fee_note": "一日入浴券1,500円",
+"hours": "10:00〜22:00・不定休",
+"url": "https://onto.jp"
+},
+"way/1463878308": {
+"adult": 1100,
+"child": 550,
+"child_label": "小人",
+"fee_note": "観劇付き2,000円（小人1,000円）",
+"hours": "10:00〜23:00（フロント受付は22:00まで）",
+"url": "https://momotaro-hotel.co.jp/",
+"fee_url": "https://momotaro-hotel.co.jp/information/",
+"fee_quote": "1,100円"
+},
+"way/182943462": {
+"fee_note": "入泉料単体の金額が抜粋に無い（食事付プラン等のみ）",
+"url": "https://www.fuji-yurari.jp/"
+},
+"way/189824747": {
+"fee_note": "料金表は画像で金額不明・入館から4時間無料",
+"hours": "8:00〜24:00（最終受付23:30）・年中無休",
+"url": "https://hijirinone.com/"
+},
+"way/217850355": {
+"fee_note": "土日祝は大人1,000円の可能性（表の対応が不確か）・岩盤浴は別料金",
+"hours": "毎月第3水曜休館",
+"url": "http://www.kusanagino-yu.com/"
+},
+"way/229567027": {
+"fee_note": "入湯税の記載のみで入浴料なし",
+"url": "https://ookawaso.co.jp"
+},
+"way/251587632": {
+"adult": 900,
+"child": 350,
+"child_label": "小学生",
+"fee_note": "中高生700円・未就学児無料（入湯税込）",
+"hours": "月・火曜定休",
+"url": "https://www.benifuji.co.jp/",
+"fee_url": "https://www.benifuji.co.jp/",
+"fee_quote": "大人900円 中高生700円 小学生350円 小学生未満は無料"
+},
+"way/263261985": {
+"adult": 900,
+"child": 450,
+"child_label": "小人(小学生以下)",
+"fee_note": "土日祝は大人1,000円・回数券11枚8,500円",
+"hours": "10:00〜19:00（最終受付18:30）・木曜定休",
+"url": "https://tsubakinoyu.jp/",
+"fee_url": "https://tsubakinoyu.jp/",
+"fee_quote": "大人(中学生以上) 平日 900円 / 土日祝 1000円"
+},
+"way/281559172": {
+"adult": 700,
+"child": 300,
+"child_label": "子ども",
+"fee_note": "バスタオルのみ200円・12〜6月の木曜は無人営業",
+"hours": "9:00〜19:00（最終受付18:30）・定休なし",
+"url": "https://www.hayakawa-zaidan.net/project-2",
+"fee_url": "https://www.hayakawa-zaidan.net",
+"fee_quote": "700円(子ども300円)"
+},
+"way/312010876": {
+"adult": 700,
+"fee_note": "300円・600円の区分あり（対象不明）・回数券11回7,000円",
+"url": "https://goshonosato.com/",
+"fee_url": "https://goshonosato.com/spa/",
+"fee_quote": "700円"
+},
+"way/345418511": {
+"fee_note": "県資料(発行年古い可)の料金",
+"hours": "10:00-21:00 水休"
+},
+"way/351989502": {
+"url": "https://nikkoutei.amebaownd.com/"
+},
+"way/358424860": {
+"fee_note": "県資料(発行年古い可)の料金",
+"hours": "10:00-22:00(12-3月21時) 火休"
+},
+"way/371157401": {
+"url": "http://t-ringo.com/"
+},
+"way/388982154": {
+"fee_note": "無休。料金は確認できず",
+"hours": "10:00～21:30（受付21:00まで）"
+},
+"way/415084768": {
+"adult": 500,
+"child": 300,
+"child_label": "小学生",
+"fee_note": "大人は中学生以上。第3木曜休。県資料(古い可能性)",
+"hours": "10:00〜22:00",
+"fee_url": "https://www.pref.nagano.lg.jp/osakajimu/kanko/documents/documents/261106ekichikaonsen.pdf",
+"fee_quote": "大人（中学生以上）500円、小人（小学生）300円"
+},
+"way/419084275": {
+"fee_note": "料金表は画像で金額不明・11枚綴り券あり",
+"url": "https://www.nahacen.com/rikka/"
+},
+"way/427579892": {
+"fee_note": "日帰り大人回数券12枚綴り通常9,000円（割引時8,500円）・単回料金不明",
+"hours": "水曜定休（祝日は営業）",
+"url": "https://hiraya-himawarinoyu.com/"
+},
+"way/432520281": {
+"adult": 600,
+"child": 300,
+"child_label": "小学生以下",
+"fee_note": "市民400円、市外600円",
+"hours": "9:00〜21:00（受付20:30）",
+"fee_url": "https://www.city.chino.lg.jp/uploaded/attachment/29375.pdf",
+"fee_quote": "大人400円(市民)/600円(市民以外) 小学生以下300円"
+},
+"way/435426725": {
+"fee_note": "検索未実施（検索上限）"
+},
+"way/436651585": {
+"url": "http://www.hirumori.com/"
+},
+"way/440036785": {
+"url": "https://www.aroma1126.com/"
+},
+"way/481898019": {
+"hours": "10:00〜翌9:00（23時間営業）",
+"url": "https://spa-kuroshio.com/"
+},
+"way/483024304": {
+"url": "http://www.kushimoto-furusato-ppc.jp/sangonoyu/"
+},
+"way/513595758": {
+"fee_note": "17時以降は大人250円・子供200円(県資料・古い可)",
+"hours": "10:00-21:00 水休"
+},
+"way/551188293": {
+"fee_note": "料金表は画像で金額不明",
+"url": "https://kasugai-mantenbo.com/"
+},
+"way/570427358": {
+"adult": 730,
+"child": 360,
+"child_label": "小人",
+"fee_note": "2027年4月から大人830円・小人410円に改定予定。70歳以上市民5割減免",
+"fee_url": "https://www.city.hamamatsu.shizuoka.jp/hk-machi/20260709.html",
+"fee_quote": "入浴料 大人730円→830円、小人360円→410円（2027年4月1日より）"
+},
+"way/574617411": {
+"adult": 800,
+"child": 400,
+"child_label": "小学生",
+"fee_note": "家族湯4,000円/1時間・障害者手帳で半額・料金改定のお知らせあり",
+"url": "https://www.city.maniwa.lg.jp/soshiki/60/2653.html",
+"fee_url": "https://www.city.maniwa.lg.jp/soshiki/60/2653.html",
+"fee_quote": "中学生以上 800円"
+},
+"way/613191552": {
+"adult": 500,
+"child": 350,
+"child_label": "小人（3歳以上12歳未満）",
+"fee_note": "水曜休・年末年始休",
+"hours": "10:00～20:00（入浴受付19:00）",
+"fee_url": "https://www.kankomie.or.jp/spot/1222",
+"fee_quote": "大人500円、小人（3歳以上12歳未満）350円"
+},
+"way/617479509": {
+"adult": 800,
+"child": 300,
+"child_label": "子供（3歳以上）",
+"fee_note": "繁忙期は大人900円・回数券10枚7,500円",
+"hours": "9:30〜21:50（札止21:00）・第3月曜休",
+"url": "https://www.garyunoyu.com/",
+"fee_url": "https://www.garyunoyu.com/",
+"fee_quote": "800円"
+},
+"way/625343522": {
+"url": "http://kuranoyujpn.sakura.ne.jp/"
+},
+"way/666009075": {
+"adult": 850,
+"child": 350,
+"child_label": "子供(4歳〜小学生)",
+"fee_note": "大人900円の区分もあり（平日/土日祝の可能性）・幼児200円",
+"hours": "10:00〜24:00（最終受付23:30）",
+"url": "https://www.honokanoyu.jp/",
+"fee_url": "https://www.honokanoyu.jp/",
+"fee_quote": "850円"
+},
+"way/667825449": {
+"url": "https://www.kawazu-onsen.com/onsen/onsen.html"
+},
+"way/674221100": {
+"fee_note": "通常700円・1,350円等の記載はあるが大人入館料を特定できず・2026.07.17料金改定あり",
+"url": "https://www.yu-tori.jp/"
+},
+"way/674697827": {
+"fee_note": "料金表は画像で金額不明・会員は一般より50円安い",
+"hours": "11:00〜22:00（入浴受付21:30まで）",
+"url": "https://www.sunaharai.jp/"
+},
+"way/675067116": {
+"fee_note": "県資料(発行年古い可)の料金",
+"hours": "10:00-22:00 第4水休"
+},
+"way/682468222": {
+"adult": 600,
+"child": 300,
+"child_label": "小学生以下",
+"fee_note": "市民400円、市外600円",
+"hours": "9:00〜21:00（受付20:30）",
+"fee_url": "https://www.city.chino.lg.jp/uploaded/attachment/29375.pdf",
+"fee_quote": "大人400円(市民)/600円(市民以外) 小学生以下300円"
+},
+"way/682477105": {
+"adult": 600,
+"child": 300,
+"child_label": "小学生以下",
+"fee_note": "市民400円、市外600円",
+"hours": "9:00〜21:00（受付20:30）",
+"fee_url": "https://www.city.chino.lg.jp/uploaded/attachment/29375.pdf",
+"fee_quote": "大人400円(市民)/600円(市民以外) 小学生以下300円"
+},
+"way/683753404": {
+"fee_note": "料金表の区分（小人300円等）が金額と対応せず判別不能",
+"hours": "休館日：毎月第3木曜日",
+"url": "http://tsurumai.fun/"
+},
+"way/684796705": {
+"fee_note": "再開時割引は大人400円・子供250円（通常額未確認）"
+},
+"way/684966504": {
+"url": "https://www.masutominoyu.com/"
+},
+"way/685810658": {
+"adult": 800,
+"child": 400,
+"child_label": "小人（小学生）",
+"fee_note": "夜割700円（平日17時〜）・JAF会員割引あり・小学生未満無料",
+"hours": "10:00〜20:30（10:30〜19:30・月火休の記載もあり）",
+"url": "http://takamorinoyu.com",
+"fee_url": "http://takamorinoyu.com",
+"fee_quote": "通常入浴｜800円"
+},
+"way/686637254": {
+"adult": 500,
+"child": 200,
+"child_label": "小人（小学生以下）",
+"url": "https://shimojo-kanko.jp/asobu/kosumosunoyu",
+"fee_url": "https://shimojo-kanko.jp/asobu/kosumosunoyu",
+"fee_quote": "大人500円、小人（小学生以下）200円"
+},
+"way/687056517": {
+"adult": 600,
+"child": 400,
+"child_label": "小・中学生",
+"fee_note": "水曜休（祝日は無休）。冬期は11:00～20:00",
+"hours": "4-11月10:00～21:00（受付20:30）",
+"fee_url": "https://www.kankou-gifu.jp/spot/detail_3226.html",
+"fee_quote": "大人600円 小人（小・中学生）400円"
+},
+"way/687067002": {
+"adult": 900,
+"child": 400,
+"child_label": "小人",
+"fee_note": "小人は4歳～12歳未満。木曜休。市民割引あり",
+"hours": "10:00～20:30（受付20:00迄）",
+"fee_url": "https://www.kankou-gifu.jp/spot/detail_9535.html",
+"fee_quote": "大人900円 小人（4歳～12歳未満）400円"
+},
+"way/687076782": {
+"fee_note": "2019年より冬期のみ営業。料金は公式HP参照",
+"hours": "14:00～21:00（最終受付20:00）",
+"url": "https://www.bokka.co.jp/spa.php"
+},
+"way/687087440": {
+"fee_note": "水曜休ほか。料金は公式HP参照",
+"hours": "11:00～20:00",
+"url": "https://pw.gujotakasu.com/hutakoe/hutakoe.htm"
+},
+"way/687249619": {
+"fee_note": "平日休館（GW・夏休みは毎日営業）。料金は公式参照",
+"hours": "11:00～20:00",
+"url": "https://winghills.net/facilities/bath/"
+},
+"way/687251635": {
+"fee_note": "旧「美人の湯しろとり」から改装。料金は公式で確認",
+"url": "https://kamihonoyu.jp/"
+},
+"way/687255460": {
+"fee_note": "料金は公式HP参照。火曜休（祝日は翌日）",
+"hours": "10:00～21:30（最終入館21:00）"
+},
+"way/689277187": {
+"fee_note": "大人・大学生は1,000円と850円の2区分で対応不明",
+"hours": "10:00〜24:00（受付23:30まで）・年中無休",
+"url": "https://onsen-mori.com/"
+},
+"way/690172144": {
+"adult": 520,
+"child": 310,
+"child_label": "小学生",
+"fee_note": "毎週火曜休館（当面の間）",
+"hours": "受付10:00～20:00、閉館21:00",
+"fee_url": "https://www.kankomie.or.jp/spot/23850",
+"fee_quote": "大人：520円 小人（小学生）：310円"
+},
+"way/690199941": {
+"adult": 470,
+"child": 150,
+"child_label": "小学生",
+"fee_note": "大人は中学生以上。火曜・1/1-2休",
+"hours": "14:00～22:00（最終入場21:20）",
+"fee_url": "https://www.kankomie.or.jp/spot/15367",
+"fee_quote": "中学生以上470円 小学生150円 未就学児70円"
+},
+"way/690994042": {
+"url": "http://www.onjuku-kajika.jp/"
+},
+"way/699063587": {
+"url": "http://www.oakland-city.com/"
+},
+"way/699076389": {
+"hours": "10:00〜19:00（最終受付18:30）・木曜休",
+"url": "https://www.nihongi-spa.com/"
+},
+"way/700535559": {
+"adult": 800,
+"child": 500,
+"child_label": "小人",
+"fee_note": "大人12歳以上、小人3～12歳未満。木曜休。市民割引あり",
+"hours": "10:00～21:00（最終受付20:15）",
+"fee_url": "https://www.kankou-gifu.jp/spot/detail_9236.html",
+"fee_quote": "大人（12歳以上）800円 小人（3歳～12歳未満）500円"
+},
+"way/706521711": {
+"fee_note": "水曜休。料金は確認できず",
+"hours": "10:00～21:00（入場20:00まで）"
+},
+"way/713040896": {
+"adult": 600,
+"child": 300,
+"child_label": "小学生以下",
+"fee_note": "市民400円、市外600円（茅野市資料）",
+"hours": "9:00〜21:00（受付20:30）",
+"fee_url": "https://www.city.chino.lg.jp/uploaded/attachment/29375.pdf",
+"fee_quote": "大人400円(市民)/600円(市民以外) 小学生以下300円"
+},
+"way/714418331": {
+"url": "http://www.vill-tenryu.jp/okiyome_spa/"
+},
+"way/714435265": {
+"url": "https://tohyamago.com/osusume/kaguranoyu-2/"
+},
+"way/714451817": {
+"fee_note": "現行料金は市内外で区分（要確認）。令和9年4月から大人300円・小人200円"
+},
+"way/714676163": {
+"adult": 900,
+"child": 500,
+"child_label": "小学生",
+"fee_note": "中学生以上900円。掲載は土日祝の営業時間",
+"hours": "土日祝10:00～21:00（受付20:30迄）",
+"fee_url": "https://www.kankou-gifu.jp/spot/detail_3060.html",
+"fee_quote": "大人（中学生以上）900円 小学生500円 小学生未満無料"
+},
+"way/714677365": {
+"adult": 600,
+"child": 300,
+"child_label": "小学生",
+"fee_note": "6～11月のみ営業（天候で変動）",
+"hours": "11:00～19:00",
+"fee_url": "https://www.kankou-gifu.jp/spot/detail_4859.html",
+"fee_quote": "大人600円 小学生300円"
+},
+"way/714788946": {
+"adult": 800,
+"child": 400,
+"child_label": "小人（3～12歳）",
+"fee_note": "大人13～69歳。火曜休（祝日営業）",
+"hours": "10:00～21:00（最終受付20:30）",
+"fee_url": "https://www.kankomie.or.jp/report/401",
+"fee_quote": "大人（13～69歳）800円、小人（3～12歳）400円"
+},
+"way/715621426": {
+"adult": 900,
+"child": 450,
+"child_label": "小人（小学生迄）",
+"fee_note": "土日祝は大人950円・小人500円・乳幼児（3才以下）あり",
+"hours": "10:00〜24:00（受付23:00まで）・年中無休",
+"url": "https://www.nabarinoyu.com/index.php",
+"fee_url": "https://www.nabarinoyu.com/guide.php",
+"fee_quote": "【平日】900円"
+},
+"way/745640685": {
+"adult": 600,
+"child": 300,
+"child_label": "3歳以上小学生",
+"fee_note": "11回券6,000円・小学生以下はサウナ不可",
+"url": "https://www.seiryuen.jp/",
+"fee_url": "https://www.seiryuen.jp/dayuse/",
+"fee_quote": "大人（中学生以上） 600円"
+},
+"way/846989379": {
+"fee_note": "大人は770〜1,070円の複数区分で平日/休日の対応が不明",
+"hours": "10:00〜23:30・火曜定休（第2/毎週の記載混在）",
+"url": "https://s-yamakou.co.jp/"
+},
+"way/858731560": {
+"url": "https://fudou-onsen.co.jp/"
+},
+"way/949599854": {
+"url": "https://msnav.com/navi/onsen/iida/kawaji"
+},
+"way/982138668": {
+"adult": 900,
+"fee_note": "お盆・GW等は繁忙期料金あり",
+"hours": "10:00〜22:00（最終受付21:00）・年中無休",
+"url": "https://maruhagongitsunenoyu.com/",
+"fee_url": "https://maruhagongitsunenoyu.com/",
+"fee_quote": "通常大人900円"
+}
+}

@@ -1,0 +1,51 @@
+name: onsen-data
+
+# 日帰り入浴施設の一覧と料金を毎月更新する（Claude・AIは使わないので費用はかからない）。
+# 1) OpenStreetMap の入浴施設（全国）
+# 2) 県の観光協会サイトの入浴施設ページ（地図データに無い施設の追加と、料金・営業時間の読み取り）
+# 3) data/onsens.json を作り直す → build-and-deploy が動いてサイトに反映
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_onsen.py"
+      - "scripts/fetch_onsen_tourism.py"
+      - "scripts/build_onsens.py"
+      - "scripts/onsen_fee_parse.py"
+      - "data/onsen_manual.json"
+  schedule:
+    - cron: "11 18 5 * *"   # 毎月6日 3:11（日本時間）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: onsen-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 入浴施設（OpenStreetMap・全国）
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[osm]')
+        run: python scripts/fetch_onsen.py
+      - name: 観光協会サイトの入浴施設ページ（初回は1〜2時間）
+        run: python scripts/fetch_onsen_tourism.py --budget 14400
+      - name: 一覧と料金を作り直す
+        run: python scripts/build_onsens.py
+      - name: コミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/onsen_osm.json data/onsen_tourism.json data/onsens.json data/onsen_geocode_cache.json
+          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
+          git commit -m "日帰り入浴施設の一覧と料金を更新"
+          git pull --rebase origin main
+          git push

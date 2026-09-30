@@ -416,7 +416,7 @@ def main() -> int:
                 rec["resv_text"] = mm.group(0) + ("（利用者の情報）" if "利用者" in fn else "")
                 rec["resv_quote"] = fn[:80]
                 rec["resv_url"] = m.get("source_url", "")
-        # 近くの日帰り入浴施設（直線距離で近い順に3件、30km以内）
+        # 近くの日帰り入浴施設（直線距離で近い順に5件、30km以内）
         near = []
         for o in onsen_list:
             if abs(o["lat"] - rec["lat"]) > 0.3 or abs(o["lng"] - rec["lng"]) > 0.4:
@@ -425,7 +425,7 @@ def main() -> int:
             if d <= ONSEN_KM:
                 near.append((d, o["id"]))
         if near:
-            rec["onsen"] = [[i, round(d, 1)] for d, i in sorted(near)[:3]]
+            rec["onsen"] = [[i, round(d, 1)] for d, i in sorted(near)[:5]]
         bs = bear_summary(rec, bears, camp_muni, today) if bears else None
         if bs:
             rec["bear"] = bs

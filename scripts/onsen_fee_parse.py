@@ -1,11 +1,5 @@
-"""観光協会サイトから集めたページ（data/onsen_tourism.json）を、地図の入浴施設（data/onsens.json）に名前と位置で結び付け、
-「大人○○円」「小学生○○円」を文字パターンで読み取って料金を入れる。Claude（AI）は使わない。
-
-- 公式・自治体などで確認済みの料金（手入力）は上書きしない
-- 読み取りに自信がないもの（料金の候補が3つ以上、宿泊や食事の料金と混ざっている等）は入れない
-- 前回の自動読み取りの結果は毎回消してから入れ直す（ページから消えた料金が残らないように）
-
-python scripts/apply_onsen_fees.py
+"""入浴施設の名前の突き合わせと、ページの文章から「大人○○円」「小学生○○円」を読み取る部品（Claude・AIは使わない）。
+scripts/build_onsens.py から使う。読み取りに自信がないもの（料金の候補が3つ以上、宿泊や食事の料金と混ざっている等）は None を返す。
 """
 import json
 import math
@@ -98,51 +92,3 @@ def extract(lines):
         r["child"] = cu[0]
         r["child_label"] = next(lab for v, lab in children if v == cu[0])
     return r
-
-
-def main():
-    data = json.loads(ONSENS.read_text(encoding="utf-8"))
-    pages = json.loads(PAGES.read_text(encoding="utf-8"))["pages"] if PAGES.exists() else {}
-    onsens = data["onsens"]
-    for o in onsens:
-        if o.get("fee_src") == "auto":
-            for k in AUTO_KEYS:
-                o.pop(k, None)
-    ok = {o["id"]: keys(o["name"]) for o in onsens}
-    # ページ → 候補の入浴施設
-    links = {}
-    for url, p in pages.items():
-        pk = keys(p["name"])
-        cand = [o for o in onsens if o["pref"] == p["pref"] and same(ok[o["id"]], pk)]
-        if p.get("lat") is not None:
-            cand = [o for o in cand if km((o["lat"], o["lng"]), (p["lat"], p["lng"])) <= 3]
-        if len(cand) == 1:
-            links.setdefault(cand[0]["id"], []).append(url)
-    added = 0
-    for o in onsens:
-        urls = links.get(o["id"], [])
-        if len(urls) != 1:
-            continue
-        p = pages[urls[0]]
-        if not o.get("url") and p.get("official"):
-            o["url"] = p["official"]
-        if p.get("hours") and (not o.get("hours") or o["hours"].endswith("（地図データの情報）")):
-            o["hours"] = p["hours"][:50]
-        if o.get("adult") is not None:
-            continue  # 確認済みの料金は残す
-        r = extract(p["lines"])
-        if not r:
-            continue
-        o.update(r)
-        o["fee_src"] = "auto"
-        o["fee_site"] = p["site"]
-        o["fee_url"] = urls[0]
-        added += 1
-    ONSENS.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    total = sum(1 for o in onsens if o.get("adult") is not None)
-    print(f"観光協会サイトのページ {len(pages)}件 → 施設と結び付いたもの {len(links)}件、料金を自動で入れたもの {added}件（料金あり 計 {total}件／{len(onsens)}件）")
-    return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())

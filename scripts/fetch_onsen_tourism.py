@@ -1,4 +1,5 @@
-"""県の観光協会サイトのスポットページから、日帰り入浴施設の料金・営業時間が載ったページを集める（GitHub Actions で毎月実行）。
+"""県の観光協会サイトのスポットページから、日帰り入浴施設のページ（名前・住所・位置・料金・営業時間）を集める（GitHub Actions で毎月実行）。
+地図データ（OpenStreetMap）に載っていない施設を補うのと、料金を読み取るのに使う。
 一度見て入浴施設ではなかったページは半年間見直さない。入浴施設のページは毎回取り直して料金の変更を拾う。
 
 python scripts/fetch_onsen_tourism.py [--budget 秒]
@@ -109,9 +110,12 @@ def parse(url, html_text, site):
         return None
     if not (BATH.search(name) or (re.search(r"ホテル|旅館|荘|館|宿", name) and re.search(r"日帰り入浴|立ち寄り湯|入浴料", text))):
         return None
-    fee = [l for l in lines if FEE_LINE.search(l) and len(l) <= 160]
-    if not any("円" in l for l in fee):
+    # 記事ページ（見出しが文章）や温泉地の紹介ページは施設として扱わない
+    if len(name) > 30 or re.search(r"[。、！？!?「」]", name):
         return None
+    if not re.search(r"入浴|営業時間|利用時間|開館時間|定休日|休館日|休業日", text):
+        return None
+    fee = [l for l in lines if FEE_LINE.search(l) and len(l) <= 160]
     rec = {"pref": site["pref"], "site": site["site"], "name": name, "lines": fee[:40], "fetched": TODAY.isoformat()}
     for i, l in enumerate(lines):
         if re.match(r"^(営業時間|利用時間|入浴時間|開館時間)", l):

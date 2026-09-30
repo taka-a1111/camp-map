@@ -381,3 +381,7 @@ select { max-width: 150px; }
   .detail::before { width: 44px; height: 5px; }
 }
 .onsen-toggle.far { opacity: .75; }
+.on-type { font-size: 11px; color: var(--sub); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-left: 5px; vertical-align: 1px; }
+.on-more > summary { cursor: pointer; font-size: 13px; color: var(--accent); padding: 4px 2px 8px; list-style: none; }
+.on-more > summary::-webkit-details-marker { display: none; }
+.on-more[open] > summary { color: var(--sub); }
