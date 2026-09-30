@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30j */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30k */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30j";
+  var BUILD = "2026-09-30k";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -468,17 +468,22 @@
     if (o.hours) h += '<p class="d-p">営業時間：' + esc(o.hours) + "</p>";
     h += '<p class="d-p">' + onsenLinks(o) + (safeUrl(o.page) ? '　<a href="' + esc(o.page) + '" target="_blank" rel="noopener">' + esc(o.site || "観光協会") + "の紹介</a>" : "") + "</p>";
     if (o.fee_note_auto) h += '<p class="d-p">' + esc(o.fee_note_auto) + "</p>";
+    if ((o.fee_src === "ref" || o.fee_src === "checked") && safeUrl(o.fee_url)) {
+      h += '<p class="d-note">' + (o.fee_src === "ref" ? "料金は旅行・温泉サイトの掲載による参考値です。変わっていることがあるので施設で確認してください。" : "料金の出典：") +
+        '<a href="' + esc(o.fee_url) + '" target="_blank" rel="noopener">ページ</a></p>';
+    }
     if (o.fee_quote) h += '<p class="d-note">料金の根拠：「' + esc(o.fee_quote) + "」" + (safeUrl(o.fee_url) ? '（<a href="' + esc(o.fee_url) + '" target="_blank" rel="noopener">' + esc(o.fee_site || "ページ") + "</a>）" : "") +
       (o.fee_src === "auto" ? "。観光協会サイトの掲載から自動で読み取った料金です。" : "") + "</p>";
     return h;
   }
   function onsenSummary(o) {
     var r = onsenCalc(o);
-    return r ? (r.partial ? yen(r.total) + "〜" : yen(r.total)) : "料金未確認";
+    return r ? (r.partial ? yen(r.total) + "〜" : yen(r.total)) + (o.fee_src === "ref" ? "（参考）" : "") : "料金未確認";
   }
   function onsenBlock(c) {
     var list = (c.onsen || []).map(function (x) { return [onsens[x[0]], x[1]]; }).filter(function (x) { return x[0]; });
-    if (!list.length) return Object.keys(onsens).length ? '<div class="d-sec"><h3>近くの日帰り温泉</h3><p class="d-p">30km以内に見つかりませんでした。</p></div>' : "";
+    if (!list.length) return Object.keys(onsens).length ? '<div class="d-sec"><h3>近くの日帰り温泉</h3><p class="d-p">30km以内の施設はまだ登録されていません。</p>' +
+      '<a class="btn on-gmap" href="https://www.google.com/maps/search/' + encodeURIComponent("日帰り温泉") + "/@" + c.lat + "," + c.lng + ',12z" target="_blank" rel="noopener">Googleマップで周辺の日帰り温泉を見る</a></div>' : "";
     var n = party.a + party.c;
     var h = '<div class="d-sec onsen"><h3>近くの日帰り温泉<span class="h-sub">総額は' + esc(partyText()) + "の場合</span></h3>";
     var item = function (x) {
@@ -490,7 +495,8 @@
     };
     h += list.slice(0, 3).map(item).join("");
     if (list.length > 3) h += '<details class="on-more"><summary>ほかに' + (list.length - 3) + "件を表示</summary>" + list.slice(3).map(item).join("") + "</details>";
-    return h + '<p class="d-note">距離はキャンプ場からの直線距離です。料金は目安で、' + n + "人分で計算しています。営業日や料金は施設で確認してください。</p></div>";
+    h += '<a class="btn on-gmap" href="https://www.google.com/maps/search/' + encodeURIComponent("日帰り温泉") + "/@" + c.lat + "," + c.lng + ',12z" target="_blank" rel="noopener">Googleマップで周辺の日帰り温泉を見る</a>';
+    return h + '<p class="d-note">距離はキャンプ場からの直線距離です。料金は目安で、' + n + "人分で計算しています。ここに無い施設もあるので、Googleマップでも確認してください。</p></div>";
   }
 
   function resvBlock(c) {

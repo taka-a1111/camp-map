@@ -385,3 +385,4 @@ select { max-width: 150px; }
 .on-more > summary { cursor: pointer; font-size: 13px; color: var(--accent); padding: 4px 2px 8px; list-style: none; }
 .on-more > summary::-webkit-details-marker { display: none; }
 .on-more[open] > summary { color: var(--sub); }
+.btn.on-gmap { margin: 4px 0 2px; font-size: 13.5px; }

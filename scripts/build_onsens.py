@@ -3,6 +3,8 @@
 - data/onsen_tourism.json  ：県の観光協会サイトの入浴施設ページ（scripts/fetch_onsen_tourism.py）
                               OSM に無い施設はここから追加し、料金も文字パターンで読み取る
 - data/onsen_manual.json   ：公式・自治体などで確認した料金（手入力。自動の値より優先）
+- data/onsen_extra.json    ：市町村ごとの調査・県の温泉協会の一覧・利用者の情報で見つけた施設（名前・住所・料金）
+                              source_kind が official（公式・自治体・温泉協会・観光協会）なら確認済み、agg（旅行サイト等）なら参考扱い
 観光協会ページに緯度経度が無い施設は、住所を国土地理院の住所検索で位置にする（data/onsen_geocode_cache.json に保存）。
 
 python scripts/build_onsens.py [--no-geocode]
@@ -87,6 +89,7 @@ def main():
     manual = load("onsen_manual.json", {})
     pages = load("onsen_tourism.json", {"pages": {}})["pages"]
     cache = load("onsen_geocode_cache.json", {})
+    extra_list = load("onsen_extra.json", [])
 
     out = []
     for r in osm:
@@ -143,6 +146,36 @@ def main():
             out[i]["site"] = pages[urls[0]]["site"]
     out += added
 
+    # 調査で見つけた施設：既存の施設と同じなら料金などを補い、無ければ住所の位置で追加する
+    n_extra = 0
+    for x in extra_list:
+        xk = keys(x["name"])
+        pos = geocode(x.get("address"), x["pref"], cache, not a.no_geocode)
+        cand = [o for o in out if o["pref"] == x["pref"] and same(keys(o["name"]), xk)]
+        if pos:
+            cand = [o for o in cand if km((o["lat"], o["lng"]), pos) <= 3]
+        if len(cand) > 1:
+            continue
+        if cand:
+            o = cand[0]
+        elif pos:
+            o = {"id": "x-" + hashlib.md5((x["pref"] + x["name"]).encode()).hexdigest()[:10], "name": x["name"], "pref": x["pref"],
+                 "lat": pos[0], "lng": pos[1], "src": "extra"}
+            if x.get("kind") in ("銭湯", "スーパー銭湯"):
+                o["type"] = x["kind"]
+            out.append(o)
+            n_extra += 1
+        else:
+            continue
+        if x.get("url") and not o.get("url"):
+            o["url"] = x["url"]
+        if x.get("adult") is not None and o.get("adult") is None and not manual.get(o["id"].replace("-", "/", 1), {}).get("adult"):
+            o["adult"] = x["adult"]
+            if x.get("child") is not None:
+                o["child"], o["child_label"] = x["child"], x.get("child_label", "")
+            o["fee_url"] = x.get("source_url", "")
+            o["fee_src"] = "ref" if x.get("source_kind") == "agg" else "checked"
+
     n_auto = n_manual = 0
     for o in out:
         pu = o.pop("_page", None)
@@ -161,7 +194,7 @@ def main():
             if m.get("adult") is not None:
                 n_manual += 1
                 continue
-        if p and o.get("adult") is None:
+        if p and o.get("adult") is None and o.get("fee_src") not in ("checked", "ref"):
             r = extract(p.get("lines", []))
             if r:
                 o.update(r)
@@ -173,7 +206,7 @@ def main():
     GEO.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
     OUT.write_text(json.dumps({"generated_from": "OpenStreetMap contributors (ODbL) amenity=public_bath/leisure=spa・県の観光協会サイト・公式/自治体ページ",
                                "onsens": out}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    print(f"入浴施設 {len(out)}件（地図データ {len(osm)}・観光協会サイトから追加 {len(added)}）")
+    print(f"入浴施設 {len(out)}件（地図データ {len(osm)}・観光協会サイトから追加 {len(added)}・調査から追加 {n_extra}）")
     print(f"観光協会ページ {len(pages)}件のうち地図データの施設と結び付いたもの {len(linked)}件")
     print(f"料金あり {n_manual + n_auto}件（確認済み {n_manual}・観光協会ページから自動 {n_auto}）")
     return 0
