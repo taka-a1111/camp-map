@@ -501,7 +501,7 @@
     var h = '<div class="d-sec bear"><h3>クマの出没（直近1年）</h3>';
     if (!b) return h + '<p class="d-p">この県のクマ出没情報はまだ取り込んでいません。市町村や県の出没情報を確認してください。</p></div>';
     var srcLink = safeUrl(b.url) ? '<a href="' + esc(b.url) + '" target="_blank" rel="noopener">' + esc(b.src) + "</a>" : esc(b.src);
-    if (b.na) return h + '<p class="d-p">' + srcLink + "の情報をまだ取り込めていません。行く前に県の出没情報を確認してください。</p></div>";
+    if (b.na) return h + '<p class="d-p">' + (b.note ? esc(b.note) + "行く前に" + srcLink + "で確認してください。" : srcLink + "の情報をまだ取り込めていません。行く前に県の出没情報を確認してください。") + "</p></div>";
     var hit = (b.n || 0) + (b.nc || 0) > 0;
     var lines = [];
     if (b.r != null) {

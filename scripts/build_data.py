@@ -69,6 +69,8 @@ def bear_summary(rec, bears, camp_muni, today):
     out = {"src": src.get("name", ""), "url": src.get("url", ""), "at": src.get("fetched") or bears.get("updated", "")}
     if not src.get("ok") and not recs:
         out["na"] = 1
+        if src.get("na_note"):
+            out["note"] = src["na_note"]
         return out
     muni = camp_muni.get(f"{rec['lat']:.5f},{rec['lng']:.5f}", "")
     if not muni:

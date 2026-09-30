@@ -7,7 +7,7 @@ GitHub Actions で週1回実行する（県のサイトはコンテナからは�
 - 三重県：ArcGIS（三重県の地図サービス）…地点の緯度経度あり、直近1年分
 - 長野県：月ごとの目撃一覧（PDF）…市町村単位（地点の緯度経度なし）
 - 愛知県：年度ごとの出没一覧（PDF）…町字まで。国土地理院の住所検索で町字の位置にする
-- 岐阜県：クママップ（県域統合型GIS）…取り込み方法を確認中。取得したページを bears_debug/ に残す
+- 岐阜県：クママップ（県域統合型GIS）は利用規約への同意が必要なため取り込まない（県のページへの案内のみ）
 
 python scripts/fetch_bears.py
 """
@@ -38,7 +38,8 @@ SOURCES = {
     "三重県": {"name": "三重県 ツキノワグマ出没情報", "url": "https://www.pref.mie.lg.jp/JTAISAKU/HP/m0114900048.htm"},
     "長野県": {"name": "長野県 ツキノワグマ目撃情報", "url": "https://www.pref.nagano.lg.jp/shinrin/sangyo/ringyo/choju/joho/kuma-map.html"},
     "愛知県": {"name": "愛知県 ツキノワグマ出没情報", "url": "https://www.pref.aichi.jp/soshiki/shizen/tsukinowaguma.html"},
-    "岐阜県": {"name": "岐阜県 クママップ", "url": "https://www.pref.gifu.lg.jp/page/4964.html"},
+    "岐阜県": {"name": "岐阜県 クママップ", "url": "https://www.pref.gifu.lg.jp/page/4964.html",
+              "na_note": "岐阜県の出没情報は、利用規約への同意が必要な県の地図（クママップ）でのみ公開されているため、ここでは件数を出していません。"},
 }
 MIE_WEBMAP = "a52667738d034a92a5f62bb7851721a1"
 
@@ -289,56 +290,45 @@ def aichi(geo_cache):
     return list(uniq.values()), f"PDF {len(pdfs)}件"
 
 
-def gifu_probe():
-    """岐阜県のクママップの仕組みを確認するため、ページと読み込んでいるスクリプトを保存する（取り込みはまだしない）。"""
-    url = "https://gis-gifu.jp/gifu/maps.action?mp=P10535,_default&ll=137.3461761,36.1609268&z=3"
-    page = get(url, legacy_tls=True)
-    debug("gifu_map.html", page)
-    for i, s in enumerate(re.findall(r'<script[^>]+src="([^"]+)"', page)[:40]):
-        full = urllib.parse.urljoin(url, s)
-        if "gis-gifu" not in full:
-            continue
-        try:
-            debug(f"gifu_js_{i}.js", get(full, legacy_tls=True))
-        except Exception as e:  # noqa: BLE001
-            debug(f"gifu_js_{i}.err", f"{full} {e}")
-    return [], "未対応（確認中）"
+def gifu_none():
+    return [], "取り込み対象外（県の地図で確認）"
 
 
 # ---- キャンプ場の市町村（逆ジオコーダ）
 def camp_muni(budget_s=900):
-    """キャンプ場の位置から市町村名を調べる（一度調べた位置は再問い合わせしない）。時間がかかるので上限を決め、残りは次回に回す。"""
-    from concurrent.futures import ThreadPoolExecutor
+    """キャンプ場の市町村名。住所の書き出しを市町村一覧と照合し、住所がないものは OpenStreetMap の逆ジオコーダ（Nominatim、1秒に1回まで）で調べる。"""
     camps = json.loads((ROOT / "data" / "camps.json").read_text(encoding="utf-8"))["camps"]
     cache = json.loads(MUNI_OUT.read_text(encoding="utf-8")) if MUNI_OUT.exists() else {}
-    todo = []
+    names = {p: muni_names(p) for p in SOURCES}
+    start, by_addr, by_osm = time.time(), 0, 0
     for c in camps:
+        pref = c["pref"]
         k = f"{c['lat']:.5f},{c['lng']:.5f}"
-        if c["pref"] in SOURCES and k not in cache and k not in todo:
-            todo.append(k)
-    start = time.time()
-
-    def work(k):
+        if pref not in SOURCES or cache.get(k):
+            continue
+        addr = re.sub(r"^" + pref, "", c.get("address", "") or "")
+        addr = re.sub(r"^[^市町村]{1,5}郡", "", addr)
+        hit = [n for n in names[pref] if addr.startswith(n)]
+        if hit:
+            cache[k] = max(hit, key=len)
+            by_addr += 1
+            continue
         if time.time() - start > budget_s:
-            return k, None
-        lat, lng = k.split(",")
+            continue
         try:
-            req = urllib.request.Request(f"https://mreversegeoc.gsi.go.jp/reverse-geocoder/LonLatToAddress?lat={lat}&lon={lng}", headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=15) as r:
-                d = json.loads(r.read().decode("utf-8"))
-            code = (d.get("results") or {}).get("muniCd", "")
-            return k, MUNI.get(code.lstrip("0"), ("", ""))[1]
-        except Exception:  # noqa: BLE001
-            return k, None
-
-    n = 0
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        for k, v in ex.map(work, todo):
-            if v is not None:
-                cache[k] = v
-                n += 1
+            req = urllib.request.Request(f"https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=10&accept-language=ja&lat={c['lat']}&lon={c['lng']}", headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                a = json.loads(r.read().decode("utf-8")).get("address", {})
+            nm = a.get("city") or a.get("town") or a.get("village") or ""
+            cand = [n for n in names[pref] if n == nm or (nm and n.startswith(nm))]
+            if cand:
+                cache[k] = cand[0]
+                by_osm += 1
+        except Exception as e:  # noqa: BLE001
+            print("  Nominatim 失敗", c["name"], e, flush=True)
+        time.sleep(1.1)
     MUNI_OUT.write_text(json.dumps(cache, ensure_ascii=False, indent=0), encoding="utf-8")
-    print(f"キャンプ場の市町村：新しく {n}件／対象 {len(todo)}件（計 {len(cache)}件）", flush=True)
+    print(f"キャンプ場の市町村：住所から {by_addr}件・位置から {by_osm}件（計 {len(cache)}件）", flush=True)
 
 
 def main():
@@ -348,7 +338,7 @@ def main():
     geo_cache = json.loads(GEO_CACHE.read_text(encoding="utf-8")) if GEO_CACHE.exists() else {}
     result = {"updated": TODAY.isoformat(), "sources": {}, "records": {}}
     cutoff = (TODAY - dt.timedelta(days=KEEP_DAYS)).isoformat()
-    jobs = {"静岡県": shizuoka, "三重県": mie, "長野県": nagano, "愛知県": lambda: aichi(geo_cache), "岐阜県": gifu_probe}
+    jobs = {"静岡県": shizuoka, "三重県": mie, "長野県": nagano, "愛知県": lambda: aichi(geo_cache), "岐阜県": gifu_none}
     for pref, fn in jobs.items():
         src = dict(SOURCES[pref])
         try:
