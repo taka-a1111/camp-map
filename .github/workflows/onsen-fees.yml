@@ -1,0 +1,43 @@
+name: onsen-fees
+
+# 県の観光協会サイトから日帰り入浴施設の料金を集め、文字パターンで読み取って data/onsens.json に反映する（毎月）。
+# Claude（AI）は使わないので費用はかからない。反映後は build-and-deploy が動いてサイトに出る。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_onsen_tourism.py"
+      - "scripts/apply_onsen_fees.py"
+  schedule:
+    - cron: "11 18 5 * *"   # 毎月6日 3:11（日本時間）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: onsen-fees
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 観光協会サイトのスポットページを見る（初回は数時間）
+        run: python scripts/fetch_onsen_tourism.py --budget 15600
+      - name: 料金を読み取って反映
+        run: python scripts/apply_onsen_fees.py
+      - name: コミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/onsen_tourism.json data/onsens.json
+          if git diff --cached --quiet; then echo "変更なし"; exit 0; fi
+          git commit -m "日帰り温泉の料金を観光協会サイトから更新"
+          git pull --rebase origin main
+          git push

@@ -2,7 +2,7 @@
    - 画面・スクリプト：キャッシュを先に使い、裏で更新（BUILD が変わると入れ替え）
    - データ（data/*.json）：通信を優先し、圏外ではキャッシュ
    - 地図タイル：見た範囲をある程度保存し、圏外でも表示できるように */
-var VERSION = "2026-09-30h";
+var VERSION = "2026-09-30i";
 var APP = "app-" + VERSION;
 var DATA = "data-v1";
 var TILES = "tiles-v1";

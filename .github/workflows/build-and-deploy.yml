@@ -9,7 +9,7 @@ on:
     - cron: "17 18 1 * *"   # 毎月2日 3:17（日本時間）
   workflow_dispatch:
   workflow_run:
-    workflows: [nap-index, bears]
+    workflows: [nap-index, bears, onsen-fees]
     types: [completed]
 
 permissions:

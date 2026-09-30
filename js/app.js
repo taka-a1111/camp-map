@@ -1,7 +1,7 @@
-/* キャンプ場マップ BUILD_TAG: 2026-09-30h */
+/* キャンプ場マップ BUILD_TAG: 2026-09-30i */
 (function () {
   "use strict";
-  var BUILD = "2026-09-30h";
+  var BUILD = "2026-09-30i";
   console.log("BUILD_TAG: " + BUILD);
 
   var TYPE_LABEL = { auto: "オートサイト", kukaku: "区画サイト", free: "フリーサイト", bungalow: "バンガロー", cottage: "コテージ等", glamping: "グランピング" };
@@ -467,7 +467,9 @@
     if (o.fee_note) h += '<p class="d-p">' + esc(o.fee_note) + "</p>";
     if (o.hours) h += '<p class="d-p">営業時間：' + esc(o.hours) + "</p>";
     h += '<p class="d-p">' + onsenLinks(o) + "</p>";
-    if (o.fee_quote) h += '<p class="d-note">料金の根拠：「' + esc(o.fee_quote) + "」" + (safeUrl(o.fee_url) ? '（<a href="' + esc(o.fee_url) + '" target="_blank" rel="noopener">ページ</a>）' : "") + "</p>";
+    if (o.fee_note_auto) h += '<p class="d-p">' + esc(o.fee_note_auto) + "</p>";
+    if (o.fee_quote) h += '<p class="d-note">料金の根拠：「' + esc(o.fee_quote) + "」" + (safeUrl(o.fee_url) ? '（<a href="' + esc(o.fee_url) + '" target="_blank" rel="noopener">' + esc(o.fee_site || "ページ") + "</a>）" : "") +
+      (o.fee_src === "auto" ? "。観光協会サイトの掲載から自動で読み取った料金です。" : "") + "</p>";
     return h;
   }
   function onsenSummary(o) {
